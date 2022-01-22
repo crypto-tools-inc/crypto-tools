@@ -11,9 +11,7 @@ A curated collection of useful crypto projects and tools.
 	- [Marketplaces](#marketplaces)
 - [Developer resources](#dev-resources)
 
-## Contracts with metamask compatible sites
-
-### DeFi
+## DeFi
 
 #### Decentralised Exchanges
 
@@ -35,6 +33,18 @@ A curated collection of useful crypto projects and tools.
 
 [Rari Capital](app.rari.capital) - Lend, borrow and earn yield on every asset. `Ethereum`
 
+[Anchor Protocol](https://app.anchorprotocol.com/) - Anchor's yield is powered by staking returns from multiple Proof of Stake blockchains. `Terra`
+
+[Abracadabra Degenbox](https://abracadabra.money/) - Abracadabra.money is a spell nook that allows users to produce magic internet money. `Ethereum` `BSC` `Fantom` `Avalanche` `Polygon` `Arbitrum`
+
+[Yearn Finance](https://yearn.finance/#/vaults) - DeFi made simple with multiple vaults of battle tested contracts and long track record. `Ethereum` `Fantom`
+
+[Hundred Finance](hundred.finance) - A multi-chain lending protocol using veHND model, it integrates with Chainlink oracles to ensure market health and stability. `Ethereum` `Arbitrum` `Fantom` `Harmony` `Moonriver`
+
+[Synapse Protocol](synapseprotocol.com) - Cross-chain layer ∞ blockchain - bridge assets across all chains. `Ethereum` `Polygon` `Arbitrum` `Avalanche` `Fantom` `Moonriver` `BSC` `Armony` `Boba Network` `Moonbeam` `Aurora`  
+
+[Orion Money](orion.money) - Cross-Chain Stablecoin Bank `Ethereum`
+
 [Market](market.xyz) - Earn yield and leverage assets in isolated markets enabling permissonless DeFi with market-rules set by you and the community. `Polygon` `Fantom`
 
 #### Liquidity Solutions
@@ -43,7 +53,7 @@ A curated collection of useful crypto projects and tools.
 
 [Universe Finance](universe.finance) - Maximizing your Uniswap V3 Return `Ethereum`
 
-### NFT
+## NFT
 
 #### Marketplaces
 
