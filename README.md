@@ -15,23 +15,23 @@ A curated collection of useful crypto projects and tools.
 
 #### Decentralised Exchanges
 
-[Uniswap](app.uniswap.org) - a protocol for trading and automated liquidity provision on Ethereum. `Ethereum` `Polygon` `Optimism` `Arbitrum`
+[Uniswap](https://app.uniswap.org) - a protocol for trading and automated liquidity provision on Ethereum. `Ethereum` `Polygon` `Optimism` `Arbitrum`
 
-[SushiSwap](app.sushi.com) - A community-built open-source ecosystem of all the DeFi tools you need `Ethereum` `Polygon` `Arbitrum` `Avalanche` `Fantom` `Moonriver` `BSC` `Armony` `Telos EVM` `Celo` `Fuse` `OKEx` `HECO` `Palm`
+[SushiSwap](https://app.sushi.com) - A community-built open-source ecosystem of all the DeFi tools you need `Ethereum` `Polygon` `Arbitrum` `Avalanche` `Fantom` `Moonriver` `BSC` `Armony` `Telos EVM` `Celo` `Fuse` `OKEx` `HECO` `Palm`
 
-[Curve Finance](curve.fi) - Creating deep on-chain liquidity using advanced bonding curves `Ethereum` `Arbitrum` `Avalanche` `Fantom` `Harmony` `Optimism` `Polygon` `xDAI`
+[Curve Finance](https://curve.fi) - Creating deep on-chain liquidity using advanced bonding curves `Ethereum` `Arbitrum` `Avalanche` `Fantom` `Harmony` `Optimism` `Polygon` `xDAI`
 
-[Traderjoe](traderjoexyz.com) - Your One-Stop-Shop DeFi Platform `Avalanche`
+[Traderjoe](https://traderjoexyz.com) - Your One-Stop-Shop DeFi Platform `Avalanche`
 
-[PancakeSwap](pancakeswap.finance) - Decentralized trading protocol on Binance Smart Chain `BSC`
+[PancakeSwap](https://pancakeswap.finance) - Decentralized trading protocol on Binance Smart Chain `BSC`
 
-[QuickSwap](quickswap.exchange) - Next-gen DEX. Trade at lightning-fast speeds with near-zero gas fees Powered by Polygon `Polygon`
+[QuickSwap](https://quickswap.exchange) - Next-gen DEX. Trade at lightning-fast speeds with near-zero gas fees Powered by Polygon `Polygon`
 
 #### Money Markets
 
-[Aave](aave.com) - an open source and non-custodial liquidity protocol. `Ethereum` `Polygon` `Avalanche`
+[Aave](https://aave.com) - an open source and non-custodial liquidity protocol. `Ethereum` `Polygon` `Avalanche`
 
-[Rari Capital](app.rari.capital) - Lend, borrow and earn yield on every asset. `Ethereum`
+[Rari Capital](https://app.rari.capital) - Lend, borrow and earn yield on every asset. `Ethereum`
 
 [Anchor Protocol](https://app.anchorprotocol.com/) - Anchor's yield is powered by staking returns from multiple Proof of Stake blockchains. `Terra`
 
@@ -39,29 +39,29 @@ A curated collection of useful crypto projects and tools.
 
 [Yearn Finance](https://yearn.finance/#/vaults) - DeFi made simple with multiple vaults of battle tested contracts and long track record. `Ethereum` `Fantom`
 
-[Hundred Finance](hundred.finance) - A multi-chain lending protocol using veHND model, it integrates with Chainlink oracles to ensure market health and stability. `Ethereum` `Arbitrum` `Fantom` `Harmony` `Moonriver`
+[Hundred Finance](https://hundred.finance) - A multi-chain lending protocol using veHND model, it integrates with Chainlink oracles to ensure market health and stability. `Ethereum` `Arbitrum` `Fantom` `Harmony` `Moonriver`
 
-[Synapse Protocol](synapseprotocol.com) - Cross-chain layer ∞ blockchain - bridge assets across all chains. `Ethereum` `Polygon` `Arbitrum` `Avalanche` `Fantom` `Moonriver` `BSC` `Armony` `Boba Network` `Moonbeam` `Aurora`  
+[Synapse Protocol](https://synapseprotocol.com) - Cross-chain layer ∞ blockchain - bridge assets across all chains. `Ethereum` `Polygon` `Arbitrum` `Avalanche` `Fantom` `Moonriver` `BSC` `Armony` `Boba Network` `Moonbeam` `Aurora`  
 
-[Orion Money](orion.money) - Cross-Chain Stablecoin Bank `Ethereum`
+[Orion Money](https://orion.money) - Cross-Chain Stablecoin Bank `Ethereum`
 
-[Market](market.xyz) - Earn yield and leverage assets in isolated markets enabling permissonless DeFi with market-rules set by you and the community. `Polygon` `Fantom`
+[Market](https://market.xyz) - Earn yield and leverage assets in isolated markets enabling permissonless DeFi with market-rules set by you and the community. `Polygon` `Fantom`
 
 #### Liquidity Solutions
 
-[Olympus DAO](olympusdao.finance/pro) - Olympus is the decentralized reserve currency of DeFi `Ethereum`
+[Olympus DAO](https://olympusdao.finance/pro) - Olympus is the decentralized reserve currency of DeFi `Ethereum`
 
-[Universe Finance](universe.finance) - Maximizing your Uniswap V3 Return `Ethereum`
+[Universe Finance](https://universe.finance) - Maximizing your Uniswap V3 Return `Ethereum`
 
 ## NFT
 
 #### Marketplaces
 
-[Looksrare](looksrare.org) - LooksRare is the community-first NFT marketplace with rewards for participating. `Ethereum`
+[Looksrare](https://looksrare.org) - LooksRare is the community-first NFT marketplace with rewards for participating. `Ethereum`
 
-[Opensea](opensea.io) - The largest NFT marketplace. Buy, sell, & discover the internet of goods. `Ethereum` `Polygon`
+[Opensea](https://opensea.io) - The largest NFT marketplace. Buy, sell, & discover the internet of goods. `Ethereum` `Polygon`
 
-[Rarible](rarible.com) - Multi-chain community-centric NFT marketplace. Create, sell and collect digital items. `Ethereum`
+[Rarible](https://rarible.com) - Multi-chain community-centric NFT marketplace. Create, sell and collect digital items. `Ethereum`
 
 ## Dev Resources
 
