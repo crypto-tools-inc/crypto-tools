@@ -7,63 +7,63 @@ A collection of useful crypto projects and tools
 
 #### AMM
 
-uniswap - ETH - app.uniswap.org
+[uniswap](app.uniswap.org) - ETH 
 
-sushiswap - ETH - app.sushi.com
+[sushiswap](app.sushi.com) - ETH 
 
-curve - ETH, ARB - curve.fi
+[curve](curve.fi) - ETH, ARB
 
-traderjoe - AVAX - traderjoexyz.com
+[traderjoe](traderjoexyz.com) - AVAX
 
-pancakeswap - BSC - pancakeswap.finance
+[pancakeswap](pancakeswap.finance) - BSC
 
-quickswap - POLY - quickswap.exchange
+[quickswap](quickswap.exchange) - POLY
 
 #### Money Market
 
-aave - ETH, AVAX - aave.com
+[aave](aave.com) - ETH, AVAX
 
-rari capital - ETH - app.rari.capital
+[rari capital](app.rari.capital) - ETH
 
-market - POLY, FTM - market.xyz
+[market](market.xyz) - POLY, FTM
 
 #### Liquidity Solutions
 
-olympus pro - ETH - olympusdao.finance/pro
+[olympus pro](olympusdao.finance/pro) - ETH
 
-universe finance - ETH - universe.finance
+[universe finance](universe.finance) - ETH
 
 ### NFT
 
 #### Marketplace
 
-Looksrare - ETH - looksrare.org
+[Looksrare](looksrare.org) - ETH
 
-opensea - ETH - opensea.io
+[opensea](opensea.io) - ETH
 
-rarible - ETH - rarible.com
+[rarible](rarible.com) - ETH
 
 ## Dev Resources
 
-Should I use spot price as my oracle? - https://shouldiusespotpriceasmyoracle.com/
+[Should I use spot price as my oracle?](https://shouldiusespotpriceasmyoracle.com/)
 
-Liquidity math in uniswap https://atiselsts.github.io/pdfs/uniswap-v3-liquidity-math.pdf
+[Liquidity math in uniswap](https://atiselsts.github.io/pdfs/uniswap-v3-liquidity-math.pdf)
 
-fetch uniswap prices for v3 https://docs.uniswap.org/sdk/guides/fetching-prices
+[fetch uniswap prices for v3](https://docs.uniswap.org/sdk/guides/fetching-prices)
 
-sushiswap registry - https://hackmd.io/@kSCbGhceTL2d5BmUdh7pwg/HyRNTO_fO#Sushiswap-Registry
+[sushiswap registry](https://hackmd.io/@kSCbGhceTL2d5BmUdh7pwg/HyRNTO_fO#Sushiswap-Registry)
 
-beethoven ftx exchange documentation - https://docs.beethovenx.io/developers/deployments
+[beethoven ftx exchange documentation](https://docs.beethovenx.io/developers/deployments)
 
-waka finance contract addresses - https://waka-finance-2.gitbook.io/waka-finance/documentation/contracts
+[waka finance contract addresses](https://waka-finance-2.gitbook.io/waka-finance/documentation/contracts)
 
-spiritswap documentation - https://layer3.gitbook.io/spirit-swap/
+[spiritswap documentation](https://layer3.gitbook.io/spirit-swap/)
 
-SNX used to be called Havven - https://blog.coingecko.com/import-coingecko-cryptocurrency-data-into-google-sheets/
+[SNX used to be called Havven](https://blog.coingecko.com/import-coingecko-cryptocurrency-data-into-google-sheets/)
 
-univ3 flashswaps tutorial - https://medium.com/coinmonks/tutorial-of-flash-swaps-of-uniswap-v3-73c0c846b822
+[univ3 flashswaps tutorial](https://medium.com/coinmonks/tutorial-of-flash-swaps-of-uniswap-v3-73c0c846b822)
 
-FANTOM GETH (geth-opera) https://github.com/Fantom-foundation/go-opera
+[FANTOM GETH (geth-opera)](https://github.com/Fantom-foundation/go-opera)
 
-yield farm - https://twitter.com/route2fi/status/1484561521204154375?s=21
+[yield farm](https://twitter.com/route2fi/status/1484561521204154375?s=21)
 
