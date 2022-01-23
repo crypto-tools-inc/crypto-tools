@@ -65,7 +65,7 @@ A curated collection of useful crypto projects and tools.
 
 ## Dev Resources
 
-### DEX
+### DEx
 [Should I use spot price as my oracle?](https://shouldiusespotpriceasmyoracle.com/)
 
 [Liquidity math in uniswap](https://atiselsts.github.io/pdfs/uniswap-v3-liquidity-math.pdf)
@@ -74,7 +74,7 @@ A curated collection of useful crypto projects and tools.
 
 [sushiswap registry](https://hackmd.io/@kSCbGhceTL2d5BmUdh7pwg/HyRNTO_fO#Sushiswap-Registry)
 
-#### Obscure DEXes
+#### Obscure DExes
 [beethoven ftx exchange documentation](https://docs.beethovenx.io/developers/deployments)
 
 [waka finance contract addresses](https://waka-finance-2.gitbook.io/waka-finance/documentation/contracts)
@@ -87,7 +87,7 @@ A curated collection of useful crypto projects and tools.
 
 [Sandwich attack guide](https://github.com/sempakilang/sandwich-attack)
 
-### MISC
+### Misc
 
 [SNX used to be called Havven](https://blog.coingecko.com/import-coingecko-cryptocurrency-data-into-google-sheets/)
 
