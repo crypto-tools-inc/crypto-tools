@@ -65,6 +65,7 @@ A curated collection of useful crypto projects and tools.
 
 ## Dev Resources
 
+### DEX
 [Should I use spot price as my oracle?](https://shouldiusespotpriceasmyoracle.com/)
 
 [Liquidity math in uniswap](https://atiselsts.github.io/pdfs/uniswap-v3-liquidity-math.pdf)
@@ -73,18 +74,23 @@ A curated collection of useful crypto projects and tools.
 
 [sushiswap registry](https://hackmd.io/@kSCbGhceTL2d5BmUdh7pwg/HyRNTO_fO#Sushiswap-Registry)
 
+#### Obscure DEXes
 [beethoven ftx exchange documentation](https://docs.beethovenx.io/developers/deployments)
 
 [waka finance contract addresses](https://waka-finance-2.gitbook.io/waka-finance/documentation/contracts)
 
 [spiritswap documentation](https://layer3.gitbook.io/spirit-swap/)
 
-[SNX used to be called Havven](https://blog.coingecko.com/import-coingecko-cryptocurrency-data-into-google-sheets/)
+### MEV
 
 [univ3 flashswaps tutorial](https://medium.com/coinmonks/tutorial-of-flash-swaps-of-uniswap-v3-73c0c846b822)
 
+[Sandwich attack guide](https://github.com/sempakilang/sandwich-attack)
+
+### MISC
+
+[SNX used to be called Havven](https://blog.coingecko.com/import-coingecko-cryptocurrency-data-into-google-sheets/)
+
 [FANTOM GETH (geth-opera)](https://github.com/Fantom-foundation/go-opera)
 
-[yield farm](https://twitter.com/route2fi/status/1484561521204154375?s=21)a
-
-[Sandwich attack guide](https://github.com/sempakilang/sandwich-attack)
+[yield farm](https://twitter.com/route2fi/status/1484561521204154375?s=21)
