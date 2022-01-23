@@ -100,3 +100,5 @@ A curated collection of useful crypto projects and tools.
 [FANTOM GETH (geth-opera)](https://github.com/Fantom-foundation/go-opera)
 
 [yield farm](https://twitter.com/route2fi/status/1484561521204154375?s=21)
+
+[forge squeeth](https://github.com/wilsoncusack/forge-squeeth)
