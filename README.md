@@ -87,6 +87,8 @@ A curated collection of useful crypto projects and tools.
 
 [Sandwich attack guide](https://github.com/sempakilang/sandwich-attack)
 
+[makerdao auction demo keeper](https://github.com/makerdao/auction-demo-keeper)
+
 ### Misc
 
 [SNX used to be called Havven](https://blog.coingecko.com/import-coingecko-cryptocurrency-data-into-google-sheets/)
