@@ -63,6 +63,10 @@ A curated collection of useful crypto projects and tools.
 
 [Rarible](https://rarible.com) - Multi-chain community-centric NFT marketplace. Create, sell and collect digital items. `Ethereum`
 
+## Monitoring
+
+[maker blockanalitica](https://maker.blockanalitica.com/) - See liquidation information and current on-chain risk for DAI
+
 ## Dev Resources
 
 ### DEx
