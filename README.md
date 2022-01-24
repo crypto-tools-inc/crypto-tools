@@ -93,6 +93,8 @@ A curated collection of useful crypto projects and tools.
 
 [makerdao auction demo keeper](https://github.com/makerdao/auction-demo-keeper)
 
+[front running bots - impacts and solutions](https://chubk.com/what-is-front-running-bot-crypto-impacts-and-solutions/)
+
 ### Misc
 
 [SNX used to be called Havven](https://blog.coingecko.com/import-coingecko-cryptocurrency-data-into-google-sheets/)
