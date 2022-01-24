@@ -108,3 +108,5 @@ A curated collection of useful crypto projects and tools.
 [OVM opcodes](https://www.evm.codes/)
 
 [Solidity by Example](https://solidity-by-example.org/)
+
+[Generic writeup about common gas optimizations](https://gist.github.com/hrkrshnn/ee8fabd532058307229d65dcd5836ddc)
