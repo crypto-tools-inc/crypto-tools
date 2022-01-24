@@ -104,3 +104,7 @@ A curated collection of useful crypto projects and tools.
 [yield farm](https://twitter.com/route2fi/status/1484561521204154375?s=21)
 
 [forge squeeth](https://github.com/wilsoncusack/forge-squeeth)
+
+[OVM opcodes](https://www.evm.codes/)
+
+[Solidity by Example](https://solidity-by-example.org/)
