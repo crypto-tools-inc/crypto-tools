@@ -112,3 +112,5 @@ A curated collection of useful crypto projects and tools.
 [Generic writeup about common gas optimizations](https://gist.github.com/hrkrshnn/ee8fabd532058307229d65dcd5836ddc)
 
 [Multicall contract repository](https://github.com/joshstevens19/ethereum-multicall#readme)
+
+[Solidity noob twitter thread](https://twitter.com/The3D_/status/1485308693935763458)
