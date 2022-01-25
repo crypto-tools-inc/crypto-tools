@@ -114,3 +114,5 @@ A curated collection of useful crypto projects and tools.
 [Multicall contract repository](https://github.com/joshstevens19/ethereum-multicall#readme)
 
 [Solidity noob twitter thread](https://twitter.com/The3D_/status/1485308693935763458)
+
+[Generate private key from mnemonic](https://www.npmjs.com/package/mnemonic-to-private-key)
