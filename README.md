@@ -116,3 +116,5 @@ A curated collection of useful crypto projects and tools.
 [Solidity noob twitter thread](https://twitter.com/The3D_/status/1485308693935763458)
 
 [Generate private key from mnemonic](https://www.npmjs.com/package/mnemonic-to-private-key)
+
+[zkp merkle airdrop contracts](https://github.com/a16z/zkp-merkle-airdrop-contracts)
