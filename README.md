@@ -110,3 +110,5 @@ A curated collection of useful crypto projects and tools.
 [Solidity by Example](https://solidity-by-example.org/)
 
 [Generic writeup about common gas optimizations](https://gist.github.com/hrkrshnn/ee8fabd532058307229d65dcd5836ddc)
+
+[Multicall contract repository](https://github.com/joshstevens19/ethereum-multicall#readme)
