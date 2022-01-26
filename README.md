@@ -65,7 +65,7 @@ A curated collection of useful crypto projects and tools.
 
 [Rarible](https://rarible.com) - Multi-chain community-centric NFT marketplace. Create, sell and collect digital items. `Ethereum`
 
-[Rarible](https://nft.raydium.io) - Solana's Leading NFT Marketplace. `Solana`
+[NFT Raydium](https://nft.raydium.io) - Solana's Leading NFT Marketplace. `Solana`
 
 ## Monitoring
 
