@@ -27,6 +27,8 @@ A curated collection of useful crypto projects and tools.
 
 [QuickSwap](https://quickswap.exchange) - Next-gen DEX. Trade at lightning-fast speeds with near-zero gas fees Powered by Polygon `Polygon`
 
+[Jupiter](https://jup.ag) - Jupiter is the key liquidity aggregator for Solana, offering the widest range of tokens and best route discovery between any token pair. `Solana`
+
 #### Money Markets
 
 [Aave](https://aave.com) - an open source and non-custodial liquidity protocol. `Ethereum` `Polygon` `Avalanche`
@@ -62,6 +64,8 @@ A curated collection of useful crypto projects and tools.
 [Opensea](https://opensea.io) - The largest NFT marketplace. Buy, sell, & discover the internet of goods. `Ethereum` `Polygon`
 
 [Rarible](https://rarible.com) - Multi-chain community-centric NFT marketplace. Create, sell and collect digital items. `Ethereum`
+
+[Rarible](https://nft.raydium.io) - Solana's Leading NFT Marketplace. `Solana`
 
 ## Monitoring
 
