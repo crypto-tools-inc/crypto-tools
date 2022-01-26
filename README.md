@@ -122,3 +122,5 @@ A curated collection of useful crypto projects and tools.
 [Generate private key from mnemonic](https://www.npmjs.com/package/mnemonic-to-private-key)
 
 [zkp merkle airdrop contracts](https://github.com/a16z/zkp-merkle-airdrop-contracts)
+
+[solidity optimize name](https://emn178.github.io/solidity-optimize-name/)
