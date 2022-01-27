@@ -131,3 +131,5 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [solidity optimize name](https://emn178.github.io/solidity-optimize-name/)
 
 [Debank - wallet following tool](https://debank.com/)
+
+[Flashbots - Speeding up the EVM](https://writings.flashbots.net/research/speeding-up-evm-part-1/)
