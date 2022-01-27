@@ -99,6 +99,11 @@ A curated collection of useful crypto projects and tools.
 
 [front running bots - impacts and solutions](https://chubk.com/what-is-front-running-bot-crypto-impacts-and-solutions/)
 
+### Papers
+
+[Clockwork Finance: Automated Analysis of Economic Security in
+Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
+
 ### Misc
 
 [SNX used to be called Havven](https://blog.coingecko.com/import-coingecko-cryptocurrency-data-into-google-sheets/)
