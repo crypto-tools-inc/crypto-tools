@@ -133,3 +133,5 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [Debank - wallet following tool](https://debank.com/)
 
 [Flashbots - Speeding up the EVM](https://writings.flashbots.net/research/speeding-up-evm-part-1/)
+
+[Office hour Solidity modifier](https://twitter.com/nanexcool/status/1259623747339849729)
