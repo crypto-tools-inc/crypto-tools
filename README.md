@@ -137,3 +137,5 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [Office hour Solidity modifier](https://twitter.com/nanexcool/status/1259623747339849729)
 
 [Watch Maker Burn](https://makerburn.com/#/expenses/accounting)
+
+[Maker Stats](https://github.com/makerdao/awesome-makerdao#generate-dai)
