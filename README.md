@@ -8,13 +8,14 @@ A curated collection of useful crypto projects and tools.
 	- [Dexes](#decentralised-exchanges)
 	- [Money Markets](#money-market)
 	- [Liquidity Solutions](#liquidity-solutions)
+	- [Portfolio Managers](#portfolio-managers)
 - [NFT](#nft)
 	- [Marketplaces](#marketplaces)
 - [Developer resources](#dev-resources)
 
-## DeFi
+## 🏦 DeFi
 
-#### Decentralised Exchanges
+### Decentralised Exchanges
 
 [Uniswap](https://app.uniswap.org) - a protocol for trading and automated liquidity provision on Ethereum. `Ethereum` `Polygon` `Optimism` `Arbitrum`
 
@@ -30,7 +31,7 @@ A curated collection of useful crypto projects and tools.
 
 [Jupiter](https://jup.ag) - Jupiter is the key liquidity aggregator for Solana, offering the widest range of tokens and best route discovery between any token pair. `Solana`
 
-#### Money Markets
+### Money Markets
 
 [Aave](https://aave.com) - an open source and non-custodial liquidity protocol. `Ethereum` `Polygon` `Avalanche`
 
@@ -52,7 +53,7 @@ A curated collection of useful crypto projects and tools.
 
 [Solo.top](https://solo.top/#/index) - Single-Asset Mining Aggregator `Polygon` `BSC` `HECO` `OEC`
 
-#### Liquidity Solutions
+### Liquidity Solutions
 
 [Olympus DAO](https://olympusdao.finance/pro) - Olympus is the decentralized reserve currency of DeFi `Ethereum`
 
@@ -64,9 +65,9 @@ A curated collection of useful crypto projects and tools.
 
 [Zerion](https://zerion.io/) - Zerion is the easiest way to build and manage your entire DeFi portfolio from one place.
 
-## NFT
+## 👾 NFT
 
-#### Marketplaces
+### Marketplaces
 
 [Looksrare](https://looksrare.org) - LooksRare is the community-first NFT marketplace with rewards for participating. `Ethereum`
 
@@ -76,11 +77,11 @@ A curated collection of useful crypto projects and tools.
 
 [NFT Raydium](https://nft.raydium.io) - Solana's Leading NFT Marketplace. `Solana`
 
-## Monitoring
+## 📊 Monitoring
 
 [maker blockanalitica](https://maker.blockanalitica.com/) - See liquidation information and current on-chain risk for DAI
 
-## Dev Resources
+## 👨🏻‍💻 Dev Resources
 
 ### DEX
 [Should I use spot price as my oracle?](https://shouldiusespotpriceasmyoracle.com/)
@@ -91,7 +92,7 @@ A curated collection of useful crypto projects and tools.
 
 [sushiswap registry](https://hackmd.io/@kSCbGhceTL2d5BmUdh7pwg/HyRNTO_fO#Sushiswap-Registry)
 
-#### Obscure DExes
+### Obscure DExes
 [beethoven ftx exchange documentation](https://docs.beethovenx.io/developers/deployments)
 
 [waka finance contract addresses](https://waka-finance-2.gitbook.io/waka-finance/documentation/contracts)
