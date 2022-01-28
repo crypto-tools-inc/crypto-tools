@@ -1,4 +1,5 @@
 
+
 # Crypto Tools
 A curated collection of useful crypto projects and tools.
 
@@ -49,11 +50,19 @@ A curated collection of useful crypto projects and tools.
 
 [Market](https://market.xyz) - Earn yield and leverage assets in isolated markets enabling permissonless DeFi with market-rules set by you and the community. `Polygon` `Fantom`
 
+[Solo.top](https://solo.top/#/index) - Single-Asset Mining Aggregator `Polygon` `BSC` `HECO` `OEC`
+
 #### Liquidity Solutions
 
 [Olympus DAO](https://olympusdao.finance/pro) - Olympus is the decentralized reserve currency of DeFi `Ethereum`
 
 [Universe Finance](https://universe.finance) - Maximizing your Uniswap V3 Return `Ethereum`
+
+### Portfolio Managers
+
+[Zapper](https://zapper.fi/) - Manage your entire web3 portfolio from DeFi to NFTs and whatever comes next. Invest in the latest opportunities from one convenient place.
+
+[Zerion](https://zerion.io/) - Zerion is the easiest way to build and manage your entire DeFi portfolio from one place.
 
 ## NFT
 
