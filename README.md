@@ -73,7 +73,7 @@ A curated collection of useful crypto projects and tools.
 
 ## Dev Resources
 
-### DEx
+### DEX
 [Should I use spot price as my oracle?](https://shouldiusespotpriceasmyoracle.com/)
 
 [Liquidity math in uniswap](https://atiselsts.github.io/pdfs/uniswap-v3-liquidity-math.pdf)
@@ -139,3 +139,5 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [Watch Maker Burn](https://makerburn.com/#/expenses/accounting)
 
 [Maker Stats](https://github.com/makerdao/awesome-makerdao#generate-dai)
+
+[Defined - Instant transaction history for favorite DEX](https://www.defined.fi)
