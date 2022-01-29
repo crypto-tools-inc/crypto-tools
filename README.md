@@ -168,3 +168,5 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [Margin swap top traders](https://app.marginswap.exchange/analytics)
 
 [wowswap - margin trading on pancakeswap](https://wowswap.io/swap)
+
+[pangolin exchange - dex on avax and more](https://app.pangolin.exchange/#/swap)
