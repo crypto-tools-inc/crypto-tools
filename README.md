@@ -166,3 +166,5 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [Defined - Instant transaction history for favorite DEX](https://www.defined.fi)
 
 [Margin swap top traders](https://app.marginswap.exchange/analytics)
+
+[wowswap - margin trading on pancakeswap](https://wowswap.io/swap)
