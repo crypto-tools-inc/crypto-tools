@@ -9,6 +9,7 @@ A curated collection of useful crypto projects and tools.
 	- [Money Markets](#money-market)
 	- [Liquidity Solutions](#liquidity-solutions)
 	- [Portfolio Managers](#portfolio-managers)
+	- [Utilities](#utilities)
 - [NFT](#nft)
 	- [Marketplaces](#marketplaces)
 - [Developer resources](#dev-resources)
@@ -64,6 +65,10 @@ A curated collection of useful crypto projects and tools.
 [Zapper](https://zapper.fi/) - Manage your entire web3 portfolio from DeFi to NFTs and whatever comes next. Invest in the latest opportunities from one convenient place.
 
 [Zerion](https://zerion.io/) - Zerion is the easiest way to build and manage your entire DeFi portfolio from one place.
+
+### Utilities
+
+[Chainlist](https://chainlist.org/) - Chainlist is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain. `All Networks Supported`
 
 ## 👾 NFT
 
