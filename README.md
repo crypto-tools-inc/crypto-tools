@@ -54,6 +54,8 @@ A curated collection of useful crypto projects and tools.
 
 [Solo.top](https://solo.top/#/index) - Single-Asset Mining Aggregator `Polygon` `BSC` `HECO` `OEC`
 
+[Venus Protocol](https://app.venus.io/dashboard) - The Money Market & Synthetic Stablecoin Protocol `BSC` 
+
 ### Liquidity Solutions
 
 [Olympus DAO](https://olympusdao.finance/pro) - Olympus is the decentralized reserve currency of DeFi `Ethereum`
@@ -70,6 +72,8 @@ A curated collection of useful crypto projects and tools.
 
 [Chainlist](https://chainlist.org/) - Chainlist is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain. `All Networks Supported`
 
+[RugDoc](https://rugdoc.io/) - RugDoc is here to burn, beat and clean rugs. Making DeFi across BSC, FTM and POLY safer one review at a time. `BSC` `Fantom` `Polygon`
+
 ## 👾 NFT
 
 ### Marketplaces
@@ -85,6 +89,10 @@ A curated collection of useful crypto projects and tools.
 ## 📊 Monitoring
 
 [maker blockanalitica](https://maker.blockanalitica.com/) - See liquidation information and current on-chain risk for DAI
+
+[Dex Tools](https://www.dextools.io/app/) - Real-time data analysis and charts for dex pairs. `Ethereum` `BSC` `Polygon` `Avalanche` `Fantom` `Cronos`
+
+[Dex Guru](https://dex.guru/) - DexGuru combines advanced analytics and research tools with powerful trade execution capabilities to help you analyze permissionless, real-time data for every on-chain market — all in one fully-integrated UI. `Polygon`
 
 ## 👨🏻‍💻 Dev Resources
 
@@ -156,5 +164,3 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [Maker Stats](https://github.com/makerdao/awesome-makerdao#generate-dai)
 
 [Defined - Instant transaction history for favorite DEX](https://www.defined.fi)
-
-[Hot contracts Vercel - Poor man's Nansen](https://hot-contracts.vercel.app/)
