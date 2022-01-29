@@ -172,3 +172,5 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [pangolin exchange - dex on avax and more](https://app.pangolin.exchange/#/swap)
 
 [dappradar](https://dappradar.com/rankings/protocol/tron/category/exchanges)
+
+[sunswap api documentation](https://www.sunswap.com/docs/sunswap-interfaces_en.pdf)
