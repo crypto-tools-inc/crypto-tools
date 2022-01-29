@@ -170,3 +170,5 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [wowswap - margin trading on pancakeswap](https://wowswap.io/swap)
 
 [pangolin exchange - dex on avax and more](https://app.pangolin.exchange/#/swap)
+
+[dappradar](https://dappradar.com/rankings/protocol/tron/category/exchanges)
