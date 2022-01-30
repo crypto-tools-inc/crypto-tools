@@ -180,3 +180,5 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [burgerswap dex - seems custom, not uni v2 fork](https://burgerswap.org/)
 
 [just.network - next generation of defi on tron](https://just.network/)
+
+[Cyclical arbitrage in decentralized exchanges - arxiv](https://arxiv.org/pdf/2105.02784.pdf)
