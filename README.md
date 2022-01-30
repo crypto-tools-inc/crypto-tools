@@ -178,3 +178,5 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [clone uniswap repo](https://github.com/hoangnl2112/clone-uniswap)
 
 [burgerswap dex - seems custom, not uni v2 fork](https://burgerswap.org/)
+
+[just.network - next generation of defi on tron](https://just.network/)
