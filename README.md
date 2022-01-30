@@ -176,3 +176,5 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [sunswap api documentation](https://www.sunswap.com/docs/sunswap-interfaces_en.pdf)
 
 [clone uniswap repo](https://github.com/hoangnl2112/clone-uniswap)
+
+[burgerswap dex - seems custom, not uni v2 fork](https://burgerswap.org/)
