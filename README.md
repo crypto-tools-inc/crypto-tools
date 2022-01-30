@@ -107,7 +107,7 @@ A curated collection of useful crypto projects and tools.
 
 ### Obscure DEXes
 
-- [Beethoven ftx exchange](https://beets.fi/#/) `FTM`
+- [Beethoven ftx exchange](https://beets.fi/#/) Built on balancer2. `FTM`
 	- [beethoven ftx exchange documentation](https://docs.beethovenx.io/developers/deployments)
 
 - [Waka Finance](https://waka.finance/) `FTM`
