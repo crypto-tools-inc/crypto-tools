@@ -97,20 +97,30 @@ A curated collection of useful crypto projects and tools.
 ## 👨🏻‍💻 Dev Resources
 
 ### DEX
-[Should I use spot price as my oracle?](https://shouldiusespotpriceasmyoracle.com/)
+[Should I use spot price as my oracle?](https://shouldiusespotpriceasmyoracle.com/) - Page explaining risks of using spot price as oracle and what should be used instead.
 
-[Liquidity math in uniswap](https://atiselsts.github.io/pdfs/uniswap-v3-liquidity-math.pdf)
+[Liquidity math in uniswap](https://atiselsts.github.io/pdfs/uniswap-v3-liquidity-math.pdf) - Paper laying out UniswapV3 liquidity math.
 
-[fetch uniswap prices for v3](https://docs.uniswap.org/sdk/guides/fetching-prices)
+[Fetch uniswap prices for v3](https://docs.uniswap.org/sdk/guides/fetching-prices) - Uniswap docs section explaining how to fetch UniswapV3 prices.
 
-[sushiswap registry](https://hackmd.io/@kSCbGhceTL2d5BmUdh7pwg/HyRNTO_fO#Sushiswap-Registry)
+[Fantom sushiswap registry](https://hackmd.io/@kSCbGhceTL2d5BmUdh7pwg/HyRNTO_fO#Sushiswap-Registry) - List of Sushiswap and related token addresses on Fantom.
 
-### Obscure DExes
-[beethoven ftx exchange documentation](https://docs.beethovenx.io/developers/deployments)
+### Obscure DEXes
 
-[waka finance contract addresses](https://waka-finance-2.gitbook.io/waka-finance/documentation/contracts)
+- [Beethoven ftx exchange](https://beets.fi/#/) `FTM`
+	- [beethoven ftx exchange documentation](https://docs.beethovenx.io/developers/deployments)
 
-[spiritswap documentation](https://layer3.gitbook.io/spirit-swap/)
+- [Waka Finance](https://waka.finance/) `FTM`
+	- [waka finance contract addresses](https://waka-finance-2.gitbook.io/waka-finance/documentation/contracts)
+
+- [Spiritswap](https://www.spiritswap.finance/) `FTM`
+	- [Spiritswap documentation](https://layer3.gitbook.io/spirit-swap/)
+
+- [Sunswap](https://sunswap.com) `TRON`
+	- [Sunswap api documentation](https://www.sunswap.com/docs/sunswap-interfaces_en.pdf)
+
+- [Burgerswap](https://burgerswap.org/) Seems custom, not uni v2 fork. `BSC`
+	- [Burgerswap api documentation](https://burgerswap.gitbook.io/burgerswap-en/)
 
 ### MEV
 
@@ -137,7 +147,7 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 
 [forge squeeth](https://github.com/wilsoncusack/forge-squeeth)
 
-[OVM opcodes](https://www.evm.codes/)
+[EVM opcodes](https://www.evm.codes/)
 
 [Solidity by Example](https://solidity-by-example.org/)
 
@@ -173,11 +183,7 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 
 [dappradar](https://dappradar.com/rankings/protocol/tron/category/exchanges)
 
-[sunswap api documentation](https://www.sunswap.com/docs/sunswap-interfaces_en.pdf)
-
 [clone uniswap repo](https://github.com/hoangnl2112/clone-uniswap)
-
-[burgerswap dex - seems custom, not uni v2 fork](https://burgerswap.org/)
 
 [just.network - next generation of defi on tron](https://just.network/)
 
