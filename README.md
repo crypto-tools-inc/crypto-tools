@@ -190,3 +190,6 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [Cyclical arbitrage in decentralized exchanges - arxiv](https://arxiv.org/pdf/2105.02784.pdf)
 
 [JonesDAO](https://twitter.com/DAOJonesOptions) - Dopex options strategies `Arbitrum`
+
+[Unity is Strength: A Formalization of Cross-Domain Maximal
+Extractable Value](https://arxiv.org/pdf/2112.01472.pdf) - Definition of MEV
