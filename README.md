@@ -193,3 +193,5 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [Maker Stats](https://github.com/makerdao/awesome-makerdao#generate-dai)
 
 [Defined - Instant transaction history for favorite DEX](https://www.defined.fi)
+
+(Kamil Thread of thread on all things crypto)[https://twitter.com/kamilsadik/status/1460342578012999686]
