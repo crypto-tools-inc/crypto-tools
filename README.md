@@ -13,6 +13,8 @@ A curated collection of useful crypto projects and tools.
 	- [Utilities](#utilities)
 - [NFT](#nft)
 	- [Marketplaces](#marketplaces)
+- [Monitoring](#monitoring)
+- [Analytics](#analytics)
 - [Developer resources](#dev-resources)
 
 ## 🏦 DeFi
@@ -99,13 +101,27 @@ A curated collection of useful crypto projects and tools.
 
 [NFT Raydium](https://nft.raydium.io) - Solana's Leading NFT Marketplace. `Solana`
 
-## 📊 Monitoring
+## 🔬 Monitoring
 
 [maker blockanalitica](https://maker.blockanalitica.com/) - See liquidation information and current on-chain risk for DAI
 
 [Dex Tools](https://www.dextools.io/app/) - Real-time data analysis and charts for dex pairs. `Ethereum` `BSC` `Polygon` `Avalanche` `Fantom` `Cronos`
 
 [Dex Guru](https://dex.guru/) - DexGuru combines advanced analytics and research tools with powerful trade execution capabilities to help you analyze permissionless, real-time data for every on-chain market — all in one fully-integrated UI. `Polygon`
+
+## 📊 Analytics
+
+[Nansen](https://pro.nansen.ai/) - Get an edge over everyone else by tracking the behavior and on-chain activity of prominent wallet addresses. `Paid`
+
+[Dune Analytics](https://dune.xyz/browse/dashboards) - Free crypto analytics by and for the community `Free`
+
+[Hot Contracts](https://hot-contracts.vercel.app/) - Keep an eye on the hottest smart contracts `Free`
+
+[UniWhales](https://www.theblockcrypto.com/data/on-chain-metrics/ethereum) - Real time tx data + alerts for Swaps,  DEX Liquidity, NFTs, Bridges, and Top wallets. Powered by our DAO, a community of the top traders + builders in crypto. `Freemium`
+
+[Breadcrumbs](https://www.breadcrumbs.app/home) - Breadcrumbs is an open blockchain analytics platform. It offers a set of tools that empowers you to trace and monitor crypto transactions. `Freemium`
+
+[APY.Vision](https://app.apy.vision/) - All-in-one liquidity pool analytics tool `Freemium`
 
 ## 👨🏻‍💻 Dev Resources
 
