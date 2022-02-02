@@ -6,6 +6,7 @@ A curated collection of useful crypto projects and tools.
 ## Table of contents
 - [DeFi](#defi)
 	- [Dexes](#decentralised-exchanges)
+	- [Dex Aggregators](#dex-aggregators)
 	- [Money Markets](#money-market)
 	- [Liquidity Solutions](#liquidity-solutions)
 	- [Portfolio Managers](#portfolio-managers)
@@ -31,6 +32,18 @@ A curated collection of useful crypto projects and tools.
 [QuickSwap](https://quickswap.exchange) - Next-gen DEX. Trade at lightning-fast speeds with near-zero gas fees Powered by Polygon `Polygon`
 
 [Jupiter](https://jup.ag) - Jupiter is the key liquidity aggregator for Solana, offering the widest range of tokens and best route discovery between any token pair. `Solana`
+
+### Dex Aggregators
+
+[1inch](https://app.1inch.io/) - The 1inch Network unites decentralized protocols whose synergy enables the most lucrative, fastest and protected operations in the DeFi space. `Ethereum` `BSC` `Polygon` `Optimism` `Arbitrum` `Gnosis` `Avalanche`
+
+[Paraswap](https://paraswap.io/) - Best Dex prices for DeFi Traders & dApps. `Ethereum` `Polygon` `BSC` `Avalanche` `Fantom`
+
+[Matcha](https://matcha.xyz/) - Matcha finds you the best prices across exchanges and combines them into one trade. `Ethereum` `Polygon` `BSC` `Avalanche` `Fantom` `Celo` `Optimism`
+
+[CowSwap](https://cowswap.exchange/#/swap) - CoWs (Coincidence of Wants) for MEV protected trades. `Ethereum`
+
+[OpenOcean](https://openocean.finance/) - OpenOcean is an aggregator giving you the best rates across decentralized and centralized exchanges with top trading efficiency. `Ethereum` `Polygon` `BSC` `Avalanche` `Fantom` `Celo` `Optimism` `Solana` `Arbitrum` `Terra` `Boba` `Ontology` `Tron` `Heco` `OEC`
 
 ### Money Markets
 
@@ -97,30 +110,20 @@ A curated collection of useful crypto projects and tools.
 ## 👨🏻‍💻 Dev Resources
 
 ### DEX
-[Should I use spot price as my oracle?](https://shouldiusespotpriceasmyoracle.com/) - Page explaining risks of using spot price as oracle and what should be used instead.
+[Should I use spot price as my oracle?](https://shouldiusespotpriceasmyoracle.com/)
 
-[Liquidity math in uniswap](https://atiselsts.github.io/pdfs/uniswap-v3-liquidity-math.pdf) - Paper laying out UniswapV3 liquidity math.
+[Liquidity math in uniswap](https://atiselsts.github.io/pdfs/uniswap-v3-liquidity-math.pdf)
 
-[Fetch uniswap prices for v3](https://docs.uniswap.org/sdk/guides/fetching-prices) - Uniswap docs section explaining how to fetch UniswapV3 prices.
+[fetch uniswap prices for v3](https://docs.uniswap.org/sdk/guides/fetching-prices)
 
-[Fantom sushiswap registry](https://hackmd.io/@kSCbGhceTL2d5BmUdh7pwg/HyRNTO_fO#Sushiswap-Registry) - List of Sushiswap and related token addresses on Fantom.
+[sushiswap registry](https://hackmd.io/@kSCbGhceTL2d5BmUdh7pwg/HyRNTO_fO#Sushiswap-Registry)
 
-### Obscure DEXes
+### Obscure DExes
+[beethoven ftx exchange documentation](https://docs.beethovenx.io/developers/deployments)
 
-- [Beethoven ftx exchange](https://beets.fi/#/) Built on balancer2. `FTM`
-	- [beethoven ftx exchange documentation](https://docs.beethovenx.io/developers/deployments)
+[waka finance contract addresses](https://waka-finance-2.gitbook.io/waka-finance/documentation/contracts)
 
-- [Waka Finance](https://waka.finance/) `FTM`
-	- [waka finance contract addresses](https://waka-finance-2.gitbook.io/waka-finance/documentation/contracts)
-
-- [Spiritswap](https://www.spiritswap.finance/) `FTM`
-	- [Spiritswap documentation](https://layer3.gitbook.io/spirit-swap/)
-
-- [Sunswap](https://sunswap.com) `TRON`
-	- [Sunswap api documentation](https://www.sunswap.com/docs/sunswap-interfaces_en.pdf)
-
-- [Burgerswap](https://burgerswap.org/) Seems custom, not uni v2 fork. `BSC`
-	- [Burgerswap api documentation](https://burgerswap.gitbook.io/burgerswap-en/)
+[spiritswap documentation](https://layer3.gitbook.io/spirit-swap/)
 
 ### MEV
 
@@ -147,7 +150,7 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 
 [forge squeeth](https://github.com/wilsoncusack/forge-squeeth)
 
-[EVM opcodes](https://www.evm.codes/)
+[OVM opcodes](https://www.evm.codes/)
 
 [Solidity by Example](https://solidity-by-example.org/)
 
@@ -174,22 +177,3 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [Maker Stats](https://github.com/makerdao/awesome-makerdao#generate-dai)
 
 [Defined - Instant transaction history for favorite DEX](https://www.defined.fi)
-
-[Margin swap top traders](https://app.marginswap.exchange/analytics)
-
-[wowswap - margin trading on pancakeswap](https://wowswap.io/swap)
-
-[pangolin exchange - dex on avax and more](https://app.pangolin.exchange/#/swap)
-
-[dappradar](https://dappradar.com/rankings/protocol/tron/category/exchanges)
-
-[clone uniswap repo](https://github.com/hoangnl2112/clone-uniswap)
-
-[just.network - next generation of defi on tron](https://just.network/)
-
-[Cyclical arbitrage in decentralized exchanges - arxiv](https://arxiv.org/pdf/2105.02784.pdf)
-
-[JonesDAO](https://twitter.com/DAOJonesOptions) - Dopex options strategies `Arbitrum`
-
-[Unity is Strength: A Formalization of Cross-Domain Maximal
-Extractable Value](https://arxiv.org/pdf/2112.01472.pdf) - Definition of MEV
