@@ -4,18 +4,19 @@
 A curated collection of useful crypto projects and tools.
 
 ## Table of contents
-- [DeFi](#defi)
+- [DeFi](#🏦-defi)
 	- [Dexes](#decentralised-exchanges)
 	- [Dex Aggregators](#dex-aggregators)
 	- [Money Markets](#money-market)
 	- [Liquidity Solutions](#liquidity-solutions)
 	- [Portfolio Managers](#portfolio-managers)
 	- [Utilities](#utilities)
-- [NFT](#nft)
+- [NFT](#👾-nft)
 	- [Marketplaces](#marketplaces)
-- [Monitoring](#monitoring)
-- [Analytics](#analytics)
-- [Developer resources](#dev-resources)
+	- [NFT Tools](#nft-tools)
+- [Monitoring](#🔬-monitoring)
+- [Analytics](#📊-analytics)
+- [Developer resources](#👨🏻‍💻-dev-resources)
 
 ## 🏦 DeFi
 
@@ -100,6 +101,14 @@ A curated collection of useful crypto projects and tools.
 [Rarible](https://rarible.com) - Multi-chain community-centric NFT marketplace. Create, sell and collect digital items. `Ethereum`
 
 [NFT Raydium](https://nft.raydium.io) - Solana's Leading NFT Marketplace. `Solana`
+
+### NFT Tools
+
+[Rarity Tools](https://rarity.tools/) - Find the rarity ranking of your next NFT! The source for 800+ verified collection rankings on Ethereum. `Ethereum`
+
+[Icy Tools](https://icy.tools/) - A tool to uncover trending NFTs, track floor prices, alerts & more.
+
+[NFT Catcher](https://www.nftcatcher.io/) - Industry leader in aggregating NFT drops from all marketplaces into one simple interface. Every Drop. One List.
 
 ## 🔬 Monitoring
 
@@ -193,5 +202,3 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [Maker Stats](https://github.com/makerdao/awesome-makerdao#generate-dai)
 
 [Defined - Instant transaction history for favorite DEX](https://www.defined.fi)
-
-(Kamil Thread of thread on all things crypto)[https://twitter.com/kamilsadik/status/1460342578012999686]
