@@ -7,6 +7,7 @@ A curated collection of useful crypto projects and tools.
 - [DeFi](#🏦-defi)
 	- [Dexes](#decentralised-exchanges)
 	- [Dex Aggregators](#dex-aggregators)
+	- [Bridges](#bridges)
 	- [Money Markets](#money-market)
 	- [Liquidity Solutions](#liquidity-solutions)
 	- [Portfolio Managers](#portfolio-managers)
@@ -47,6 +48,10 @@ A curated collection of useful crypto projects and tools.
 [CowSwap](https://cowswap.exchange/#/swap) - CoWs (Coincidence of Wants) for MEV protected trades. `Ethereum`
 
 [OpenOcean](https://openocean.finance/) - OpenOcean is an aggregator giving you the best rates across decentralized and centralized exchanges with top trading efficiency. `Ethereum` `Polygon` `BSC` `Avalanche` `Fantom` `Celo` `Optimism` `Solana` `Arbitrum` `Terra` `Boba` `Ontology` `Tron` `Heco` `OEC`
+
+### Bridges
+
+[Multichain](https://app.multichain.org/) - Previously known as Anyswap, Multichain is a cross-chain router protocol, envisioned to be the ultimate router for Web3.
 
 ### Money Markets
 
@@ -116,6 +121,8 @@ A curated collection of useful crypto projects and tools.
 
 ## 🔬 Monitoring
 
+[Coindix](https://coindix.com/) - Coindix is dashboard that monitors the best stablecoin rates across different chains.
+
 [maker blockanalitica](https://maker.blockanalitica.com/) - See liquidation information and current on-chain risk for DAI
 
 [Dex Tools](https://www.dextools.io/app/) - Real-time data analysis and charts for dex pairs. `Ethereum` `BSC` `Polygon` `Avalanche` `Fantom` `Cronos`
@@ -135,6 +142,8 @@ A curated collection of useful crypto projects and tools.
 [Breadcrumbs](https://www.breadcrumbs.app/home) - Breadcrumbs is an open blockchain analytics platform. It offers a set of tools that empowers you to trace and monitor crypto transactions. `Freemium`
 
 [APY.Vision](https://app.apy.vision/) - All-in-one liquidity pool analytics tool `Freemium`
+
+[CoinParticle](https://www.coinparticle.com/) - A visual tool to track your favorite cryptos.
 
 ## 👨🏻‍💻 Dev Resources
 
