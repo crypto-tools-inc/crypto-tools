@@ -202,3 +202,5 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [Maker Stats](https://github.com/makerdao/awesome-makerdao#generate-dai)
 
 [Defined - Instant transaction history for favorite DEX](https://www.defined.fi)
+
+[Zero Knowledge Episode 216 - A Dip into the Mempool & MEV with Project Blanc](https://zeroknowledge.fm/216-2/)
