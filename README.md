@@ -84,6 +84,10 @@ A curated collection of useful crypto projects and tools.
 
 [Zerion](https://zerion.io/) - Zerion is the easiest way to build and manage your entire DeFi portfolio from one place.
 
+[DeBank](https://debank.com/) - Keep up with all the important happenings in the  web3 world.
+
+[Ape Board](https://apeboard.finance/dashboard) - Multi-chain DeFi Dashboard. Built by apes, for apes.
+
 ### Utilities
 
 [Chainlist](https://chainlist.org/) - Chainlist is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain. `All Networks Supported`
@@ -202,5 +206,3 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [Maker Stats](https://github.com/makerdao/awesome-makerdao#generate-dai)
 
 [Defined - Instant transaction history for favorite DEX](https://www.defined.fi)
-
-[Zero Knowledge Episode 216 - A Dip into the Mempool & MEV with Project Blanc](https://zeroknowledge.fm/216-2/)
