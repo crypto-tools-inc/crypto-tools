@@ -99,6 +99,8 @@ A curated collection of useful crypto projects and tools.
 
 [RugDoc](https://rugdoc.io/) - RugDoc is here to burn, beat and clean rugs. Making DeFi across BSC, FTM and POLY safer one review at a time. `BSC` `Fantom` `Polygon`
 
+[Honeypot Detector](https://honeypot.is/) - Honeypot detector simulates a buy and a sell transaction to determine if a token is a honeypot. It includes a lot of extra checks to reduce the amount of false results, including a time jump between the buy and sell transaction. `Ethereum` `BSC`
+
 ## 👾 NFT
 
 ### Marketplaces
@@ -122,6 +124,8 @@ A curated collection of useful crypto projects and tools.
 ## 🔬 Monitoring
 
 [Coindix](https://coindix.com/) - Coindix is dashboard that monitors the best stablecoin rates across different chains.
+
+[DEX Screener](https://dexscreener.com/) - Tracking and charting your favorite DEX in realtime. `Ethereum` `BSC` `Polygon` `Avalanche` `Fantom` `Cronos` `Harmony` `Aurora` `Moonriver` `+20`
 
 [maker blockanalitica](https://maker.blockanalitica.com/) - See liquidation information and current on-chain risk for DAI
 
@@ -215,5 +219,3 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 [Maker Stats](https://github.com/makerdao/awesome-makerdao#generate-dai)
 
 [Defined - Instant transaction history for favorite DEX](https://www.defined.fi)
-
-[Building Secure Contracts](https://github.com/crytic/building-secure-contracts/blob/master/learn_evm/eips_forks.md)
