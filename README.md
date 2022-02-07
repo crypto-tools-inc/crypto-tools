@@ -18,6 +18,7 @@ A curated collection of useful crypto projects and tools.
 - [Monitoring](#🔬-monitoring)
 - [Analytics](#📊-analytics)
 - [Developer resources](#👨🏻‍💻-dev-resources)
+- [Lightning Network](#lightning-network)
 
 ## 🏦 DeFi
 
@@ -220,4 +221,18 @@ Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
 
 [Defined - Instant transaction history for favorite DEX](https://www.defined.fi)
 
-[Ethereum nodes](https://ethereumnodes.com/)
+## Lightning Network
+
+[Umbrel](https://getumbrel.com/) - Run your personal server with a Bitcoin and Lightning node in your home, self-host open source apps like Nextcloud and Matrix to break away from big tech, and take full control of your data. For free.
+
+[Raspiblitz](https://raspiblitz.org/) - The RaspiBlitz is an open-source do-it-yourself Lightning Node (LND and/or c-lightning) running together with a Bitcoin-Fullnode on a RaspberryPi and a nice display for easy setup & monitoring.
+
+[Amboss](https://amboss.space/) - Lightning Tools for professionals.
+
+[LightningNetwork+](https://lightningnetwork.plus/swaps) - Get Incoming Capacity, Double Your Channels, Decentralize the Network, Earn More Routing Fees.
+
+[LNnodeInsight](https://lnnodeinsight.com) - Develop your own data-driven Lightning Network insight. Discover network-wide statistics on nodes, interactively explore node local networks, measure the impact of opening or closing a channel, and identify potentially profitable paths in the network.
+
+[Lightning Terminal](https://terminal.lightning.engineering) - Get actionable insights about your Lightning node.
+
+[1ML](https://1ml.com/) - Lightning Network Search and Analysis Engine
