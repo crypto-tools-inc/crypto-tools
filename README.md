@@ -165,9 +165,19 @@ A curated collection of useful crypto projects and tools.
 
 [APY.Vision](https://app.apy.vision/) - All-in-one liquidity pool analytics tool `Freemium`
 
-[CoinParticle](https://www.coinparticle.com/) - A visual tool to track your favorite cryptos.
+[CoinParticle](https://www.coinparticle.com/) - A visual tool to track your favorite cryptos. `Freemium`
 
-[Dove Metrics](https://www.dovemetrics.com/) - Data + intelligence about crypto fundraising.
+[Dove Metrics](https://www.dovemetrics.com/) - Data + intelligence about crypto fundraising. `Free`
+
+[Look into Bitcoin](https://www.lookintobitcoin.com/) - Democratizing data for  Bitcoin  investing. `Free`
+
+[CryptoQuant](https://cryptoquant.com) - Actionable on-chain data, charts and alerts for investors. `Freemium`
+
+[Okotoki](https://okotoki.com/) - Orderbook analytics for multiple coins and exchanges `Free`
+
+[Glassnode](https://glassnode.com/) - On-Chain Data and Intelligence Platform `Freemium`
+
+[Coinglass](https://www.coinglass.com/) - Aggregated Derivative Exchange Data.Including GBTC,bitcoin Futures Open Interest, Funding Rates and Liquidations. `Free`
 
 ## 🗞 News & Stories
 
