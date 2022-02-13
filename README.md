@@ -189,6 +189,10 @@ A curated collection of useful crypto projects and tools.
 
 ## 👨🏻‍💻 Dev Resources
 
+### Product Design
+
+[Cryptofonts](https://cryptofonts.com/) - Beautifully crafted cryptocurrencies fonts and icons for your projects. Cryptofonts is the biggest open-source library with more than 1500 CSS and SVG Icons.
+
 ### DEX
 [Should I use spot price as my oracle?](https://shouldiusespotpriceasmyoracle.com/)
 
