@@ -145,6 +145,10 @@ A curated collection of useful crypto projects and tools.
 
 [DappRadar](https://dappradar.com/) - Discover, Track & Trade Everything DeFi, NFT and Gaming. `Ethereum` `EOS` `Tron` `Polygon` `Avalanche` `Tezos` `Solana` `Harmony` `Fantom`
 
+[ListingSpy](https://listingspy.net/) - Easily  find new listings  across all major centralized and decentralized crypto exchanges. `Ethereum` `BSC` `Avalanche` `Fantom` `Polygon` `xDAI`
+
+[Token FOMO](https://tokenfomo.io/) - Every token deployed in the last 24 hours. `Ethereum` `BSC` `Fantom` `Polygon` `Avalanche` `KCC`
+
 ## 📊 Analytics
 
 [Token Terminal](https://www.tokenterminal.com/) - Token Terminal gives you the tools to evaluate and track the most promising projects.
