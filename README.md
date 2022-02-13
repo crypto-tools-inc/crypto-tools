@@ -17,6 +17,7 @@ A curated collection of useful crypto projects and tools.
 	- [NFT Tools](#nft-tools)
 - [Monitoring](#🔬-monitoring)
 - [Analytics](#📊-analytics)
+- [News & Stories](#🗞news-&-stories)
 - [Developer resources](#👨🏻‍💻-dev-resources)
 - [Lightning Network](#lightning-network)
 
@@ -78,7 +79,7 @@ A curated collection of useful crypto projects and tools.
 
 [Solo.top](https://solo.top/#/index) - Single-Asset Mining Aggregator `Polygon` `BSC` `HECO` `OEC`
 
-[Venus Protocol](https://app.venus.io/dashboard) - The Money Market & Synthetic Stablecoin Protocol `BSC` 
+[Venus Protocol](https://app.venus.io/dashboard) - The Money Market & Synthetic Stablecoin Protocol `BSC`
 
 ### Liquidity Solutions
 
@@ -105,6 +106,8 @@ A curated collection of useful crypto projects and tools.
 [Honeypot Detector](https://honeypot.is/) - Honeypot detector simulates a buy and a sell transaction to determine if a token is a honeypot. It includes a lot of extra checks to reduce the amount of false results, including a time jump between the buy and sell transaction. `Ethereum` `BSC`
 
 [DeFi Safety](https://www.defisafety.com/) - Independent Technical Risk Analysis on DeFi Protocols.
+
+[Tornado Cash](https://tornado.cash/) - A fully decentralized protocol for private transactions on Ethereum.
 
 ## 👾 NFT
 
@@ -140,6 +143,8 @@ A curated collection of useful crypto projects and tools.
 
 [Dex Guru](https://dex.guru/) - DexGuru combines advanced analytics and research tools with powerful trade execution capabilities to help you analyze permissionless, real-time data for every on-chain market — all in one fully-integrated UI. `Polygon`
 
+[DappRadar](https://dappradar.com/) - Discover, Track & Trade Everything DeFi, NFT and Gaming. `Ethereum` `EOS` `Tron` `Polygon` `Avalanche` `Tezos` `Solana` `Harmony` `Fantom`
+
 ## 📊 Analytics
 
 [Token Terminal](https://www.tokenterminal.com/) - Token Terminal gives you the tools to evaluate and track the most promising projects.
@@ -157,6 +162,12 @@ A curated collection of useful crypto projects and tools.
 [APY.Vision](https://app.apy.vision/) - All-in-one liquidity pool analytics tool `Freemium`
 
 [CoinParticle](https://www.coinparticle.com/) - A visual tool to track your favorite cryptos.
+
+[Dove Metrics](https://www.dovemetrics.com/) - Data + intelligence about crypto fundraising.
+
+## 🗞 News & Stories
+
+[Rekt](https://rekt.news/) - The dark web of DeFi journalism.
 
 ## 👨🏻‍💻 Dev Resources
 
