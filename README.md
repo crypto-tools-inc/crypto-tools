@@ -169,6 +169,10 @@ A curated collection of useful crypto projects and tools.
 
 [Rekt](https://rekt.news/) - The dark web of DeFi journalism.
 
+[Decrypt](https://decrypt.co/) - Demystifying Bitcoin, Ethereum and the decentralized web.
+
+[Blockworks](https://blockworks.co/newsletter/) - News and insights about crypto for investors.
+
 ## 👨🏻‍💻 Dev Resources
 
 ### DEX
