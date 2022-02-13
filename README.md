@@ -19,6 +19,12 @@ A curated collection of useful crypto projects and tools.
 - [Analytics](#📊-analytics)
 - [News & Stories](#🗞news-&-stories)
 - [Developer resources](#👨🏻‍💻-dev-resources)
+	- [Product Design](#product-design)
+	- [DEX](#dex)
+	- [Obscure Dexes](#obscure-dexes)
+	- [MEV](#mev)
+	- [Papers](#papers)
+	- [Misc](#misc)
 - [Lightning Network](#lightning-network)
 
 ## 🏦 DeFi
