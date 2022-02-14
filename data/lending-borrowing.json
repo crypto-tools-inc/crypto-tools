@@ -1,0 +1,143 @@
+[
+		{
+			"name": "Aave",
+			"logo": "aave.jpeg",
+			"description": "Aave is an open source and non-custodial liquidity protocol.",
+			"website": "https://aave.com/",
+			"network": ["ethereum", "Polygon", "Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/aaveaave",
+				"discord": "https://aave.com/discord",
+				"github": "https://github.com/aave/aave-protocol",
+				"telegram": "https://t.me/Aavesome"
+			}
+		},
+		{
+			"name": "Rari Capital",
+			"logo": "raricapital.jpeg",
+			"description": "Lend, borrow and earn yield on every asset.",
+			"website": "https://app.rari.capital/",
+			"network": ["ethereum", "Polygon", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/RariCapital",
+				"medium": "https://medium.com/rari-capital",
+				"github": "https://github.com/Rari-Capital",
+				"telegram": "https://t.me/RariCapitalChat"
+			}
+		},
+		{
+			"name": "Anchor Protocol",
+			"logo": "anchorprotocol.jpeg",
+			"description": "Anchor's yield is powered by staking returns from multiple Proof of Stake blockchains.",
+			"website": "https://app.anchorprotocol.com/",
+			"network": ["Terra"],
+			"socials": {
+				"twitter": "https://twitter.com/anchor_protocol",
+				"discord": "https://discord.gg/9aUYgpKZ9c",
+				"github": "https://github.com/Anchor-Protocol",
+				"telegram": "https://t.me/anchor_official"
+			}
+		},
+		{
+			"name": "Abracadabra Degebox",
+			"logo": "abracadabra.jpeg",
+			"description": "Abracadabra.money is a spell nook that allows users to produce magic internet money.",
+			"website": "https://abracadabra.money/",
+			"network": ["ethereum", "BSC", "Fantom", "Avalanche", "Polygon", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/MIM_Spell",
+				"discord": "https://discord.gg/wcsUNxYrFM",
+				"medium": "https://abracadabramoney.medium.com/"
+			}
+		},
+		{
+			"name": "Yearn Finance",
+			"logo": "yearn.jpeg",
+			"description": "DeFi made simple with multiple vaults of battle tested contracts and long track record.",
+			"website": "https://yearn.finance/#/vaults",
+			"network": ["ethereum", "Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/iearnfinance",
+				"discord": "https://discord.yearn.finance/",
+				"medium": "https://medium.com/iearn",
+				"github": "https://github.com/yearn",
+				"reddit": "https://reddit.com/r/yearn_finance",
+				"telegram": "https://t.me/yearnfinance"
+			}
+		},
+		{
+			"name": "Hundred Finance",
+			"logo": "hundredfinance.jpeg",
+			"description": "A multi-chain lending protocol using veHND model, it integrates with Chainlink oracles to ensure market health and stability.",
+			"website": "https://hundred.finance/",
+			"network": ["ethereum", "Arbitrum", "Fantom", "Harmony", "Moonriver"],
+			"socials": {
+				"twitter": "https://twitter.com/HundredFinance",
+				"discord": "https://discord.gg/phK668J6dQ",
+				"medium": "https://blog.hundred.finance/",
+				"github": "https://github.com/hundred-finance"
+			}
+		},
+		{
+			"name": "Synapse Protocol",
+			"logo": "synapseprotocol.jpeg",
+			"description": "ACross-chain layer ∞ blockchain - bridge assets across all chains.",
+			"website": "https://synapseprotocol.com/",
+			"network": ["ethereum", "Polygon", "Arbitrum", "Avalanche", "Fantom", "Moonriver", "BSC", "Harmony", "Boba", "Moonbeam", "Aurora"],
+			"socials": {
+				"twitter": "https://twitter.com/SynapseProtocol",
+				"discord": "https://discord.gg/synapseprotocol",
+				"github": "https://github.com/synapsecns",
+				"telegram": "https://t.me/synapseprotocol"
+			}
+		},
+		{
+			"name": "Orion Money",
+			"logo": "orionmoney.jpeg",
+			"description": "Cross-Chain Stablecoin Bank",
+			"website": "https://orion.money/",
+			"network": ["ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/orion_money",
+				"discord": "https://discord.gg/5vbWB2PWeS",
+				"medium": "https://orion-money.medium.com/",
+				"telegram": "https://t.me/Orion_Money"
+			}
+		},
+		{
+			"name": "Market",
+			"logo": "market.jpeg",
+			"description": "Earn yield and leverage assets in isolated markets enabling permissonless DeFi with market-rules set by you and the community.",
+			"website": "https://market.xyz/",
+			"network": ["Polygon", "Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/market_xyz/",
+				"discord": "https://discord.gg/b4NxV28r8X",
+				"medium": "https://marketxyz.medium.com/"
+			}
+		},
+		{
+			"name": "Solo.top",
+			"logo": "solotop.png",
+			"description": "Single-Asset Mining Aggregator",
+			"website": "https://solo.top/#/index",
+			"network": ["Polygon", "BSC", "HECO", "OEC"],
+			"socials": {
+				"twitter": "https://twitter.com/solo_top",
+				"telegram": "https://t.me/solo_top"
+			}
+		},
+		{
+			"name": "Venus Protocol",
+			"logo": "venusprotocol.jpeg",
+			"description": "The Money Market & Synthetic Stablecoin Protocol",
+			"website": "https://app.venus.io/dashboard",
+			"network": ["BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/VenusProtocol",
+				"telegram": "https://t.me/VenusProtocol",
+				"medium": "https://medium.com/VenusProtocol",
+				"github": "https://github.com/VenusProtocol/Venus-Protocol"
+			}
+		}
+]

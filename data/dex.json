@@ -1,0 +1,90 @@
+[
+		{
+			"name": "Uniswap",
+			"logo": "uniswap.jpeg",
+			"description": "Uniswap is a protocol for trading and automated liquidity provision on ethereum.",
+			"website": "https://app.uniswap.org/",
+			"network": ["ethereum", "Polygon", "Optimism", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/Uniswap",
+				"discord": "https://discord.gg/FCfyBSbCU5",
+				"github": "https://github.com/Uniswap"
+			}
+		},
+    {
+      "name": "SushiSwap",
+			"logo": "sushiswap.png",
+			"description": "A community-built open-source ecosystem of all the DeFi tools you need",
+			"website": "https://app.sushi.com/",
+			"network": ["ethereum", "Polygon", "Arbitrum", "Avalanche", "Fantom", "Moonriver", "BSC", "Harmony", "Telos", "Celo", "Fuse", "OEC", "HECO", "Palm"],
+			"socials": {
+				"twitter": "https://twitter.com/sushiswap",
+				"github": "https://github.com/sushiswap",
+				"medium": "https://sushichef.medium.com/"
+			}
+    },
+		{
+			"name": "Curve Finance",
+			"logo": "curvefinance.jpeg",
+			"description": "Creating deep on-chain liquidity using advanced bonding curves",
+			"website": "https://curve.fi/",
+			"network": ["ethereum", "Polygon", "Arbitrum", "Avalanche", "Fantom", "Optimism", "Harmony", "Gnosis"],
+			"socials": {
+				"twitter": "https://twitter.com/CurveFinance",
+				"discord": "https://discord.gg/9uEHakc",
+				"github": "https://github.com/curvefi/curve-contract",
+				"telegram": "https://t.me/curvefi"
+			}
+		},
+		{
+			"name": "Trader Joe",
+			"logo": "traderjoe.jpeg",
+			"description": "Your One-Stop-Shop DeFi Platform",
+			"website": "https://traderjoexyz.com/",
+			"network": ["Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/traderjoe_xyz",
+				"discord": "https://discord.gg/GHZceZhbZU",
+				"github": "https://github.com/traderjoe-xyz/",
+				"telegram": "https://t.me/traderjoe_xyz",
+				"medium": "https://traderjoe-xyz.medium.com/",
+				"reddit": "https://www.reddit.com/r/traderjoe_xyz/"
+			}
+		},
+		{
+			"name": "PancakeSwap",
+			"logo": "pancakeswap.jpeg",
+			"description": "Decentralized trading protocol on Binance Smart Chain",
+			"website": "https://pancakeswap.finance/",
+			"network": ["BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/pancakeswap",
+				"discord": "https://discord.gg/pancakeswap",
+				"github": "https://github.com/pancakeswap/",
+				"telegram": "https://t.me/pancakeswap",
+				"reddit": "https://reddit.com/r/pancakeswap"
+			}
+		},
+		{
+			"name": "QuickSwap",
+			"logo": "quickswap.jpeg",
+			"description": "Next-gen DEX. Trade at lightning-fast speeds with near-zero gas fees Powered by Polygon.",
+			"website": "https://quickswap.exchange/",
+			"network": ["Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/QuickswapDEX",
+				"telegram": "https://t.co/QrfDfBtPX9"
+			}
+		},
+		{
+			"name": "Jupiter",
+			"logo": "jupiter.jpeg",
+			"description": "Jupiter is the key liquidity aggregator for Solana, offering the widest range of tokens and best route discovery between any token pair.",
+			"website": "https://jup.ag/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/JupiterExchange",
+				"discord": "https://discord.gg/jup"
+			}
+		}
+]

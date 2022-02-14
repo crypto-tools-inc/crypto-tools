@@ -1,0 +1,15 @@
+[
+		{
+			"name": "Multichain",
+			"logo": "multichain.jpeg",
+			"description": "Previously known as Anyswap, Multichain is a cross-chain router protocol, envisioned to be the ultimate router for Web3.",
+			"website": "https://app.multichain.org/",
+			"network": ["ethereum", "BSC", "Polygon", "Optimism", "Arbitrum", "Fantom", "Avalanche", "Moonbeam", "Moonriver", "Harmony", "Aurora", "Boba", "Cronos", "OEC", "Heco", "Gnosis", "Celo"],
+			"socials": {
+				"twitter": "https://twitter.com/MultichainOrg",
+				"medium": "https://multichainorg.medium.com/",
+				"github": "https://github.com/anyswap",
+				"telegram": "https://t.me/anyswap"
+			}
+		}
+]

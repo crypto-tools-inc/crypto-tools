@@ -1,0 +1,51 @@
+[
+		{
+			"name": "Zapper",
+			"logo": "zapper.jpeg",
+			"description": "Manage your entire web3 portfolio from DeFi to NFTs and whatever comes next. Invest in the latest opportunities from one convenient place.",
+			"website": "https://zapper.fi/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/zapper_fi",
+				"discord": "https://zapper.fi/it/discord"
+			}
+		},
+		{
+			"name": "Zerion",
+			"logo": "zerion.jpeg",
+			"description": "Zerion is the easiest way to build and manage your entire DeFi portfolio from one place.",
+			"website": "https://zerion.io/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/zerion_io",
+				"discord": "https://zerion.io/discord",
+				"github": "https://github.com/zeriontech",
+				"telegram": "https://t.me/joinchat/AAHTFg5bribH76EHEq1qdw"
+			}
+		},
+		{
+			"name": "DeBank",
+			"logo": "debank.jpeg",
+			"description": "Keep up with all the important happenings in the web3 world.",
+			"website": "https://debank.com/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/DebankDeFi",
+				"discord": "https://discordapp.com/invite/KYuj8DE",
+				"medium": "https://medium.com/debank",
+				"github": "https://github.com/DeBankDeFi",
+				"telegram": "https://t.me/DeBankEN"
+			}
+		},
+		{
+			"name": "Ape Board",
+			"logo": "apeboard.jpeg",
+			"description": "Multi-chain DeFi Dashboard. Built by apes, for apes.",
+			"website": "https://apeboard.finance/dashboard",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/ape_board",
+				"telegram": "https://t.me/joinchat/IgrzTnHKm-A0RwSP"
+			}
+		}
+]
