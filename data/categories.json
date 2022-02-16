@@ -1,0 +1,72 @@
+[
+		{
+			"title": "Decentralised Exchanges",
+			"description": "DEXes allows you to trade and exchange tokens as well as providing liquidity and get rewarded.",
+			"link": "dex.html"
+		},
+		{
+			"title": "Dex Aggregators",
+			"description": "Aggregators collect prices from multiple DEXes to offer you the best trade swaps.",
+			"link": "dex-aggregator.html"
+		},
+		{
+			"title": "Bridges",
+			"description": "Transfer your tokens from one blockchain to another to take advange of a multichain economic.",
+			"link": "bridge.html"
+		},
+		{
+			"title": "Lending & Borrowing",
+			"description": "Lend your tokens and stablecoins, collect yields and use your collateral to take out a loan.",
+			"link": "lending-borrowing.html"
+		},
+		{
+			"title": "Liquidity solutions",
+			"description": "desc",
+			"link": "liquidity-solution.html"
+		},
+		{
+			"title": "Portfolio managers",
+			"description": "Track your wallet address balance across multiple chains.",
+			"link": "portfolio-managers.html"
+		},
+		{
+			"title": "Utilities",
+			"description": "Various security and research tools for the DeFi ecosystem.",
+			"link": "utilities.html"
+		},
+		{
+			"title": "NFT Marketplaces",
+			"description": "Discover the best NFT marketplace to buy and sell NFTs.",
+			"link": "nft-marketplaces.html"
+		},
+		{
+			"title": "NFT Tools",
+			"description": "Useful collection of tools for the NFT conosseur as well as explore the latest market trends.",
+			"link": "nft-tools.html"
+		},
+		{
+			"title": "Monitoring",
+			"description": "Monitor the markets and find useful insights to create your own strategy.",
+			"link": "monitoring.html"
+		},
+		{
+			"title": "Analytics",
+			"description": "Data analytics tools to better understand markets and new trends.",
+			"link": "analytics.html"
+		},
+		{
+			"title": "News & Stories",
+			"description": "Stay up to date with all the latest news from the cryptoverse.",
+			"link": "news.html"
+		},
+		{
+			"title": "Developer resources",
+			"description": "If you are looking to start your career in web3 this is the right place for you.",
+			"link": "developer-resources.html"
+		},
+		{
+			"title": "Lightning Network",
+			"description": "Nodes providers and useful tools to run your lightning node like a boss.",
+			"link": "lightning-network.html"
+		}
+]

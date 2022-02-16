@@ -1,10 +1,8 @@
-function getJson(el) {
-  var pageTitle = el.text;
-  var loadFile = "data/" + el.id + ".json";
-  $('#section-title').html(pageTitle);
-  $("html, body").animate({ scrollTop: 0 }, "slow");
+function getContent() {
+  var pageName = $('#section-elements').attr('name');
+  var loadFile = "data/" + pageName + ".json";
 
-  $.ajaxSetup({ cache: false });
+  $.ajaxSetup();
   // FETCHING DATA FROM JSON FILE
   $.getJSON(loadFile, function (data) {
     var item = '';
@@ -17,7 +15,7 @@ function getJson(el) {
       item += '<div class="col-xl-3 col-lg-4 col-md-6 col-12">';
       item += '<div class="card">';
       item += '<div class="card-header d-flex">';
-      item += '<img loading="lazy" src="img/' + value.logo + '" height="70" class="rounded-circle" alt="">';
+      item += '<img loading="lazy" src="img/' + value.logo + '" height="70" class="rounded-circle" alt="' + value.logo + '">';
       item += '<div class="ms-4 d-flex flex-column justify-content-between">';
       item += '<h4 class="card-title">' + value.name + '</h4>';
       item += '<a class="card-subtitle mb-2 text-decoration-none" href="' + value.website + '" target="_blank"><img class="me-1" height="12" src="img/socials/link.svg">Website</a>';

@@ -1,0 +1,61 @@
+[
+		{
+			"name": "Chainlist",
+			"logo": "yearn.jpeg",
+			"description": "Chainlist is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain.",
+			"website": "https://chainlist.org/",
+			"network": ["All"],
+			"socials": {
+				"github": "https://github.com/antonnell/networklist-org.git"
+			}
+		},
+		{
+			"name": "RugDoc",
+			"logo": "rugdoc.jpeg",
+			"description": "RugDoc is here to burn, beat and clean rugs. Making DeFi across BSC, FTM and POLY safer one review at a time.",
+			"website": "https://rugdoc.io/",
+			"network": ["BSC", "Fantom", "Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/RugDocIO",
+				"telegram": "https://t.me/RugDocChat"
+			}
+		},
+		{
+			"name": "Honeypot Detector",
+			"logo": "honeypotis.jpg",
+			"description": "Honeypot detector simulates a buy and a sell transaction to determine if a token is a honeypot. It includes a lot of extra checks to reduce the amount of false results, including a time jump between the buy and sell transaction.",
+			"website": "https://honeypot.is/",
+			"network": ["Ethereum", "BSC"],
+			"socials": {
+				"telegram": "https://t.me/ishoneypot"
+			}
+		},
+		{
+			"name": "DeFi Safety",
+			"logo": "defisafety.png",
+			"description": "Independent Technical Risk Analysis on DeFi Protocols.",
+			"website": "https://www.defisafety.com/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/DefiSafety",
+				"discord": "https://discord.com/invite/pzUw5V2E65",
+				"medium": "https://medium.com/defi-safety",
+				"telegram": "https://t.me/joinchat/qU8a07WUG1Q3YTBh",
+				"reddit": "https://www.reddit.com/r/DefiSafety/"
+			}
+		},
+		{
+			"name": "Tornado Cash",
+			"logo": "tornadocash.jpeg",
+			"description": "A fully decentralized protocol for private transactions on Ethereum.",
+			"website": "https://tornado.cash/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/TornadoCash",
+				"discord": "https://discord.com/invite/TFDrM8K42j",
+				"medium": "https://tornado-cash.medium.com/",
+				"telegram": "https://t.me/TornadoCashOfficial",
+				"github": "https://github.com/tornadocash"
+			}
+		}
+]

@@ -86,5 +86,18 @@
 				"twitter": "https://twitter.com/JupiterExchange",
 				"discord": "https://discord.gg/jup"
 			}
+		},
+		{
+			"name": "SpiritSwap",
+			"logo": "spiritswap.jpeg",
+			"description": "Most powerful/versatile DEX & DeFi suite on Fantom.",
+			"website": "https://t.co/aqWV87da1v",
+			"network": ["Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/Spirit_Swap",
+				"discord": "https://discord.gg/uYNsSCKcfT",
+				"medium": "https://spiritswap.medium.com/",
+				"github": "https://github.com/Layer3Org"
+			}
 		}
 ]

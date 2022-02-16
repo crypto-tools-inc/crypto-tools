@@ -1,0 +1,26 @@
+[
+		{
+			"name": "Rekt",
+			"logo": "rekt.jpeg",
+			"description": "The dark web of DeFi journalism.",
+			"website": "https://rekt.news/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/RektHQ",
+				"telegram": "https://t.co/EPZjOTVti8"
+			}
+		},
+		{
+			"name": "name",
+			"logo": "url",
+			"description": "helloworld",
+			"website": "url",
+			"network": ["Ethereum", "Polygon", "Optimism"],
+			"socials": {
+				"twitter": "url",
+				"discord": "url",
+				"medium": "url",
+				"telegram": "url"
+			}
+		}
+]

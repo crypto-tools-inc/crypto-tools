@@ -118,6 +118,14 @@ CARDS
   background-color: #E2E8F0;
 }
 
+.card-slide-up {
+  transition: transform 0.3s ease-out;
+}
+
+.card-slide-up:hover {
+  transform: translateY(-8px);
+}
+
 /* =============================================================================
 FOOTER
 ============================================================================= */
