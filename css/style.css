@@ -69,6 +69,14 @@ NAVBAR
   color: #171924;
 }
 
+.navbar-light .navbar-toggler {
+  border: none;
+  outline: none;
+}
+.navbar-light .navbar-toggler:focus {
+  outline: none;
+}
+
 /* =============================================================================
 JUMBOTRON
 ============================================================================= */
