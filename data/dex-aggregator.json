@@ -35,6 +35,17 @@
 			}
 		},
 		{
+			"name": "MistX",
+			"logo": "mistx.png",
+			"description": "Trade on Ethereum with front-running protection, free cancellations, no cost on failed transactions and instant cash back rewards.",
+			"website": "https://mistx.io/swap",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/mistXlabs",
+				"discord": "http://discord.alchemist.wtf/"
+			}
+		},
+		{
 			"name": "CowSwap",
 			"logo": "cowswap.jpeg",
 			"description": "CoWs (Coincidence of Wants) for MEV protected trades.",

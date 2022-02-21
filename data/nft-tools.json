@@ -1,0 +1,159 @@
+[
+		{
+			"name": "Rarity Tools",
+			"logo": "raritytools.jpeg",
+			"description": "Find the rarity ranking of your next NFT! The source for 800+ verified collection rankings on Ethereum.",
+			"website": "https://rarity.tools/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/raritytools",
+				"medium": "https://discord.gg/looksrare"
+			}
+		},
+		{
+			"name": "Icy Tools",
+			"logo": "icytools.png",
+			"description": "A tool to uncover trending NFTs, track floor prices, alerts & more.",
+			"website": "https://icy.tools/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/icy_tools",
+				"discord": "https://icy.community/",
+				"github": "https://github.com/0x-icy"
+			}
+		},
+		{
+			"name": "NFT Catcher",
+			"logo": "nftcatcher.jpeg",
+			"description": "Industry leader in aggregating NFT drops from all marketplaces into one simple interface. Every Drop. One List.",
+			"website": "https://www.nftcatcher.io/",
+			"network": ["Ethereum", "Polygon", "Solana", "Tezos"],
+			"socials": {
+				"twitter": "https://twitter.com/nftcatcher",
+				"discord": "https://discord.gg/H5Uw6BcuHS"
+			}
+		},
+		{
+			"name": "WGMI.io",
+			"logo": "wgmiio.jpeg",
+			"description": "Portfolio tracker and account valuation tool.",
+			"website": "https://wgmi.io/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/wgmiio",
+				"discord": "https://discord.gg/wrdF5yMec3"
+			}
+		},
+		{
+			"name": "Exodia",
+			"logo": "exodia.png",
+			"description": "Access NFT floor charts, trending collections, whale trading activity, notifications of new mints, and more.",
+			"website": "https://exodia.io/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/exodia_io",
+				"discord": "https://discord.gg/AsXhSDTkSz"
+			}
+		},
+		{
+			"name": "NFT Price Floor",
+			"logo": "nftpricefloor.jpeg",
+			"description": "NFT data aggregator. We are the data curation layer of the NFT ecosystem, we track price floors, volume and much more. ",
+			"website": "https://nftpricefloor.com/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/nftpricefloor",
+				"discord": "https://discord.gg/FdQYQGStvR"
+			}
+		},
+		{
+			"name": "CryptoSlam!",
+			"logo": "cryptoslam.jpeg",
+			"description": "Doing our best to organize millions (soon to be billions) of NFTs.",
+			"website": "https://cryptoslam.io/",
+			"network": ["Ethereum", "Polygon", "Wax", "Solana", "Ronin", "Avalanche", "Flow"],
+			"socials": {
+				"twitter": "https://twitter.com/cryptoslamio",
+				"discord": "https://t.co/HnVQpMxEw7?amp=1"
+			}
+		},
+		{
+			"name": "NFT Calendar",
+			"logo": "nftcalendar.jpeg",
+			"description": "NFTCalendar is the first calendar in the NFT Universe. We cover the most eye-catching drops, exciting events, and high-profile releases that keep the wheels of the Non-Fungible Token industry turning!",
+			"website": "https://nftcalendar.io/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/nftcalendar",
+				"discord": "https://discord.gg/nft-calendar"
+			}
+		},
+		{
+			"name": "NFTGo",
+			"logo": "nftgo.jpeg",
+			"description": "The best all-in-one NFT analytics platform. Spotting NFT alpha by ranking, rarity, whales tracking, drops and more!",
+			"website": "https://nftgo.io/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/nftgoio",
+				"discord": "https://discord.com/invite/38E4sEaFJr",
+				"medium": "https://mirror.xyz/nftgoio.eth",
+				"telegram": "https://t.me/nftgoofficial"
+			}
+		},
+		{
+			"name": "Asset Money",
+			"logo": "assetmoney.jpeg",
+			"description": "Track and Sync your NFT Wallet. We enable the ideal way to manage your NFTs. Keep up on your NFT value,trends, and estimate the current value",
+			"website": "https://asset.money/",
+			"network": ["Ethereum", "Polygon", "Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/AssetMoneyHQ",
+				"discord": "https://discord.gg/GXHKB6EbAU"
+			}
+		},
+		{
+			"name": "NFT Scoring",
+			"logo": "nftscoring.jpeg",
+			"description": "NFT Analytics Platform. Find promising NFT projects via AI",
+			"website": "https://nftscoring.com",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/NFTScoring",
+				"discord": "https://discord.com/invite/3pXZK83dEy"
+			}
+		},
+		{
+			"name": "Rarity Sniper",
+			"logo": "raritysniper.jpeg",
+			"description": "The #1 source for NFT rarity. Rarity Sniper is the best way to check the rarity of 1073 NFT collections on Ethereum, Solana & more",
+			"website": "https://raritysniper.com/",
+			"network": ["Ethereum", "Solana", "Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/RaritySniperNFT",
+				"discord": "https://discord.gg/raritysniper"
+			}
+		},
+		{
+			"name": "WhatsMinting",
+			"logo": "whatsminting.png",
+			"description": "Trending NFT projects in real time. Live Ethereum on-chain activity transformed into actionable insights.",
+			"website": "https://whatsminting.live/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/whatsminting"
+			}
+		},
+		{
+			"name": "Sunspot",
+			"logo": "sunspot.png",
+			"description": "Sunspot alerts you in real-time when ethereum nfts are listed and sold on opensea.",
+			"website": "https://sunspot.gg/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/javamonnn",
+				"discord": "https://discord.gg/y3wcMgagsF",
+				"github": "https://github.com/javamonn/sunspot"
+			}
+		}
+]

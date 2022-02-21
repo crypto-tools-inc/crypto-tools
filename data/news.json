@@ -11,16 +11,25 @@
 			}
 		},
 		{
-			"name": "name",
-			"logo": "url",
-			"description": "helloworld",
-			"website": "url",
-			"network": ["Ethereum", "Polygon", "Optimism"],
+			"name": "Decrypt",
+			"logo": "decrypt.jpeg",
+			"description": "Demystifying Bitcoin, Ethereum and the decentralized web.",
+			"website": "https://decrypt.co/",
+			"network": ["All"],
 			"socials": {
-				"twitter": "url",
-				"discord": "url",
-				"medium": "url",
-				"telegram": "url"
+				"twitter": "https://twitter.com/decryptmedia",
+				"discord": "https://decrypt.community/",
+				"telegram": "https://t.me/DecryptNews"
+			}
+		},
+		{
+			"name": "Blockworks",
+			"logo": "blockworks.jpeg",
+			"description": "helloworld",
+			"website": "https://blockworks.co/newsletter/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/Blockworks_"
 			}
 		}
 ]

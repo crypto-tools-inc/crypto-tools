@@ -13,6 +13,19 @@
 			}
 		},
 		{
+			"name": "Compound Finance",
+			"logo": "compoundfinance.png",
+			"description": "Compound is an algorithmic, autonomous interest rate protocol built for developers, to unlock a universe of open financial applications.",
+			"website": "https://compound.finance/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/compoundfinance",
+				"discord": "https://compound.finance/discord",
+				"medium": "https://medium.com/compound-finance",
+				"github": "https://github.com/compound-finance/compound-protocol"
+			}
+		},
+		{
 			"name": "Rari Capital",
 			"logo": "raricapital.jpeg",
 			"description": "Lend, borrow and earn yield on every asset.",
