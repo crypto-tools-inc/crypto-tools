@@ -31,6 +31,29 @@
 			}
 		},
 		{
+			"name": "Revoke.cash",
+			"logo": "revokecash.jpeg",
+			"description": "Revoke Ethereum token allowances.",
+			"website": "https://revoke.cash/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/RevokeCash",
+				"github": "https://github.com/rkalis/revoke.cash"
+			}
+		},
+		{
+			"name": "Unrekt",
+			"logo": "unrekt.jpeg",
+			"description": "Smart Contract approval toolbox & Timelock Monitor",
+			"website": "https://app.unrekt.net/",
+			"network": ["Ethereum", "Polygon", "BSC", "Fantom", "HECO", "Cronos", "Moonbeam"],
+			"socials": {
+				"twitter": "https://twitter.com/getunrekt",
+				"medium": "https://getunrekt.medium.com/",
+				"telegram": "https://t.me/unrektnet"
+			}
+		},
+		{
 			"name": "DeFi Safety",
 			"logo": "defisafety.png",
 			"description": "Independent Technical Risk Analysis on DeFi Protocols.",
