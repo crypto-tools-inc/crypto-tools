@@ -47,5 +47,17 @@
 				"twitter": "https://twitter.com/ape_board",
 				"telegram": "https://t.me/joinchat/IgrzTnHKm-A0RwSP"
 			}
+		},
+		{
+			"name": "DefiYield App",
+			"logo": "defiyieldapp.jpeg",
+			"description": "Manage Your DeFi Life. Asset Management Dashboard secured by a Blockchain Security Blockchain.",
+			"website": "https://defiyield.info/",
+			"network": ["Ethereum", "BSC", "Polygon", "Fantom", "Avalanche", "Arbitrum", "Gnosis", "Celo", "Moonriver", "Harmony", "HECO", "OEC", "Cronos", "Boba", "Aurora", "Terra", "Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/defiyield_app",
+				"medium": "https://blog.defiyield.app/",
+				"telegram": "https://t.me/defiyield_app"
+			}
 		}
 ]
