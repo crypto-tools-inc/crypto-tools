@@ -10,5 +10,17 @@
 				"discord": "https://discord.gg/vfat",
 				"github": "https://github.com/vfat-tools/vfat-tools"
 			}
+		},
+		{
+			"name": "Multifarm",
+			"logo": "multifarm.jpeg",
+			"description": "Creating Treasury Dashboards for DAOs Compare 1000+ farms for the best yield farming APRs",
+			"website": "https://app.multifarm.fi/",
+			"network": ["Ethereum", "Polygon", "Avalanche", "Terra", "Solana", "Fantom", "BSC", "Cronos", "Arbitrum", "Harmony", "Aurora", "Fuse", "Gnosis", "HECO", "Optimism", "OEC", "Boba", "Celo", "Moonriver", "Moonbeam"],
+			"socials": {
+				"twitter": "https://twitter.com/multifarm_fi",
+				"discord": "https://discord.com/invite/yMXzezMchs",
+				"medium": "https://medium.com/@multifarm_fi"
+			}
 		}
 ]
