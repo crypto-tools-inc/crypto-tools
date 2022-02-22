@@ -45,5 +45,18 @@
 				"twitter": "https://twitter.com/MagicEden_NFT",
 				"discord": "https://discord.com/invite/b87UnCy6P2"
 			}
+		},
+		{
+			"name": "Kalao",
+			"logo": "kalao.jpeg",
+			"description": "Kalao unlocks the full potential of metaverse experiences, bringing the winning combination of NFT and VR technologies to real-world use cases.",
+			"website": "https://www.kalao.io/",
+			"network": ["Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/GetKalao",
+				"discord": "https://discord.gg/WjcRtmZKPB",
+				"medium": "https://medium.com/@Kalao",
+				"telegram": "https://t.me/kalaoklo"
+			}
 		}
 ]

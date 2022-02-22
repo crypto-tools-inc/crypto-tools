@@ -164,5 +164,16 @@
 				"discord": "https://discord.gg/WpTPYCe",
 				"telegram": "https://t.me/defipulse"
 			}
+		},
+		{
+			"name": "UniWhales DAO",
+			"logo": "uniwhalesdao.jpeg",
+			"description": "Real time tx data + alerts for Swaps, DEX Liquidity, NFTs, Bridges, and Top wallets. Powered by our DAO, a community of the top traders + builders in crypto.",
+			"website": "https://uniwhales.io/",
+			"network": ["Ethereum", "Polygon", "BSC", "Terra", "Avalanche", "Fantom", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/uniwhalesio",
+				"telegram": "https://t.me/uniwhales"
+			}
 		}
 ]

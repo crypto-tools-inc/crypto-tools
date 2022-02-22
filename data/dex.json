@@ -112,5 +112,32 @@
 				"medium": "https://blog.kyber.network/",
 				"telegram": "https://t.me/kybernetwork"
 			}
+		},
+		{
+			"name": "Dexalot",
+			"logo": "dexalot.jpeg",
+			"description": "The first CLOB dex on Avalanche.",
+			"website": "https://app.dexalot.com/",
+			"network": ["Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/dexalotcom",
+				"discord": "https://discord.gg/S4NP9w7Xwn",
+				"medium": "https://medium.com/dexalot",
+				"github": "https://github.com/dexalot",
+				"telegram": "https://t.me/joinchat/FKAZW488J1hkNGJh"
+			}
+		},
+		{
+			"name": "Platypus",
+			"logo": "platypus.jpeg",
+			"description": "Platypus' AMM facilitates seamless exchange between pegged assets. Its single-sided liquidity provision redefines the way AMM works.",
+			"website": "https://app.platypus.finance/",
+			"network": ["Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/Platypusdefi",
+				"discord": "https://discord.gg/B6ThAvev2A",
+				"medium": "https://medium.com/platypus-finance",
+				"telegram": "https://t.me/Platypusdefi"
+			}
 		}
 ]

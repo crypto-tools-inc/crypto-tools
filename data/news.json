@@ -65,5 +65,16 @@
 				"discord": "https://cryptopanic.com/discord/",
 				"telegram": "https://t.me/CryptoPanicCom"
 			}
+		},
+		{
+			"name": "nft now",
+			"logo": "nftnow.jpeg",
+			"description": "Freshly minted NFT news, features, and analysis. On a mission to empower the creators of culture.",
+			"website": "https://nftnow.com/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/nftnow",
+				"discord": "https://discord.gg/89tKZ4gZef"
+			}
 		}
 ]

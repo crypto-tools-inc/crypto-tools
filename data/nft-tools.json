@@ -155,5 +155,39 @@
 				"discord": "https://discord.gg/y3wcMgagsF",
 				"github": "https://github.com/javamonn/sunspot"
 			}
+		},
+		{
+			"name": "NFTBank.ai",
+			"logo": "nftbankai.jpeg",
+			"description": "NFTBank makes NFT portfolio management smart.",
+			"website": "https://nftbank.ai/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/NFTbank_ai",
+				"discord": "https://discord.com/invite/4yrNy4x"
+			}
+		},
+		{
+			"name": "Moby",
+			"logo": "moby.jpeg",
+			"description": "Real-time NFT minting insights, wallet tracking, instant notifications and live price trends.",
+			"website": "https://moby.gg/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/mobyinsights",
+				"discord": "https://discord.gg/tAMPTYqfYP"
+			}
+		},
+		{
+			"name": "Masterpiece",
+			"logo": "masterpiece.jpeg",
+			"description": "NFT Discovery & Data across platforms and blockchains.",
+			"website": "https://masterpiece.so/",
+			"network": ["Ethereum", "Tezos"],
+			"socials": {
+				"twitter": "https://twitter.com/usemasterpiece",
+				"discord": "https://discord.gg/fCntC8E9zk",
+				"medium": "https://medium.com/@UseMasterpiece"
+			}
 		}
 ]
