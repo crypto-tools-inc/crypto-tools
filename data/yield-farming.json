@@ -1,0 +1,14 @@
+[
+		{
+			"name": "vfat",
+			"logo": "vfat.jpeg",
+			"description": "A set of no-frills tools for yield farming with a dashboard and farming calculator that allows you to find the most popular farms and their yields.",
+			"website": "https://vfat.tools",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/vfat0",
+				"discord": "https://discord.gg/vfat",
+				"github": "https://github.com/vfat-tools/vfat-tools"
+			}
+		}
+]
