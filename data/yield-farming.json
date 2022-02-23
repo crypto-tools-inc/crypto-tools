@@ -35,7 +35,7 @@
 		},
 		{
 			"name": "LiquidDriver",
-			"logo": "liquiddriver.jpeg",
+			"logo": "liquiddriver.png",
 			"description": "First Yield Aggregator offering Liquidity-as-a-Service on Fantom",
 			"website": "https://www.liquiddriver.finance/",
 			"network": ["Fantom"],
