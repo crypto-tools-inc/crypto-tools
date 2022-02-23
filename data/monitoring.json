@@ -101,5 +101,16 @@
 			"socials": {
 				"twitter": "https://twitter.com/Token_Sniffer"
 			}
+		},
+		{
+			"name": "Hotnewcrypto",
+			"logo": "hotnewcrypto.jpeg",
+			"description": "Scouting the stealthiest projects for you. The official alpha provider of your favorite alpha hunters.",
+			"website": "https://hotnewcrypto.com/pricing",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/hotnewcrypto",
+				"telegram": "https://t.me/joinchat/T2FcaCiP8sazqjSg"
+			}
 		}
 ]
