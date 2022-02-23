@@ -197,5 +197,17 @@
 				"medium": "https://medium.com/@cryptorank",
 				"telegram": "https://t.me/CryptoRankEn"
 			}
+		},
+		{
+			"name": "Crypto Hunts",
+			"logo": "cryptohunts.jpeg",
+			"description": "Become an early α gem hunter with powerful aggregator analytics web platform and instant notifications.",
+			"website": "https://app.cryptohunts.io/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/cryptohunts_",
+				"discord": "https://discord.gg/hfvrrhnrHx",
+				"telegram": "https://t.me/crypt0hunt5"
+			}
 		}
 ]
