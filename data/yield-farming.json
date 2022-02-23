@@ -32,5 +32,18 @@
 			"socials": {
 				"twitter": "https://twitter.com/federiconitidi"
 			}
+		},
+		{
+			"name": "LiquidDriver",
+			"logo": "liquiddriver.jpeg",
+			"description": "First Yield Aggregator offering Liquidity-as-a-Service on Fantom",
+			"website": "https://www.liquiddriver.finance/",
+			"network": ["Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/LiquidDriver",
+				"discord": "https://discord.com/invite/LiquidDriver",
+				"medium": "https://liquiddriver.medium.com/",
+				"telegram": "https://t.me/LiquidDriver"
+			}
 		}
 ]
