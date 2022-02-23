@@ -175,5 +175,27 @@
 				"twitter": "https://twitter.com/uniwhalesio",
 				"telegram": "https://t.me/uniwhales"
 			}
+		},
+		{
+			"name": "Fear & Greed Index",
+			"logo": "fearandgreedindex.jpeg",
+			"description": "Each day, we analyze emotions and sentiments from different sources and crunch them into one simple number: The Fear & Greed Index for Bitcoin and other large cryptocurrencies.",
+			"website": "https://alternative.me/crypto/fear-and-greed-index/",
+			"network": ["All"],
+			"socials": {
+				"discord": "https://discord.gg/ea9CBNk"
+			}
+		},
+		{
+			"name": "CryptoRank",
+			"logo": "cryptorank.jpeg",
+			"description": "Crypto market data aggregation & analytics platform, IDO/IEO performance, Trade Alerts and News Aggregator.",
+			"website": "https://cryptorank.io/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/CryptoRank_io",
+				"medium": "https://medium.com/@cryptorank",
+				"telegram": "https://t.me/CryptoRankEn"
+			}
 		}
 ]
