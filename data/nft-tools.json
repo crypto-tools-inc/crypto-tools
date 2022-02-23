@@ -189,5 +189,16 @@
 				"discord": "https://discord.gg/fCntC8E9zk",
 				"medium": "https://medium.com/@UseMasterpiece"
 			}
+		},
+		{
+			"name": "Metaverse HQ",
+			"logo": "metaversehq.jpeg",
+			"description": "An exclusive token-gated community of NFT traders, investors, builders, and educators.",
+			"website": "https://www.mvhq.io/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/Metaverse_HQ",
+				"discord": "https://discord.gg/fxbsvWyXyx"
+			}
 		}
 ]
