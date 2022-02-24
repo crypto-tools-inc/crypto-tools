@@ -200,5 +200,16 @@
 				"twitter": "https://twitter.com/Metaverse_HQ",
 				"discord": "https://discord.gg/fxbsvWyXyx"
 			}
+		},
+		{
+			"name": "Gem.xyz",
+			"logo": "gemxyz.jpeg",
+			"description": "The Best NFT Aggregator. Save up to 42% gas while buying NFTs across all marketplaces.",
+			"website": "https://www.gem.xyz/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/gemxyz",
+				"discord": "https://discord.com/invite/gemxyz"
+			}
 		}
 ]
