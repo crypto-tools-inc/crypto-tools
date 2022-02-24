@@ -109,7 +109,7 @@
 			"logo": "orionmoney.jpeg",
 			"description": "Cross-Chain Stablecoin Bank",
 			"website": "https://orion.money/",
-			"network": ["ethereum"],
+			"network": ["ethereum", "Polygon"],
 			"socials": {
 				"twitter": "https://twitter.com/orion_money",
 				"discord": "https://discord.gg/5vbWB2PWeS",
