@@ -59,5 +59,16 @@
 				"medium": "https://blog.defiyield.app/",
 				"telegram": "https://t.me/defiyield_app"
 			}
-		}
+		},
+		{
+			"name": "Asset Money",
+			"logo": "assetmoney.jpeg",
+			"description": "Track and Sync your NFT Wallet. We enable the ideal way to manage your NFTs. Keep up on your NFT value,trends, and estimate the current value",
+			"website": "https://asset.money/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/AssetMoneyHQ",
+				"discord": "https://discord.gg/GXHKB6EbAU"
+			}
+		},
 ]
