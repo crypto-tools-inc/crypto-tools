@@ -71,4 +71,16 @@
 				"discord": "https://discord.gg/GXHKB6EbAU"
 			}
 		},
+		{
+			"name": "Delta Investment Tracker",
+			"logo": "deltatracker.jpeg",
+			"description": "The app to keep track of your #crypto, #stocks, #funds, etc. in 1 place. Giving you a crystal clear overview of your portfolio.",
+			"website": "https://delta.app",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.delta.app/",
+				"reddit": "https://reddit.delta.app/",
+				"telegram": "https://telegram.delta.app/"
+			}
+		}
 ]
