@@ -79,7 +79,7 @@
 		},
 		{
 			"name": "Li.finance",
-			"logo": "lifinance.jpeg",
+			"logo": "lifinance.png",
 			"description": "Helping DEXs & Wallets to offer cross-chain swaps - Ultimate bridge aggregation with DEX-connectivity",
 			"website": "https://li.finance",
 			"network": ["Ethereum", "Polygon", "BSC", "Optimism", "Fantom", "Gnosis", "Moonriver", "Arbitrum", "Avalanche"],
