@@ -81,5 +81,16 @@
 				"discord": "https://discord.gg/soundxyz",
 				"mirror": "https://sound.mirror.xyz/"
 			}
+		},
+		{
+			"name": "CoralCube",
+			"logo": "coralcube.jpeg",
+			"description": "The largest selection of Solana NFTs at Solana speed",
+			"website": "https://coralcube.io/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/coralcubenft",
+				"discord": "https://discord.gg/RRETBxvMb2"
+			}
 		}
 ]
