@@ -40,6 +40,19 @@
 			}
 		},
 		{
+			"name": "SpookySwap Bridge",
+			"logo": "spookyswap.png",
+			"description": "Bridge to and from Fantom Opera powered by Multichain",
+			"website": "https://spookyswap.finance/bridge",
+			"network": ["Ethereum", "Polygon", "Cronos", "BSC", "OEC", "Fantom", "Arbitrum", "Avalanche", "Harmony"],
+			"socials": {
+				"twitter": "https://twitter.com/SpookySwap",
+				"discord": "https://discord.com/invite/spookyswap",
+				"medium": "https://spookyswap.medium.com/",
+				"telegram": "https://t.me/SpookySwapCommunity"
+			}
+		},
+		{
 			"name": "BoringDAO",
 			"logo": "boringdao.jpeg",
 			"description": "BoringDAO deploys a series of decentralized bridges - or tunnels - which allow you to safely move your Bitcoin & other crypto assets between Ethereum & different blockchains to maximize utilization rate of crypto assets in DeFi world.",
