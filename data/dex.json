@@ -163,5 +163,16 @@
 				"discord": "https://discord.com/invite/yjM2fUUHvN",
 				"telegram": "https://t.me/Dfyn_HQ"
 			}
+		},
+		{
+			"name": "Slingshot",
+			"logo": "slingshot.png",
+			"description": "Web3 trading platform on Polygon, Arbitrum, Optimism, and more.",
+			"website": "https://app.slingshot.finance/",
+			"network": ["Polygon", "Arbitrum", "Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/SlingshotCrypto",
+				"discord": "https://discord.com/invite/H3UcvgtASR"
+			}
 		}
 ]
