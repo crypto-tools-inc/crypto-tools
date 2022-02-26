@@ -154,5 +154,18 @@
 				"medium": "https://medium.com/hop-protocol",
 				"github": "https://github.com/hop-protocol"
 			}
+		},
+		{
+			"name": "Avax Native Bridge",
+			"logo": "avalanche.jpeg",
+			"description": "Official Native Bridge for the Avalanche blockchain",
+			"website": "https://bridge.avax.network/login",
+			"network": ["Ethereum", "Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/avalancheavax",
+				"discord": "https://chat.avalabs.org/",
+				"github": "https://github.com/ava-labs",
+				"telegram": "https://t.me/avalancheavax"
+			}
 		}
 ]
