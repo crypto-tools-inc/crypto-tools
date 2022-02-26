@@ -20,11 +20,6 @@
 			"link": "lending-borrowing.html"
 		},
 		{
-			"title": "Liquidity solutions",
-			"description": "desc",
-			"link": "liquidity-solution.html"
-		},
-		{
 			"title": "Portfolio managers",
 			"description": "Track your wallet address balance across multiple chains.",
 			"link": "portfolio-managers.html"
@@ -58,11 +53,6 @@
 			"title": "News & Stories",
 			"description": "Stay up to date with all the latest news from the cryptoverse.",
 			"link": "news.html"
-		},
-		{
-			"title": "Developer resources",
-			"description": "If you are looking to start your career in web3 this is the right place for you.",
-			"link": "developer-resources.html"
 		},
 		{
 			"title": "Lightning Network",
