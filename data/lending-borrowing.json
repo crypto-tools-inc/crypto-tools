@@ -118,6 +118,19 @@
 			}
 		},
 		{
+			"name": "Alchemix Finance",
+			"logo": "alchemixfinance.jpeg",
+			"description": "Spend and save at the same time. Leverage your wealth without risk of liquidation with a self-repaying loan.",
+			"website": "https://app.alchemix.fi/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/AlchemixFi",
+				"discord": "https://discord.gg/csa9mTRK6j",
+				"medium": "https://alchemixfi.medium.com/",
+				"github": "https://github.com/alchemix-finance"
+			}
+		},
+		{
 			"name": "Market",
 			"logo": "market.jpeg",
 			"description": "Earn yield and leverage assets in isolated markets enabling permissonless DeFi with market-rules set by you and the community.",
