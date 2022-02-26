@@ -151,5 +151,17 @@
 				"discord": "https://discord.gg/6Y2jexyVBZ",
 				"medium": "https://medium.com/@clipper_dex"
 			}
+		},
+		{
+			"name": "Dfyn",
+			"logo": "dfyn.jpeg",
+			"description": "L1 Liquidity, L2 scalability. DeFi done right, for everyone! ",
+			"website": "https://exchange.dfyn.network/#/swap",
+			"network": ["Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/_DFyn",
+				"discord": "https://discord.com/invite/yjM2fUUHvN",
+				"telegram": "https://t.me/Dfyn_HQ"
+			}
 		}
 ]
