@@ -178,5 +178,16 @@
 				"discord": "https://discord.gg/YSXPGGz",
 				"medium": "https://medium.com/loanscan"
 			}
+		},
+		{
+			"name": "Ola Finance",
+			"logo": "olafinance.png",
+			"description": "Ola finance is a platform for creating custom decentralized lending networks.",
+			"website": "https://ola.finance/",
+			"network": ["BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/ola_finance",
+				"telegram": "https://telegram.me/ola_finance"
+			}
 		}
 ]
