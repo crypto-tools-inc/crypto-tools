@@ -163,5 +163,17 @@
 				"discord": "https://discord.com/invite/yjM2fUUHvN",
 				"telegram": "https://t.me/Dfyn_HQ"
 			}
+		},
+		{
+			"name": "Firebird Finance",
+			"logo": "firebirdfinance.jpeg",
+			"description": "An innovative one-stop defi, multi-chain yield farming and decentralized exchange aggregator.",
+			"website": "https://app.firebird.finance",
+			"network": ["Polygon", "BSC", "Cronos", "Fantom", "Avalanche", "Moonriver", "OEC"],
+			"socials": {
+				"twitter": "https://twitter.com/FinanceFirebird",
+				"discord": "https://discord.com/invite/ZpGS9ChbZE?app_id=7041cd383a6905fdaa87c11d034af109&utm_medium=popup&utm_source=app",
+				"telegram": "https://t.me/firebirdfinance?app_id=ccd7439d288595b096b54cc70c804361&utm_medium=popup&utm_source=app"
+			}
 		}
 ]
