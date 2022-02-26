@@ -112,5 +112,16 @@
 				"twitter": "https://twitter.com/hotnewcrypto",
 				"telegram": "https://t.me/joinchat/T2FcaCiP8sazqjSg"
 			}
+		},
+		{
+			"name": "VestLab",
+			"logo": "vestlab.jpeg",
+			"description": "Analytics service that is a collection of information about tokenomics, metrics, timing of upcoming listing and vesting crypto tokens.",
+			"website": "https://vestlab.io/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/VestLab",
+				"telegram": "https://t.me/+fUjetJGteOY0Y2Qy"
+			}
 		}
 ]
