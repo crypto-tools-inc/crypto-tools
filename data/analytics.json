@@ -188,7 +188,7 @@
 		},
 		{
 			"name": "CryptoRank",
-			"logo": "cryptorank.jpeg",
+			"logo": "cryptorank.png",
 			"description": "Crypto market data aggregation & analytics platform, IDO/IEO performance, Trade Alerts and News Aggregator.",
 			"website": "https://cryptorank.io/",
 			"network": ["All"],
