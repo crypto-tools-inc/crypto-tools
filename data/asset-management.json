@@ -82,5 +82,16 @@
 				"reddit": "https://reddit.delta.app/",
 				"telegram": "https://telegram.delta.app/"
 			}
+		},
+		{
+			"name": "dHEDGE",
+			"logo": "dhedge.jpeg",
+			"description": "Start your hedge fund or find a fund you like in 5 minutes with dHEDGE - Decentralized hedge funds accessible to everyone",
+			"website": "https://www.dhedge.org/",
+			"network": ["Ethereum", "Polygon", "Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/dHedgeOrg",
+				"discord": "https://discord.gg/Ed2uuyGN"
+			}
 		}
 ]
