@@ -59,7 +59,7 @@
 		{
 			"name": "CoinParticle",
 			"logo": "coinparticle.jpeg",
-			"description": "helloworld",
+			"description": "Track your favorite cryptos through visualizations.",
 			"website": "https://www.coinparticle.com/",
 			"network": ["All"],
 			"socials": {
