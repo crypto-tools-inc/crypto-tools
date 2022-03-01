@@ -45,5 +45,17 @@
 				"medium": "https://liquiddriver.medium.com/",
 				"telegram": "https://t.me/LiquidDriver"
 			}
+		},
+		{
+			"name": "COMB Financial",
+			"logo": "combfinancial.jpeg",
+			"description": "The Fantom Protocol for Blockchain Services",
+			"website": "https://app.comb.financial/",
+			"network": ["Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/combfinancial",
+				"discord": "https://discord.com/invite/combfinancial",
+				"telegram": "https://t.me/CombFTM"
+			}
 		}
 ]
