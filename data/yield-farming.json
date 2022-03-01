@@ -95,5 +95,16 @@
 				"discord": "https://discord.com/invite/whitewhale",
 				"telegram": "https://t.me/whitewhaleofficial"
 			}
+		},
+		{
+			"name": "Kalmy",
+			"logo": "kalm.jpeg",
+			"description": "Kalmy’s DeFi, NFTs and GamiFi universe",
+			"website": "https://kalmy.app/#/",
+			"network": ["BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/kalmar_io",
+				"telegram": "http://t.me/kalmar_io/"
+			}
 		}
 ]
