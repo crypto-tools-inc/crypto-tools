@@ -106,5 +106,17 @@
 				"twitter": "https://twitter.com/kalmar_io",
 				"telegram": "http://t.me/kalmar_io/"
 			}
+		},
+		{
+			"name": "Planet Finance",
+			"logo": "planetfinance.jpeg",
+			"description": "Decentralizing The Planet’s Finances AQUA Powered by GAMMA.",
+			"website": "https://blue.planetfinance.io/",
+			"network": ["BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/planet_finance",
+				"medium": "https://planetfinanceio.medium.com/",
+				"telegram": "https://t.me/planet_finance"
+			}
 		}
 ]
