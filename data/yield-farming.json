@@ -70,5 +70,18 @@
 				"medium": "https://vectorfinance.medium.com/",
 				"telegram": "https://t.me/vector_fi"
 			}
+		},
+		{
+			"name": "Solidex",
+			"logo": "solidex.png",
+			"description": "A yield optimizer for Solidly built on Fantom",
+			"website": "https://solidexfinance.com/",
+			"network": ["Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/SolidexFantom",
+				"discord": "https://discord.gg/tbgR6RCVk7",
+				"medium": "https://medium.com/@solidsex",
+				"telegram": "https://t.me/SolidexOfficial"
+			}
 		}
 ]
