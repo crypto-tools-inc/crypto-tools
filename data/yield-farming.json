@@ -57,5 +57,18 @@
 				"discord": "https://discord.com/invite/combfinancial",
 				"telegram": "https://t.me/CombFTM"
 			}
+		},
+		{
+			"name": "Vector Finance",
+			"logo": "vectorfinance.jpeg",
+			"description": "Boost your Platypus and stablecoin staking. Deposit liquidity and earn boosted PTP and VTX rewards now!",
+			"website": "https://vectorfinance.io/#/",
+			"network": ["Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/vector_fi",
+				"discord": "https://discord.gg/vectorfinance",
+				"medium": "https://vectorfinance.medium.com/",
+				"telegram": "https://t.me/vector_fi"
+			}
 		}
 ]
