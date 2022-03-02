@@ -144,5 +144,20 @@
 				"medium": "https://medium.com/@echidnafinance",
 				"telegram": "https://t.me/echidnafinance"
 			}
+		},
+		{
+			"name": "Impermax Finance",
+			"logo": "impermaxfinance.png",
+			"description": "One-click access to DeFi yield farming with no risk of impermanent loss.",
+			"website": "https://www.impermax.finance/",
+			"network": ["Ethereum", "Polygon", "Arbitrum", "Avalanche", "Moonriver", "Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/ImpermaxFinance",
+				"discord": "https://discord.com/invite/XN739EgG4X",
+				"medium": "https://impermax.medium.com/",
+				"telegram": "https://t.me/ImpermaxFinance",
+				"reddit": "https://www.reddit.com/r/ImpermaxFinance/",
+				"github": "https://github.com/Impermax-Finance"
+			}
 		}
 ]
