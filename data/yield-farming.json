@@ -131,5 +131,18 @@
 				"medium": "https://medium.com/oneringfinance",
 				"telegram": "https://t.me/OneRing_Finance"
 			}
+		},
+		{
+			"name": "Echidna Finance",
+			"logo": "echidnafinance.jpeg",
+			"description": "The Ultimate $PTP Yield Boosting Protocol on Avalanche, Simple. Innovative. Sustainable",
+			"website": "https://www.echidna.finance/",
+			"network": ["Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/echidna_finance",
+				"discord": "https://discord.gg/YaH8yP4X3D",
+				"medium": "https://medium.com/@echidnafinance",
+				"telegram": "https://t.me/echidnafinance"
+			}
 		}
 ]
