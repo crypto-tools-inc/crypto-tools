@@ -118,5 +118,18 @@
 				"medium": "https://planetfinanceio.medium.com/",
 				"telegram": "https://t.me/planet_finance"
 			}
+		},
+		{
+			"name": "OneRing",
+			"logo": "onering.jpeg",
+			"description": "One Ring is a Multi-Chain Cross-Stable Yield Optimizer Platform. Forget about spending hours looking for the best farms out there. We do it automatically for you.",
+			"website": "https://www.onering.finance/",
+			"network": ["Fantom", "Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/Onering_Finance",
+				"discord": "https://discord.gg/oneringfinance",
+				"medium": "https://medium.com/oneringfinance",
+				"telegram": "https://t.me/OneRing_Finance"
+			}
 		}
 ]
