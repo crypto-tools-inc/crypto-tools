@@ -51,5 +51,19 @@
 				"medium": "https://medium.com/unslashed",
 				"telegram": "https://t.me/UnslashedFinance"
 			}
+		},
+		{
+			"name": "Bridge Mutual",
+			"logo": "bridgemutual.jpeg",
+			"description": "Risk coverage platform for stablecoins, protocols, smart contracts, exchanges & more.",
+			"website": "https://bridgemutual.io/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/bridge_mutual",
+				"discord": "https://discord.gg/bmi",
+				"medium": "https://bridgemutual.medium.com/",
+				"github": "https://github.com/Bridge-Mutual",
+				"telegram": "https://t.me/bridge_mutual"
+			}
 		}
 ]
