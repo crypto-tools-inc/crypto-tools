@@ -246,5 +246,16 @@
 				"medium": "url",
 				"telegram": "url"
 			}
+		},
+		{
+			"name": "Drips Network",
+			"logo": "dripsnetwork.jpeg",
+			"description": "An Ethereum protocol for generating recurring income, with subscriptions and NFT memberships. No commissions, predatory middle-men, or banks involved.",
+			"website": "https://www.drips.network/",
+			"network": ["Ethereum", "Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/dripsnetwork",
+				"discord": "https://discord.gg/9HngY3wjWd"
+			}
 		}
 ]
