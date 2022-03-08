@@ -80,5 +80,16 @@
 				"telegram": "https://t.me/TornadoCashOfficial",
 				"github": "https://github.com/tornadocash"
 			}
+		},
+		{
+			"name": "Dework",
+			"logo": "dework.jpeg",
+			"description": "A web3-native Trello with token payments, credentialing, bounties and more",
+			"website": "https://dework.xyz/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/deworkxyz",
+				"discord": "https://discord.gg/rPEsPzShd7"
+			}
 		}
 ]
