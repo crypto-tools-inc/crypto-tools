@@ -91,5 +91,15 @@
 				"twitter": "https://twitter.com/deworkxyz",
 				"discord": "https://discord.gg/rPEsPzShd7"
 			}
+		},
+		{
+			"name": "DegenScore",
+			"logo": "degenscore.jpeg",
+			"description": "Discover new launches, find alpha and meet new frens! Your on-chain activity is all you need to get a seat at the DegenScore Cafe",
+			"website": "https://degenscore.com/cafe",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/DegenScore"
+			}
 		}
 ]
