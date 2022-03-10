@@ -209,5 +209,16 @@
 				"discord": "https://discord.gg/hfvrrhnrHx",
 				"telegram": "https://t.me/crypt0hunt5"
 			}
+		},
+		{
+			"name": "Parsec",
+			"logo": "parsec.jpeg",
+			"description": "DeFi & NFT Pro Trading and Analytics",
+			"website": "https://parsec.finance/",
+			"network": ["Ethereum", "Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/parsec_finance",
+				"discord": "https://discord.gg/U5hhnra"
+			}
 		}
 ]
