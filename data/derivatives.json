@@ -1,0 +1,25 @@
+[
+		{
+			"name": "Perpetual Protocol",
+			"logo": "perpetualprotocol.jpeg",
+			"description": "Cross margin DeFi trading with up to 10×-leverage.",
+			"website": "https://app.perp.com/",
+			"network": ["Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/perpprotocol",
+				"discord": "https://discord.perp.fi/",
+				"telegram": "https://t.me/perpetualprotocol"
+			}
+		},
+		{
+			"name": "Mango",
+			"logo": "mango.jpeg",
+			"description": "Long & short everything. Lightning fast, Near-zero fees, Permissionless",
+			"website": "https://www.mango.markets/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/mangomarkets",
+				"discord": "https://discord.gg/2uwjsBc5yw"
+			}
+		}
+]
