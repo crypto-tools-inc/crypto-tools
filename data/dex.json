@@ -174,5 +174,18 @@
 				"twitter": "https://twitter.com/SlingshotCrypto",
 				"discord": "https://discord.com/invite/H3UcvgtASR"
 			}
+		},
+		{
+			"name": "Terraswap",
+			"logo": "terraswap.png",
+			"description": "The original Terra swap protocol. Developed by the same team behind Delight validator.",
+			"website": "https://terraswap.io/",
+			"network": ["Terra"],
+			"socials": {
+				"twitter": "https://twitter.com/terraswap_io",
+				"discord": "https://discord.com/invite/Qac7dg26Rx",
+				"medium": "https://medium.com/delight-labs",
+				"github": "https://github.com/terraswap/terraswap"
+			}
 		}
 ]
