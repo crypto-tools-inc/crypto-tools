@@ -178,7 +178,7 @@
 		},
 		{
 			"name": "Fear & Greed Index",
-			"logo": "fearandgreedindex.jpeg",
+			"logo": "fearandgreedindex.png",
 			"description": "Each day, we analyze emotions and sentiments from different sources and crunch them into one simple number: The Fear & Greed Index for Bitcoin and other large cryptocurrencies.",
 			"website": "https://alternative.me/crypto/fear-and-greed-index/",
 			"network": ["All"],
