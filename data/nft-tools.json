@@ -257,5 +257,16 @@
 				"twitter": "https://twitter.com/dripsnetwork",
 				"discord": "https://discord.gg/9HngY3wjWd"
 			}
+		},
+		{
+			"name": "Hyype",
+			"logo": "hyype.jpeg",
+			"description": "An NFT lore and community hub; great for creating stories around your NFTs and following other like-minded collectors. ",
+			"website": "https://hyy.pe/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/hyypehq",
+				"discord": "https://discord.gg/cbHN3V7wvf"
+			}
 		}
 ]
