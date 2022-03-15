@@ -83,5 +83,17 @@
 				"discord": "https://discord.com/invite/ZpGS9ChbZE?app_id=7041cd383a6905fdaa87c11d034af109&utm_medium=popup&utm_source=app",
 				"telegram": "https://t.me/firebirdfinance?app_id=ccd7439d288595b096b54cc70c804361&utm_medium=popup&utm_source=app"
 			}
+		},
+		{
+			"name": "Markr.io",
+			"logo": "markrio.jpeg",
+			"description": "Markr is a DEX aggregator & portfolio management tool for Defi users on the Avalanche network. ",
+			"website": "https://markr.io/",
+			"network": ["Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/iomarkr",
+				"medium": "https://medium.com/@iomarkr",
+				"telegram": "https://t.me/iomarkr"
+			}
 		}
 ]
