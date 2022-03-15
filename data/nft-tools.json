@@ -289,5 +289,16 @@
 			"socials": {
 				"twitter": "https://twitter.com/manifoldxyz"
 			}
+		},
+		{
+			"name": "Showtime",
+			"logo": "showtime.jpeg",
+			"description": "Create, buy and sell NFTs for free and with instant royalties.",
+			"website": "https://showtime.io/",
+			"network": ["Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/tryShowtime",
+				"discord": "https://showtime.io/discord"
+			}
 		}
 ]
