@@ -37,6 +37,18 @@
 			}
 		},
 		{
+			"name": "Instadapp",
+			"logo": "instadapp.jpeg",
+			"description": "The world's most advanced platform to start leveraging the full potential of Decentralised Finance.",
+			"website": "https://instadapp.io/",
+			"network": ["Ethereum", "Polygon", "Arbitrum", "Avalanche", "Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/instadapp",
+				"discord": "https://discord.com/invite/C76CeZc",
+				"github": "https://github.com/instadapp"
+			}
+		},
+		{
 			"name": "DeBank",
 			"logo": "debank.jpeg",
 			"description": "Keep up with all the important happenings in the web3 world.",
