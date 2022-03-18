@@ -49,6 +49,19 @@
 			}
 		},
 		{
+			"name": "Enzyme",
+			"logo": "enzyme.jpeg",
+			"description": "On-chain Asset Management that let you build, scale and monetize an investment strategy that suits your needs.",
+			"website": "https://enzyme.finance/",
+			"network": ["Ethereum", "Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/enzymefinance",
+				"discord": "https://discord.enzyme.finance/",
+				"medium": "https://medium.com/enzymefinance",
+				"telegram": "https://telegram.enzyme.finance/"
+			}
+		},
+		{
 			"name": "DeBank",
 			"logo": "debank.jpeg",
 			"description": "Keep up with all the important happenings in the web3 world.",
