@@ -14,6 +14,7 @@ function getCategories() {
       item += '<a class="text-decoration-none" href="' + value.link + '">';
       item += '<div class="card card-slide-up text-center">';
       item += '<div class="card-body">';
+      item += '<img class="m-3" src=img/icons/' + value.icon + ' width="42" height="42">';
       item += '<h5 class="semi-bold">' + value.title + '</h5>';
       item += '<p class="text-muted small m-0">' + value.description + '</p>';
       item += '</div></div></a></div>';
