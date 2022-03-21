@@ -291,6 +291,18 @@
 			}
 		},
 		{
+			"name": "Kredeum",
+			"logo": "kredeum.jpeg",
+			"description": "Wordpress plugin to create, buy, sell & swap NFTs with your own collections.",
+			"website": "https://www.kredeum.com/",
+			"network": ["Ethereum", "Polygon", "Arbitrum", "Avalanche", "Gnosis", "Fantom", "BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/kredeum",
+				"discord": "https://discord.gg/Vz5AyU2Nfx",
+				"github": "https://github.com/Kredeum"
+			}
+		},
+		{
 			"name": "Showtime",
 			"logo": "showtime.jpeg",
 			"description": "Create, buy and sell NFTs for free and with instant royalties.",
