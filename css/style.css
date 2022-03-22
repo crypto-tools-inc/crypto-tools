@@ -42,6 +42,14 @@ TYPOGRAPHY
   font-weight: 700;
 }
 
+.bg-black {
+  background-color: #000000;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
 .card a {
   font-size: 0.8rem;
   color: #3861FB;
@@ -49,6 +57,19 @@ TYPOGRAPHY
 
 .card a:hover {
   text-decoration: underline !important;
+}
+
+/* =============================================================================
+BUTTONS
+============================================================================= */
+.btn:hover {
+  color: #7a8188;
+}
+
+.btn-black {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
 }
 
 /* =============================================================================
