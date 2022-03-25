@@ -109,10 +109,18 @@ NAVBAR
 JUMBOTRON
 ============================================================================= */
 .jumbotron {
-  background-image: url('../img/cover.svg');
+  display: flex;
+  align-items: center;
+  height: 75% !important;
+  /* background-image: url('../img/cover.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left; */
+  background-image: url('../img/cover-art2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+  margin: 2rem 0;
 }
 
 /* =============================================================================
@@ -197,6 +205,18 @@ FOOTER
 /* =============================================================================
 RESPONSIVE STUFF
 ============================================================================= */
+@media (max-width: 768px) {
+  .jumbotron {
+    display: flex;
+    align-items: start;
+    height: 60% !important;
+    background-image: url('../img/cover-art2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.8rem;
