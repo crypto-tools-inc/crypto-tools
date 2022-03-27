@@ -24,5 +24,17 @@
 				"discord": "https://daostack.io/community",
 				"medium": "https://medium.com/daostack"
 			}
+		},
+		{
+			"name": "Colony",
+			"logo": "colony.jpeg",
+			"description": "Colony makes it easy for people all over the world to build organizations together, online.",
+			"website": "https://colony.io/",
+			"network": ["Gnosis"],
+			"socials": {
+				"twitter": "https://twitter.com/joincolony",
+				"discord": "https://discord.gg/feVZWwysqM",
+				"github": "https://github.com/joincolony"
+			}
 		}
 ]
