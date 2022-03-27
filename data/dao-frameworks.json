@@ -59,5 +59,16 @@
 				"twitter": "https://twitter.com/SyndicateDAO",
 				"discord": "https://discord.gg/aB89kn7bvV"
 			}
+		},
+		{
+			"name": "TributeDAO",
+			"logo": "tributedao.jpeg",
+			"description": "TributeDAO Framework enables low cost deployments due to its design and architecture based on Clone Factory pattern.",
+			"website": "https://tributedao.com/",
+			"network": ["Ethereum"],
+			"socials": {
+				"discord": "https://discord.gg/tEfP68xnTd",
+				"github": "https://github.com/search?q=org%3Aopenlawteam+tribute-ui+OR+tribute-contracts+in%3Aname&type=repositories"
+			}
 		}
 ]
