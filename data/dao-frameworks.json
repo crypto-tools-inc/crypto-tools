@@ -1,15 +1,16 @@
 [
 		{
-			"name": "name",
-			"logo": "url",
-			"description": "helloworld",
-			"website": "url",
-			"network": ["Ethereum", "Polygon", "Optimism"],
+			"name": "Aragon",
+			"logo": "aragon.jpeg",
+			"description": "Build your Decentralized Autonomous Organization on open-source infrastructure with governance plugins.",
+			"website": "https://aragon.org/",
+			"network": ["Ethereum", "Polygon"],
 			"socials": {
-				"twitter": "url",
-				"discord": "url",
-				"medium": "url",
-				"telegram": "url"
+				"twitter": "https://twitter.com/AragonProject",
+				"discord": "https://discordapp.com/invite/eqQJkdp",
+				"github": "https://github.com/aragon",
+				"reddit": "https://www.reddit.com/r/aragonproject/",
+				"telegram": "https://t.me/AragonProject"
 			}
 		}
 ]
