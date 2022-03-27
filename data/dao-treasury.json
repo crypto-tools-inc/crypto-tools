@@ -57,5 +57,16 @@
 				"discord": "https://discord.com/invite/S35FpHJM4Y",
 				"mirror": "https://mirror.xyz/0xe6C65b3cde9f4F2D7d8255aEf2D53D80100a9087"
 			}
+		},
+		{
+			"name": "Utopia",
+			"logo": "utopia.jpeg",
+			"description": "Collaborative payroll and expense management for DAOs",
+			"website": "https://www.utopialabs.com/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/utopialabs_",
+				"mirror": "https://mirror.xyz/utopialabs.eth"
+			}
 		}
 ]
