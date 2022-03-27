@@ -11,6 +11,17 @@
 			}
 		},
 		{
+			"name": "The Daily Ape",
+			"logo": "thedailyape.jpeg",
+			"description": "The Daily Ape is a free Telegram channel with news, alpha and everything happening in the crypto space.",
+			"website": "https://thedailyape.com",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/Darrenlautf",
+				"telegram": "https://t.me/thedailyape"
+			}
+		},
+		{
 			"name": "Decrypt",
 			"logo": "decrypt.jpeg",
 			"description": "Demystifying Bitcoin, Ethereum and the decentralized web.",
