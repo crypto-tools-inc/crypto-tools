@@ -11,5 +11,16 @@
 				"medium": "https://blog.gnosis.pm/tagged/gnosis%20safe",
 				"github": "https://github.com/gnosis?utf8=%E2%9C%93&q=safe"
 			}
+		},
+		{
+			"name": "Coinshift",
+			"logo": "coinshift.jpeg",
+			"description": "Coinshift simplifies treasury management by providing efficient multisig tooling to save time & money for crypto organisations.",
+			"website": "https://coinshift.xyz/",
+			"network": ["Ethereum", "Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/0xCoinshift",
+				"discord": "https://discord.com/invite/yHwg8DkBpf"
+			}
 		}
 ]
