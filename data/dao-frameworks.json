@@ -62,7 +62,7 @@
 		},
 		{
 			"name": "TributeDAO",
-			"logo": "tributedao.jpeg",
+			"logo": "tributedao.png",
 			"description": "TributeDAO Framework enables low cost deployments due to its design and architecture based on Clone Factory pattern.",
 			"website": "https://tributedao.com/",
 			"network": ["Ethereum"],
