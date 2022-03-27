@@ -36,5 +36,17 @@
 				"discord": "https://discord.gg/feVZWwysqM",
 				"github": "https://github.com/joincolony"
 			}
+		},
+		{
+			"name": "Orca Protocol",
+			"logo": "orcaprotocol.jpeg",
+			"description": "Orca Protocol makes governance accessible by creating tools around a DAO’s most basic primitive: people.",
+			"website": "https://www.orcaprotocol.org/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/orcaprotocol",
+				"discord": "https://discord.gg/hnHGwCts8N",
+				"mirror": "https://orca.mirror.xyz/"
+			}
 		}
 ]
