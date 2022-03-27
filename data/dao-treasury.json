@@ -45,5 +45,17 @@
 				"twitter": "https://twitter.com/RequestNetwork",
 				"discord": "https://request.network/discord"
 			}
+		},
+		{
+			"name": "Parcel",
+			"logo": "parcel.jpeg",
+			"description": "A suite of tools to scale DAO financial operations and empower DAO contributors.",
+			"website": "https://parcel.money/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/parcelHQ",
+				"discord": "https://discord.com/invite/S35FpHJM4Y",
+				"mirror": "https://mirror.xyz/0xe6C65b3cde9f4F2D7d8255aEf2D53D80100a9087"
+			}
 		}
 ]
