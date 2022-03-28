@@ -1,15 +1,58 @@
 [
 		{
-			"name": "name",
-			"logo": "url",
-			"description": "helloworld",
-			"website": "url",
-			"network": ["Ethereum", "Polygon", "Optimism"],
+			"name": "Coordinape",
+			"logo": "coordinape.jpeg",
+			"description": "Tools for DAOs that do scale your community with tools to reward contributors, incentivize participation and manage resources.",
+			"website": "https://coordinape.com/",
+			"network": ["Ethereum"],
 			"socials": {
-				"twitter": "url",
-				"discord": "url",
-				"medium": "url",
-				"telegram": "url"
+				"twitter": "https://twitter.com/coordinape",
+				"discord": "https://discord.gg/coordinape"
+			}
+		},
+		{
+			"name": "Disperse",
+			"logo": "disperse.jpeg",
+			"description": "Distribute ether or tokens to multiple addresses.",
+			"website": "https://disperse.app/",
+			"network": ["Ethereum", "Polygon", "BSC", "Fantom", "Arbitrum", "Optimism", "Gnosis"],
+			"socials": {
+				"telegram": "https://t.me/disperse"
+			}
+		},
+		{
+			"name": "Sablier",
+			"logo": "sablier.jpeg",
+			"description": "The protocol for real-time finance. Have instant access to your earnings through a money protocol built on Ethereum.",
+			"website": "https://sablier.finance/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/sablierhq",
+				"discord": "https://discord.gg/bSwRCwWRsT",
+				"medium": "https://medium.com/sablier"
+			}
+		},
+		{
+			"name": "Superfluid",
+			"logo": "superfluid.png",
+			"description": "Handle subscriptions, salaries, rewards and any composable stream of value, with continuous settlement and per-second netting for extreme capital efficiency.",
+			"website": "https://www.superfluid.finance/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/intent/follow?screen_name=Superfluid_HQ",
+				"discord": "https://discord.gg/XsK7nahanQ",
+				"github": "https://github.com/superfluid-finance"
+			}
+		},
+		{
+			"name": "Roll",
+			"logo": "roll.jpeg",
+			"description": "Roll is social token infrastructure for the internet.",
+			"website": "https://tryroll.com/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/tryrollhq",
+				"discord": "https://discord.gg/AkPnwu2"
 			}
 		}
 ]
