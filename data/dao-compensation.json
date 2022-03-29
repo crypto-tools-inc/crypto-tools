@@ -54,5 +54,30 @@
 				"twitter": "https://twitter.com/tryrollhq",
 				"discord": "https://discord.gg/AkPnwu2"
 			}
+		},
+		{
+			"name": "Smart Invoice",
+			"logo": "smartinvoice.jpeg",
+			"description": "Smart invoice builds trust between payer and payee by creating a secure neutral channel for transferring money.",
+			"website": "https://smartinvoice.xyz/",
+			"network": ["Ethereum", "Gnosis"],
+			"socials": {
+				"twitter": "https://twitter.com/RaidGuild",
+				"github": "https://github.com/raid-guild/smart-invoice"
+			}
+		},
+		{
+			"name": "Opolis",
+			"logo": "opolis.jpeg",
+			"description": "A Digital Employment Cooperative for the Independent Worker, health benefits, shared services and payroll.",
+			"website": "https://opolis.co/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/opolis",
+				"discord": "https://discord.gg/p9FQHYhxcM",
+				"medium": "https://medium.com/opolis",
+				"github": "https://github.com/opolis/",
+				"telegram": "https://t.me/Opolis"
+			}
 		}
 ]
