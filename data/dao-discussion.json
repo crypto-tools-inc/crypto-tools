@@ -1,0 +1,15 @@
+[
+		{
+			"name": "name",
+			"logo": "url",
+			"description": "helloworld",
+			"website": "url",
+			"network": ["Ethereum", "Polygon", "Optimism"],
+			"socials": {
+				"twitter": "url",
+				"discord": "url",
+				"medium": "url",
+				"telegram": "url"
+			}
+		}
+]
