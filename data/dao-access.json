@@ -23,7 +23,7 @@
 		},
 		{
 			"name": "Unlock Protocol",
-			"logo": "unlockprotocol.jpeg",
+			"logo": "unlockprotocol.png",
 			"description": "Ʉnlock is an open source protocol for memberships as NFTs!",
 			"website": "https://unlock-protocol.com/",
 			"network": ["Ethereum", "Polygon", "Optimism", "BSC", "Gnosis"],
