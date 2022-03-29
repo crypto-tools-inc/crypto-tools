@@ -1,7 +1,7 @@
 function getContent() {
   var pageName = $('#section-elements').attr('name');
   var toolCount = $('#tool-count');
-  var loadFile = "./data/" + pageName + ".json";
+  var loadFile = "/data/" + pageName + ".json";
 
   $.ajaxSetup({ cache: false });//Always get the latest version
   // FETCHING DATA FROM JSON FILE
