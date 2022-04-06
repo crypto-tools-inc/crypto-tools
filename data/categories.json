@@ -12,6 +12,12 @@
 			"link": "/pages/dex-aggregator.html"
 		},
 		{
+			"icon": "derivatives.svg",
+			"title": "Derivatives",
+			"description": "The most popular crypto derivatives are crypto futures, crypto options, and perpetual contracts.",
+			"link": "/pages/derivatives.html"
+		},
+		{
 			"icon": "bridges.svg",
 			"title": "Bridges",
 			"description": "Transfer your tokens from one blockchain to another to take advange of a multichain economic.",
@@ -24,8 +30,20 @@
 			"link": "/pages/lending-borrowing.html"
 		},
 		{
+			"icon": "insurance.svg",
+			"title": "Insurance",
+			"description": "Crypto insurance protects you against losses associated with cybersecurity breaches and loss of funds.",
+			"link": "/pages/insurance.html"
+		},
+		{
+			"icon": "farming.svg",
+			"title": "Yield Farming",
+			"description": "Yield farming is an investment strategy that involves lending or staking your cryptocurrency coins or tokens to get rewards in the form of tokens or interest.",
+			"link": "/pages/yield-farming.html"
+		},
+		{
 			"icon": "portfolio-manager.svg",
-			"title": "Portfolio managers",
+			"title": "Asset Manangement",
 			"description": "Track your wallet address balance across multiple chains.",
 			"link": "/pages/asset-management.html"
 		},
@@ -46,6 +64,42 @@
 			"title": "NFT Tools",
 			"description": "Useful collection of tools for the NFT conosseur as well as explore the latest market trends.",
 			"link": "/pages/nft-tools.html"
+		},
+		{
+			"icon": "dao-frameworks.svg",
+			"title": "DAO Frameworks",
+			"description": "DAO Frameworks let you quickly bootstrap a DAO with all the necessary tools.",
+			"link": "/pages/dao-frameworks.html"
+		},
+		{
+			"icon": "dao-governance.svg",
+			"title": "DAO Governance & Voting",
+			"description": "Voting is at the core of every DAO and here you can find tools to implement voting and governance structures.",
+			"link": "/pages/dao-governance.html"
+		},
+		{
+			"icon": "dao-treasury.svg",
+			"title": "DAO Treasury Management",
+			"description": "Trasury management tools allow you manage your DAO finances and payments to contributors.",
+			"link": "/pages/dao-treasury.html"
+		},
+		{
+			"icon": "dao-contribution.svg",
+			"title": "DAO Contribution & Reputation",
+			"description": "Build your decentralized reputation and contribute to other DAOs.",
+			"link": "/pages/dao-contribution.html"
+		},
+		{
+			"icon": "dao-compensation.svg",
+			"title": "DAO Compensation",
+			"description": "Handle subscription, salaries and rewards for your DAO to incentivize participation.",
+			"link": "/pages/dao-compensation.html"
+		},
+		{
+			"icon": "dao-access.svg",
+			"title": "DAO Access",
+			"description": "Create unique and gated spaces based on tokens ownership.",
+			"link": "/pages/dao-access.html"
 		},
 		{
 			"icon": "monitoring.svg",
