@@ -44,5 +44,15 @@
 				"discord": "https://discord.gg/guildxyz",
 				"github": "https://github.com/agoraxyz/guild.xyz"
 			}
+		},
+		{
+			"name": "GateRepo",
+			"logo": "gaterepo.png",
+			"description": "GateRepo is a simple way to token gate access to private GitHub repositories.",
+			"website": "https://gaterepo.com/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/_anishagnihotri"
+			}
 		}
 ]
