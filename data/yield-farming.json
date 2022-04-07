@@ -159,5 +159,17 @@
 				"reddit": "https://www.reddit.com/r/ImpermaxFinance/",
 				"github": "https://github.com/Impermax-Finance"
 			}
+		},
+		{
+			"name": "Thetanuts Finance",
+			"logo": "thetanutsfinance.jpeg",
+			"description": "Thetanuts Finance is creating the best-in-class products for users to maximize risk-adjusted yield generation in all market conditions.",
+			"website": "https://www.thetanuts.finance/",
+			"network": ["Ethereum", "Polygon", "Avalanche", "BSC", "Fantom", "Aurora", "Boba", "Cronos", "Moonbeam"],
+			"socials": {
+				"twitter": "https://twitter.com/ThetanutsFi",
+				"discord": "https://dsc.gg/thetanuts",
+				"medium": "https://thetanutsfinance.medium.com/"
+			}
 		}
 ]
