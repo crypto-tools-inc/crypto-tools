@@ -86,7 +86,7 @@
 		},
 		{
 			"name": "Markr.io",
-			"logo": "markrio.jpeg",
+			"logo": "markrio.png",
 			"description": "Markr is a DEX aggregator & portfolio management tool for Defi users on the Avalanche network. ",
 			"website": "https://markr.io/",
 			"network": ["Avalanche"],
