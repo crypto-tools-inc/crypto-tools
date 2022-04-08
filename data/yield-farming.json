@@ -171,5 +171,17 @@
 				"discord": "https://dsc.gg/thetanuts",
 				"medium": "https://thetanutsfinance.medium.com/"
 			}
+		},
+		{
+			"name": "Friktion",
+			"logo": "friktion.png",
+			"description": "Build a portfolio to perform across market cycles with automated call options selling strategies with algorithmic strike and expiry selection that auto-compounds.",
+			"website": "https://friktion.fi/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/friktion_labs",
+				"discord": "https://discord.gg/eSkK9X67Qj",
+				"medium": "https://friktionlabs.medium.com/"
+			}
 		}
 ]
