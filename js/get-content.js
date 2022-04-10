@@ -35,10 +35,23 @@ function getContent() {
       item += '<ul>';
       item += '</div></div>';
       item += '<div class="card-footer">';
-      item += '<p class="text-muted text-uppercase small semi-bold mb-2">Networks</p>';
-      $.each(value.network, function (key, network) {
-        item += '<span class="badge bg-label me-2 text-capitalize"><img class="me-1" height="12" src="/img/networks/' + network +'.svg">' + network + '</span>';
-      })
+      if ($.isEmptyObject(value.network)) {
+      } else {
+        item += '<p class="text-muted text-uppercase small semi-bold mb-2">Networks</p>';
+        $.each(value.network, function (key, network) {
+          item += '<span class="badge bg-label me-2 text-capitalize"><img class="me-1" height="12" src="/img/networks/' + network +'.svg">' + network + '</span>';
+        })
+      }
+      item += '</div>';
+      if ($.isEmptyObject(value.platform)) {
+
+      } else {
+        item += '<div class="card-footer">';
+        item += '<p class="text-muted text-uppercase small semi-bold mb-2">Platforms</p>';
+        $.each(value.platform, function (key, platform) {
+          item += '<span class="badge bg-label me-2 text-capitalize"><img class="me-1" height="12" src="/img/platforms/' + platform +'.svg">' + platform + '</span>';
+        })
+      }
       item += '</div></div></div>';
     });
 
