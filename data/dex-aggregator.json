@@ -1,0 +1,99 @@
+[
+		{
+			"name": "1inch Network",
+			"logo": "1inch.jpeg",
+			"description": "The 1inch Network unites decentralized protocols whose synergy enables the most lucrative, fastest and protected operations in the DeFi space.",
+			"website": "https://app.1inch.io/",
+			"network": ["ethereum", "BSC", "Polygon", "Optimism", "Arbitrum", "Gnosis", "Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/1inch",
+				"discord": "https://discord.com/invite/1inch",
+				"reddit": "https://www.reddit.com/r/1inch/",
+				"telegram": "https://t.me/OneInchNetwork"
+			}
+		},
+    {
+      "name": "Paraswap",
+			"logo": "paraswap.jpeg",
+			"description": "Best Dex prices for DeFi Traders & dApps.",
+			"website": "https://paraswap.io/",
+			"network": ["ethereum", "Polygon", "Avalanche", "Fantom", "BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/paraswap",
+				"discord": "https://discord.com/invite/cRGUUFsW89"
+			}
+    },
+		{
+			"name": "Matcha",
+			"logo": "matcha.jpeg",
+			"description": "Matcha finds you the best prices across exchanges and combines them into one trade.",
+			"website": "https://matcha.xyz/",
+			"network": ["ethereum", "Polygon", "BSC", "Avalanche", "Fantom", "Optimism", "Celo"],
+			"socials": {
+				"twitter": "https://twitter.com/matchaxyz",
+				"telegram": "https://t.me/matchaxyz"
+			}
+		},
+		{
+			"name": "MistX",
+			"logo": "mistx.png",
+			"description": "Trade on Ethereum with front-running protection, free cancellations, no cost on failed transactions and instant cash back rewards.",
+			"website": "https://mistx.io/swap",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/mistXlabs",
+				"discord": "http://discord.alchemist.wtf/"
+			}
+		},
+		{
+			"name": "CowSwap",
+			"logo": "cowswap.jpeg",
+			"description": "CoWs (Coincidence of Wants) for MEV protected trades.",
+			"website": "https://cowswap.exchange/#/swap",
+			"network": ["ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/mevprotection",
+				"discord": "https://chat.cowswap.exchange/",
+				"github": "https://github.com/gnosis/gp-swap-ui"
+			}
+		},
+		{
+			"name": "OpenOcean",
+			"logo": "openocean.jpeg",
+			"description": "OpenOcean is an aggregator giving you the best rates across decentralized and centralized exchanges with top trading efficiency. ",
+			"website": "https://openocean.finance/",
+			"network": ["ethereum", "Polygon", "BSC", "Avalanche", "Fantom", "Celo", "Optimism", "Solana", "Arbitrum", "Terra", "Boba", "Ontology", "Tron", "Heco", "OEC"],
+			"socials": {
+				"twitter": "https://twitter.com/OpenOceanGlobal",
+				"discord": "https://discord.gg/cxK6CCYcGp",
+				"medium": "https://openoceanglobal.medium.com/",
+				"github": "https://github.com/openocean-finance/",
+				"telegram": "https://t.me/OOFinance",
+				"reddit": "https://www.reddit.com/user/OpenOcean_Finance"
+			}
+		},
+		{
+			"name": "Firebird Finance",
+			"logo": "firebirdfinance.jpeg",
+			"description": "An innovative one-stop defi, multi-chain yield farming and decentralized exchange aggregator.",
+			"website": "https://app.firebird.finance",
+			"network": ["Polygon", "BSC", "Cronos", "Fantom", "Avalanche", "Moonriver", "OEC"],
+			"socials": {
+				"twitter": "https://twitter.com/FinanceFirebird",
+				"discord": "https://discord.com/invite/ZpGS9ChbZE?app_id=7041cd383a6905fdaa87c11d034af109&utm_medium=popup&utm_source=app",
+				"telegram": "https://t.me/firebirdfinance?app_id=ccd7439d288595b096b54cc70c804361&utm_medium=popup&utm_source=app"
+			}
+		},
+		{
+			"name": "Markr.io",
+			"logo": "markrio.png",
+			"description": "Markr is a DEX aggregator & portfolio management tool for Defi users on the Avalanche network. ",
+			"website": "https://markr.io/",
+			"network": ["Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/iomarkr",
+				"medium": "https://medium.com/@iomarkr",
+				"telegram": "https://t.me/iomarkr"
+			}
+		}
+]

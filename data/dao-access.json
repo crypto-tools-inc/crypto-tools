@@ -1,0 +1,58 @@
+[
+		{
+			"name": "Collab.Land",
+			"logo": "collabland.jpeg",
+			"description": "Collab.Land leverages the power of identity through crypto currency to create a social space unique to a specific network of humans.",
+			"website": "https://collab.land/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/Collab_Land_"
+			}
+		},
+		{
+			"name": "MintGate",
+			"logo": "mintgate.jpeg",
+			"description": "NoCode Store builder for your exclusive video, audio, ticket & link NFTs.Take NFTs to a new level by gating any content. ",
+			"website": "url",
+			"network": ["Ethereum", "Polygon", "Gnosis", "Fuse"],
+			"socials": {
+				"twitter": "https://twitter.com/mintgate_io",
+				"discord": "https://discord.com/invite/9BGwzQwJdt",
+				"medium": "https://medium.com/mintgate"
+			}
+		},
+		{
+			"name": "Unlock Protocol",
+			"logo": "unlockprotocol.png",
+			"description": "Ʉnlock is an open source protocol for memberships as NFTs!",
+			"website": "https://unlock-protocol.com/",
+			"network": ["Ethereum", "Polygon", "Optimism", "BSC", "Gnosis"],
+			"socials": {
+				"twitter": "https://twitter.com/UnlockProtocol",
+				"discord": "https://discord.com/invite/Ah6ZEJyTDp",
+				"github": "https://github.com/unlock-protocol"
+			}
+		},
+		{
+			"name": "Guild",
+			"logo": "guild.jpeg",
+			"description": "Manage roles in your community based on tokens, NFTs, whitelists, POAPs, Unlock, Mirror, Juicebox and more.",
+			"website": "https://guild.xyz/",
+			"network": ["Ethereum", "Polygon", "Optimism", "Avalanche", "Gnosis", "Fantom", "Arbitrum", "Celo", "Harmony", "BSC", "Moonriver"],
+			"socials": {
+				"twitter": "https://twitter.com/guildxyz",
+				"discord": "https://discord.gg/guildxyz",
+				"github": "https://github.com/agoraxyz/guild.xyz"
+			}
+		},
+		{
+			"name": "GateRepo",
+			"logo": "gaterepo.png",
+			"description": "GateRepo is a simple way to token gate access to private GitHub repositories.",
+			"website": "https://gaterepo.com/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/_anishagnihotri"
+			}
+		}
+]

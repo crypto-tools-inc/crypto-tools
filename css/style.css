@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #212841;
+}
+
+html, body {
+  height: 100%;
+  background-color: #F4F4F4;
+  scroll-behavior: smooth;
+}
+
+/* =============================================================================
+TYPOGRAPHY
+============================================================================= */
+#section-title {
+  font-weight: 700;
+}
+
+.title-container {
+  background-color: #FFFFFF;
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.card a {
+  font-size: 0.8rem;
+  color: #3861FB;
+}
+
+.card a:hover {
+  text-decoration: underline !important;
+}
+
+/* =============================================================================
+BUTTONS
+============================================================================= */
+.btn:hover {
+  color: #7a8188;
+}
+
+.btn-black {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+/* =============================================================================
+NAVBAR
+============================================================================= */
+.navbar {
+  background-color: #FFFFFF;
+}
+
+.navbar-index {
+  background-color: #F4F4F4;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #171924;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  opacity: 0.6;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  color: #171924;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-light .navbar-toggler:focus {
+  outline: none;
+}
+
+/* =============================================================================
+JUMBOTRON
+============================================================================= */
+.jumbotron {
+  display: flex;
+  align-items: center;
+  height: 75% !important;
+  /* background-image: url('../img/cover.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left; */
+  background-image: url('../img/cover-art2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+  margin: 2rem 0;
+}
+
+/* =============================================================================
+DROPDOWN MENU
+============================================================================= */
+.dropdown-menu {
+  border: none;
+  border-radius: 12px;
+  filter: drop-shadow(rgba(128, 138, 157, 0.12) 0px 1px 2px) drop-shadow(rgba(128, 138, 157, 0.24) 0px 8px 32px);
+}
+
+.dropdown-menu li {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.dropdown-item {
+  padding: .6rem 1rem;
+  border-radius: 8px;
+}
+
+/* =============================================================================
+CARDS
+============================================================================= */
+.card-header {
+  padding: 1.25rem 1.25rem 0 1.25rem;
+  background-color: #FFFFFF;
+  border: none;
+  border-top-left-radius: 12px !important;
+  border-top-right-radius: 12px !important;
+}
+
+.card-footer {
+  padding: 0 1.25rem 1.25rem 1.25rem;
+  background-color: #FFFFFF;
+  border: none;
+  border-bottom-left-radius: 12px !important;
+  border-bottom-right-radius: 12px !important;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: rgb(88 102 126 / 8%) 0px 4px 24px, rgb(88 102 126 / 12%) 0px 1px 2px;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.bg-label {
+  font-weight: 400;
+  color: #4D5B6E;
+  background-color: #E2E8F0;
+}
+
+.card-slide-up {
+  transition: transform 0.3s ease-out;
+}
+
+.card-slide-up:hover {
+  transform: translateY(-8px);
+}
+
+/* =============================================================================
+TOAST
+============================================================================= */
+#toast-wrapper {
+  width: 100%;
+}
+
+.toast {
+  width: 100%;
+  border-radius: 12px;
+  border: none;
+  background-color: #FFFFFF;
+}
+
+/* =============================================================================
+FOOTER
+============================================================================= */
+/* =============================================================================
+RESPONSIVE STUFF
+============================================================================= */
+@media (max-width: 768px) {
+  .jumbotron {
+    display: flex;
+    align-items: start;
+    height: 60% !important;
+    background-image: url('../img/cover-art2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+  }
+}

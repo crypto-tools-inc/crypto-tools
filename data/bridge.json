@@ -1,0 +1,171 @@
+[
+		{
+			"name": "Multichain",
+			"logo": "multichain.jpeg",
+			"description": "Previously known as Anyswap, Multichain is a cross-chain router protocol, envisioned to be the ultimate router for Web3.",
+			"website": "https://app.multichain.org/",
+			"network": ["Ethereum", "BSC", "Polygon", "Optimism", "Arbitrum", "Fantom", "Avalanche", "Moonbeam", "Moonriver", "Harmony", "Aurora", "Boba", "Cronos", "OEC", "Heco", "Gnosis", "Celo"],
+			"socials": {
+				"twitter": "https://twitter.com/MultichainOrg",
+				"medium": "https://multichainorg.medium.com/",
+				"github": "https://github.com/anyswap",
+				"telegram": "https://t.me/anyswap"
+			}
+		},
+		{
+			"name": "Celer Network Bridge",
+			"logo": "celernetwork.jpeg",
+			"description": "Building the best inter-blockchain and cross-layer communication platform.",
+			"website": "https://cbridge.celer.network/",
+			"network": ["Ethereum", "BSC", "Avalanche", "Polygon", "Arbitrum", "Fantom", "Celo", "Aurora", "Harmony", "Moonbeam", "Moonriver", "Optimism", "Boba", "OEC", "Heco", "Gnosis"],
+			"socials": {
+				"twitter": "https://twitter.com/CelerNetwork",
+				"discord": "https://discord.com/invite/uGx4fjQ",
+				"github": "https://github.com/celer-network",
+				"telegram": "https://t.me/celernetwork"
+			}
+		},
+		{
+			"name": "Allbridge",
+			"logo": "allbridge.jpeg",
+			"description": "Fast, Affordable and Secure way of moving liquidity between EVM, non-EVM, and L2 blockchains",
+			"website": "https://allbridge.io/",
+			"network": ["Ethereum", "Solana", "Polygon", "BSC", "Heco", "Celo", "Avalanche", "Fantom", "Terra", "Aurora", "Harmony"],
+			"socials": {
+				"twitter": "https://twitter.com/Allbridge_io",
+				"reddit": "https://www.reddit.com/r/allbridge/",
+				"medium": "https://allbridge.medium.com/",
+				"telegram": "https://t.me/allbridge_announcements",
+				"github": "https://github.com/allbridge-io"
+			}
+		},
+		{
+			"name": "SpookySwap Bridge",
+			"logo": "spookyswap.png",
+			"description": "Bridge to and from Fantom Opera powered by Multichain",
+			"website": "https://spookyswap.finance/bridge",
+			"network": ["Ethereum", "Polygon", "Cronos", "BSC", "OEC", "Fantom", "Arbitrum", "Avalanche", "Harmony"],
+			"socials": {
+				"twitter": "https://twitter.com/SpookySwap",
+				"discord": "https://discord.com/invite/spookyswap",
+				"medium": "https://spookyswap.medium.com/",
+				"telegram": "https://t.me/SpookySwapCommunity"
+			}
+		},
+		{
+			"name": "BoringDAO",
+			"logo": "boringdao.jpeg",
+			"description": "BoringDAO deploys a series of decentralized bridges - or tunnels - which allow you to safely move your Bitcoin & other crypto assets between Ethereum & different blockchains to maximize utilization rate of crypto assets in DeFi world.",
+			"website": "https://app.boringdao.com/",
+			"network": ["Ethereum", "Polygon", "BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/TheBoringDAO",
+				"discord": "https://discord.com/invite/zCQ2ddp",
+				"medium": "https://theboringdao.medium.com/",
+				"telegram": "https://t.me/boringdao_official",
+				"github": "https://github.com/BoringDAO"
+			}
+		},
+		{
+			"name": "xPollinate",
+			"logo": "xpollinate.jpeg",
+			"description": "Fast, cheap, and trustless bridge connecting 11 chains.",
+			"website": "https://xpollinate.io/",
+			"network": ["Ethereum", "Polygon", "BSC", "Arbitrum", "Optimism", "Avalanche", "Fantom", "Gnosis", "Moonbeam", "Moonriver", "Fuse"],
+			"socials": {
+				"twitter": "https://twitter.com/xpollinate_io",
+				"discord": "https://discord.gg/SuPEHyvZcg"
+			}
+		},
+		{
+			"name": "EVOdefi",
+			"logo": "evodefi.jpeg",
+			"description": "Cross-chain ecosystem with the best bridge in DeFi.",
+			"website": "https://bridge.evodefi.com/",
+			"network": ["Ethereum", "Polygon", "BSC", "Fantom", "Heco", "Avalanche", "Arbitrum", "Cronos", "Moonriver", "OEC", "Harmony", "Gnosis", "Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/evolution_bsc",
+				"medium": "https://link.medium.com/hKQHtYu6jfb",
+				"telegram": "https://t.me/evolution_bsc",
+				"github": "https://github.com/darwin-sudo/evolution"
+			}
+		},
+		{
+			"name": "Li.finance",
+			"logo": "lifinance.png",
+			"description": "Helping DEXs & Wallets to offer cross-chain swaps - Ultimate bridge aggregation with DEX-connectivity",
+			"website": "https://li.finance",
+			"network": ["Ethereum", "Polygon", "BSC", "Optimism", "Fantom", "Gnosis", "Moonriver", "Arbitrum", "Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/lifiprotocol",
+				"github": "https://github.com/lifinance"
+			}
+		},
+		{
+			"name": "Across",
+			"logo": "across.jpeg",
+			"description": "Instantly Send Assets from Layer 2 Rollups to Ethereum",
+			"website": "https://across.to/",
+			"network": ["Ethereum", "Arbitrum", "Boba", "Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/AcrossProtocol",
+				"discord": "https://discord.gg/across",
+				"github": "https://github.com/across-protocol"
+			}
+		},
+		{
+			"name": "RelayChain",
+			"logo": "relaychain.jpeg",
+			"description": "Bridging as a Service (BaaS) for DeFi",
+			"website": "https://app.relaychain.com/#/",
+			"network": ["Ethereum", "Polygon", "BSC", "Avalanche", "Heco", "Moonriver", "Fantom", "Harmony", "Cronos", "OEC", "Moonbeam"],
+			"socials": {
+				"twitter": "https://twitter.com/relay_chain",
+				"discord": "https://discord.com/invite/6suspDEh5w",
+				"reddit": "https://www.reddit.com/r/RelayChain/",
+				"telegram": "https://t.me/relaychaincommunity",
+				"github": "https://github.com/RelayChain"
+			}
+		},
+		{
+			"name": "deBridge",
+			"logo": "debridge.jpeg",
+			"description": "A standard for cross-chain interoperability and liquidity transfers",
+			"website": "https://app.debridge.finance/",
+			"network": ["Ethereum", "BSC", "Heco", "Polygon", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/deBridgeFinance",
+				"discord": "https://discord.gg/debridge",
+				"medium": "https://blog.debridge.finance/",
+				"telegram": "https://t.me/deBridge_finance",
+				"reddit": "https://www.reddit.com/r/debridge/",
+				"github": "https://github.com/debridge-finance/"
+			}
+		},
+		{
+			"name": "Hop Protocol",
+			"logo": "hopprotocol.jpeg",
+			"description": "A protocol for sending tokens across rollups and their shared layer-1 network in a quick and trustless manner",
+			"website": "https://app.hop.exchange/",
+			"network": ["Ethereum", "Polygon", "Optimism", "Gnosis", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/HopProtocol",
+				"discord": "https://discord.gg/PwCF88emV4",
+				"medium": "https://medium.com/hop-protocol",
+				"github": "https://github.com/hop-protocol"
+			}
+		},
+		{
+			"name": "Avax Native Bridge",
+			"logo": "avalanche.jpeg",
+			"description": "Official Native Bridge for the Avalanche blockchain",
+			"website": "https://bridge.avax.network/login",
+			"network": ["Ethereum", "Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/avalancheavax",
+				"discord": "https://chat.avalabs.org/",
+				"github": "https://github.com/ava-labs",
+				"telegram": "https://t.me/avalancheavax"
+			}
+		}
+]

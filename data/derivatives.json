@@ -1,0 +1,37 @@
+[
+		{
+			"name": "Perpetual Protocol",
+			"logo": "perpetualprotocol.jpeg",
+			"description": "Cross margin DeFi trading with up to 10×-leverage.",
+			"website": "https://app.perp.com/",
+			"network": ["Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/perpprotocol",
+				"discord": "https://discord.perp.fi/",
+				"telegram": "https://t.me/perpetualprotocol"
+			}
+		},
+		{
+			"name": "Mango",
+			"logo": "mango.jpeg",
+			"description": "Long & short everything. Lightning fast, Near-zero fees, Permissionless",
+			"website": "https://www.mango.markets/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/mangomarkets",
+				"discord": "https://discord.gg/2uwjsBc5yw"
+			}
+		},
+		{
+			"name": "Drift Protocol",
+			"logo": "driftprotocol.jpeg",
+			"description": "Drift brings on-chain, cross-margined perpetual futures to Solana a lightning-fast and scalable perpetual futures DEX.",
+			"website": "https://www.drift.trade/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/DriftProtocol",
+				"discord": "https://discord.com/invite/fMcZBH8ErM",
+				"medium": "https://driftprotocol.medium.com/"
+			}
+		}
+]

@@ -1,0 +1,65 @@
+[
+		{
+			"name": "Gitcoin",
+			"logo": "gitcoin.png",
+			"description": "Gitcoin is where communities unite to build & fund the open web.",
+			"website": "https://gitcoin.co/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/gitcoin",
+				"discord": "http://discord.gg/gitcoin",
+				"github": "https://github.com/gitcoinco"
+			}
+		},
+		{
+			"name": "SourceCred",
+			"logo": "sourcecred.jpeg",
+			"description": "SourceCred is a DAO & open-source community tool to measure & reward value creation.",
+			"website": "https://sourcecred.io/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/sourcecred",
+				"discord": "https://discord.gg/QXeW3sT7K4",
+				"medium": "https://medium.com/sourcecred",
+				"github": "https://github.com/sourcecred"
+			}
+		},
+		{
+			"name": "Coinvise",
+			"logo": "coinvise.jpeg",
+			"description": "Powerful tools for creators to launch a token & distribute ownership with airdrops, vesting or quests.",
+			"website": "https://www.coinvise.co/",
+			"network": ["Ethereum", "Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/CoinviseCo",
+				"discord": "https://discord.gg/w9YFJU8SGz",
+				"github": "https://github.com/coinvise"
+			}
+		},
+		{
+			"name": "RabbitHole",
+			"logo": "rabbithole.jpeg",
+			"description": "Learn how to use and contribute to decentralized apps, earning tokens based on your on-chain activity.",
+			"website": "https://rabbithole.gg/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://github.com/danielkalen/icon.font",
+				"discord": "https://discord.gg/q9Pp4ZKFGy",
+				"mirror": "https://rabbithole.mirror.xyz/"
+			}
+		},
+		{
+			"name": "POAP",
+			"logo": "poap.png",
+			"description": "POAPs are digital mementos, minted in celebration of life's remarkable moments.",
+			"website": "https://poap.xyz/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/poapxyz",
+				"discord": "https://discord.gg/9s8U8Bn",
+				"github": "https://github.com/poap-xyz",
+				"reddit": "https://www.reddit.com/r/poap",
+				"telegram": "https://t.me/poapxyz"
+			}
+		}
+]

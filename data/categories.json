@@ -1,0 +1,146 @@
+[
+		{
+			"icon": "dex.svg",
+			"title": "Decentralised Exchanges",
+			"description": "DEXes allows you to trade and exchange tokens as well as providing liquidity and get rewarded.",
+			"link": "/pages/dex.html"
+		},
+		{
+			"icon": "dex-aggregator.svg",
+			"title": "Dex Aggregators",
+			"description": "Aggregators collect prices from multiple DEXes to offer you the best trade swaps.",
+			"link": "/pages/dex-aggregator.html"
+		},
+		{
+			"icon": "derivatives.svg",
+			"title": "Derivatives",
+			"description": "The most popular crypto derivatives are crypto futures, crypto options, and perpetual contracts.",
+			"link": "/pages/derivatives.html"
+		},
+		{
+			"icon": "bridges.svg",
+			"title": "Bridges",
+			"description": "Transfer your tokens from one blockchain to another to take advange of a multichain economic.",
+			"link": "/pages/bridge.html"
+		},
+		{
+			"icon": "lending-borrowing.svg",
+			"title": "Lending & Borrowing",
+			"description": "Lend your tokens and stablecoins, collect yields and use your collateral to take out a loan.",
+			"link": "/pages/lending-borrowing.html"
+		},
+		{
+			"icon": "insurance.svg",
+			"title": "Insurance",
+			"description": "Crypto insurance protects you against losses associated with cybersecurity breaches and loss of funds.",
+			"link": "/pages/insurance.html"
+		},
+		{
+			"icon": "farming.svg",
+			"title": "Yield Farming",
+			"description": "Yield farming is an investment strategy that involves lending or staking your cryptocurrency coins or tokens to get rewards in the form of tokens or interest.",
+			"link": "/pages/yield-farming.html"
+		},
+		{
+			"icon": "portfolio-manager.svg",
+			"title": "Asset Manangement",
+			"description": "Track your wallet address balance across multiple chains.",
+			"link": "/pages/asset-management.html"
+		},
+		{
+			"icon": "utilities.svg",
+			"title": "Utilities",
+			"description": "Various security and research tools for the DeFi ecosystem.",
+			"link": "/pages/utilities.html"
+		},
+		{
+			"icon": "nft-marketplace.svg",
+			"title": "NFT Marketplaces",
+			"description": "Discover the best NFT marketplace to buy and sell NFTs.",
+			"link": "/pages/nft-marketplace.html"
+		},
+		{
+			"icon": "nft-tools.svg",
+			"title": "NFT Tools",
+			"description": "Useful collection of tools for the NFT conosseur as well as explore the latest market trends.",
+			"link": "/pages/nft-tools.html"
+		},
+		{
+			"icon": "dao-frameworks.svg",
+			"title": "DAO Frameworks",
+			"description": "DAO Frameworks let you quickly bootstrap a DAO with all the necessary tools.",
+			"link": "/pages/dao-frameworks.html"
+		},
+		{
+			"icon": "dao-governance.svg",
+			"title": "DAO Governance & Voting",
+			"description": "Voting is at the core of every DAO and here you can find tools to implement voting and governance structures.",
+			"link": "/pages/dao-governance.html"
+		},
+		{
+			"icon": "dao-treasury.svg",
+			"title": "DAO Treasury Management",
+			"description": "Trasury management tools allow you manage your DAO finances and payments to contributors.",
+			"link": "/pages/dao-treasury.html"
+		},
+		{
+			"icon": "dao-contribution.svg",
+			"title": "DAO Contribution & Reputation",
+			"description": "Build your decentralized reputation and contribute to other DAOs.",
+			"link": "/pages/dao-contribution.html"
+		},
+		{
+			"icon": "dao-compensation.svg",
+			"title": "DAO Compensation",
+			"description": "Handle subscription, salaries and rewards for your DAO to incentivize participation.",
+			"link": "/pages/dao-compensation.html"
+		},
+		{
+			"icon": "dao-access.svg",
+			"title": "DAO Access",
+			"description": "Create unique and gated spaces based on tokens ownership.",
+			"link": "/pages/dao-access.html"
+		},
+		{
+			"icon": "monitoring.svg",
+			"title": "Monitoring",
+			"description": "Monitor the markets and find useful insights to create your own strategy.",
+			"link": "/pages/monitoring.html"
+		},
+		{
+			"icon": "analytics.svg",
+			"title": "Analytics",
+			"description": "Data analytics tools to better understand markets and new trends.",
+			"link": "/pages/analytics.html"
+		},
+		{
+			"icon": "news.svg",
+			"title": "News & Stories",
+			"description": "Stay up to date with all the latest news from the cryptoverse.",
+			"link": "/pages/news.html"
+		},
+		{
+			"icon": "wallet-hardware.svg",
+			"title": "Hardware Wallets",
+			"description": "Hardware wallets are the best and most secure way to custody your crypto assets.",
+			"link": "/pages/wallet-hardware.html"
+		},
+		{
+			"icon": "wallet-bitcoin.svg",
+			"title": "Bitcoin Wallets",
+			"description": "From desktop to mobile wallets, you'll find the best solution you're looking for.",
+			"link": "/pages/wallet-bitcoin.html"
+		},
+		{
+			"icon": "wallet-web3.svg",
+			"title": "Web3 Wallets",
+			"description": "Manage your assets using a web3 compatible wallet for any platform or device.",
+			"link": "/pages/wallet-web3.html"
+		},
+		{
+			"icon": "lightning-network.svg",
+			"title": "Lightning Network",
+			"description": "Nodes providers and useful tools to run your lightning node like a boss.",
+			"link": "/pages/lightning-network.html"
+		}
+]

@@ -1,0 +1,96 @@
+[
+		{
+			"name": "Looksrare",
+			"logo": "looksrare.jpeg",
+			"description": "LooksRare is the community-first NFT marketplace with rewards for participating.",
+			"website": "https://looksrare.org/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/looksrarenft",
+				"discord": "https://discord.gg/looksrare"
+			}
+		},
+		{
+			"name": "Opensea",
+			"logo": "opensea.png",
+			"description": "The largest NFT marketplace. Buy, sell, & discover the internet of goods.",
+			"website": "https://opensea.io/",
+			"network": ["Ethereum", "Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/opensea",
+				"discord": "https://discord.gg/opensea",
+				"reddit": "https://reddit.com/r/opensea"
+			}
+		},
+		{
+			"name": "Rarible",
+			"logo": "rarible.jpeg",
+			"description": "Multi-chain community-centric NFT marketplace. Create, sell and collect digital items.",
+			"website": "https://rarible.com/",
+			"network": ["Ethereum", "tezos"],
+			"socials": {
+				"twitter": "https://twitter.com/rarible",
+				"discord": "https://discord.gg/cdaFbV5",
+				"medium": "https://medium.com/@rarible",
+				"telegram": "https://t.me/rarible"
+			}
+		},
+		{
+			"name": "NFT Raydium",
+			"logo": "nftraydium.jpeg",
+			"description": "Solana's Leading NFT Marketplace.",
+			"website": "https://nft.raydium.io/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/MagicEden_NFT",
+				"discord": "https://discord.com/invite/b87UnCy6P2"
+			}
+		},
+		{
+			"name": "Kalao",
+			"logo": "kalao.jpeg",
+			"description": "Kalao unlocks the full potential of metaverse experiences, bringing the winning combination of NFT and VR technologies to real-world use cases.",
+			"website": "https://www.kalao.io/",
+			"network": ["Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/GetKalao",
+				"discord": "https://discord.gg/WjcRtmZKPB",
+				"medium": "https://medium.com/@Kalao",
+				"telegram": "https://t.me/kalaoklo"
+			}
+		},
+		{
+			"name": "Zora",
+			"logo": "zora.jpeg",
+			"description": "The NFT marketplace protocol. Build your own marketplace + platform",
+			"website": "https://zora.co/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/ourZORA",
+				"discord": "https://zora.community/"
+			}
+		},
+		{
+			"name": "Sound.xyz",
+			"logo": "soundxyz.jpeg",
+			"description": "Own A Song, Join A Community → Building web3 tools for artists. ",
+			"website": "https://www.sound.xyz/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/soundxyz_",
+				"discord": "https://discord.gg/soundxyz",
+				"mirror": "https://sound.mirror.xyz/"
+			}
+		},
+		{
+			"name": "CoralCube",
+			"logo": "coralcube.jpeg",
+			"description": "The largest selection of Solana NFTs at Solana speed",
+			"website": "https://coralcube.io/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/coralcubenft",
+				"discord": "https://discord.gg/RRETBxvMb2"
+			}
+		}
+]

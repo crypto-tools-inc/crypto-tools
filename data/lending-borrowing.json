@@ -1,0 +1,243 @@
+[
+		{
+			"name": "Aave",
+			"logo": "aave.jpeg",
+			"description": "Aave is an open source and non-custodial liquidity protocol.",
+			"website": "https://aave.com/",
+			"network": ["ethereum", "Polygon", "Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/aaveaave",
+				"discord": "https://aave.com/discord",
+				"github": "https://github.com/aave/aave-protocol",
+				"telegram": "https://t.me/Aavesome"
+			}
+		},
+		{
+			"name": "Compound Finance",
+			"logo": "compoundfinance.png",
+			"description": "Compound is an algorithmic, autonomous interest rate protocol built for developers, to unlock a universe of open financial applications.",
+			"website": "https://compound.finance/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/compoundfinance",
+				"discord": "https://compound.finance/discord",
+				"medium": "https://medium.com/compound-finance",
+				"github": "https://github.com/compound-finance/compound-protocol"
+			}
+		},
+		{
+			"name": "Rari Capital",
+			"logo": "raricapital.jpeg",
+			"description": "Lend, borrow and earn yield on every asset.",
+			"website": "https://app.rari.capital/",
+			"network": ["ethereum", "Polygon", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/RariCapital",
+				"medium": "https://medium.com/rari-capital",
+				"github": "https://github.com/Rari-Capital",
+				"telegram": "https://t.me/RariCapitalChat"
+			}
+		},
+		{
+			"name": "Anchor Protocol",
+			"logo": "anchorprotocol.jpeg",
+			"description": "Anchor's yield is powered by staking returns from multiple Proof of Stake blockchains.",
+			"website": "https://app.anchorprotocol.com/",
+			"network": ["Terra"],
+			"socials": {
+				"twitter": "https://twitter.com/anchor_protocol",
+				"discord": "https://discord.gg/9aUYgpKZ9c",
+				"github": "https://github.com/Anchor-Protocol",
+				"telegram": "https://t.me/anchor_official"
+			}
+		},
+		{
+			"name": "Notional Finance",
+			"logo": "notionalfinance.jpeg",
+			"description": "Fixed rate borrowing and lending on Ethereum.",
+			"website": "https://notional.finance/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/NotionalFinance",
+				"discord": "https://discord.gg/SMtmEZnmpS",
+				"github": "https://github.com/notional-finance/contracts"
+			}
+		},
+		{
+			"name": "Abracadabra Degebox",
+			"logo": "abracadabra.jpeg",
+			"description": "Abracadabra.money is a spell nook that allows users to produce magic internet money.",
+			"website": "https://abracadabra.money/",
+			"network": ["ethereum", "BSC", "Fantom", "Avalanche", "Polygon", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/MIM_Spell",
+				"discord": "https://discord.gg/wcsUNxYrFM",
+				"medium": "https://abracadabramoney.medium.com/"
+			}
+		},
+		{
+			"name": "Yearn Finance",
+			"logo": "yearn.jpeg",
+			"description": "DeFi made simple with multiple vaults of battle tested contracts and long track record.",
+			"website": "https://yearn.finance/#/vaults",
+			"network": ["ethereum", "Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/iearnfinance",
+				"discord": "https://discord.yearn.finance/",
+				"medium": "https://medium.com/iearn",
+				"github": "https://github.com/yearn",
+				"reddit": "https://reddit.com/r/yearn_finance",
+				"telegram": "https://t.me/yearnfinance"
+			}
+		},
+		{
+			"name": "Hundred Finance",
+			"logo": "hundredfinance.jpeg",
+			"description": "A multi-chain lending protocol using veHND model, it integrates with Chainlink oracles to ensure market health and stability.",
+			"website": "https://hundred.finance/",
+			"network": ["ethereum", "Arbitrum", "Fantom", "Harmony", "Moonriver"],
+			"socials": {
+				"twitter": "https://twitter.com/HundredFinance",
+				"discord": "https://discord.gg/phK668J6dQ",
+				"medium": "https://blog.hundred.finance/",
+				"github": "https://github.com/hundred-finance"
+			}
+		},
+		{
+			"name": "Synapse Protocol",
+			"logo": "synapseprotocol.jpeg",
+			"description": "ACross-chain layer ∞ blockchain - bridge assets across all chains.",
+			"website": "https://synapseprotocol.com/",
+			"network": ["ethereum", "Polygon", "Arbitrum", "Avalanche", "Fantom", "Moonriver", "BSC", "Harmony", "Boba", "Moonbeam", "Aurora"],
+			"socials": {
+				"twitter": "https://twitter.com/SynapseProtocol",
+				"discord": "https://discord.gg/synapseprotocol",
+				"github": "https://github.com/synapsecns",
+				"telegram": "https://t.me/synapseprotocol"
+			}
+		},
+		{
+			"name": "Orion Money",
+			"logo": "orionmoney.jpeg",
+			"description": "Cross-Chain Stablecoin Bank",
+			"website": "https://orion.money/",
+			"network": ["ethereum", "Polygon", "BSC" , "Terra"],
+			"socials": {
+				"twitter": "https://twitter.com/orion_money",
+				"discord": "https://discord.gg/5vbWB2PWeS",
+				"medium": "https://orion-money.medium.com/",
+				"telegram": "https://t.me/Orion_Money"
+			}
+		},
+		{
+			"name": "Alchemix Finance",
+			"logo": "alchemixfinance.jpeg",
+			"description": "Spend and save at the same time. Leverage your wealth without risk of liquidation with a self-repaying loan.",
+			"website": "https://app.alchemix.fi/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/AlchemixFi",
+				"discord": "https://discord.gg/csa9mTRK6j",
+				"medium": "https://alchemixfi.medium.com/",
+				"github": "https://github.com/alchemix-finance"
+			}
+		},
+		{
+			"name": "Market",
+			"logo": "market.jpeg",
+			"description": "Earn yield and leverage assets in isolated markets enabling permissonless DeFi with market-rules set by you and the community.",
+			"website": "https://market.xyz/",
+			"network": ["Polygon", "Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/market_xyz/",
+				"discord": "https://discord.gg/b4NxV28r8X",
+				"medium": "https://marketxyz.medium.com/"
+			}
+		},
+		{
+			"name": "Solo.top",
+			"logo": "solotop.png",
+			"description": "Single-Asset Mining Aggregator",
+			"website": "https://solo.top/#/index",
+			"network": ["Polygon", "BSC", "HECO", "OEC"],
+			"socials": {
+				"twitter": "https://twitter.com/solo_top",
+				"telegram": "https://t.me/solo_top"
+			}
+		},
+		{
+			"name": "Venus Protocol",
+			"logo": "venusprotocol.jpeg",
+			"description": "The Money Market & Synthetic Stablecoin Protocol",
+			"website": "https://app.venus.io/dashboard",
+			"network": ["BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/VenusProtocol",
+				"telegram": "https://t.me/VenusProtocol",
+				"medium": "https://medium.com/VenusProtocol",
+				"github": "https://github.com/VenusProtocol/Venus-Protocol"
+			}
+		},
+		{
+			"name": "Teddy",
+			"logo": "teddycash.jpeg",
+			"description": "Borrow up to 90% on your AVAX with Teddy, a decentralized borrowing protocol on Avalanche with interest-free loans and high capital efficiency.",
+			"website": "https://teddy.cash/#",
+			"network": ["Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/TeddyCashLive",
+				"discord": "https://discord.gg/TJXnyPXQxf",
+				"medium": "https://medium.com/teddy-cash",
+				"github": "https://github.com/teddy-cash/",
+				"telegram": "https://t.me/teddycashofficial"
+			}
+		},
+		{
+			"name": "LoanScan",
+			"logo": "loanscan.jpeg",
+			"description": "Know where to earn high interest. DeFi yields and high interest account offerings.",
+			"website": "https://loanscan.io/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/LoanScan_io",
+				"discord": "https://discord.gg/YSXPGGz",
+				"medium": "https://medium.com/loanscan"
+			}
+		},
+		{
+			"name": "Ola Finance",
+			"logo": "olafinance.png",
+			"description": "Ola finance is a platform for creating custom decentralized lending networks.",
+			"website": "https://ola.finance/",
+			"network": ["BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/ola_finance",
+				"telegram": "https://telegram.me/ola_finance"
+			}
+		},
+		{
+			"name": "Bastion",
+			"logo": "bastion.jpeg",
+			"description": "Decentralized lending on Aurora ",
+			"website": "https://app.bastionprotocol.com/",
+			"network": ["Aurora"],
+			"socials": {
+				"twitter": "https://twitter.com/BastionProtocol",
+				"discord": "https://discord.gg/bastionprotocol",
+				"medium": "https://bastionprotocol.medium.com/"
+			}
+		},
+		{
+			"name": "Liquity",
+			"logo": "liquity.jpeg",
+			"description": "Interest-free borrowing, built on Ethereum. ",
+			"website": "https://www.liquity.org/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/LiquityProtocol",
+				"discord": "https://discord.com/invite/2up5U32",
+				"medium": "https://medium.com/liquity",
+				"telegram": "https://t.me/liquityprotocol"
+			}
+		}
+]

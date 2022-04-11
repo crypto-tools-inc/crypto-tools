@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+
+Sitemap: https://www.cripto.tools/sitemap.xml
