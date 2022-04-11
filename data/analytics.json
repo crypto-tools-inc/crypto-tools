@@ -181,9 +181,19 @@
 			"logo": "fearandgreedindex.png",
 			"description": "Each day, we analyze emotions and sentiments from different sources and crunch them into one simple number: The Fear & Greed Index for Bitcoin and other large cryptocurrencies.",
 			"website": "https://alternative.me/crypto/fear-and-greed-index/",
-			"network": ["All"],
+			"network": [],
 			"socials": {
 				"discord": "https://discord.gg/ea9CBNk"
+			}
+		},
+		{
+			"name": "Crypto Fear and Greed Index",
+			"logo": "cryptofearandgreedindex.png",
+			"description": "An advance version of the classic Crypto Fear and Greed Index with over 18 tokens!",
+			"website": "https://cfgi.io/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/CFGI_io"
 			}
 		},
 		{
