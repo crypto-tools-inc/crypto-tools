@@ -120,6 +120,24 @@
 			"link": "/pages/news.html"
 		},
 		{
+			"icon": "wallet-hardware.svg",
+			"title": "Hardware Wallets",
+			"description": "Hardware wallets are the best and most secure way to custody your crypto assets.",
+			"link": "/pages/wallet-hardware.html"
+		},
+		{
+			"icon": "wallet-bitcoin.svg",
+			"title": "Bitcoin Wallets",
+			"description": "From desktop to mobile wallets, you'll find the best solution you're looking for.",
+			"link": "/pages/wallet-bitcoin.html"
+		},
+		{
+			"icon": "wallet-web3.svg",
+			"title": "Web3 Wallets",
+			"description": "Manage your assets using a web3 compatible wallet for any platform or device.",
+			"link": "/pages/wallet-web3.html"
+		},
+		{
 			"icon": "lightning-network.svg",
 			"title": "Lightning Network",
 			"description": "Nodes providers and useful tools to run your lightning node like a boss.",
