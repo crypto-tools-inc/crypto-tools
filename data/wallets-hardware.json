@@ -75,5 +75,16 @@
 				"github": "https://github.com/digitalbitbox",
 				"telegram": "https://t.me/bitboxwallet"
 			}
+		},
+		{
+			"name": "SeedSigner",
+			"logo": "seedsigner.jpeg",
+			"description": "Build a secure Bitcoin signing device for about $50 (all software, specs & designs are FOSS).",
+			"website": "https://seedsigner.com/",
+			"network": ["Bitcoin"],
+			"platform": ["hardware"],
+			"socials": {
+				"twitter": "https://twitter.com/SeedSigner"
+			}
 		}
 ]
