@@ -1,0 +1,123 @@
+[
+		{
+			"name": "Metamask",
+			"logo": "metamask.jpeg",
+			"description": "Metamask is one of the most widely used wallet to interact with Ethereum and other EVM copatible chains and trusted by over 21 million users worldwide.",
+			"website": "https://metamask.io/",
+			"network": [],
+			"platform": ["web", "mobile"],
+			"socials": {
+				"twitter": "https://twitter.com/metamask/",
+				"medium": "https://medium.com/metamask/",
+				"github": "https://github.com/MetaMask/metamask-extension/"
+			}
+		},
+		{
+			"name": "Rabby",
+			"logo": "rabby.jpeg",
+			"description": "Rabby is an open-source wallet extension that improves on a lot of features creating a better experience for DeFi users.",
+			"website": "https://rabby.io/",
+			"network": [],
+			"platform": ["web"],
+			"socials": {
+				"twitter": "https://twitter.com/Rabby_io",
+				"discord": "https://discord.gg/seFBCWmUre",
+				"medium": "https://medium.com/@rabby_io",
+				"github": "https://github.com/RabbyHub/Rabby",
+				"telegram": "https://t.me/rabby_io"
+			}
+		},
+		{
+			"name": "Frame",
+			"logo": "frame.jpeg",
+			"description": "A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux.",
+			"website": "https://frame.sh/",
+			"network": [],
+			"platform": ["web", "desktop"],
+			"socials": {
+				"twitter": "https://twitter.com/0xFrame",
+				"discord": "https://discord.com/invite/UH7NGqY",
+				"github": "https://github.com/floating/frame"
+			}
+		},
+		{
+			"name": "Argent",
+			"logo": "argent.jpeg",
+			"description": "One of the best mobile wallet supporting layer 2. Buy, earn, stake and trade on Ethereum Layer 2 with low fees & bulletproof security.",
+			"website": "https://www.argent.xyz/",
+			"network": ["Ethereum"],
+			"platform": ["mobile"],
+			"socials": {
+				"twitter": "https://twitter.com/argentHQ",
+				"discord": "https://discordapp.com/invite/GWSyrHg",
+				"github": "https://github.com/argentlabs/"
+			}
+		},
+		{
+			"name": "Phantom",
+			"logo": "phantom.jpeg",
+			"description": "Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs on the Solana blockchain.",
+			"website": "https://phantom.app/",
+			"network": ["Solana"],
+			"platform": ["mobile", "web"],
+			"socials": {
+				"twitter": "https://twitter.com/phantom",
+				"discord": "https://discordapp.com/invite/GWSyrHg",
+				"github": "https://github.com/argentlabs/"
+			}
+		},
+		{
+			"name": "Talisman",
+			"logo": "talisman.jpeg",
+			"description": "Talisman is a web3 wallet that unlocks a universe of applications in Polkadot and Kusama.",
+			"website": "https://talisman.xyz/",
+			"network": [],
+			"platform": ["web"],
+			"socials": {
+				"twitter": "https://twitter.com/wearetalisman",
+				"discord": "https://discord.gg/talisman",
+				"medium": "https://medium.com/we-are-talisman",
+				"github": "https://github.com/TalismanSociety"
+			}
+		},
+		{
+			"name": "Yoroi",
+			"logo": "yoroi.png",
+			"description": "Yoroi is a light-client wallet for Cardano and Ergo that is simple, fast and secure.",
+			"website": "https://yoroi-wallet.com",
+			"network": [],
+			"platform": ["web", "mobile"],
+			"socials": {
+				"twitter": "https://twitter.com/YoroiWallet",
+				"reddit": "https://www.reddit.com/r/cardano/"
+			}
+		},
+		{
+			"name": "Terra Station",
+			"logo": "terrastation.jpeg",
+			"description": "The official wallet for the Terra Luna ecosystem.",
+			"website": "https://station.terra.money/",
+			"network": [],
+			"platform": ["web"],
+			"socials": {
+				"twitter": "https://twitter.com/terra_money",
+				"discord": "https://discord.gg/8uGSUQN7wV",
+				"medium": "https://medium.com/terra-money",
+				"github": "https://github.com/terra-money",
+				"telegram": "https://t.me/TerraLunaChat"
+			}
+		},
+		{
+			"name": "Keplr",
+			"logo": "keplr.png",
+			"description": "The first, and leading, IBC-enabled wallet for the Cosmos ecosystem.",
+			"website": "https://www.keplr.app/",
+			"network": [],
+			"platform": ["web", "mobile"],
+			"socials": {
+				"twitter": "https://twitter.com/keplrwallet",
+				"medium": "https://medium.com/chainapsis",
+				"github": "https://github.com/chainapsis/keplr-wallet"
+			}
+		}
+]

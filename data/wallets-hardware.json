@@ -1,0 +1,90 @@
+[
+		{
+			"name": "Ledger",
+			"logo": "ledger.jpeg",
+			"description": "Ledger's the smartest way to secure, buy, exchange and grow your crypto assets and trusted by 4 million customers",
+			"website": "https://www.ledger.com/",
+			"network": [],
+			"platform": ["hardware", "desktop", "mobile"],
+			"socials": {
+				"twitter": "https://twitter.com/Ledger",
+				"reddit": "https://www.reddit.com/r/ledgerwallet/"
+			}
+		},
+		{
+			"name": "Trezor",
+			"logo": "trezor.jpeg",
+			"description": "Trezor is an hardware walllet with a simple and intuitive interface audited by security researchers.",
+			"website": "https://trezor.io/",
+			"network": [],
+			"platform": ["hardware"],
+			"socials": {
+				"twitter": "https://twitter.com/trezor",
+				"reddit": "https://www.reddit.com/r/TREZOR/",
+				"medium": "https://blog.trezor.io/",
+				"github": "https://github.com/trezor"
+			}
+		},
+		{
+			"name": "KeepKey",
+			"logo": "keepkey.jpeg",
+			"description": "Protect your cryptocurrencies, store your private keys offline, and safeguard your assets from hackers.",
+			"website": "https://shapeshift.com/keepkey",
+			"network": [],
+			"platform": ["hardware", "web"],
+			"socials": {
+				"twitter": "https://twitter.com/ShapeShift_io",
+				"discord": "https://discord.gg/shapeshift",
+				"medium": "https://medium.com/shapeshift-stories",
+				"telegram": "https://t.me/shapeshiftofficial"
+			}
+		},
+		{
+			"name": "Opendime",
+			"logo": "opendime.jpeg",
+			"description": "Opendime is a small USB stick that allows you to spend Bitcoin like a dollar bill. Pass it along multiple times. Connect to any USB to check balance. Unseal anytime to spend online. Trust no one.",
+			"website": "https://opendime.com/",
+			"network": [],
+			"platform": ["hardware"],
+			"socials": {
+				"twitter": "https://twitter.com/OPENDIME"
+			}
+		},
+		{
+			"name": "Coldcard",
+			"logo": "coldcard.jpeg",
+			"description": "Coldcard is an easy to use, ultra-secure, open-source and affordable hardware wallet that is easy to back up via an encrypted microSD card.",
+			"website": "https://coldcard.com/",
+			"network": [],
+			"platform": ["hardware"],
+			"socials": {
+				"twitter": "https://twitter.com/COLDCARDwallet",
+				"telegram": "https://t.me/coldcard"
+			}
+		},
+		{
+			"name": "BitBox",
+			"logo": "bitbox.jpeg",
+			"description": "The BitBox02 hardware wallet equips individuals to easily store, protect and transact in Bitcoin. Its companion, the BitBoxApp, provides an all-in-one solution to securely manage your coins.",
+			"website": "https://shiftcrypto.ch/",
+			"network": [],
+			"platform": ["hardware"],
+			"socials": {
+				"twitter": "https://twitter.com/ShiftCryptoHQ",
+				"reddit": "https://www.reddit.com/r/BitBoxWallet/",
+				"github": "https://github.com/digitalbitbox",
+				"telegram": "https://t.me/bitboxwallet"
+			}
+		},
+		{
+			"name": "SeedSigner",
+			"logo": "seedsigner.jpeg",
+			"description": "Build a secure Bitcoin signing device for about $50 (all software, specs & designs are FOSS).",
+			"website": "https://seedsigner.com/",
+			"network": ["Bitcoin"],
+			"platform": ["hardware"],
+			"socials": {
+				"twitter": "https://twitter.com/SeedSigner"
+			}
+		}
+]
