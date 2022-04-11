@@ -1,4 +1,5 @@
 # ⚠️ This list is now deprecated and have been moved over to [Crypto.tools](https://cripto.tools) for a better experience ⚠️
+
 # Crypto Tools
 A curated collection of useful crypto projects and tools.
 
