@@ -37,6 +37,18 @@
 			}
 		},
 		{
+			"name": "SyncSwap",
+			"logo": "syncswap.jpeg",
+			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
+			"website": "https://syncswap.xyz/",
+			"network": ["zksync"],
+			"socials": {
+				"twitter": "https://twitter.com/syncswap",
+				"discord": "https://discord.gg/vQQr3deT9Q",
+				"mirror": "https://mirror.xyz/0x000002c34bAE6DD7BeC72AcbA6aAAC1e01A359De"
+			}
+		},
+		{
 			"name": "Trader Joe",
 			"logo": "traderjoe.jpeg",
 			"description": "Your One-Stop-Shop DeFi Platform",
