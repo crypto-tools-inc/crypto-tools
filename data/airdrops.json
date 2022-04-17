@@ -1,4 +1,15 @@
 [
+	{
+		"name": "SolClaim",
+		"logo": "solclaim.jpeg",
+		"description": "Solclaim finds you thousands of dollars in airdrops, NFTs and claimable assets.",
+		"website": "https://www.solclaim.xyz/",
+		"network": ["Solana"],
+		"socials": {
+			"twitter": "https://twitter.com/sol_claim",
+			"discord": "https://discord.gg/am797u4jwX"
+		}
+	},
 		{
 			"name": "CoinAirdrops",
 			"logo": "coinairdrops.jpeg",
