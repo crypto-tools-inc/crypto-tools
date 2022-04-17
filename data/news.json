@@ -22,6 +22,18 @@
 			}
 		},
 		{
+			"name": "Moni Talks",
+			"logo": "monitalks.jpeg",
+			"description": "Vital crypto news, DeFi alpha leaks, under radar projects, in-depth reviews and obviously memes right at your metaverse door",
+			"website": "https://monitalks.xyz/en",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/moni_talks_xyz",
+				"discord": "https://discord.com/invite/eqdaqqqnx8",
+				"telegram": "https://t.me/moni_talks_chat"
+			}
+		},
+		{
 			"name": "Decrypt",
 			"logo": "decrypt.jpeg",
 			"description": "Demystifying Bitcoin, Ethereum and the decentralized web.",
