@@ -47,6 +47,18 @@
 			}
 		},
 		{
+			"name": "Yawww",
+			"logo": "yawww.jpeg",
+			"description": "The safest place on Solana to trade & collateralize NFTs.",
+			"website": "https://www.yawww.io/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/YawwwNFT",
+				"discord": "https://discord.gg/Dv8beXu8pR",
+				"medium": "https://medium.com/@yawww"
+			}
+		},
+		{
 			"name": "Kalao",
 			"logo": "kalao.jpeg",
 			"description": "Kalao unlocks the full potential of metaverse experiences, bringing the winning combination of NFT and VR technologies to real-world use cases.",
