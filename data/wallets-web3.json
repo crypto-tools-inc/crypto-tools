@@ -54,6 +54,17 @@
 			}
 		},
 		{
+			"name": "Glow",
+			"logo": "glow.jpeg",
+			"description": "A fast and easy to use crypto wallet for Solana",
+			"website": "https://glow.app/",
+			"network": ["Solana"],
+			"platforms": ["web", "mobile"],
+			"socials": {
+				"twitter": "https://twitter.com/glowwallet"
+			}
+		},
+		{
 			"name": "Rainbow",
 			"logo": "rainbow.png",
 			"description": "The fun, simple, & secure way to explore Web3, NFTs, & Ethereum available for iOS and Android",
