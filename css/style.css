@@ -10,8 +10,16 @@ html {
 }
 
 body {
-  background-color: #F4F4F4;
+  background-color: #FAF8F6;
   scroll-behavior: smooth;
+}
+
+.gradient {
+  background-image: url('../img/noise.png'),
+    radial-gradient(at 43% 19%, hsla(28, 100%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 81% 10%, hsla(189, 100%, 56%, 1) 0px, transparent 50%),
+    radial-gradient(at 7% 19%, hsla(355, 100%, 93%, 1) 0px, transparent 50%);
+  background-repeat: repeat, no-repeat, no-repeat, no-repeat;
 }
 
 /* =============================================================================
@@ -78,8 +86,13 @@ BUTTONS
 /* =============================================================================
 NAVBAR
 ============================================================================= */
-.navbar {
+.bg-white {
   background-color: #FFFFFF;
+}
+
+.navbar-fade {
+  transition: all 0.5s ease-in-out;
+  background-color: #F4F4F4;
 }
 
 .navbar-index {
@@ -115,15 +128,11 @@ JUMBOTRON
   display: flex;
   align-items: center;
   height: 75% !important;
-  /* background-image: url('../img/cover.svg');
+  /* background-image: url('../img/cover-art2.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left; */
-  background-image: url('../img/cover-art2.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 90% 50%;
-  margin: 2rem 0;
+  background-position: 90% 50%; */
+  margin: 8rem 0;
 }
 
 /* =============================================================================
@@ -213,10 +222,11 @@ RESPONSIVE STUFF
     display: flex;
     align-items: start;
     height: 60% !important;
-    background-image: url('../img/cover-art2.svg');
+    margin: 2rem 0;
+    /* background-image: url('../img/cover-art2.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom; */
   }
 }
 
