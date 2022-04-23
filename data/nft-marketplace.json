@@ -114,5 +114,17 @@
 				"twitter": "https://twitter.com/coralcubenft",
 				"discord": "https://discord.gg/RRETBxvMb2"
 			}
+		},
+		{
+			"name": "Metaplex",
+			"logo": "metaplex.jpeg",
+			"description": "Metaplex empowers artists and creators with the tools to launch NFT apps on Solana.",
+			"website": "https://www.metaplex.com/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/metaplex",
+				"discord": "https://discord.gg/metaplex",
+				"github": "https://github.com/metaplex-foundation/metaplex"
+			}
 		}
 ]
