@@ -1,0 +1,49 @@
+[
+	{
+		"name": "Nansen",
+		"logo": "nansen.jpeg",
+		"description": "Get an edge over everyone else by tracking the behavior and on-chain activity of prominent wallet addresses.",
+		"website": "https://pro.nansen.ai/",
+		"network": ["Ethereum", "BSC", "Polygon", "Arbitrum", "Avalanche", "Fantom", "Celo", "Optimism"],
+		"socials": {
+			"twitter": "https://twitter.com/nansen_ai",
+			"discord": "https://discord.com/invite/X5u3a7Wef6"
+		}
+	},
+	{
+		"name": "Dune Analytics",
+		"logo": "duneanalytics.png",
+		"description": "Free crypto analytics by and for the community.",
+		"website": "https://dune.xyz/browse/dashboards",
+		"network": ["Ethereum", "Polygon", "Optimism", "BSC", "Gnosis"],
+		"socials": {
+			"twitter": "https://twitter.com/DuneAnalytics",
+			"discord": "https://discord.gg/ErrzwBz"
+		}
+	},
+	{
+		"name": "Coinmarketcap",
+		"logo": "coinmarketcap.jpeg",
+		"description": "NFT Collections Listed By Sales Volume.",
+		"website": "https://coinmarketcap.com/nft/",
+		"network": ["Ethereum", "BSC", "Solana"],
+		"socials": {
+			"twitter": "https://twitter.com/CoinMarketCap",
+			"telegram": "https://t.me/CoinMarketCapAnnouncements"
+		}
+	},
+	{
+		"name": "DappRadar",
+		"logo": "dappradar.jpeg",
+		"description": "Discover, Track & Trade Everything DeFi, NFT and Gaming.",
+		"website": "https://dappradar.com/",
+		"network": ["Ethereum", "EOS", "Tron", "Polygon", "Avalanche", "Tezos", "Tezos", "Solana", "Harmony", "Fantom"],
+		"socials": {
+			"twitter": "https://twitter.com/dappradar",
+			"discord": "https://discord.gg/4ybbssrHkm",
+			"reddit": "https://www.reddit.com/domain/dappradar.com",
+			"telegram": "https://t.me/joinchat/GdhNjQ8PMhCZ_a0CZutmXg"
+		}
+	},
+
+]
