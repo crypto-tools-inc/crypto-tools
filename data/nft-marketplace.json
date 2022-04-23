@@ -126,5 +126,17 @@
 				"discord": "https://discord.gg/metaplex",
 				"github": "https://github.com/metaplex-foundation/metaplex"
 			}
+		},
+		{
+			"name": "Solanart",
+			"logo": "solanart.jpeg",
+			"description": "Discover, collect and trade NFTs on Solana",
+			"website": "https://solanart.io/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/SolanartNFT",
+				"discord": "http://discord.gg/solanart",
+				"medium": "https://medium.com/@solanart"
+			}
 		}
 ]
