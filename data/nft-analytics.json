@@ -33,6 +33,17 @@
 		}
 	},
 	{
+		"name": "Compass",
+		"logo": "compass.jpeg",
+		"description": "Simple and powerful real-time NFT analytics. Hot mints & collections, floor charts, wallet profiler and more.",
+		"website": "https://compass.art/",
+		"network": ["Ethereum"],
+		"socials": {
+			"twitter": "https://twitter.com/compass_nft",
+			"discord": "https://discord.gg/aqJrmHGA2h"
+		}
+	},
+	{
 		"name": "Coinmarketcap",
 		"logo": "coinmarketcap.jpeg",
 		"description": "NFT Collections Listed By Sales Volume.",
