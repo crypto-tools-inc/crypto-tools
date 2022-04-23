@@ -59,6 +59,16 @@
 			}
 		},
 		{
+			"name": "Foundation",
+			"logo": "foundation.jpeg",
+			"description": "Foundation is a platform that aims to build a new creative economy—a world where creators can use the Ethereum blockchain to value their work in entirely new ways, and build stronger connections with their supporters.",
+			"website": "https://foundation.app/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/foundation"
+			}
+		},
+		{
 			"name": "Kalao",
 			"logo": "kalao.jpeg",
 			"description": "Kalao unlocks the full potential of metaverse experiences, bringing the winning combination of NFT and VR technologies to real-world use cases.",
