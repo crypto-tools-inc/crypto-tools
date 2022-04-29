@@ -37,6 +37,17 @@
 			}
 		},
 		{
+			"name": "NFT Bank",
+			"logo": "nftbank.jpeg",
+			"description": "Make NFT Portfolio Management Smart and market insights to taxfiling.",
+			"website": "https://nftbank.ai/",
+			"network": ["Ethereum", "Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/NFTbank_ai",
+				"discord": "https://discord.com/invite/4yrNy4x"
+			}
+		},
+		{
 			"name": "Instadapp",
 			"logo": "instadapp.jpeg",
 			"description": "The world's most advanced platform to start leveraging the full potential of Decentralised Finance.",
