@@ -89,5 +89,15 @@
 				"twitter": "https://twitter.com/jamaljsr",
 				"github": "https://github.com/jamaljsr/polar"
 			}
+		},
+		{
+			"name": "ln.cash",
+			"logo": "lncash.png",
+			"description": "Create secret links containing bitcoin.",
+			"website": "https://ln.cash/",
+			"network": ["Lightning"],
+			"socials": {
+				"twitter": "https://twitter.com/lncash"
+			}
 		}
 ]
