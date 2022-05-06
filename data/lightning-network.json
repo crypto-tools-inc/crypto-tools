@@ -99,5 +99,15 @@
 			"socials": {
 				"twitter": "https://twitter.com/lncash"
 			}
+		},
+		{
+			"name": "Lightning Gifts",
+			"logo": "lightninggifts.jpeg",
+			"description": "Create fee-less Bitcoin gift vouchers to share with friends, family, and your haters.",
+			"website": "https://lightning.gifts/",
+			"network": ["Lightning"],
+			"socials": {
+				"twitter": "https://twitter.com/LNPAYco",
+			}
 		}
 ]
