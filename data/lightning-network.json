@@ -78,5 +78,16 @@
 			"socials": {
 				"twitter": "https://twitter.com/LNstats"
 			}
+		},
+		{
+			"name": "Polar",
+			"logo": "polar.jpeg",
+			"description": "One-click Bitcoin Lightning networks for local app development & testing",
+			"website": "https://lightningpolar.com/",
+			"network": ["Lightning"],
+			"socials": {
+				"twitter": "https://twitter.com/jamaljsr",
+				"github": "https://github.com/jamaljsr/polar"
+			}
 		}
 ]
