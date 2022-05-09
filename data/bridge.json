@@ -193,5 +193,17 @@
 				"discord": "https://discord.gg/connext",
 				"github": "https://github.com/CoinHippo-Labs/connext-bridge"
 			}
+		},
+		{
+			"name": "ZigZag",
+			"logo": "zigzag.jpeg",
+			"description": "Revolutionary Ethereum L2 ZK Rollup orderbook DEX on Zksync",
+			"website": "https://trade.zigzag.exchange/bridge",
+			"network": ["Ethereum", "Polygon", "zksync"],
+			"socials": {
+				"twitter": "https://twitter.com/ZigZagExchange",
+				"discord": "https://discord.gg/zigzag",
+				"telegram": "https://t.me/zigzagexchange"
+			}
 		}
 ]
