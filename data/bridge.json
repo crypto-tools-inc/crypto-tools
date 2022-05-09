@@ -181,5 +181,17 @@
 				"github": "https://github.com/viaprotocol",
 				"telegram": "https://t.me/viaexchange"
 			}
+		},
+		{
+			"name": "Connext",
+			"logo": "connext.png",
+			"description": "Fast, trustless communication between chains and rollups.",
+			"website": "https://bridge.connext.network/",
+			"network": ["Ethereum", "BSC", "Polygon", "Avalanche", "Fantom", "Gnosis", "Arbitrum", "Optimism", "Moonbeam", "Moonriver", "Harmony"],
+			"socials": {
+				"twitter": "https://twitter.com/ConnextNetwork",
+				"discord": "https://discord.gg/connext",
+				"github": "https://github.com/CoinHippo-Labs/connext-bridge"
+			}
 		}
 ]
