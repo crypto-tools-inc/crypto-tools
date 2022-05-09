@@ -167,5 +167,19 @@
 				"github": "https://github.com/ava-labs",
 				"telegram": "https://t.me/avalancheavax"
 			}
+		},
+		{
+			"name": "Via Protocol",
+			"logo": "viaprotocol.jpeg",
+			"description": "Cross-chain liquidity aggregator with fastest and cheapest bridge to zkSync",
+			"website": "https://via.exchange/",
+			"network": ["Ethereum", "BSC", "Fantom", "Avalanche", "Solana", "Polygon", "Arbitrum", "Harmony", "HECO", "Optimism", "OEC", "Gnosis", "Moonriver"],
+			"socials": {
+				"twitter": "https://twitter.com/via_protocol",
+				"discord": "https://discord.gg/viaexchange",
+				"medium": "https://via-exchange.medium.com/",
+				"github": "https://github.com/viaprotocol",
+				"telegram": "https://t.me/viaexchange"
+			}
 		}
 ]
