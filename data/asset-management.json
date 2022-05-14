@@ -121,6 +121,19 @@
 			}
 		},
 		{
+			"name": "Step Finance",
+			"logo": "stepfinance.jpeg",
+			"description": "The front page of Solana. Visualise, Analyse, Execute and Aggregate transactions across all Solana contracts in one place.",
+			"website": "https://www.step.finance/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/StepFinance_",
+				"discord": "https://discord.gg/ZWRd2ZxrdR",
+				"medium": "https://stepfinance.medium.com/",
+				"github": "https://github.com/step-finance"
+			}
+		},
+		{
 			"name": "Asset Money",
 			"logo": "assetmoney.jpeg",
 			"description": "Track and Sync your NFT Wallet. We enable the ideal way to manage your NFTs. Keep up on your NFT value,trends, and estimate the current value",
