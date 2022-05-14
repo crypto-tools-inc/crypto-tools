@@ -34,6 +34,15 @@
 			}
 		},
 		{
+			"name": "Yieldape",
+			"logo": "yieldape.png",
+			"description": "YieldApe combines yield information of the most popular dApps to simplify comparison of APY values helping you to find yield opportunities on a single website.",
+			"website": "https://yieldape.com/rates",
+			"network": ["Ethereum", "Polygon", "Avalanche", "Fantom", "Arbitrum", "Optimism", "Harmony"],
+			"socials": {
+			}
+		},
+		{
 			"name": "Block Analitica",
 			"logo": "blockanalitica.png",
 			"description": "See liquidation information and current on-chain risk for DAI",
