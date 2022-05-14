@@ -110,6 +110,17 @@
 			}
 		},
 		{
+			"name": "APY.Vision",
+			"logo": "apyvision.png",
+			"description": "Historical P+L tool in DeFi for tracking your LP & rewards cross-chain. Support Uniswap, Sushiswap, Quickswap + more",
+			"website": "https://app.apy.vision/",
+			"network": ["Ethereum", "Arbitrum", "Avalanche", "BSC", "Celo", "Fantom", "Harmony", "Polygon", "Gnosis"],
+			"socials": {
+				"twitter": "https://twitter.com/apyvision",
+				"discord": "https://discord.com/invite/ePfGAYbqUq"
+			}
+		},
+		{
 			"name": "Asset Money",
 			"logo": "assetmoney.jpeg",
 			"description": "Track and Sync your NFT Wallet. We enable the ideal way to manage your NFTs. Keep up on your NFT value,trends, and estimate the current value",

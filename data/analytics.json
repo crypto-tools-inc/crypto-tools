@@ -51,9 +51,7 @@
 			"network": ["Ethereum", "Arbitrum", "Avalanche", "BSC", "Celo", "Fantom", "Harmony", "Polygon", "Gnosis"],
 			"socials": {
 				"twitter": "https://twitter.com/apyvision",
-				"discord": "https://discord.com/invite/ePfGAYbqUq",
-				"medium": "url",
-				"telegram": "url"
+				"discord": "https://discord.com/invite/ePfGAYbqUq"
 			}
 		},
 		{
