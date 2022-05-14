@@ -44,6 +44,19 @@
 			}
 		},
 		{
+			"name": "Staking Rewards",
+			"logo": "stakingrewards.jpeg",
+			"description": "Staking Rewards is the leading data provider and research platform for staking.",
+			"website": "https://www.stakingrewards.com/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/stakingrewards",
+				"discord": "https://discord.gg/EqDF9GF",
+				"reddit": "https://www.reddit.com/r/staking/",
+				"telegram": "https://t.me/stakingrewards"
+			}
+		},
+		{
 			"name": "Liquidityfolio",
 			"logo": "liquidityfolio.png",
 			"description": "Join thousands of Liquidity Providers finding the best pools and tracking their returns across Uniswap, Curve, Balancer, Sushiswap, 1inch and more.",
