@@ -1,5 +1,16 @@
 [
 		{
+			"name": "Highlight",
+			"logo": "highlight.jpeg",
+			"description": "Highlight helps creators build membership communities on the blockchain.",
+			"website": "https://highlight.xyz/",
+			"network": ["Ethereum", "Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/highlight_xyz",
+				"discord": "https://discord.gg/2sYtCNXPCm"
+			}
+		},
+		{
 			"name": "Collab.Land",
 			"logo": "collabland.jpeg",
 			"description": "Collab.Land leverages the power of identity through crypto currency to create a social space unique to a specific network of humans.",
