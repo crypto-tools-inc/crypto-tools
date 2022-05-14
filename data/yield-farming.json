@@ -33,6 +33,17 @@
 			}
 		},
 		{
+			"name": "CMC Yield Farming Rankings",
+			"logo": "coinmarketcap.jpeg",
+			"description": "Yield farming ranking updated daily from CoinMarketCap",
+			"website": "https://coinmarketcap.com/yield-farming/",
+			"network": ["Ethereum", "BSC", "Tron"],
+			"socials": {
+				"twitter": "https://twitter.com/CoinMarketCap",
+				"telegram": "https://t.me/CoinMarketCapAnnouncements"
+			}
+		},
+		{
 			"name": "Liquidityfolio",
 			"logo": "liquidityfolio.png",
 			"description": "Join thousands of Liquidity Providers finding the best pools and tracking their returns across Uniswap, Curve, Balancer, Sushiswap, 1inch and more.",
