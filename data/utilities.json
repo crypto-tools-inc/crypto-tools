@@ -101,5 +101,28 @@
 			"socials": {
 				"twitter": "https://twitter.com/DegenScore"
 			}
+		},
+		{
+			"name": "CoinMarketCal",
+			"logo": "coinmarketcal.jpeg",
+			"description": "CoinMarketCal cover all events that help traders make better decisions.",
+			"website": "https://coinmarketcal.com/en/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://www.twitter.com/coinmarketcal",
+				"telegram": "https://t.me/cmcal_bot"
+			}
+		},
+		{
+			"name": "Ape O'Clock",
+			"logo": "apeoclock.jpeg",
+			"description": "Announcements of yield farm, GameFi, NFT  & dApp launches on BSC, Polygon, FTM, AVAX, ONE, SOL and more.",
+			"website": "https://www.apeoclock.com/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/ApeOClock",
+				"discord": "https://discord.gg/DsRVqFwvq8",
+				"telegram": "https://t.me/apeoclockchat"
+			}
 		}
 ]
