@@ -124,5 +124,25 @@
 				"discord": "https://discord.gg/DsRVqFwvq8",
 				"telegram": "https://t.me/apeoclockchat"
 			}
+		},
+		{
+			"name": "Daily Defi",
+			"logo": "dailydefi.jpeg",
+			"description": "Impermanent loss calculator by Daily Defi",
+			"website": "https://dailydefi.org/tools/impermanent-loss-calculator/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/dailydefiorg"
+			}
+		},
+		{
+			"name": "$Baller",
+			"logo": "mechanaut.jpeg",
+			"description": "Impermanent Loss Simulator for Balancer Pools",
+			"website": "https://baller.netlify.app/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/tannedoaksprout"
+			}
 		}
 ]
