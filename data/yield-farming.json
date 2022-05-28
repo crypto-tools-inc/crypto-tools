@@ -1,4 +1,19 @@
 [
+	{
+		"name": "Beefy Finance",
+		"logo": "beefyfinance.jpeg",
+		"description": "Beefy is THE Multichain Yield Optimizer that focuses on safety and autocompounds crypto assets for the best APYs.",
+		"website": "https://beefy.finance/",
+		"network": ["BSC", "Avalanche", "HECO", "Polygon", "Fantom", "Harmony", "Arbitrum", "Celo", "Moonriver", "Cronos", "Fuse", "Aurora", "Moonbeam"],
+		"socials": {
+			"twitter": "https://twitter.com/beefyfinance",
+			"discord": "https://discord.gg/yq8wfHd",
+			"medium": "https://medium.com/beefyfinance",
+			"github": "https://github.com/beefyfinance",
+			"reddit": "https://www.reddit.com/r/Beefy/",
+			"telegram": "https://t.me/beefyfinance"
+		}
+	},
 		{
 			"name": "vfat",
 			"logo": "vfat.jpeg",
