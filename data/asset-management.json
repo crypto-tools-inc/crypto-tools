@@ -179,5 +179,16 @@
 				"reddit": "https://www.reddit.com/r/CoinStats/",
 				"telegram": "https://t.me/coinstatsapp"
 			}
+		},
+		{
+			"name": "Tin Network",
+			"logo": "tinnetwork.jpeg",
+			"description": "A simple dashboard for DeFi. Easily track and visualize all your DeFi assets and liabilities in one simple interface.",
+			"website": "https://tin.network/en/home",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/tinnetwork_defi",
+				"telegram": "https://t.me/tin_network"
+			}
 		}
 ]
