@@ -166,5 +166,18 @@
 				"twitter": "https://twitter.com/dHedgeOrg",
 				"discord": "https://discord.gg/Ed2uuyGN"
 			}
+		},
+		{
+			"name": "CoinStats",
+			"logo": "coinstats.jpeg",
+			"description": "CoinStats helps over 1,000,000 active customers manage all their crypto accounts together from one place. Track your BTC, ETH, NFT and 20,000 more tokens.",
+			"website": "https://coinstats.app/",
+			"network": ["Ethereum", "BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/coinstats",
+				"discord": "https://discord.coinstats.app/?v=2",
+				"reddit": "https://www.reddit.com/r/CoinStats/",
+				"telegram": "https://t.me/coinstatsapp"
+			}
 		}
 ]
