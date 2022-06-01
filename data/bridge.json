@@ -13,6 +13,31 @@
 			}
 		},
 		{
+			"name": "Across",
+			"logo": "across.jpeg",
+			"description": "Instantly Send Assets from Layer 2 Rollups to Ethereum",
+			"website": "https://across.to/",
+			"network": ["Ethereum", "Arbitrum", "Boba", "Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/AcrossProtocol",
+				"discord": "https://discord.gg/across",
+				"github": "https://github.com/across-protocol"
+			}
+		},
+		{
+			"name": "Hop Protocol",
+			"logo": "hopprotocol.jpeg",
+			"description": "A protocol for sending tokens across rollups and their shared layer-1 network in a quick and trustless manner",
+			"website": "https://app.hop.exchange/",
+			"network": ["Ethereum", "Polygon", "Optimism", "Gnosis", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/HopProtocol",
+				"discord": "https://discord.gg/PwCF88emV4",
+				"medium": "https://medium.com/hop-protocol",
+				"github": "https://github.com/hop-protocol"
+			}
+		},
+		{
 			"name": "Celer Network Bridge",
 			"logo": "celernetwork.jpeg",
 			"description": "Building the best inter-blockchain and cross-layer communication platform.",
@@ -102,18 +127,6 @@
 			}
 		},
 		{
-			"name": "Across",
-			"logo": "across.jpeg",
-			"description": "Instantly Send Assets from Layer 2 Rollups to Ethereum",
-			"website": "https://across.to/",
-			"network": ["Ethereum", "Arbitrum", "Boba", "Optimism"],
-			"socials": {
-				"twitter": "https://twitter.com/AcrossProtocol",
-				"discord": "https://discord.gg/across",
-				"github": "https://github.com/across-protocol"
-			}
-		},
-		{
 			"name": "RelayChain",
 			"logo": "relaychain.jpeg",
 			"description": "Bridging as a Service (BaaS) for DeFi",
@@ -140,19 +153,6 @@
 				"telegram": "https://t.me/deBridge_finance",
 				"reddit": "https://www.reddit.com/r/debridge/",
 				"github": "https://github.com/debridge-finance/"
-			}
-		},
-		{
-			"name": "Hop Protocol",
-			"logo": "hopprotocol.jpeg",
-			"description": "A protocol for sending tokens across rollups and their shared layer-1 network in a quick and trustless manner",
-			"website": "https://app.hop.exchange/",
-			"network": ["Ethereum", "Polygon", "Optimism", "Gnosis", "Arbitrum"],
-			"socials": {
-				"twitter": "https://twitter.com/HopProtocol",
-				"discord": "https://discord.gg/PwCF88emV4",
-				"medium": "https://medium.com/hop-protocol",
-				"github": "https://github.com/hop-protocol"
 			}
 		},
 		{
