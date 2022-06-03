@@ -228,5 +228,16 @@
 				"twitter": "https://twitter.com/parsec_finance",
 				"discord": "https://discord.gg/U5hhnra"
 			}
+		},
+		{
+			"name": "MEV Explorer v1",
+			"logo": "mevexplorer.jpeg",
+			"description": "Data and analytics for MEV over time provided by Flashbots",
+			"website": "https://explore.flashbots.net/",
+			"network": ["Ethereum"],
+			"socials": {
+				"discord": "https://discord.com/invite/7hvTycdNcK",
+				"github": "https://github.com/flashbots"
+			}
 		}
 ]
