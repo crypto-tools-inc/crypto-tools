@@ -250,5 +250,16 @@
 				"twitter": "https://twitter.com/CryptoStats_",
 				"discord": "https://cryptostats.community/discord"
 			}
+		},
+		{
+			"name": "Messari",
+			"logo": "messari.jpeg",
+			"description": "helloworld",
+			"website": "https://messari.io/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/MessariCrypto",
+				"telegram": "https://t.me/messaricrypto"
+			}
 		}
 ]
