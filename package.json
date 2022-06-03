@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -o ./",
-    "watch": "watch-http-server -o ./"
+    "start": "watch-http-server -o ./"
   },
   "repository": {
     "type": "git",
