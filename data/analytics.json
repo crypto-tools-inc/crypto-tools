@@ -261,5 +261,18 @@
 				"twitter": "https://twitter.com/MessariCrypto",
 				"telegram": "https://t.me/messaricrypto"
 			}
+		},
+		{
+			"name": "LunarCrush",
+			"logo": "lunarcrush.jpeg",
+			"description": "We listen to every drop of crypto information across social & distill it into digestible data to help you make informed decisions.",
+			"website": "https://lunarcrush.com/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/lunarcrush",
+				"discord": "https://discord.gg/Y5BAhGs",
+				"reddit": "https://www.reddit.com/r/LunarCrush/",
+				"telegram": "https://t.me/lunarcrush"
+			}
 		}
 ]
