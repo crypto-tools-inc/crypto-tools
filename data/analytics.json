@@ -239,5 +239,16 @@
 				"discord": "https://discord.com/invite/7hvTycdNcK",
 				"github": "https://github.com/flashbots"
 			}
+		},
+		{
+			"name": "Crypto Fees",
+			"logo": "cryptostats.png",
+			"description": "There's tons of crypto projects. Which ones are people actually paying to use? by CryptoStats",
+			"website": "https://cryptofees.info/",
+			"network": ["Ethereum", "Polygon", "Optimism", "Arbitrum", "Avalanche", "Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/CryptoStats_",
+				"discord": "https://cryptostats.community/discord"
+			}
 		}
 ]
