@@ -53,6 +53,17 @@
 			}
 		},
 		{
+			"name": "TxStreet",
+			"logo": "txstreet.png",
+			"description": "Transaction & Mempool Visualizer for ETH BTC BCH XMR LTC",
+			"website": "https://txstreet.com/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/txstreetCom",
+				"discord": "https://bit.ly/3rWCRm6"
+			}
+		},
+		{
 			"name": "Unrekt",
 			"logo": "unrekt.jpeg",
 			"description": "Smart Contract approval toolbox & Timelock Monitor",
