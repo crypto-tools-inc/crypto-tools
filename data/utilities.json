@@ -64,6 +64,17 @@
 			}
 		},
 		{
+			"name": "EthTx",
+			"logo": "ethtx.jpeg",
+			"description": "EthTx is an open source decoder of blockchain transactions that is made freely available to the Ethereum Community as a Python library in public PyPi index.",
+			"website": "https://ethtx.info/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/eth_tx",
+				"github": "https://github.com/EthTx/ethtx_ce"
+			}
+		},
+		{
 			"name": "Unrekt",
 			"logo": "unrekt.jpeg",
 			"description": "Smart Contract approval toolbox & Timelock Monitor",
