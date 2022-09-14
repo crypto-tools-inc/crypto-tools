@@ -39,19 +39,6 @@
 			}
 		},
 		{
-			"name": "Anchor Protocol",
-			"logo": "anchorprotocol.jpeg",
-			"description": "Anchor's yield is powered by staking returns from multiple Proof of Stake blockchains.",
-			"website": "https://app.anchorprotocol.com/",
-			"network": ["Terra"],
-			"socials": {
-				"twitter": "https://twitter.com/anchor_protocol",
-				"discord": "https://discord.gg/9aUYgpKZ9c",
-				"github": "https://github.com/Anchor-Protocol",
-				"telegram": "https://t.me/anchor_official"
-			}
-		},
-		{
 			"name": "Notional Finance",
 			"logo": "notionalfinance.jpeg",
 			"description": "Fixed rate borrowing and lending on Ethereum.",
@@ -114,19 +101,6 @@
 				"discord": "https://discord.gg/synapseprotocol",
 				"github": "https://github.com/synapsecns",
 				"telegram": "https://t.me/synapseprotocol"
-			}
-		},
-		{
-			"name": "Orion Money",
-			"logo": "orionmoney.jpeg",
-			"description": "Cross-Chain Stablecoin Bank",
-			"website": "https://orion.money/",
-			"network": ["ethereum", "Polygon", "BSC" , "Terra"],
-			"socials": {
-				"twitter": "https://twitter.com/orion_money",
-				"discord": "https://discord.gg/5vbWB2PWeS",
-				"medium": "https://orion-money.medium.com/",
-				"telegram": "https://t.me/Orion_Money"
 			}
 		},
 		{
