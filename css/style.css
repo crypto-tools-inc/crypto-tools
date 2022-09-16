@@ -10,8 +10,13 @@ html {
 }
 
 body {
+/* background-color: #FFFFFF; */
   background-color: #FAF8F6;
   scroll-behavior: smooth;
+}
+
+.bg-gray {
+    background-color: #FAF8F6;
 }
 
 .gradient {
@@ -71,6 +76,16 @@ TYPOGRAPHY
 }
 
 /* =============================================================================
+COLOURS
+============================================================================= */
+.bg-gray {
+    background-color: #FAF8F6;
+}
+.gray-500 {
+    color: #ACACAC;
+}
+
+/* =============================================================================
 BUTTONS
 ============================================================================= */
 .btn:hover {
@@ -122,6 +137,90 @@ NAVBAR
 }
 
 /* =============================================================================
+SIDEBAR
+============================================================================= */
+#wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  height: 100vh;
+  min-width: 18rem;
+  overflow: scroll;
+  margin-left: -18rem;
+  background-color: #FFFFFF;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.5rem 1.25rem;
+  font-size: 1.2rem;
+}
+.sidebar-heading {
+    width: 18rem;
+    position: fixed;
+    z-index: 9999;
+}
+
+#sidebar-wrapper .list-group {
+  width: 18rem;
+}
+.list-group {
+    height: 100vh;
+    overflow: scroll;
+}
+
+.list-group-item+.list-group-item.active {
+  margin-top: 0.25rem;
+  color: #212841;
+  background-color: #e9ecef;
+  border-radius: 8px;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
+
+body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+    margin-left: -18rem;
+  }
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    margin: 0.25rem 0rem;
+    padding: 0.7rem;
+}
+.list-group-item-action:hover, .list-group-item-action:focus {
+    background-color: #e9ecef;
+    border-radius: 8px;
+}
+
+.list-group-item.active {
+    color: #0d6efd;
+    border: none;
+    background-color: inherit;
+}
+
+/* =============================================================================
 JUMBOTRON
 ============================================================================= */
 .jumbotron {
@@ -152,6 +251,14 @@ DROPDOWN MENU
 .dropdown-item {
   padding: .6rem 1rem;
   border-radius: 8px;
+}
+
+/* =============================================================================
+FORMS
+============================================================================= */
+.form-control {
+    background-color: #eceae7;
+    border: none;
 }
 
 /* =============================================================================
@@ -239,6 +346,10 @@ RESPONSIVE STUFF
     background-repeat: no-repeat;
     background-position: bottom; */
   }
+  #sidebar-wrapper {
+    margin-left: -18rem;    
+}
+
 }
 
 @media (min-width: 992px) {

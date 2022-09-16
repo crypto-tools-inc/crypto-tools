@@ -14,7 +14,7 @@ function getContent() {
 
       //CONSTRUCTION OF ROWS HAVING
       // DATA FROM JSON OBJECT
-      item += '<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-12">';
+      item += '<div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-12">';
       item += '<div class="card">';
       item += '<div class="card-header d-flex">';
       item += '<img loading="lazy" src="/img/projects/' + value.logo + '" height="70" class="rounded-5" alt="' + value.logo + '">';
@@ -61,4 +61,7 @@ function getContent() {
     //INSERTING ROWS INTO TABLE
     $('#section-elements').html(item);
   });
+  var currentPage = $('#section-elements').attr('name');
+  $('#'+currentPage).addClass('active')
+
 }
