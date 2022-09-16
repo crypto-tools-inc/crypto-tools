@@ -11,6 +11,18 @@
 			}
 		},
 		{
+			"name": "HowRare",
+			"logo": "howrare.jpeg",
+			"description": "Find out how rare is your Solana NFT.",
+			"website": "https://howrare.is/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/howrareis",
+				"discord": "https://discord.gg/VmhsCdjyEx",
+				"github": "https://github.com/HowRareIs"
+			}
+		},
+		{
 			"name": "Flips",
 			"logo": "flips.jpeg",
 			"description": "An NFT analytics hub that specializes in tracking delistings, floor increases, and volume increases.",
