@@ -1,4 +1,16 @@
 [
+	{
+			"name": "LlamaPay",
+			"logo": "llamapay.jpeg",
+			"description": "Automate & stream salaries by the second. Built by DefiLlama and used by iearnfinance, ConvexFinance, SpookySwap, tubbycatsnft, DeFi Wonderland and more",
+			"website": "https://llamapay.io/",
+			"network": ["Ethereum", "Polygon", "Optimism", "Arbitrum", "Fantom", "BSC", "Avalanche", "Gnosis"],
+			"socials": {
+				"twitter": "https://twitter.com/llamapay_io",
+				"discord": "https://discord.com/invite/DEPw82UpgW",
+				"github": "https://github.com/LlamaPay"
+			}
+		},	
 		{
 			"name": "Coordinape",
 			"logo": "coordinape.jpeg",
