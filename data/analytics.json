@@ -32,6 +32,31 @@
 			}
 		},
 		{
+			"name": "WhaleStats",
+			"logo": "whalestats.jpeg",
+			"description": "Whalestats tracks up to 5000 of the largest Ethereum wallets (the whales)",
+			"website": "https://www.whalestats.com/analysis-of-the-top-100-eth-wallets",
+			"network": ["Ethereum", "Polygon", "BSC", "Fantom", "Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/WhaleStats",
+				"medium": "https://medium.com/@WhaleStats",
+				"telegram": "https://t.me/WhaleStats"
+			}
+		},
+		{
+			"name": "EigenPhi",
+			"logo": "eigenphi.png",
+			"description": "Full-Scale DeFi Deep Data Platform Covering MEV, 🥪 Front Run, Liquidation, Flash loan, and Lending.",
+			"website": "uhttps://eigenphi.io/rl",
+			"network": ["Ethereum", "BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/eigenphi",
+				"discord": "https://discord.gg/2B96UzwpHB",
+				"medium": "https://medium.com/@eigenphi/",
+				"mirror": "https://mirror.xyz/0xc19565163aFdEe3783FC970E4Bd0275B11848d34"
+			}
+		},
+		{
 			"name": "Breadcrumbs",
 			"logo": "breadcrumbs.jpeg",
 			"description": "helloworld",
