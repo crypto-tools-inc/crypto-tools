@@ -45,6 +45,16 @@
 			}
 		},
 		{
+			"name": "Web3 Alpha Alerts",
+			"logo": "web3alpha.jpeg",
+			"description": "Discover the hottest new projects before everyone else.",
+			"website": "https://web3alerts.app/",
+			"network": ["Ethereum", "Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/Web3Alerts"
+			}
+		},
+		{
 			"name": "Yieldape",
 			"logo": "yieldape.png",
 			"description": "YieldApe combines yield information of the most popular dApps to simplify comparison of APY values helping you to find yield opportunities on a single website.",
