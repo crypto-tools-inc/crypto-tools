@@ -90,6 +90,17 @@
 			}
 		},
 		{
+			"name": "Artemis",
+			"logo": "artemis.jpeg",
+			"description": "Accurate & unbiased blockchain data",
+			"website": "https://www.artemis.xyz/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/Artemis__xyz",
+				"telegram": "https://t.me/+u8zCFL1imI0zMjUx"
+			}
+		},
+		{
 			"name": "Dove Metrics",
 			"logo": "dovemetrics.jpeg",
 			"description": "Data + intelligence about crypto fundraising.",
