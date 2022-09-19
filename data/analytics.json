@@ -32,6 +32,19 @@
 			}
 		},
 		{
+			"name": "Revert",
+			"logo": "revert.png",
+			"description": "Actionable analytics for AMM liquidity providers.",
+			"website": "https://revert.finance/",
+			"network": ["Ethereum", "Polygon", "Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/revertfinance",
+				"discord": "https://discord.gg/HXfxKHrRmf",
+				"github": "https://github.com/revert-finance",
+				"mirror": "https://mirror.xyz/revertfinance.eth"
+			}
+		},
+		{
 			"name": "WhaleStats",
 			"logo": "whalestats.jpeg",
 			"description": "Whalestats tracks up to 5000 of the largest Ethereum wallets (the whales)",
