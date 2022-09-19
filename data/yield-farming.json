@@ -14,6 +14,19 @@
 			"telegram": "https://t.me/beefyfinance"
 		}
 	},
+	{
+			"name": "Autofarm",
+			"logo": "autofarm.png",
+			"description": "One-stop DeFi platform | Lowest fee Multi-chain DEX & yield aggregator | Deployed on 19 EVM-compatible chains",
+			"website": "https://autofarm.network",
+			"network": ["Ethereum", "Polygon", "Optimism", "BSC", "Cronos", "HECO", "Avalanche", "Fantom", "Moonriver", "Celo", "Harmony", "Gnosis", "Boba", "Aurora", "Moonbeam"],
+			"socials": {
+				"twitter": "https://twitter.com/autofarmnetwork",
+				"discord": "https://discord.gg/bJ9ZsypQzv",
+				"medium": "https://medium.com/autofarm-network",
+				"telegram": "https://t.me/autofarm_network"
+			}
+		},
 		{
 			"name": "vfat",
 			"logo": "vfat.jpeg",
