@@ -37,6 +37,18 @@
 			}
 		},
 		{
+			"name": "Pacoca",
+			"logo": "pacoca.jpeg",
+			"description": "Multichain portfolio manager, automated yield optimizer & dex aggregator.",
+			"website": "https://pacoca.io/",
+			"network": ["Ethereum", "Polygon", "Optimism", "Fantom", "Avalanche", "BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/pacoca_io",
+				"medium": "https://pacoca.medium.com/",
+				"telegram": "https://t.me/pacoca_io"
+			}
+		},
+		{
 			"name": "NFT Bank",
 			"logo": "nftbank.jpeg",
 			"description": "Make NFT Portfolio Management Smart and market insights to taxfiling.",
