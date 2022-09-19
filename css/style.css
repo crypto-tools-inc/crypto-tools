@@ -3,6 +3,7 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
   color: #212841;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -12,7 +13,6 @@ html {
 body {
 /* background-color: #FFFFFF; */
   background-color: #FAF8F6;
-  scroll-behavior: smooth;
 }
 
 .bg-gray {
@@ -96,6 +96,14 @@ BUTTONS
   color: #fff;
   background-color: #000;
   border-color: #000;
+}
+
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
 }
 
 /* =============================================================================
