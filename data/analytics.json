@@ -82,6 +82,19 @@
 			}
 		},
 		{
+			"name": "0xScope",
+			"logo": "0xscope.png",
+			"description": "First-ever Web3 Knowledge Graph Protocol",
+			"website": "https://0xscope.com/",
+			"network": ["All"],
+			"socials": {
+				"twitter": "https://twitter.com/ScopeProtocol",
+				"discord": "https://discord.gg/0xscope",
+				"medium": "https://medium.com/@0xscope",
+				"github": "https://github.com/thescopedao"
+			}
+		},
+		{
 			"name": "APY.Vision",
 			"logo": "apyvision.png",
 			"description": "All-in-one liquidity pool analytics tool",
