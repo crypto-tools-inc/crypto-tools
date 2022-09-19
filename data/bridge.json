@@ -13,6 +13,19 @@
 			}
 		},
 		{
+			"name": "Chaineye",
+			"logo": "chaineye.jpeg",
+			"description": "Free and open source omni-chain analytical tools",
+			"website": "https://chaineye.tools/",
+			"network": ["Ethereum", "Polygon", "Optimism", "Avalanche", "HECO", "Arbitrum", "Solana", "OEC", "Aurora", "BSC", "Boba", "Celo", "Cronos", "Fantom", "Fuse", "Gnosis", "Moonbeam", "Moonriver", "Tron", "zksync"],
+			"socials": {
+				"twitter": "https://twitter.com/Chaineye_tools",
+				"discord": "https://discord.com/invite/biteye",
+				"github": "https://github.com/DeFiEye/BridgeEye",
+				"telegram": "https://t.me/chaineye"
+			}
+		},
+		{
 			"name": "Across",
 			"logo": "across.jpeg",
 			"description": "Instantly Send Assets from Layer 2 Rollups to Ethereum",
