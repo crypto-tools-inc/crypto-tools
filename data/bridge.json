@@ -13,6 +13,19 @@
 			}
 		},
 		{
+			"name": "Portal",
+			"logo": "wormhole.jpeg",
+			"description": "Portal is a bridge that offers unlimited transfers across chains for tokens and NFTs wrapped by Wormhole. Unlike many other bridges, you avoid double wrapping and never have to retrace your steps.",
+			"website": "https://www.portalbridge.com/#/transfer",
+			"network": ["Ethereum", "Polygon", "Avalanche", "BSC", "Aurora", "Celo", "Fantom", "Moonbeam", "Polygon", "Solana", "Terra"],
+			"socials": {
+				"twitter": "https://twitter.com/wormholecrypto",
+				"github": "https://github.com/wormhole-foundation/wormhole",
+				"medium": "urhttps://wormholecrypto.medium.com/l",
+				"telegram": "https://t.me/wormholecrypto"
+			}
+		},
+		{
 			"name": "Chaineye",
 			"logo": "chaineye.jpeg",
 			"description": "Free and open source omni-chain analytical tools",
