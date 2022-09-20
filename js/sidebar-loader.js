@@ -27,7 +27,6 @@ $(document).ready(function () {
 $('#page-content-wrapper').scroll(function () {
     var y = $(this).scrollTop();
     if (y > 200) {
-      console.log('hi')
         $('#backToTop').fadeIn();
     } else {
         $('#backToTop').fadeOut();
