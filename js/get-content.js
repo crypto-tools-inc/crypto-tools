@@ -17,7 +17,7 @@ function getContent() {
       item += '<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-12">';
       item += '<div class="card">';
       item += '<div class="card-header d-flex">';
-      item += '<img loading="lazy" src="/img/projects/' + value.logo + '" height="70" class="rounded-5" alt="' + value.logo + '">';
+      item += '<img loading="lazy" src="/img/projects/' + value.logo + '" height="70" width="70" class="rounded-5" alt="' + value.logo + '">';
       item += '<div class="ms-4 d-flex flex-column justify-content-between">';
       item += '<h4 class="card-title">' + value.name + '</h4>';
       item += '<a class="card-subtitle mb-2 text-decoration-none" href="' + value.website + '" target="_blank"><img class="me-1" height="12" src="/img/socials/link.svg">Website</a>';
