@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "watch-http-server -o ./"
+    "start": "watch-http-server -o ./",
+    "build": "purgecss -c purgecss.config.js -o css && cssnano css/style.css css/style.min.css"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,10 @@
   },
   "homepage": "https://github.com/monzanifabio/crypto-tools#readme",
   "dependencies": {
+    "cssnano": "^5.1.13",
+    "cssnano-cli": "^1.0.5",
     "http-server": "^14.1.0",
+    "purgecss": "^5.0.0",
     "watch-http-server": "^0.7.6"
   }
 }
