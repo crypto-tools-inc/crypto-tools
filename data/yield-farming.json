@@ -28,6 +28,16 @@
 			}
 		},
 		{
+			"name": "Stable.Fish",
+			"logo": "stablefish.jpeg",
+			"description": "Find stablecoin yield farming that fits you best. The largest number of protocols supported with 165, actual investment performance and APY over the same period",
+			"website": "http://stable.fish",
+			"network": ["Ethereum", "BSC", "Avalanche", "Polygon", "Cronos", "Fantom", "Arbitrum", "Optimism", "Aurora"],
+			"socials": {
+				"twitter": "uhttps://twitter.com/stable_fishrl"
+			}
+		},
+		{
 			"name": "vfat",
 			"logo": "vfat.jpeg",
 			"description": "A set of no-frills tools for yield farming with a dashboard and farming calculator that allows you to find the most popular farms and their yields.",
