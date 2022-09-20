@@ -1,0 +1,14 @@
+[
+		{
+			"name": "CoinTraker",
+			"logo": "cointracker.png",
+			"description": "The gold standard in crypto portfolio tracking and taxes. On a mission to increase the world's financial freedom and prosperity.",
+			"website": "https://www.cointracker.io/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/cointracker",
+				"telegram": "https://t.me/cointracker_announce",
+				"reddit": "https://www.reddit.com/r/cointracker"
+			}
+		}
+]
