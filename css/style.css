@@ -11,7 +11,6 @@ html {
 }
 
 body {
-/* background-color: #FFFFFF; */
   background-color: #FAF8F6;
 }
 
@@ -58,14 +57,6 @@ TYPOGRAPHY
   font-weight: 700;
 }
 
-.bg-black {
-  background-color: #000000;
-}
-
-.bg-white {
-  background-color: #FFFFFF;
-}
-
 .card a {
   font-size: 0.8rem;
   color: #3861FB;
@@ -109,10 +100,6 @@ BUTTONS
 /* =============================================================================
 NAVBAR
 ============================================================================= */
-.bg-white {
-  background-color: #FFFFFF;
-}
-
 .navbar-fade {
   transition: all 0.5s ease-in-out;
   background-color: #F4F4F4;
@@ -173,6 +160,7 @@ SIDEBAR
     width: 18rem;
     position: fixed;
     z-index: 9999;
+    background-color: #FFFFFF;
 }
 
 #sidebar-wrapper .list-group {
