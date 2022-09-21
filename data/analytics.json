@@ -60,7 +60,7 @@
 			"name": "EigenPhi",
 			"logo": "eigenphi.png",
 			"description": "Full-Scale DeFi Deep Data Platform Covering MEV, 🥪 Front Run, Liquidation, Flash loan, and Lending.",
-			"website": "uhttps://eigenphi.io/rl",
+			"website": "https://eigenphi.io/rl",
 			"network": ["Ethereum", "BSC"],
 			"socials": {
 				"twitter": "https://twitter.com/eigenphi",
