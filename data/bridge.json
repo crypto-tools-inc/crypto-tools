@@ -77,6 +77,18 @@
 			}
 		},
 		{
+			"name": "Biconomy Hyphen",
+			"logo": "biconomy.jpeg",
+			"description": "Biconomy, a web3 infra project solving transaction layer problems, built Hyphen, the fastest & cheapest cross-chain liquidity bridge in the market.",
+			"website": "https://hyphen.biconomy.io/bridge",
+			"network": ["Ethereum", "Polygon", "Avalanche", "Optimism", "BSC", "Arbitrum", "Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/biconomy",
+				"discord": "https://discord.com/invite/biconomy",
+				"telegram": "https://t.me/biconomy"
+			}
+		},
+		{
 			"name": "Celer Network Bridge",
 			"logo": "celernetwork.jpeg",
 			"description": "Building the best inter-blockchain and cross-layer communication platform.",
