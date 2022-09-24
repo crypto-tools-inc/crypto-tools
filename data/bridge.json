@@ -26,6 +26,19 @@
 			}
 		},
 		{
+			"name": "Stargate",
+			"logo": "stargate.jpeg",
+			"description": "Stargate is a fully composable liquidity transport protocol that lives at the heart of omnichain DeFi.",
+			"website": "https://stargate.finance/transfer",
+			"network": ["Ethereum", "BSC", "Avalanche", "Polygon", "Arbitrum", "Optimism", "Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/StargateFinance",
+				"discord": "https://stargate.finance/discord",
+				"medium": "https://medium.com/stargate-official",
+				"telegram": "https://t.me/joinchat/LEM0ELklmO1kODdh"
+			}
+		},
+		{
 			"name": "Chaineye",
 			"logo": "chaineye.jpeg",
 			"description": "Free and open source omni-chain analytical tools",
