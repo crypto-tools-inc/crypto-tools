@@ -90,6 +90,18 @@
 			}
 		},
 		{
+			"name": "Bungee",
+			"logo": "bungee.png",
+			"description": "Bungee is the Google Maps for the multi-chain world. A bridge aggregator that helps users discover the best bridges to move their assets across chains.",
+			"website": "https://www.bungee.exchange/",
+			"network": ["Ethereum", "BSC", "Optimism", "Gnosis", "Fantom", "Arbitrum", "Avalanche", "Aurora"],
+			"socials": {
+				"twitter": "https://twitter.com/BungeeExchange",
+				"discord": "https://discord.gg/zfKJR8yWaH",
+				"medium": "https://medium.com/bungee-exchange"
+			}
+		},
+		{
 			"name": "Biconomy Hyphen",
 			"logo": "biconomy.jpeg",
 			"description": "Biconomy, a web3 infra project solving transaction layer problems, built Hyphen, the fastest & cheapest cross-chain liquidity bridge in the market.",
