@@ -77,6 +77,19 @@
 			}
 		},
 		{
+			"name": "Synapse Protocol",
+			"logo": "synapseprotocol.jpeg",
+			"description": "ACross-chain layer ∞ blockchain - bridge assets across all chains.",
+			"website": "https://synapseprotocol.com/",
+			"network": ["ethereum", "Polygon", "Arbitrum", "Avalanche", "Fantom", "Moonriver", "BSC", "Harmony", "Boba", "Moonbeam", "Aurora"],
+			"socials": {
+				"twitter": "https://twitter.com/SynapseProtocol",
+				"discord": "https://discord.gg/synapseprotocol",
+				"github": "https://github.com/synapsecns",
+				"telegram": "https://t.me/synapseprotocol"
+			}
+		},
+		{
 			"name": "Biconomy Hyphen",
 			"logo": "biconomy.jpeg",
 			"description": "Biconomy, a web3 infra project solving transaction layer problems, built Hyphen, the fastest & cheapest cross-chain liquidity bridge in the market.",
