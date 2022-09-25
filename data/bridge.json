@@ -127,6 +127,32 @@
 			}
 		},
 		{
+			"name": "Elk Finance",
+			"logo": "elkfinance.jpeg",
+			"description": "The DeFi Gateway. 🦌 Leverage the power of ElkNet with instant free transfers across 19 of the most popular networks.",
+			"website": "https://app.elk.finance/elknet",
+			"network": ["Ethereum", "Polygon", "Optimism", "Arbitrum", "BSC", "Cronos", "Fantom", "Fuse", "Gnosis", "HECO", "Harmony", "Moonriver", "OKC", "Telos"],
+			"socials": {
+				"twitter": "https://twitter.com/elk_finance/",
+				"discord": "https://discord.gg/D68vrXgXXZ",
+				"medium": "https://medium.com/elk-finance/",
+				"telegram": "https://t.me/elk_finance_chat/",
+				"reddit": "https://www.reddit.com/r/ElkFinance/"
+			}
+		},
+		{
+			"name": "LayerSwap",
+			"logo": "layerswap.jpeg",
+			"description": "Save 10x on fees when moving crypto from Coinbase, Binance, Huobi or FTX US to Optimism",
+			"website": "https://www.layerswap.io/",
+			"network": ["Optimism", "Ronin", "Boba", "zksync", "Arbitrum", "Polygon", "Loopring", "Moonbeam", "Cronos", "Starknet"],
+			"socials": {
+				"twitter": "https://twitter.com/layerswap",
+				"discord": "https://discord.com/invite/KhwYN35sHy",
+				"github": "https://github.com/layerswap/layerswapapp"
+			}
+		},
+		{
 			"name": "Allbridge",
 			"logo": "allbridge.jpeg",
 			"description": "Fast, Affordable and Secure way of moving liquidity between EVM, non-EVM, and L2 blockchains",
