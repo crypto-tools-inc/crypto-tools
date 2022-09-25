@@ -141,6 +141,18 @@
 			}
 		},
 		{
+			"name": "Meson",
+			"logo": "meson.jpeg",
+			"description": "Meson is a crosschain defi solution for the circulation of stablecoins between different blockchains and Layer 2's",
+			"website": "url",
+			"network": ["Ethereum", "Polygon", "Optimism", "Fantom", "Moonriver", "BSC", "Arbitrum", "Aurora", "Avalanche", "Tron"],
+			"socials": {
+				"twitter": "https://twitter.com/mesonfi",
+				"discord": "https://discord.gg/meson",
+				"github": "https://github.com/MesonFi"
+			}
+		},
+		{
 			"name": "LayerSwap",
 			"logo": "layerswap.jpeg",
 			"description": "Save 10x on fees when moving crypto from Coinbase, Binance, Huobi or FTX US to Optimism",
