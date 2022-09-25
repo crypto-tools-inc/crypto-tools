@@ -4,7 +4,7 @@
 			"logo": "multichain.jpeg",
 			"description": "Previously known as Anyswap, Multichain is a cross-chain router protocol, envisioned to be the ultimate router for Web3.",
 			"website": "https://app.multichain.org/",
-			"network": ["Ethereum", "BSC", "Polygon", "Optimism", "Arbitrum", "Fantom", "Avalanche", "Moonbeam", "Moonriver", "Harmony", "Aurora", "Boba", "Cronos", "OEC", "Heco", "Gnosis", "Celo"],
+			"network": ["Ethereum", "BSC", "Polygon", "Optimism", "Arbitrum", "Fantom", "Avalanche", "Moonbeam", "Moonriver", "Harmony", "Aurora", "Boba", "Cronos", "OKC", "OEC", "Heco", "Gnosis", "Celo", "Metis"],
 			"socials": {
 				"twitter": "https://twitter.com/MultichainOrg",
 				"medium": "https://multichainorg.medium.com/",
@@ -17,7 +17,7 @@
 			"logo": "wormhole.jpeg",
 			"description": "Portal is a bridge that offers unlimited transfers across chains for tokens and NFTs wrapped by Wormhole. Unlike many other bridges, you avoid double wrapping and never have to retrace your steps.",
 			"website": "https://www.portalbridge.com/#/transfer",
-			"network": ["Ethereum", "Polygon", "Avalanche", "BSC", "Aurora", "Celo", "Fantom", "Moonbeam", "Polygon", "Solana", "Terra"],
+			"network": ["Ethereum", "Polygon", "Avalanche", "BSC", "Aurora", "Celo", "Fantom", "Moonbeam", "Polygon", "Solana", "Terra", "Klaytn", "Acala", "Oasis", "Near"],
 			"socials": {
 				"twitter": "https://twitter.com/wormholecrypto",
 				"github": "https://github.com/wormhole-foundation/wormhole",
@@ -43,7 +43,7 @@
 			"logo": "chaineye.jpeg",
 			"description": "Free and open source omni-chain analytical tools",
 			"website": "https://chaineye.tools/",
-			"network": ["Ethereum", "Polygon", "Optimism", "Avalanche", "HECO", "Arbitrum", "Solana", "OEC", "Aurora", "BSC", "Boba", "Celo", "Cronos", "Fantom", "Fuse", "Gnosis", "Moonbeam", "Moonriver", "Tron", "zksync"],
+			"network": ["Ethereum", "Polygon", "Optimism", "Avalanche", "HECO", "Arbitrum", "Solana", "OEC", "Aurora", "BSC", "Boba", "Celo", "Cronos", "Fantom", "Fuse", "Gnosis", "Moonbeam", "Moonriver", "Tron", "Near", "OKC", "Oasis", "zksync"],
 			"socials": {
 				"twitter": "https://twitter.com/Chaineye_tools",
 				"discord": "https://discord.com/invite/biteye",
@@ -56,7 +56,7 @@
 			"logo": "across.jpeg",
 			"description": "Instantly Send Assets from Layer 2 Rollups to Ethereum",
 			"website": "https://across.to/",
-			"network": ["Ethereum", "Arbitrum", "Boba", "Optimism"],
+			"network": ["Ethereum", "Arbitrum", "Boba", "Optimism", "Polygon"],
 			"socials": {
 				"twitter": "https://twitter.com/AcrossProtocol",
 				"discord": "https://discord.gg/across",
