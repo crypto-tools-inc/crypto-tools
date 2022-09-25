@@ -165,6 +165,19 @@
 			}
 		},
 		{
+			"name": "O3 Swap",
+			"logo": "o3swap.jpeg",
+			"description": "Cross-chain aggregation protocol.",
+			"website": "https://o3swap.com/bridge",
+			"network": ["Ethereum", "BSC", "Polygon", "Arbitrum", "Gnosis", "Fantom", "Avalanche", "Optimism", "Metis", "Celo"],
+			"socials": {
+				"twitter": "https://twitter.com/O3_Labs",
+				"discord": "https://discord.gg/eyrp4K3QKm",
+				"medium": "https://medium.com/o3-labs-o3-wallet",
+				"reddit": "https://www.reddit.com/r/O3Labs"
+			}
+		},
+		{
 			"name": "Allbridge",
 			"logo": "allbridge.jpeg",
 			"description": "Fast, Affordable and Secure way of moving liquidity between EVM, non-EVM, and L2 blockchains",
