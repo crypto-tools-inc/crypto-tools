@@ -178,6 +178,19 @@
 			}
 		},
 		{
+			"name": "Orbiter Finance",
+			"logo": "orbiterfinance.jpeg",
+			"description": "A decentralized cross-rollup bridge, which is the infrastructure of Layer 2 ",
+			"website": "https://www.orbiter.finance/",
+			"network": ["Ethereum", "Polygon", "zksync", "Arbitrum", "Loopring", "Optimism", "Metis", "Boba", "Starknet", "BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/Orbiter_Finance",
+				"discord": "https://discord.com/invite/hJJvXP7C73",
+				"medium": "https://orbiter-finance.medium.com/",
+				"github": "https://github.com/Orbiter-Finance"
+			}
+		},
+		{
 			"name": "Allbridge",
 			"logo": "allbridge.jpeg",
 			"description": "Fast, Affordable and Secure way of moving liquidity between EVM, non-EVM, and L2 blockchains",
