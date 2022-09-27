@@ -99,7 +99,7 @@
                         <div class="row">
                             <div class="col-md-6">
                             <h1 class="display-3 semi-bold animate__animated animate__fadeInUp">A collection of tools curated by experts, handpicked for you.</h1>
-                            <h5 class="my-4 animate__animated animate__fadeInUp animate__delay-03s">Save hours of research with our library of 100+ trusted dApps and protocols.</h5>
+                            <h5 class="my-4 animate__animated animate__fadeInUp animate__delay-03s">Save hours of research with our library of <span id="totalCount"></span> trusted dApps and protocols.</h5>
                             <a class="semi-bold animate__animated animate__fadeInUp animate__delay-03s" href="https://www.producthunt.com/posts/crypto-tools?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-crypto&#0045;tools" target="_blank"><img
                                 src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=339388&theme=light"
                                 alt="Crypto&#0032;Tools - A&#0032;curated&#0032;collection&#0032;of&#0032;crypto&#0032;tools&#0044;&#0032;handpicked&#0032;for&#0032;you | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
@@ -134,5 +134,24 @@
         <script src="vendors/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
         <script src="vendors/jquery-3.6.0.min.js"></script>
         <script src="/js/sidebar-loader.js"></script>
+
+        <script>
+            // Count to the total number of tools
+            let totalCount = 0
+
+            $.getJSON('./data', data => {
+                for (let i = 0; i < data.length; ++i) {
+                    count(data[i]);
+                }
+            });
+            function count(filename) {
+            $.getJSON("./data/" + filename,
+                function (files) {
+                    totalCount += files.length;
+                    //Get the total number of tools in the JSON
+                    $('#totalCount').text(totalCount)
+                });
+            };
+        </script>
     </body>
 </html>
