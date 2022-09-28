@@ -34,6 +34,17 @@
 			}
 		},
 		{
+			"name": "Pulsr",
+			"logo": "pulsr.jpeg",
+			"description": "Pulsr label NFTs so your Web3 for a better search experience. Discover, label and earn with Pulsr.",
+			"website": "https://www.pulsr.ai/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/pulsr_ai",
+				"discord": "uhttps://discord.gg/Vtc9mrW64Prl"
+			}
+		},
+		{
 			"name": "Flips",
 			"logo": "flips.jpeg",
 			"description": "An NFT analytics hub that specializes in tracking delistings, floor increases, and volume increases.",
