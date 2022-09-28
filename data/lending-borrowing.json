@@ -64,6 +64,17 @@
 			}
 		},
 		{
+			"name": "Lulo Finance",
+			"logo": "lulofinance.jpeg",
+			"description": "A new DeFi primitive: the lending order book, built on Solana. Lulo is a DeFi lending protocol that utilizes a fully on-chain CLOB to create a global liquidity layer",
+			"website": "https://www.lulo.finance/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/lulo_finance",
+				"discord": "https://discord.com/invite/ahrDazzyqG"
+			}
+		},
+		{
 			"name": "Notional Finance",
 			"logo": "notionalfinance.jpeg",
 			"description": "Fixed rate borrowing and lending on Ethereum.",
