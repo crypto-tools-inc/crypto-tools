@@ -122,6 +122,19 @@
 			}
 		},
 		{
+			"name": "Euler Labs",
+			"logo": "eulerlabs.jpeg",
+			"description": "Euler is a non-custodial protocol on Ethereum that allows users to lend and borrow almost any crypto asset.",
+			"website": "https://www.euler.finance/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/eulerfinance",
+				"discord": "https://discord.gg/CdG97VSYGk",
+				"medium": "https://blog.euler.finance/",
+				"telegram": "https://t.me/eulerfinance_official"
+			}
+		},
+		{
 			"name": "Yearn Finance",
 			"logo": "yearn.jpeg",
 			"description": "DeFi made simple with multiple vaults of battle tested contracts and long track record.",
