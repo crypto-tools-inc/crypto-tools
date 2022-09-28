@@ -51,6 +51,18 @@
 			}
 		},
 		{
+			"name": "Savvy DeFi",
+			"logo": "savvydefi.jpeg",
+			"description": "Savvy is a self-repaying and non-liquidating DeFi lending platform that gives users the ability to get an advance on their future yield immediately.",
+			"website": "https://savvydefi.io/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/SavvyDefi",
+				"discord": "https://discord.gg/XAwremWDA7",
+				"telegram": "https://t.me/savvydefievents"
+			}
+		},
+		{
 			"name": "Rari Capital",
 			"logo": "raricapital.jpeg",
 			"description": "Lend, borrow and earn yield on every asset.",
