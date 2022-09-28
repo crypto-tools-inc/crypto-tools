@@ -82,6 +82,18 @@
 			}
 		},
 		{
+			"name": "DeFi Basket",
+			"logo": "defibasket.jpeg",
+			"description": "Build, manage and discover DeFi Portfolios. All in a single transaction. ",
+			"website": "https://www.defibasket.org/",
+			"network": ["Polygon"],
+			"socials": {
+				"twitter": "https://www.twitter.com/DeFiBasketLabs",
+				"discord": "https://discord.gg/5AVTGwkCEs",
+				"github": "https://github.com/defibasket/"
+			}
+		},
+		{
 			"name": "Staking Rewards",
 			"logo": "stakingrewards.jpeg",
 			"description": "Staking Rewards is the leading data provider and research platform for staking.",
