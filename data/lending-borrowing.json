@@ -110,6 +110,20 @@
 			}
 		},
 		{
+			"name": "Clearpool",
+			"logo": "clearpool.jpeg",
+			"description": "Earn market-leading returns on stablecoins lend to leading institutions & earn attractive risk-adjusted yields",
+			"website": "https://clearpool.finance/",
+			"network": ["Ethereum", "Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/ClearpoolFin",
+				"discord": "https://discord.gg/YYzxscA4nu",
+				"medium": "https://clearpool.medium.com/",
+				"github": "https://github.com/clearpool-finance",
+				"telegram": "https://t.me/clearpoolofficial"
+			}
+		},
+		{
 			"name": "Abracadabra Degebox",
 			"logo": "abracadabra.jpeg",
 			"description": "Abracadabra.money is a spell nook that allows users to produce magic internet money.",
