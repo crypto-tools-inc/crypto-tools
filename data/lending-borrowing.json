@@ -177,6 +177,32 @@
 			}
 		},
 		{
+			"name": "Silo Finance",
+			"logo": "silofinance.png",
+			"description": "Silo is a non-custodial lending protocol to borrow any crypto asset with another.",
+			"website": "https://www.silo.finance/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/SiloFinance",
+				"discord": "https://discord.gg/silo-finance",
+				"medium": "https://medium.com/silo-protocol",
+				"github": "https://github.com/silo-finance/silo-core-v1",
+				"telegram": "http://t.me/silo_community"
+			}
+		},
+		{
+			"name": "Atlendins",
+			"logo": "atlendis.jpeg",
+			"description": "Choose your borrowers, your rates, and take control of your yield on Atlendis.",
+			"website": "https://atlendis.io/",
+			"network": ["Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/AtlendisLabs",
+				"discord": "https://atlendis.io/discord",
+				"medium": "https://medium.com/@atlendis"
+			}
+		},
+		{
 			"name": "Synapse Protocol",
 			"logo": "synapseprotocol.jpeg",
 			"description": "ACross-chain layer ∞ blockchain - bridge assets across all chains.",
