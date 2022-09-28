@@ -164,6 +164,18 @@
 			}
 		},
 		{
+			"name": "Maple Finance",
+			"logo": "maplefinance.jpeg",
+			"description": "Maple is an industry leading credit experts manage fast-flowing lending businesses where pooled capital is lent to profitable crypto blue-chips.",
+			"website": "https://www.maple.finance/",
+			"network": ["Ethereum", "Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/maplefinance?lang=en",
+				"discord": "https://discord.gg/Xy6sqxRhFG",
+				"telegram": "https://t.me/maplefinance"
+			}
+		},
+		{
 			"name": "Hundred Finance",
 			"logo": "hundredfinance.jpeg",
 			"description": "A multi-chain lending protocol using veHND model, it integrates with Chainlink oracles to ensure market health and stability.",
