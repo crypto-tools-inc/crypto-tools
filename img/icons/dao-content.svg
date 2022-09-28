@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="102.064" height="103" viewBox="0 0 102.064 103"><g transform="translate(-5311.968 -1816)"><rect width="85" height="103" transform="translate(5311.968 1816)" fill="#707070" opacity="0.5"/><rect width="60" height="6" transform="translate(5318.968 1837)" fill="#707070"/><rect width="46" height="6" transform="translate(5318.968 1850)" fill="#707070"/><rect width="25" height="6" transform="translate(5318.968 1863)" fill="#707070"/><path d="M0,0H60.407V10H0L-9.025,4.6Z" transform="translate(5364.247 1894.714) rotate(-45)" fill="#707070"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;fill:#707070;enable-background:new    ;}
+	.st1{fill:#707070;}
+</style>
+<g transform="translate(-5311.968 -1816)">
+	<rect x="5312.9" y="1816.3" class="st0" width="105.1" height="127.4"/>
+	<rect x="5321.5" y="1842.3" class="st1" width="74.2" height="7.4"/>
+	<rect x="5321.5" y="1858.4" class="st1" width="56.9" height="7.4"/>
+	<rect x="5321.5" y="1874.4" class="st1" width="30.9" height="7.4"/>
+	<path class="st1" d="M5377.5,1913.7l52.8-52.8l8.7,8.7l-52.8,52.8l-12.6,3.2L5377.5,1913.7z"/>
+</g>
+</svg>

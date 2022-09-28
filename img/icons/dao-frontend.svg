@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="110" height="82" viewBox="0 0 110 82"><g transform="translate(-5308 -1656)"><rect width="110" height="82" transform="translate(5308 1656)" fill="#707070" opacity="0.5"/><circle cx="5" cy="5" r="5" transform="translate(5314 1662)" fill="#707070"/><circle cx="5" cy="5" r="5" transform="translate(5330 1662)" fill="#707070" opacity="0.5"/><circle cx="5" cy="5" r="5" transform="translate(5346 1662)" fill="#707070" opacity="0.5"/><rect width="14" height="44" transform="translate(5385 1687)" fill="#707070" opacity="0.5"/><rect width="14" height="22" transform="translate(5365 1709)" fill="#707070" opacity="0.5"/><rect width="14" height="11" transform="translate(5345 1720)" fill="#707070" opacity="0.5"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;fill:#707070;enable-background:new    ;}
+	.st1{fill:#707070;}
+</style>
+<g transform="translate(-5308 -1656)">
+	<rect x="5308.4" y="1672.6" class="st0" width="127.1" height="94.8"/>
+	<circle class="st1" cx="5321.1" cy="1685.3" r="5.8"/>
+	<circle class="st0" cx="5339.6" cy="1685.3" r="5.8"/>
+	<circle class="st0" cx="5358.1" cy="1685.3" r="5.8"/>
+	<rect x="5397.4" y="1708.4" class="st0" width="16.2" height="50.9"/>
+	<rect x="5374.3" y="1733.9" class="st0" width="16.2" height="25.4"/>
+	<rect x="5351.2" y="1746.6" class="st0" width="16.2" height="12.7"/>
+</g>
+</svg>

@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="114" height="114" viewBox="0 0 114 114"><g transform="translate(-4637.5 -1980)"><rect width="80" height="77" transform="translate(4654 1997)" fill="#707070" opacity="0.5"/><rect width="36" height="35" transform="translate(4676 2018)" fill="#707070"/><rect width="15" height="14" transform="translate(4707 1980)" fill="#707070" opacity="0.5"/><rect width="15" height="14" transform="translate(4667 1980)" fill="#707070"/><rect width="15" height="14" transform="translate(4707 2080)" fill="#707070"/><rect width="15" height="14" transform="translate(4667 2080)" fill="#707070" opacity="0.5"/><rect width="15" height="14" transform="translate(4751.5 2049.5) rotate(90)" fill="#707070" opacity="0.5"/><rect width="15" height="14" transform="translate(4751.5 2009.5) rotate(90)" fill="#707070"/><rect width="15" height="14" transform="translate(4651.5 2049.5) rotate(90)" fill="#707070"/><rect width="15" height="14" transform="translate(4651.5 2009.5) rotate(90)" fill="#707070" opacity="0.5"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;fill:#707070;enable-background:new    ;}
+	.st1{fill:#707070;}
+</style>
+<g transform="translate(-4637.5 -1980)">
+	<rect x="4656.3" y="1999.4" class="st0" width="89.3" height="85.9"/>
+	<rect x="4680.9" y="2022.8" class="st1" width="40.2" height="39.1"/>
+	<rect x="4715.4" y="1980.4" class="st0" width="16.7" height="15.6"/>
+	<rect x="4670.8" y="1980.4" class="st1" width="16.7" height="15.6"/>
+	<rect x="4715.4" y="2092" class="st1" width="16.7" height="15.6"/>
+	<rect x="4670.8" y="2092" class="st0" width="16.7" height="15.6"/>
+	<rect x="4749.5" y="2057.9" class="st0" width="15.6" height="16.7"/>
+	<rect x="4749.5" y="2013.3" class="st1" width="15.6" height="16.7"/>
+	<rect x="4637.9" y="2057.9" class="st1" width="15.6" height="16.7"/>
+	<rect x="4637.9" y="2013.3" class="st0" width="15.6" height="16.7"/>
+</g>
+</svg>
