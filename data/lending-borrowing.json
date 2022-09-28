@@ -87,6 +87,17 @@
 			}
 		},
 		{
+			"name": "ARCx",
+			"logo": "arcx.jpeg",
+			"description": "ARCx Credit is a decentralized liquidity market that offers the safest and most capital efficient borrowing experience through the use of the DeFi Credit Score.",
+			"website": "https://arcx.money/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/arcxmoney",
+				"discord": "https://discord.gg/arcx"
+			}
+		},
+		{
 			"name": "Notional Finance",
 			"logo": "notionalfinance.jpeg",
 			"description": "Fixed rate borrowing and lending on Ethereum.",
