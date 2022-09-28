@@ -39,6 +39,18 @@
 			}
 		},
 		{
+			"name": "Ribbon Finance",
+			"logo": "ribbonfinance.png",
+			"description": "Earn sustainable yields through decentralised options vaults.",
+			"website": "https://www.ribbon.finance/",
+			"network": ["Ethereum", "Avalanche", "Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/ribbonfinance",
+				"discord": "https://discord.com/invite/ribbon-finance",
+				"github": "https://github.com/ribbon-finance"
+			}
+		},
+		{
 			"name": "Rari Capital",
 			"logo": "raricapital.jpeg",
 			"description": "Lend, borrow and earn yield on every asset.",
