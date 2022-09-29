@@ -281,7 +281,7 @@ CARDS
 }
 
 .card {
-  border: none;
+  order: 1px solid rgba(0,0,0,0.04);
   border-radius: 12px;
   box-shadow: rgb(88 102 126 / 8%) 0px 4px 24px, rgb(88 102 126 / 12%) 0px 1px 2px;
 }
