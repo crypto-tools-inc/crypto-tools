@@ -4,7 +4,7 @@
 			"logo": "uniswap.jpeg",
 			"description": "Uniswap is a protocol for trading and automated liquidity provision on ethereum.",
 			"website": "https://app.uniswap.org/",
-			"network": ["ethereum", "Polygon", "Optimism", "Arbitrum"],
+			"network": ["ethereum", "Polygon", "Optimism", "Arbitrum", "Celo"],
 			"socials": {
 				"twitter": "https://twitter.com/Uniswap",
 				"discord": "https://discord.gg/FCfyBSbCU5",
