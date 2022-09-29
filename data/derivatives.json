@@ -1,5 +1,16 @@
 [
 		{
+			"name": "Lyra",
+			"logo": "lyra.jpg",
+			"description": "Lyra’s decentralized exchange is the easiest place to buy and sell options on crypto.",
+			"website": "https://www.lyra.finance/",
+			"network": ["Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/lyrafinance",
+				"discord": "https://discord.gg/P49mj6UbmC"
+			}
+		},
+		{
 			"name": "Perpetual Protocol",
 			"logo": "perpetualprotocol.jpeg",
 			"description": "Cross margin DeFi trading with up to 10×-leverage.",
