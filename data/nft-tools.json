@@ -56,6 +56,18 @@
 			}
 		},
 		{
+			"name": "insrt Finance",
+			"logo": "insrtfinance.jpeg",
+			"description": "Accessible NFT Alpha. We make it easy and simple for NFT holders, traders and DAOs to generate NFT finance returns.",
+			"website": "https://insrt.finance/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/insrtfinance",
+				"discord": "https://discord.com/invite/insrt",
+				"medium": "https://medium.com/@insrtfinance"
+			}
+		},
+		{
 			"name": "Icy Tools",
 			"logo": "icytools.png",
 			"description": "A tool to uncover trending NFTs, track floor prices, alerts & more.",
