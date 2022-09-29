@@ -136,6 +136,17 @@
 			}
 		},
 		{
+			"name": "Sentiment",
+			"logo": "sentiment.jpeg",
+			"description": "Enabling Onchain Permissionless Undercollateralized Borrowing with up tp 5x leverage.",
+			"website": "https://www.sentiment.xyz/",
+			"network": ["Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/sentimentxyz",
+				"discord": "https://discord.com/invite/sentimentxyz"
+			}
+		},
+		{
 			"name": "Abracadabra Degebox",
 			"logo": "abracadabra.jpeg",
 			"description": "Abracadabra.money is a spell nook that allows users to produce magic internet money.",
