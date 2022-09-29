@@ -199,6 +199,19 @@
 			}
 		},
 		{
+			"name": "Teller",
+			"logo": "teller.png",
+			"description": "DeFi's lending marketplace. Lend, borrow, and launch a lending market",
+			"website": "https://teller.org/",
+			"network": ["Ethereum", "Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/useteller",
+				"discord": "https://discord.com/invite/teller",
+				"github": "https://github.com/teller-protocol",
+				"telegram": "https://t.me/tellerofficial"
+			}
+		},
+		{
 			"name": "Hundred Finance",
 			"logo": "hundredfinance.jpeg",
 			"description": "A multi-chain lending protocol using veHND model, it integrates with Chainlink oracles to ensure market health and stability.",
