@@ -139,14 +139,14 @@
         $(document).ready(function () {
             // Count to the total number of tools
             let totalCount = 0
+            let dataArray = ["airdrops","analytics","asset-management","bridge","categories","dao-access","dao-compensation","dao-content","dao-contribution","dao-discussion","dao-frameworks","dao-frontend","dao-governance","dao-identity","dao-knowledge","dao-treasury","daos","derivatives","dex-aggregator","dex","insurance","lending-borrowing","lightning-network","monitoring","news","nft-analytics","nft-marketplace","nft-tools","taxes","utilities","wallets-bitcoin","wallets-hardware","wallets-web3","yield-farming"]
 
-            $.getJSON('/data/', data => {
-                for (let i = 0; i < data.length; ++i) {
-                    count(data[i]);
-                }
-            });
+            for (let i = 0; i < dataArray.length; ++i) {
+                count(dataArray[i]);
+            }
+            
             function count(filename) {
-            $.getJSON("/data/" + filename,
+            $.getJSON("/data/" + filename + ".json",
                 function (files) {
                     totalCount += files.length;
                     //Get the total number of tools in the JSON
