@@ -139,13 +139,13 @@
             // Count to the total number of tools
             let totalCount = 0
 
-            $.getJSON('./data', data => {
+            $.getJSON('/data', data => {
                 for (let i = 0; i < data.length; ++i) {
                     count(data[i]);
                 }
             });
             function count(filename) {
-            $.getJSON("./data/" + filename,
+            $.getJSON("/data/" + filename,
                 function (files) {
                     totalCount += files.length;
                     //Get the total number of tools in the JSON
