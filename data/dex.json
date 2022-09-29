@@ -100,6 +100,18 @@
 			}
 		},
 		{
+			"name": "Lifinity",
+			"logo": "lifinity.jpeg",
+			"description": "The first proactive market maker on Solana designed to improve capital efficiency and reduce impermanent loss.",
+			"website": "https://lifinity.io/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/lifinity_io",
+				"discord": "http://discord.gg/K2tvfcXwWr",
+				"medium": "https://medium.com/@lifinity.io"
+			}
+		},
+		{
 			"name": "SpiritSwap",
 			"logo": "spiritswap.jpeg",
 			"description": "Most powerful/versatile DEX & DeFi suite on Fantom.",
