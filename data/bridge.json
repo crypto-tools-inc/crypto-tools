@@ -77,6 +77,17 @@
 			}
 		},
 		{
+			"name": "ChainHop",
+			"logo": "chainhop.png",
+			"description": "A one-click cross-chain swap, any token, any chain",
+			"website": "https://chainhop.exchange/",
+			"network": ["Ethereum", "BSC", "Avalanche", "Polygon", "Optimism", "Arbitrum", "Fantom", "Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/ChainHopDex",
+				"discord": "https://discord.gg/NtYxjNk4SB"
+			}
+		},
+		{
 			"name": "Synapse Protocol",
 			"logo": "synapseprotocol.jpeg",
 			"description": "ACross-chain layer ∞ blockchain - bridge assets across all chains.",
