@@ -44,5 +44,17 @@
 				"discord": "https://discord.com/invite/fMcZBH8ErM",
 				"medium": "https://driftprotocol.medium.com/"
 			}
+		},
+		{
+			"name": "Kwenta",
+			"logo": "kwenta.jpeg",
+			"description": "Trade commodities, forex, crypto, and more with up to 25x leverage and deep liquidity without the risk of your assets being frozen.",
+			"website": "https://kwenta.io/",
+			"network": ["Ethereum", "Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/kwenta_io",
+				"discord": "https://discord.com/invite/kwenta",
+				"mirror": "https://mirror.xyz/kwenta.eth"
+			}
 		}
 ]
