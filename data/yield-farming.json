@@ -105,6 +105,18 @@
 			}
 		},
 		{
+			"name": "Katana",
+			"logo": "katana.jpeg",
+			"description": "The Yield Generation Protocol for Solana. Earn the best risk-adjusted yields on your crypto.",
+			"website": "https://app.katana.so/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/Katana_HQ",
+				"discord": "https://discord.com/invite/Q4N6fKGnNk",
+				"medium": "https://medium.com/@katana_hq"
+			}
+		},
+		{
 			"name": "Staking Rewards",
 			"logo": "stakingrewards.jpeg",
 			"description": "Staking Rewards is the leading data provider and research platform for staking.",
