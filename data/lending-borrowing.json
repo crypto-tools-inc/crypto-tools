@@ -101,6 +101,17 @@
 			}
 		},
 		{
+			"name": "Cozy Finance",
+			"logo": "cozyfinance.png",
+			"description": "Keep your crypto cozy. Invest in DeFi with protection against hacks, exploits, and more. The one click way to borrow and deposit with protection.",
+			"website": "https://www.cozy.finance/",
+			"network": ["Ethereum", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/cozyfinance",
+				"discord": "https://discord.gg/kK84saQYyg"
+			}
+		},
+		{
 			"name": "Rari Capital",
 			"logo": "raricapital.jpeg",
 			"description": "Lend, borrow and earn yield on every asset.",
