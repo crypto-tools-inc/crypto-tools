@@ -82,10 +82,10 @@
 			}
 		},
 		{
-			"name": "DeFi Basket",
-			"logo": "defibasket.jpeg",
-			"description": "Build, manage and discover DeFi Portfolios. All in a single transaction. ",
-			"website": "https://www.defibasket.org/",
+			"name": "Picnic",
+			"logo": "picnic.jpeg",
+			"description": "Build, manage and discover DeFi Portfolios. All in a single transaction. (Formerly DeFi Basket) ",
+			"website": "https://www.usepicnic.com/",
 			"network": ["Polygon"],
 			"socials": {
 				"twitter": "https://www.twitter.com/DeFiBasketLabs",
