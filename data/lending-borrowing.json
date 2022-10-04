@@ -63,6 +63,20 @@
 			}
 		},
 		{
+			"name": "Sturdy",
+			"logo": "sturdy.jpeg",
+			"description": "Sturdy is the first DeFi lending protocol for interest-free borrowing and high yield lending",
+			"website": "https://sturdy.finance/",
+			"network": ["Ethereum", "Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/sturdyfinance",
+				"discord": "https://discord.gg/tRVHp6Vx5N",
+				"medium": "https://medium.com/@sturdyfinance",
+				"telegram": "https://t.me/sturdyfinance",
+				"github": "https://github.com/sturdyfi"
+			}
+		},
+		{
 			"name": "Rari Capital",
 			"logo": "raricapital.jpeg",
 			"description": "Lend, borrow and earn yield on every asset.",
