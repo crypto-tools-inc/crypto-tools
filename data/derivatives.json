@@ -56,5 +56,18 @@
 				"discord": "https://discord.com/invite/kwenta",
 				"mirror": "https://mirror.xyz/kwenta.eth"
 			}
+		},
+		{
+			"name": "Dango",
+			"logo": "dango.jpeg",
+			"description": "DeFi leverage simplified",
+			"website": "https://dango.cafe/",
+			"network": ["Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/0xDango",
+				"discord": "https://discord.gg/gjhua34XXW",
+				"medium": "https://medium.com/dango-cafe",
+				"github": "https://github.com/dango-cafe"
+			}
 		}
 ]
