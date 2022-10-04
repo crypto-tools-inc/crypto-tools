@@ -11,7 +11,8 @@ html {
 }
 
 body {
-  background-color: #FAF8F6;
+  background-color: #FFFFFF;
+  /* background-color: #FAF8F6; */
 }
 
 .bg-gray {
@@ -264,6 +265,10 @@ FORMS
 /* =============================================================================
 CARDS
 ============================================================================= */
+#section-elements {
+  background-color: #FAF8F6;
+  border-radius: 12px 0px 0px 0px;
+}
 .card-header {
   padding: 1.25rem 1.25rem 0 1.25rem;
   background-color: #FFFFFF;
