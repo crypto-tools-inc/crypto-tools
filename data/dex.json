@@ -49,6 +49,18 @@
 			}
 		},
 		{
+			"name": "Atrix",
+			"logo": "atrix.jpeg",
+			"description": "Protocol for automated orderbook liquidity provisioning strategies on Solana",
+			"website": "https://atrix.finance/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/AtrixProtocol",
+				"discord": "https://discord.gg/nfyqSEzUsp",
+				"telegram": "https://t.me/AtrixProtocol"
+			}
+		},
+		{
 			"name": "Trader Joe",
 			"logo": "traderjoe.jpeg",
 			"description": "Your One-Stop-Shop DeFi Platform",
