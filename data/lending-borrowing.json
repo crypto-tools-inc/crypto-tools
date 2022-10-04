@@ -89,6 +89,18 @@
 			}
 		},
 		{
+			"name": "Yield Protocol",
+			"logo": "yieldprotocol.jpeg",
+			"description": "Yield Protocol is a permissionless market for collateralized fixed-rate borrowing and lending",
+			"website": "https://yieldprotocol.com/",
+			"network": ["Ethereum", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/yield",
+				"discord": "https://discord.gg/JAFfDj5",
+				"github": "https://github.com/yieldprotocol/"
+			}
+		},
+		{
 			"name": "Rari Capital",
 			"logo": "raricapital.jpeg",
 			"description": "Lend, borrow and earn yield on every asset.",
