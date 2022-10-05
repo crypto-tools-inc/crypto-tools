@@ -63,6 +63,19 @@
 			}
 		},
 		{
+			"name": "Balancer",
+			"logo": "balancer.png",
+			"description": "Balancer Protocol is the leading platform for programmable liquidity.",
+			"website": "https://balancer.fi/",
+			"network": ["Ethereum", "Polygon", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/BalancerLabs",
+				"discord": "https://discord.balancer.fi/",
+				"medium": "https://medium.com/balancer-protocol",
+				"github": "https://github.com/balancer-labs/"
+			}
+		},
+		{
 			"name": "SyncSwap",
 			"logo": "syncswap.jpeg",
 			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
