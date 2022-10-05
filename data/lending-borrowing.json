@@ -112,6 +112,17 @@
 			}
 		},
 		{
+			"name": "Iron Bank",
+			"logo": "ironbank.jpg",
+			"description": "Iron Bank is a decentralized lending platform focused on capital efficiency allowing protocols and individuals to supply and borrow cryptoassets.",
+			"website": "https://app.ib.xyz/",
+			"network": ["Ethereum", "Fantom", "Avalanche", "Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/ibdotxyz",
+				"medium": "https://ibdotxyz.medium.com/"
+			}
+		},
+		{
 			"name": "Rari Capital",
 			"logo": "raricapital.jpeg",
 			"description": "Lend, borrow and earn yield on every asset.",
