@@ -23,6 +23,19 @@
 				"medium": "https://sushichef.medium.com/"
 			}
     },
+	{
+			"name": "Saddle Finance",
+			"logo": "saddlefinance.jpeg",
+			"description": "Saddle is a decentralized automated market maker on the Ethereum blockchain, optimized for pegged value crypto assets such as stablecoins and wrapped BTC. ",
+			"website": "https://saddle.finance",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/saddlefinance",
+				"discord": "https://discord.gg/saddle",
+				"github": "https://github.com/saddle-finance",
+				"telegram": "https://t.me/saddle_finance"
+			}
+		},
 		{
 			"name": "Curve Finance",
 			"logo": "curvefinance.jpeg",
