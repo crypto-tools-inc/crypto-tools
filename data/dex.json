@@ -50,6 +50,19 @@
 			}
 		},
 		{
+			"name": "DODO",
+			"logo": "dodo.png",
+			"description": "Decentralized Trading Protocol for Web3, Powered by the Proactive Market Making (PMM) algorithm.",
+			"website": "https://dodoex.io/",
+			"network": ["Ethereum", "BSC", "Polygon", "Arbitrum", "Aurora", "HECO", "Moonriver", "Boba", "Avalanche", "Optimism", "Cronos", "OEC"],
+			"socials": {
+				"twitter": "https://twitter.com/BreederDodo",
+				"discord": "https://discord.com/invite/tyKReUK",
+				"reddit": "https://www.reddit.com/r/DodoEx/",
+				"telegram": "https://t.me/dodoex_official"
+			}
+		},
+		{
 			"name": "SyncSwap",
 			"logo": "syncswap.jpeg",
 			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
