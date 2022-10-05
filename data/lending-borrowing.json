@@ -171,6 +171,19 @@
 			}
 		},
 		{
+			"name": "0VIX",
+			"logo": "ovix.jpeg",
+			"description": "0VIX is the first veTokenomics lending market with dynamic interest rates on Polygon.",
+			"website": "https://www.0vix.com/",
+			"network": ["Polygon"],
+			"socials": {
+				"twitter": "https://twitter.com/0vixProtocol",
+				"discord": "https://discord.gg/VxW9Vg6krk",
+				"medium": "https://medium.com/@0VIXProtocol",
+				"telegram": "https://t.me/OVIXProtocol"
+			}
+		},
+		{
 			"name": "Rari Capital",
 			"logo": "raricapital.jpeg",
 			"description": "Lend, borrow and earn yield on every asset.",
