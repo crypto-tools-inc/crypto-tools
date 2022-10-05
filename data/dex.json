@@ -76,6 +76,18 @@
 			}
 		},
 		{
+			"name": "Biswap",
+			"logo": "biswap.jpeg",
+			"description": "Trade, Earn, Refer on the most progressive DEX on BNB Chain. Enjoy the lowest exchange fee, profitable features & Multi-type Referral program",
+			"website": "https://biswap.org/",
+			"network": ["BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/Biswap_DEX",
+				"medium": "https://biswap-dex.medium.com/",
+				"telegram": "https://t.me/biswap_news"
+			}
+		},
+		{
 			"name": "SyncSwap",
 			"logo": "syncswap.jpeg",
 			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
