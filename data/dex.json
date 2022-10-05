@@ -25,7 +25,7 @@
     },
 	{
 			"name": "Saddle Finance",
-			"logo": "saddlefinance.jpeg",
+			"logo": "saddlefinance.jpg",
 			"description": "Saddle is a decentralized automated market maker on the Ethereum blockchain, optimized for pegged value crypto assets such as stablecoins and wrapped BTC. ",
 			"website": "https://saddle.finance",
 			"network": ["Ethereum"],
