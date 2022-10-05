@@ -159,6 +159,18 @@
 			}
 		},
 		{
+			"name": "Radiant Capital",
+			"logo": "radiantcapital.jpeg",
+			"description": "Radiant is building the first omnichain money market atop LayerZero. Deposit & borrow across multiple chains, seamlessly.",
+			"website": "https://app.radiant.capital/#/markets",
+			"network": ["Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/RDNTCapital",
+				"discord": "https://discord.gg/radiantcapital",
+				"telegram": "https://t.me/radiantcapitalofficial"
+			}
+		},
+		{
 			"name": "Rari Capital",
 			"logo": "raricapital.jpeg",
 			"description": "Lend, borrow and earn yield on every asset.",
