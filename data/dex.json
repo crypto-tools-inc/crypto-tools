@@ -114,6 +114,19 @@
 			}
 		},
 		{
+			"name": "Hashflow",
+			"logo": "hashflow.jpeg",
+			"description": "DEX Done Right. No front-running, no slippage, no BS. What you see is what you get.",
+			"website": "https://www.hashflow.com/",
+			"network": ["Ethereum", "Polygon", "BSC", "Arbitrum", "Avalanche", "Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/hashflow",
+				"discord": "https://discord.gg/hashflow",
+				"reddit": "https://www.reddit.com/r/Hashflow/",
+				"telegram": "https://t.me/hashflownetwork"
+			}
+		},
+		{
 			"name": "SyncSwap",
 			"logo": "syncswap.jpeg",
 			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
