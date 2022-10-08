@@ -152,6 +152,19 @@
 			}
 		},
 		{
+			"name": "Saber",
+			"logo": "saberprotocol.jpeg",
+			"description": "The leading stableswap AMM on Solana.",
+			"website": "https://app.saber.so/swap",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/Saber_HQ",
+				"discord": "https://chat.saber.so/",
+				"medium": "https://blog.saber.so/",
+				"github": "https://github.com/saber-hq/stable-swap"
+			}
+		},
+		{
 			"name": "SyncSwap",
 			"logo": "syncswap.jpeg",
 			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
