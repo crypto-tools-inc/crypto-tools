@@ -242,6 +242,19 @@
 			}
 		},
 		{
+			"name": "Ref Finance",
+			"logo": "reffinance.jpeg",
+			"description": "One-stop shop of the NEAR ecosystem. First AMM & DEX on NEAR.",
+			"website": "https://app.ref.finance/",
+			"network": ["Near"],
+			"socials": {
+				"twitter": "https://twitter.com/finance_ref",
+				"discord": "https://discord.com/invite/SJBGcfMxJz",
+				"medium": "https://ref-finance.medium.com/",
+				"telegram": "https://t.me/ref_finance"
+			}
+		},
+		{
 			"name": "SyncSwap",
 			"logo": "syncswap.jpeg",
 			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
