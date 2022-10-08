@@ -140,6 +140,18 @@
 			}
 		},
 		{
+			"name": "Serum",
+			"logo": "serum.jpeg",
+			"description": "Blazingly fast trading on the world's first fully decentralized and open liquidity infrastructure.",
+			"website": "https://www.projectserum.com/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/projectserum",
+				"discord": "https://discord.gg/zxPsXcB",
+				"telegram": "https://t.me/ProjectSerum"
+			}
+		},
+		{
 			"name": "SyncSwap",
 			"logo": "syncswap.jpeg",
 			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
