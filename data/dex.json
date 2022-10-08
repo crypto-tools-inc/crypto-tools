@@ -16,7 +16,7 @@
 			"logo": "sushiswap.png",
 			"description": "A community-built open-source ecosystem of all the DeFi tools you need",
 			"website": "https://app.sushi.com/",
-			"network": ["ethereum", "Polygon", "Arbitrum", "Avalanche", "Fantom", "Moonriver", "BSC", "Harmony", "Telos", "Celo", "Fuse", "OEC", "HECO", "Palm"],
+			"network": ["ethereum", "Polygon", "Arbitrum", "Avalanche", "Fantom", "Moonriver", "BSC", "Harmony", "Telos", "Celo", "Fuse", "OEC", "heco", "Palm"],
 			"socials": {
 				"twitter": "https://twitter.com/sushiswap",
 				"github": "https://github.com/sushiswap",
@@ -54,7 +54,7 @@
 			"logo": "dodo.png",
 			"description": "Decentralized Trading Protocol for Web3, Powered by the Proactive Market Making (PMM) algorithm.",
 			"website": "https://dodoex.io/",
-			"network": ["Ethereum", "BSC", "Polygon", "Arbitrum", "Aurora", "HECO", "Moonriver", "Boba", "Avalanche", "Optimism", "Cronos", "OEC"],
+			"network": ["Ethereum", "BSC", "Polygon", "Arbitrum", "Aurora", "heco", "Moonriver", "Boba", "Avalanche", "Optimism", "Cronos", "OEC"],
 			"socials": {
 				"twitter": "https://twitter.com/BreederDodo",
 				"discord": "https://discord.com/invite/tyKReUK",
