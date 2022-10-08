@@ -230,6 +230,18 @@
 			}
 		},
 		{
+			"name": "Ellipsis Finance",
+			"logo": "ellipsisfinance.jpeg",
+			"description": "Trade on the most flexible and capital-efficient DEX on BNB Chain.",
+			"website": "https://ellipsis.finance/",
+			"network": ["BSC"],
+			"socials": {
+				"twitter": "https://twitter.com/ellipsisfi",
+				"github": "https://github.com/ellipsis-finance",
+				"medium": "https://ellipsisfinance.medium.com/"
+			}
+		},
+		{
 			"name": "SyncSwap",
 			"logo": "syncswap.jpeg",
 			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
