@@ -414,7 +414,7 @@
 			"logo": "solotop.png",
 			"description": "Single-Asset Mining Aggregator",
 			"website": "https://solo.top/#/index",
-			"network": ["Polygon", "BSC", "HECO", "OEC"],
+			"network": ["Polygon", "BSC", "Heco", "OEC"],
 			"socials": {
 				"twitter": "https://twitter.com/solo_top",
 				"telegram": "https://t.me/solo_top"

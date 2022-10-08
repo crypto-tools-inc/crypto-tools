@@ -26,7 +26,7 @@
 			"logo": "dexscreener.jpeg",
 			"description": "Tracking and charting your favorite DEX in realtime.",
 			"website": "https://dexscreener.com/",
-			"network": ["Ethereum", "BSC", "Polygon", "Avalanche", "Fantom", "Harmony", "Cronos", "Aurora", "Moonriver", "Moonbeam", "Arbitrum", "Optimism", "HECO", "OEC", "Celo", "Boba", "Telos"],
+			"network": ["Ethereum", "BSC", "Polygon", "Avalanche", "Fantom", "Harmony", "Cronos", "Aurora", "Moonriver", "Moonbeam", "Arbitrum", "Optimism", "Heco", "OEC", "Celo", "Boba", "Telos"],
 			"socials": {
 				"twitter": "https://twitter.com/dexscreener",
 				"discord": "https://discord.gg/ARbh55A472",

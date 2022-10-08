@@ -79,7 +79,7 @@
 			"logo": "unrekt.jpeg",
 			"description": "Smart Contract approval toolbox & Timelock Monitor",
 			"website": "https://app.unrekt.net/",
-			"network": ["Ethereum", "Polygon", "BSC", "Fantom", "HECO", "Cronos", "Moonbeam"],
+			"network": ["Ethereum", "Polygon", "BSC", "Fantom", "Heco", "Cronos", "Moonbeam"],
 			"socials": {
 				"twitter": "https://twitter.com/getunrekt",
 				"medium": "https://getunrekt.medium.com/",

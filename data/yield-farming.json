@@ -15,7 +15,7 @@
 		"logo": "beefyfinance.jpeg",
 		"description": "Beefy is THE Multichain Yield Optimizer that focuses on safety and autocompounds crypto assets for the best APYs.",
 		"website": "https://beefy.finance/",
-		"network": ["BSC", "Avalanche", "HECO", "Polygon", "Fantom", "Harmony", "Arbitrum", "Celo", "Moonriver", "Cronos", "Fuse", "Aurora", "Moonbeam"],
+		"network": ["BSC", "Avalanche", "Heco", "Polygon", "Fantom", "Harmony", "Arbitrum", "Celo", "Moonriver", "Cronos", "Fuse", "Aurora", "Moonbeam"],
 		"socials": {
 			"twitter": "https://twitter.com/beefyfinance",
 			"discord": "https://discord.gg/yq8wfHd",
@@ -30,7 +30,7 @@
 			"logo": "autofarm.png",
 			"description": "One-stop DeFi platform | Lowest fee Multi-chain DEX & yield aggregator | Deployed on 19 EVM-compatible chains",
 			"website": "https://autofarm.network",
-			"network": ["Ethereum", "Polygon", "Optimism", "BSC", "Cronos", "HECO", "Avalanche", "Fantom", "Moonriver", "Celo", "Harmony", "Gnosis", "Boba", "Aurora", "Moonbeam"],
+			"network": ["Ethereum", "Polygon", "Optimism", "BSC", "Cronos", "Heco", "Avalanche", "Fantom", "Moonriver", "Celo", "Harmony", "Gnosis", "Boba", "Aurora", "Moonbeam"],
 			"socials": {
 				"twitter": "https://twitter.com/autofarmnetwork",
 				"discord": "https://discord.gg/bJ9ZsypQzv",
@@ -74,7 +74,7 @@
 			"logo": "multifarm.jpeg",
 			"description": "Creating Treasury Dashboards for DAOs Compare 1000+ farms for the best yield farming APRs",
 			"website": "https://app.multifarm.fi/",
-			"network": ["Ethereum", "Polygon", "Avalanche", "Terra", "Solana", "Fantom", "BSC", "Cronos", "Arbitrum", "Harmony", "Aurora", "Fuse", "Gnosis", "HECO", "Optimism", "OEC", "Boba", "Celo", "Moonriver", "Moonbeam"],
+			"network": ["Ethereum", "Polygon", "Avalanche", "Terra", "Solana", "Fantom", "BSC", "Cronos", "Arbitrum", "Harmony", "Aurora", "Fuse", "Gnosis", "Heco", "Optimism", "OEC", "Boba", "Celo", "Moonriver", "Moonbeam"],
 			"socials": {
 				"twitter": "https://twitter.com/multifarm_fi",
 				"discord": "https://discord.com/invite/yMXzezMchs",
