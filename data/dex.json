@@ -202,6 +202,19 @@
 			}
 		},
 		{
+			"name": "WOOFi",
+			"logo": "woofi.jpeg",
+			"description": "Bringing best-in-class liquidity to DeFi and CeFi.",
+			"website": "https://fi.woo.org/",
+			"network": ["Avalanche", "Polygon", "BSC", "Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/WOOnetwork",
+				"discord": "https://discord.com/invite/woonetwork",
+				"medium": "https://woonetwork.medium.com/",
+				"telegram": "https://t.me/woonetwork"
+			}
+		},
+		{
 			"name": "SyncSwap",
 			"logo": "syncswap.jpeg",
 			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
