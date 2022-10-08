@@ -178,6 +178,17 @@
 			}
 		},
 		{
+			"name": "Velodrome",
+			"logo": "velodrome.jpeg",
+			"description": "The Trading and Liquidity Marketplace on Optimism.",
+			"website": "https://app.velodrome.finance/",
+			"network": ["Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/VelodromeFi",
+				"discord": "https://discord.gg/velodrome"
+			}
+		},
+		{
 			"name": "SyncSwap",
 			"logo": "syncswap.jpeg",
 			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
