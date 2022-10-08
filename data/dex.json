@@ -215,6 +215,21 @@
 			}
 		},
 		{
+			"name": "SpookySwap",
+			"logo": "spookyswap.jpeg",
+			"description": "Community-driven, trader-focused DEX and DeFi Hub powered by FTM with governance by BOO.",
+			"website": "https://spooky.fi",
+			"network": ["Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/SpookySwap",
+				"discord": "https://discord.gg/spookyswap",
+				"medium": "https://spookyswap.medium.com/",
+				"reddit": "https://www.reddit.com/r/SpookySwap/",
+				"github": "https://github.com/SpookySwap",
+				"telegram": "https://t.me/SpookySwapCommunity"
+			}
+		},
+		{
 			"name": "SyncSwap",
 			"logo": "syncswap.jpeg",
 			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
