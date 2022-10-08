@@ -101,6 +101,19 @@
 			}
 		},
 		{
+			"name": "KyberSwap",
+			"logo": "kybernetwork.jpeg",
+			"description": "Multichain DeFi exchange & aggregator on 12 chains. Swap at the best rates.",
+			"website": "https://kyberswap.com/swap",
+			"network": ["Ethereum", "Polygon", "BSC", "Avalanche", "Fantom", "Cronos", "Arbitrum", "Aurora", "Oasis", "Optimism", "Velas"],
+			"socials": {
+				"twitter": "https://twitter.com/KyberNetwork",
+				"discord": "https://discord.com/invite/NB3vc8J9uv",
+				"medium": "https://blog.kyber.network/",
+				"telegram": "https://t.me/kybernetwork"
+			}
+		},
+		{
 			"name": "SyncSwap",
 			"logo": "syncswap.jpeg",
 			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
