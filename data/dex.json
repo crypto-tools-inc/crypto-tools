@@ -189,6 +189,19 @@
 			}
 		},
 		{
+			"name": "KlaySwap",
+			"logo": "klayswap.jpeg",
+			"description": "Klaytn decentralized, automated liquidity protocol. Pioneer of Korean DeFi.",
+			"website": "https://klayswap.com/",
+			"network": ["Klaytn"],
+			"socials": {
+				"twitter": "https://twitter.com/KLAYswap",
+				"discord": "https://discord.gg/klayswap",
+				"medium": "https://medium.com/klayswap",
+				"telegram": "https://t.me/klayswapchannel"
+			}
+		},
+		{
 			"name": "SyncSwap",
 			"logo": "syncswap.jpeg",
 			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
