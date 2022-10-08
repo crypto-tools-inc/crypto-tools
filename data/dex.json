@@ -255,6 +255,19 @@
 			}
 		},
 		{
+			"name": "VVS Finance",
+			"logo": "vvsfinance.jpeg",
+			"description": "Very, Very Simple DeFi Trading for All. Your gateway to the decentralized finance movement. Take control of your finances and earn sparkly VVS rewards.",
+			"website": "https://vvs.finance/",
+			"network": ["Cronos"],
+			"socials": {
+				"twitter": "https://twitter.com/VVS_finance",
+				"discord": "url",
+				"medium": "url",
+				"telegram": "url"
+			}
+		},
+		{
 			"name": "SyncSwap",
 			"logo": "syncswap.jpeg",
 			"description": "Powerful and seamless decentralized AMM exchange on zkSync",
