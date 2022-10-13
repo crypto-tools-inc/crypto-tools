@@ -55,7 +55,7 @@
 			"name": "Across",
 			"logo": "across.jpeg",
 			"description": "Instantly Send Assets from Layer 2 Rollups to Ethereum",
-			"website": "https://across.to/",
+			"website": "https://across.to/?ref=0xDb53fd872368c4D72EBB814B1e5d7b1bABE2b834",
 			"network": ["Ethereum", "Arbitrum", "Boba", "Optimism", "Polygon"],
 			"socials": {
 				"twitter": "https://twitter.com/AcrossProtocol",
