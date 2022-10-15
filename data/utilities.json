@@ -1,4 +1,15 @@
-[
+[		
+	{
+			"name": "Uniswap.fish",
+			"logo": "uniswapfish.jpeg",
+			"description": "An all-in-one workspace for Uniswap liquidity providers 🦄 — calculate, discover, analyze, manage & track positions, and more",
+			"website": "https://uniswap.fish/",
+			"network": ["Ethereum", "Polygon", "Optimism", "Celo", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/uniswapdotfish",
+				"github": "https://github.com/chunza2542/uniswap.fish"
+			}
+		},
 		{
 			"name": "Chainlist",
 			"logo": "yearn.jpeg",
