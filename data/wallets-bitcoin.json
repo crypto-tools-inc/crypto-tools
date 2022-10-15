@@ -1,5 +1,17 @@
 [
 		{
+			"name": "Lily Wallet",
+			"logo": "lilywallet.jpeg",
+			"description": "The best way to secure your bitcoin. A secure, self-custody Bitcoin wallet that makes setting up multisignature vaults easy.",
+			"website": "https://lily-wallet.com/",
+			"network": ["Bitcoin"],
+			"platform": ["desktop"],
+			"socials": {
+				"twitter": "https://twitter.com/LilyWallet",
+				"github": "https://github.com/Lily-Technologies/lily-wallet"
+			}
+		},
+		{
 			"name": "Exodus",
 			"logo": "exodus.jpeg",
 			"description": "Send, receive, and exchange Bitcoin and 180+ cryptocurrencies with ease on the world's leading Desktop, Mobile and Hardware crypto wallets.",
