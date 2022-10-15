@@ -35,6 +35,17 @@
 			}
 		},
 		{
+			"name": "Cango",
+			"logo": "cango.jpeg",
+			"description": "A one-click super aggregator that finds the best rates for cross-chain swaps.",
+			"website": "https://cango.fi",
+			"network": ["Ethereum", "Polygon", "BSC", "Gnosis", "Fantom", "Avalanche", "Arbitrum", "Optimism"],
+			"socials": {
+				"twitter": "https://twitter.com/CangoFi",
+				"discord": "https://discord.gg/cango"
+			}
+		},
+		{
 			"name": "MistX",
 			"logo": "mistx.png",
 			"description": "Trade on Ethereum with front-running protection, free cancellations, no cost on failed transactions and instant cash back rewards.",
