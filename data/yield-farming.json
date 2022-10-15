@@ -61,6 +61,19 @@
 			}
 		},
 		{
+			"name": "StakeWise",
+			"logo": "stakewise.png",
+			"description": "Liquid staking protocol on Ethereum and Gnosis Chain",
+			"website": "https://stakewise.io/",
+			"network": ["Ethereum", "Gnosis"],
+			"socials": {
+				"twitter": "https://twitter.com/stakewise_io",
+				"discord": "https://discord.gg/8Zf7tKyXeZ",
+				"github": "https://github.com/stakewise",
+				"telegram": "https://t.me/stakewise_io"
+			}
+		},
+		{
 			"name": "vfat",
 			"logo": "vfat.jpeg",
 			"description": "A set of no-frills tools for yield farming with a dashboard and farming calculator that allows you to find the most popular farms and their yields.",
