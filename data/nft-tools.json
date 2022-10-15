@@ -45,6 +45,17 @@
 			}
 		},
 		{
+			"name": "Inspect",
+			"logo": "inspect.png",
+			"description": "Your go-to destination for Web3 Social Intelligence🪄✨",
+			"website": "https://www.nftinspect.xyz/",
+			"network": ["Ethereum", "Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/nftinspect",
+				"discord": "http://discord.gg/J4uu7HbBzA"
+			}
+		},
+		{
 			"name": "Pulsr",
 			"logo": "pulsr.jpeg",
 			"description": "Pulsr label NFTs so your Web3 for a better search experience. Discover, label and earn with Pulsr.",
