@@ -49,6 +49,18 @@
 			}
 		},
 		{
+			"name": "Cega",
+			"logo": "cega.jpeg",
+			"description": "Safer yields in volatile market environments. We're building the next evolution in defi derivatives using exotic options.",
+			"website": "https://app.cega.fi/",
+			"network": ["Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/cega_fi",
+				"discord": "https://discord.gg/cega",
+				"medium": "https://cegafi.medium.com/"
+			}
+		},
+		{
 			"name": "vfat",
 			"logo": "vfat.jpeg",
 			"description": "A set of no-frills tools for yield farming with a dashboard and farming calculator that allows you to find the most popular farms and their yields.",
