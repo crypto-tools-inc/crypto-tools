@@ -70,6 +70,17 @@
 			}
 		},
 		{
+			"name": "Entropy",
+			"logo": "entropy.jpeg",
+			"description": "The first ever truly trustless protocol for decentralized asset custody",
+			"website": "https://entropy.xyz/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/entropydotxyz",
+				"discord": "https://discord.com/invite/9JUQwHBhVz"
+			}
+		},
+		{
 			"name": "NFT Bank",
 			"logo": "nftbank.jpeg",
 			"description": "Make NFT Portfolio Management Smart and market insights to taxfiling.",
