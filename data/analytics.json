@@ -84,7 +84,7 @@
 		{
 			"name": "Breadcrumbs",
 			"logo": "breadcrumbs.jpeg",
-			"description": "helloworld",
+			"description": "An open blockchain visualizer and analytics tool for the crypto community.",
 			"website": "https://www.breadcrumbs.app/home",
 			"network": ["Ethereum", "Bitcoin"],
 			"socials": {
