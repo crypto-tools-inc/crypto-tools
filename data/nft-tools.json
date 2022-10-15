@@ -78,6 +78,17 @@
 			}
 		},
 		{
+			"name": "Tokun App",
+			"logo": "tokunapp.jpeg",
+			"description": "Discover, Track, Automate & Aggregate NFT's with Tōkun ✨",
+			"website": "https://www.tokun.app/",
+			"network": ["Ethereum", "Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/Tokun_App",
+				"discord": "https://discord.gg/tokun"
+			}
+		},
+		{
 			"name": "Flips",
 			"logo": "flips.jpeg",
 			"description": "An NFT analytics hub that specializes in tracking delistings, floor increases, and volume increases.",
