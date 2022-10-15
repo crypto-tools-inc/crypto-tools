@@ -55,6 +55,17 @@
 			}
 		},
 		{
+			"name": "Kollider",
+			"logo": "kollider.jpeg",
+			"description": "The Fastest and Easiest Way to Trade. Building on Bitcoin via the Lightning Network ⚡",
+			"website": "https://kollider.xyz/",
+			"network": ["Lightning"],
+			"socials": {
+				"twitter": "https://twitter.com/kollider_trade",
+				"telegram": "https://t.me/kolliderhq"
+			}
+		},
+		{
 			"name": "Deezy",
 			"logo": "default.png",
 			"description": "Home for liquidity",
