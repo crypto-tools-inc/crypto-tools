@@ -24,6 +24,16 @@
 			}
 		},
 		{
+			"name": "Metamask Portfolio",
+			"logo": "metamask.jpeg",
+			"description": "Track your assets and NFTs across multiple chains.",
+			"website": "https://portfolio.metamask.io/",
+			"network": ["Ethereum", "Polygon", "Optimism", "BSC", "Fantom", "Arbitrum", "Avalanche"],
+			"socials": {
+				"twitter": "https://twitter.com/MetaMask"
+			}
+		},
+		{
 			"name": "Exponential DeFi",
 			"logo": "exponentialdefi.jpeg",
 			"description": "Exponential is an investment platform that makes it easy to discover, assess, and invest in DeFi yield opportunities.",
