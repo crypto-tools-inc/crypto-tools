@@ -70,6 +70,18 @@
 			}
 		},
 		{
+			"name": "Rated",
+			"logo": "ratednetwork.jpeg",
+			"description": "Beacon Chain validator ratings",
+			"website": "https://www.rated.network/",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/ratedw3b",
+				"discord": "https://discord.gg/GCUfk8ryJS",
+				"mirror": "https://mirror.xyz/ratedw3b.eth"
+			}
+		},
+		{
 			"name": "Breadcrumbs",
 			"logo": "breadcrumbs.jpeg",
 			"description": "helloworld",
