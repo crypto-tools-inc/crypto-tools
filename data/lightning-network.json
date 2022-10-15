@@ -13,6 +13,16 @@
 			}
 		},
 		{
+			"name": "Jam",
+			"logo": "jam.jpeg",
+			"description": "Your sats. Your privacy. Your profit.",
+			"website": "https://jamapp.org/",
+			"network": ["Lightning"],
+			"socials": {
+				"twitter": "https://twitter.com/jamapporg/"
+			}
+		},
+		{
 			"name": "Raspiblitz",
 			"logo": "raspiblitz.jpeg",
 			"description": "The RaspiBlitz is an open-source do-it-yourself Lightning Node (LND and/or c-lightning) running together with a Bitcoin-Fullnode on a RaspberryPi and a nice display for easy setup & monitoring.",
