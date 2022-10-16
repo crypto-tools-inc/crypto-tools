@@ -63,6 +63,17 @@
 			}
 		},
 		{
+			"name": "Timeless Finance",
+			"logo": "timelessfinance.jpeg",
+			"description": "Timeless is a yield market protocol that lets you boost, hedge, and trade yield.",
+			"website": "https://timelessfi.com/",
+			"network": ["Ethereum", "Polygon", "Optimism", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/timeless_fi",
+				"discord": "https://discord.gg/MncaVpY9ZV"
+			}
+		},
+		{
 			"name": "Cega",
 			"logo": "cega.jpeg",
 			"description": "Safer yields in volatile market environments. We're building the next evolution in defi derivatives using exotic options.",
