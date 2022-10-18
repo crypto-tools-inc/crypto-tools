@@ -90,6 +90,20 @@
 			}
 		},
 		{
+			"name": "Cream Finance",
+			"logo": "creamfinance.jpeg",
+			"description": "Crypto Rules Everything Around Me",
+			"website": "url",
+			"network": ["Ethereum", "BSC", "Polygon", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/CreamdotFinance",
+				"discord": "https://discord.com/invite/8Ms25mV",
+				"medium": "https://medium.com/cream-finance",
+				"telegram": "https://t.me/CreamdotFinance",
+				"github": "https://github.com/CreamFi/"
+			}
+		},
+		{
 			"name": "BendDAO",
 			"logo": "benddao.png",
 			"description": "Use your NFTs as collateral to borrow ETH or deposit your ETH and earn yields instantly!",
