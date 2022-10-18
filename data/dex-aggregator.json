@@ -46,6 +46,18 @@
 			}
 		},
 		{
+			"name": "Arken Finance",
+			"logo": "arkenfinance.jpeg",
+			"description": "The best-in-class trading view to help you discover treasures from various decentralized exchanges",
+			"website": "https://arken.finance/",
+			"network": ["Ethereum", "Polygon", "BSC", "Avalanche","Arbitrum", "Aurora", "Fantom"],
+			"socials": {
+				"twitter": "https://twitter.com/ArkenFinance",
+				"discord": "https://discord.gg/sjZSKug7aZ",
+				"medium": "uhttps://blog.arken.finance/rl"
+			}
+		},
+		{
 			"name": "MistX",
 			"logo": "mistx.png",
 			"description": "Trade on Ethereum with front-running protection, free cancellations, no cost on failed transactions and instant cash back rewards.",
