@@ -58,6 +58,19 @@
 			}
 		},
 		{
+			"name": "Tokelon",
+			"logo": "tokelon.jpeg",
+			"description": "The DEX that promise 99% of your transactions will go through.",
+			"website": "https://tokenlon.im/",
+			"network": ["Ethereum", "Arbitrum"],
+			"socials": {
+				"twitter": "https://twitter.com/tokenlon",
+				"discord": "https://discord.com/invite/CETmm86ueM",
+				"medium": "https://tokenlon.medium.com/",
+				"github": "https://github.com/consenlabs/tokenlon-contracts"
+			}
+		},
+		{
 			"name": "MistX",
 			"logo": "mistx.png",
 			"description": "Trade on Ethereum with front-running protection, free cancellations, no cost on failed transactions and instant cash back rewards.",
