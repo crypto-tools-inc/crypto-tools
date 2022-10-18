@@ -88,6 +88,18 @@
 			}
 		},
 		{
+			"name": "Swapr",
+			"logo": "swapr.jpeg",
+			"description": "Swapr is a multichain, governance-enabled AMM based on a fork of Uniswap, governed by DXdao.",
+			"website": "https://swapr.eth.limo",
+			"network": ["Ethereum", "Polygon", "Optimism", "Arbitrum", "Gnosis"],
+			"socials": {
+				"twitter": "https://twitter.com/SwaprEth",
+				"discord": "https://discord.gg/4QXEJQkvHH",
+				"github": "https://github.com/levelkdev/dxswap-dapp"
+			}
+		},
+		{
 			"name": "ShibaSwap",
 			"logo": "shibaswap.jpeg",
 			"description": "ShibaInu official DEX",
