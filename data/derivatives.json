@@ -46,6 +46,21 @@
 			}
 		},
 		{
+			"name": "Dolomite",
+			"logo": "dolomite.jpeg",
+			"description": "Powerful DEX margin trading. Margin trade and borrow DeFi bluechips like never before while earning increased APR on held assets - all from your desktop or mobile wallets.",
+			"website": "urhttps://dolomite.io/l",
+			"network": ["Arbitrum"],
+			"socials": {
+				"twitter": "https://www.twitter.com/Dolomite_io",
+				"discord": "https://discord.gg/uDRzrB2YgP",
+				"medium": "https://dolomite-official.medium.com/",
+				"telegram": "https://t.me/dolomite_official",
+				"github": "https://github.com/dolomite-exchange",
+				"reddit": "https://www.reddit.com/r/Dolomite"
+			}
+		},
+		{
 			"name": "Kwenta",
 			"logo": "kwenta.jpeg",
 			"description": "Trade commodities, forex, crypto, and more with up to 25x leverage and deep liquidity without the risk of your assets being frozen.",
