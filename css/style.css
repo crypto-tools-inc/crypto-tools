@@ -16,7 +16,7 @@ body {
 }
 
 .bg-gray {
-    background-color: #FAF8F6;
+    background-color: #F1F4F9;
 }
 
 .gradient {
@@ -71,7 +71,7 @@ TYPOGRAPHY
 COLOURS
 ============================================================================= */
 .bg-gray {
-    background-color: #FAF8F6;
+    background-color: #F1F4F9;
 }
 .gray-500 {
     color: #ACACAC;
@@ -266,7 +266,7 @@ FORMS
 CARDS
 ============================================================================= */
 #section-elements {
-  background-color: #FAF8F6;
+  background-color: #F1F4F9;
   border-radius: 12px 0px 0px 0px;
 }
 .card-header {
