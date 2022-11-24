@@ -53,6 +53,17 @@
 			}
 		},
 		{
+			"name": "Unlocks Calendar",
+			"logo": "unlockscalendar.jpeg",
+			"description": "The cryptocurrency token unlocks database. Info on unlocks, vesting schedules, emissions, VCs investments for >70 tokens",
+			"website": "https://www.unlockscalendar.com/",
+			"network": [],
+			"socials": {
+				"twitter": "https://twitter.com/UnlocksCalendar",
+				"medium": "https://unlockscalendar.substack.com/"
+			}
+		},
+		{
 			"name": "Fees.WTF",
 			"logo": "feeswtf.jpeg",
 			"description": "This service calculate all the gas that you have spent on transactions over time.",
