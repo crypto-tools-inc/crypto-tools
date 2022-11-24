@@ -57,6 +57,18 @@
 			}
 		},
 		{
+			"name": "BlueMove",
+			"logo": "bluemove.jpeg",
+			"description": "The leading Multi-chain NFT Marketplace on Aptos & Sui Blockchain.",
+			"website": "https://bluemove.net/",
+			"network": ["Aptos"],
+			"socials": {
+				"twitter": "https://twitter.com/BlueMove_OA",
+				"discord": "https://discord.gg/PcRGces7WM",
+				"telegram": "https://t.me/bluemovenft"
+			}
+		},
+		{
 			"name": "NFT Raydium",
 			"logo": "nftraydium.jpeg",
 			"description": "Solana's Leading NFT Marketplace.",
