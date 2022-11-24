@@ -45,6 +45,17 @@
 			}
 		},
 		{
+			"name": "Flip xyz",
+			"logo": "flipxyz.jpeg",
+			"description": "Multi-marketplace technology made to help you navigate NFTs with ease. Discover, curate, and buy NFTs all in one place.",
+			"website": "https://flip.xyz/art",
+			"network": ["Ethereum"],
+			"socials": {
+				"twitter": "https://twitter.com/flip_xyz",
+				"telegram": "https://t.me/flipmetrics"
+			}
+		},
+		{
 			"name": "Inspect",
 			"logo": "inspect.png",
 			"description": "Your go-to destination for Web3 Social Intelligence🪄✨",
