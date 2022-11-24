@@ -69,6 +69,17 @@
 			}
 		},
 		{
+			"name": "Topaz",
+			"logo": "topaz.png",
+			"description": "Discover art, culture, & digital expression. The premiere NFT marketplace, built on Aptos",
+			"website": "https://www.topaz.so/",
+			"network": ["Aptos"],
+			"socials": {
+				"twitter": "https://twitter.com/TopazMarket",
+				"discord": "https://discord.gg/SWVxuJkFSH"
+			}
+		},
+		{
 			"name": "NFT Raydium",
 			"logo": "nftraydium.jpeg",
 			"description": "Solana's Leading NFT Marketplace.",
