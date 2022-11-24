@@ -42,6 +42,18 @@
 			}
 		},
 		{
+			"name": "Token MultiSender",
+			"logo": "tokenmultisender.jpeg",
+			"description": "A tool that allows you to batch send ERC20 tokens. Supported: ETH & BSC & xDAI & Polygon & others.",
+			"website": "https://multisender.app/",
+			"network": ["Ethereum", "BSC", "Polygon", "Avalanche", "Optimism", "Arbitrum", "Fantom", "Gnosis", "Moonriver", "Moonbeam", "Metis", "Cronos", "Celo", "Heco", "Harmony", "Aurora", "Telos", "Tron", "Solana"],
+			"socials": {
+				"twitter": "https://twitter.com/multi_sender",
+				"medium": "https://medium.com/@TokenMultiSender",
+				"telegram": "https://t.me/MultiSender"
+			}
+		},
+		{
 			"name": "Revoke.cash",
 			"logo": "revokecash.jpeg",
 			"description": "Revoke Ethereum token allowances.",
