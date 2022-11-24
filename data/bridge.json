@@ -101,6 +101,15 @@
 			}
 		},
 		{
+			"name": "Aptos Bridge",
+			"logo": "default.png",
+			"description": "The LayerZero Aptos bridge enables seamless asset transfers between Aptos and the world of blockchains.",
+			"website": "https://theaptosbridge.com/bridge",
+			"network": ["Ethereum", "Polygon", "Optimism", "Arbitrum", "Avalanche", "BSC", "Aptos"],
+			"socials": {
+			}
+		},
+		{
 			"name": "Bungee",
 			"logo": "bungee.png",
 			"description": "Bungee is the Google Maps for the multi-chain world. A bridge aggregator that helps users discover the best bridges to move their assets across chains.",
