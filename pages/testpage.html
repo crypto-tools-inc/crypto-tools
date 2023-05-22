@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bridges</title>
+    <title>Airdrops</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-P0XJ4Y0FD5"></script>
@@ -37,9 +37,9 @@
     </script>
 
     <!-- SEO meta tags -->
-    <meta name="title" content="Explore crypto bridges and cross-chain solutions" />
+    <meta name="title" content="Explore crypto airdrops" />
     <meta name="description" content="Crypto Tools is a library of useful tools that can save hours of research with more than 100+ trusted dApps and protocols." />
-    <meta name="keywords" content="crypto, bridge, cross chain, liquidity, cryptocurrency, tools, library, protocols, research, dex, bridge, ethereum, defi, bitcoin" />
+    <meta name="keywords" content="crypto, cryptocurrency, airdrops, tools, library, protocols, research, dex, bridge, ethereum, defi, bitcoin" />
     <meta name="robots" content="index, follow" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="language" content="English" />
@@ -71,7 +71,7 @@
     <meta name="theme-color" content="#ffffff" />
 
     <!-- Bootstrap CSS -->
-    <link href="/css/bootstrap.min.css?v=1.0" rel="stylesheet" />
+    <link href="/css/bootstrap.css?v=1.0" rel="stylesheet" />
     <!-- Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -94,9 +94,8 @@
             </button>
             <ul class="navbar-nav ms-auto mt-lg-0">
               <li class="nav-item">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfM2EfqLkPuZ7XqqLPAYKjyvsJTTSx0JQ6ooZCr8JLNvAnJag/viewform" target="_blank" class="btn btn-link shadow-none">
-                  <img class="me-1" src="/img/suggest-light.svg" height="24" alt="" />
-                </a>
+                <button class="btn btn-outline-primary">Login</button>
+                <button class="btn btn-primary">Signup</button>
               </li>
             </ul>
             <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="/img/search.svg" height="24" alt="" /></button>
@@ -113,13 +112,13 @@
         <div class="title-container pt-3 pb-4 mb-5">
           <div class="container-fluid">
             <h2 id="section-title"></h2>
-            <p>Bridges allows you to transfer tokens across multiple chains.</p>
+            <p>Airdrops are tokens distributed to users of certain services as a reward or marketing campaign strategies.</p>
             <p id="tool-count" class="text-muted"></p>
           </div>
         </div>
 
         <div class="container-fluid pb-5">
-          <div id="section-elements" name="bridge" class="row g-4"></div>
+          <div id="section-elements" name="airdrops" class="row g-4"></div>
           <a href="#main-navbar" id="backToTop" class="btn btn-light shadow-sm">
             <img src="/img/arrow-up.svg" height="24" alt="" />
           </a>
@@ -130,8 +129,11 @@
     <!-- Bootstrap Bundle with Popper -->
     <script src="/vendors/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
     <script src="/vendors/jquery-3.6.0.min.js"></script>
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
     <script src="/js/sidebar-loader.js"></script>
-    <script src="/js/get-content.js"></script>
+    <script src="/js/get-content-db.js"></script>
     <script src="/js/search-content.js"></script>
   </body>
 </html>
