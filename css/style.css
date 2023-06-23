@@ -287,6 +287,7 @@ CARDS
   border: none;
   border-top-left-radius: 12px !important;
   border-top-right-radius: 12px !important;
+  background-color: transparent;
 }
 
 .card-title {
@@ -301,6 +302,7 @@ CARDS
   border: none;
   border-bottom-left-radius: 12px !important;
   border-bottom-right-radius: 12px !important;
+  background-color: transparent;
 }
 
 .card {
