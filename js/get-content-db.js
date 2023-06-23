@@ -1,4 +1,5 @@
 const pageName = document.getElementById("section-elements").getAttribute("name");
+const bucketURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/public/logos/";
 const toolCount = document.getElementById("tool-count");
 
 const client = supabase.createClient("https://krperkqbaqewikgzuoea.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtycGVya3FiYXFld2lrZ3p1b2VhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODAzMzU4NzcsImV4cCI6MTk5NTkxMTg3N30.ZiwrLZyY8lHlLspcVIagKrF5Bdci_R95lKpDDK56xHM");
@@ -18,7 +19,7 @@ async function getContent() {
         <div class="card">
           <div class="card-header d-flex justify-content-between align-items-start">
           <div class="d-flex">
-          <img loading="lazy" src="/img/projects/${item.logo}" height="70" width="70" class="rounded-5" alt="${item.logo}">
+          <img loading="lazy" src="${bucketURL + item.logo}" height="70" width="70" class="rounded-5" alt="${item.logo}">
             <div class="ms-4 d-flex flex-column justify-content-between">
             <h4 class="card-title">${item.name}</h4>
             <a class="card-subtitle mb-2 text-decoration-none" href="${item.website}" target="_blank"><img class="me-1" height="12" src="/img/socials/link.svg" alt"website link">Website</a>
