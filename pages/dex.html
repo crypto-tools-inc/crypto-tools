@@ -92,17 +92,18 @@
             <button class="btn d-block d-sm-none shadow-none" id="sidebarToggle">
               <img src="/img/list-tree.svg" height="24" alt="" />
             </button>
-            <ul class="navbar-nav ms-auto mt-lg-0">
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="/img/search.svg" height="24" alt="" /></button>
+            <ul class="navbar-nav flex-row ms-auto mt-lg-0">
+              <li class="nav-item me-2">
+                <a href="/login.html" class="btn btn-outline-primary">Login</a>
+              </li>
               <li class="nav-item">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfM2EfqLkPuZ7XqqLPAYKjyvsJTTSx0JQ6ooZCr8JLNvAnJag/viewform" target="_blank" class="btn btn-link shadow-none">
-                  <img class="me-1" src="/img/suggest-light.svg" height="24" alt="" />
-                </a>
+                <a href="/signup.html" class="btn btn-primary">Signup</a>
               </li>
             </ul>
-            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="/img/search.svg" height="24" alt="" /></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav w-100">
-                <li class="nav-item w-100 mt-3 mt-md-0">
+                <li class="nav-item w-100 mt-3 mt-md-0 me-2">
                   <input id="searchContent" onkeyup="searchContent()" type="search" class="form-control" placeholder="Search project or keyworks" />
                 </li>
               </ul>

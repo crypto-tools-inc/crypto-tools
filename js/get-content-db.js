@@ -10,6 +10,7 @@ async function getContent() {
     console.log(error);
   }
   if (data) {
+    console.log(data);
     toolCount.innerHTML = data.length + " tools";
 
     let content = "";
@@ -44,6 +45,9 @@ async function getContent() {
           </div>
             <div class="card-footer">
               <p class="text-muted text-uppercase small semi-bold mb-2">Networks</p>
+              <p>${item.network.forEach((el) => {
+                console.log(el);
+              })}</p>
             </div>
         </div>
       </div>
