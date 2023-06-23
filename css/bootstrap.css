@@ -449,6 +449,13 @@ button:not(:disabled),
 .g-4 {
   --bs-gutter-y: 1.5rem;
 }
+
+@media (min-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
 @media (min-width: 768px) {
   .col-md-6 {
     flex: 0 0 auto;
@@ -464,6 +471,10 @@ button:not(:disabled),
     flex: 0 0 auto;
     width: 33.33333333%;
   }
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
 }
 @media (min-width: 1200px) {
   .col-xl-3 {
@@ -476,6 +487,10 @@ button:not(:disabled),
   }
 }
 @media (min-width: 1400px) {
+  .col-xxl-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
   .col-xxl-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
