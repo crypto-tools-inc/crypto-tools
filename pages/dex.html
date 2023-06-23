@@ -71,13 +71,13 @@
     <meta name="theme-color" content="#ffffff" />
 
     <!-- Bootstrap CSS -->
-    <link href="/css/bootstrap.min.css?v=1.0" rel="stylesheet" />
+    <link href="/css/bootstrap.min.css?v=1.2" rel="stylesheet" />
     <!-- Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
     <!-- Custom styling -->
-    <link rel="stylesheet" href="/css/style.min.css?v=1.2" />
+    <link rel="stylesheet" href="/css/style.css?v=1.2" />
   </head>
 
   <body>
@@ -110,7 +110,7 @@
           </div>
         </nav>
         <!-- Page content-->
-        <div class="title-container pt-3 pb-4 mb-5">
+        <div class="title-container pt-3 pb-4">
           <div class="container-fluid">
             <h2 id="section-title"></h2>
             <p>Decentralised exchanges let you trade any tokens without intermediaries.</p>
@@ -127,11 +127,12 @@
       </div>
     </div>
 
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <!-- Bootstrap Bundle with Popper -->
     <script src="/vendors/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
-    <script src="/vendors/jquery-3.6.0.min.js"></script>
     <script src="/js/sidebar-loader.js"></script>
-    <script src="/js/get-content.js"></script>
+    <script src="/js/get-content-db.js"></script>
     <script src="/js/search-content.js"></script>
   </body>
 </html>
