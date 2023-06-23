@@ -9,13 +9,12 @@ async function getContent() {
     console.log(error);
   }
   if (data) {
-    console.log(data);
     toolCount.innerHTML = data.length + " tools";
 
     let content = "";
     data.forEach((item) => {
       content += `
-      <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+      <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
         <div class="card">
           <div class="card-header d-flex justify-content-between align-items-start">
           <div class="d-flex">
