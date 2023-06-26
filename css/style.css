@@ -251,7 +251,8 @@ JUMBOTRON
 DROPDOWN MENU
 ============================================================================= */
 .dropdown-menu {
-  border: none;
+  background-color: #232323;
+  border: 1px solid #2e2e2e;
   border-radius: 12px;
   filter: drop-shadow(rgba(128, 138, 157, 0.12) 0px 1px 2px) drop-shadow(rgba(128, 138, 157, 0.24) 0px 8px 32px);
 }
@@ -264,6 +265,15 @@ DROPDOWN MENU
 .dropdown-item {
   padding: 0.6rem 1rem;
   border-radius: 8px;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: #2e2e2e;
+}
+
+.dropdown-divider {
+  border-top-color: #2e2e2e;
 }
 
 /* =============================================================================

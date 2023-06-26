@@ -93,12 +93,23 @@
               <img src="/img/list-tree.svg" height="24" alt="" />
             </button>
             <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="/img/search.svg" height="24" alt="" /></button>
-            <ul class="navbar-nav flex-row ms-auto mt-lg-0">
+            <ul id="userNotLogged" class="navbar-nav flex-row ms-auto mt-lg-0">
               <li class="nav-item me-2">
                 <a href="/login.html" class="btn btn-outline-primary">Login</a>
               </li>
               <li class="nav-item">
                 <a href="/signup.html" class="btn btn-primary">Signup</a>
+              </li>
+            </ul>
+            <ul id="userLogged" class="flex-row ms-auto mt-lg-0 m-0 list-unstyled">
+              <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle text-light" data-bs-toggle="dropdown" aria-expanded="false">Account</button>
+                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+                  <li><h6 class="dropdown-header">email address here</h6></li>
+                  <li><a class="dropdown-item" href="#">Bookmarks</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Logout</a></li>
+                </ul>
               </li>
             </ul>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
