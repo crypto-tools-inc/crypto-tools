@@ -2,6 +2,7 @@
 checkSession();
 
 function userLogged() {
+  getUserUpvotes();
   console.log("user logged in");
   if (window.location.pathname == "/login.html") {
     window.location.replace("/index.html");
@@ -30,6 +31,7 @@ async function checkSession() {
     if (document.getElementById("displayUserEmail")) {
       document.getElementById("displayUserEmail").innerHTML = data.session.user.email;
     }
+    user_email = data.session.user.email;
     user_id = data.session.user.id;
   }
 }
@@ -37,4 +39,8 @@ async function checkSession() {
 async function removeUserCommand() {
   document.getElementById("userLogged").hidden = true;
   document.getElementById("userNotLogged").hidden = false;
+}
+
+async function getUserUpvotes() {
+  let { data, error } = await client.from("upvotes").select("*");
 }
