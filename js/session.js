@@ -14,9 +14,9 @@ function userNotLogged() {
   if (window.location.pathname == "/bookmarks/") {
     return;
   }
-  // if (window.location.pathname !== "/login.html") {
-  //   window.location.replace("/login.html");
-  // }
+  if (window.location.pathname !== "/login.html") {
+    window.location.replace("/login.html");
+  }
 }
 
 async function checkSession() {
