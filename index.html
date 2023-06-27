@@ -112,7 +112,37 @@
           </div>
 
           <div class="container">
-            <div id="section-categories" class="row g-4"></div>
+            <!-- Carousel -->
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner rounded-5">
+                <div class="carousel-item active">
+                  <img src="https://source.unsplash.com/featured/1000x500" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://source.unsplash.com/featured/1000x500" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://source.unsplash.com/featured/1000x500" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <section class="my-5">
               <p class="text-center text-muted small">All tools and websites listed on Crypto Tools are the sole property of the respective companies and owners and presented as is.<br />We strive in researching and trying every project posted at Crypto Tools and we are not responsible for any loss you may incur in using them.</p>
@@ -131,64 +161,12 @@
         </div>
       </div>
     </div>
+
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <!-- Bootstrap core JS-->
     <script src="vendors/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
-    <script src="vendors/jquery-3.6.0.min.js"></script>
+    <script src="/js/index.js"></script>
     <script src="/js/sidebar-loader.js"></script>
-
-    <script>
-      $(document).ready(function () {
-        // Count to the total number of tools
-        let totalCount = 0;
-        let dataArray = [
-          "airdrops",
-          "analytics",
-          "asset-management",
-          "bridge",
-          "categories",
-          "dao-access",
-          "dao-compensation",
-          "dao-content",
-          "dao-contribution",
-          "dao-discussion",
-          "dao-frameworks",
-          "dao-frontend",
-          "dao-governance",
-          "dao-identity",
-          "dao-knowledge",
-          "dao-treasury",
-          "daos",
-          "derivatives",
-          "dex-aggregator",
-          "dex",
-          "insurance",
-          "lending-borrowing",
-          "lightning-network",
-          "monitoring",
-          "news",
-          "nft-analytics",
-          "nft-marketplace",
-          "nft-tools",
-          "taxes",
-          "utilities",
-          "wallets-bitcoin",
-          "wallets-hardware",
-          "wallets-web3",
-          "yield-farming",
-        ];
-
-        for (let i = 0; i < dataArray.length; ++i) {
-          count(dataArray[i]);
-        }
-
-        function count(filename) {
-          $.getJSON("/data/" + filename + ".json", function (files) {
-            totalCount += files.length;
-            //Get the total number of tools in the JSON
-            $("#totalCount").text(totalCount);
-          });
-        }
-      });
-    </script>
   </body>
 </html>
