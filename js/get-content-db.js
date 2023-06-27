@@ -8,7 +8,7 @@ async function getContent() {
     console.log(error);
   }
   if (data) {
-    console.log(data);
+    // console.log(data);
     toolCount.innerHTML = data.length + " tools";
 
     let content = "";
@@ -24,7 +24,7 @@ async function getContent() {
             <a class="card-subtitle mb-2 text-decoration-none" href="${item.website}" target="_blank"><img class="me-1" height="12" src="/img/socials/link.svg" alt"website link">Website</a>
             </div>
           </div>
-            <button class="btn btn-sm"><span class="badge badge-upvotes">${item.upvotes}</span></button>
+            <button id="${item.id}" class="badge badge-upvotes" onclick="upvote(this)"><img class="me-2" src="/img/caret-up.svg" width="14" height="14">${item.upvotes}</button>
           </div>
           <div class="card-body">
             <div>
