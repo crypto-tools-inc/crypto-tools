@@ -2,7 +2,22 @@ const pageName = document.getElementById("section-elements").getAttribute("name"
 const bucketURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/public/logos/";
 const toolCount = document.getElementById("tool-count");
 
+async function getUserUpvotes(user_id) {
+  let { data, error } = await client.from("upvotes").select("*").eq("user_id", user_id);
+  if (data) {
+    upvotesArray = [];
+    // console.log(data);
+    data.forEach((element) => {
+      upvotesArray.push(element.tool_id);
+    });
+  }
+  if (error) {
+    console.log(error);
+  }
+}
+
 async function getContent() {
+  await getUserUpvotes(user_id);
   const { data, error } = await client.from("tools").select("*").eq("category", pageName).order("upvotes", { ascending: false });
   if (error) {
     console.log(error);
@@ -24,7 +39,8 @@ async function getContent() {
             <a class="card-subtitle mb-2 text-decoration-none" href="${item.website}" target="_blank"><img class="me-1" height="12" src="/img/socials/link.svg" alt"website link">Website</a>
             </div>
           </div>
-            <button id="${item.id}" class="badge badge-upvotes" onclick="upvote(this)"><img class="me-2" src="/img/caret-up.svg" width="14" height="14">${item.upvotes}</button>
+          ${upvotesArray.includes(item.id) == true ? `<button id="${item.id}" class="badge badge-upvotes badge-active" onclick="upvote(this)"><img class="me-2" src="/img/caret-up.svg" width="14" height="14">${item.upvotes}</button>` : `<button id="${item.id}" class="badge badge-upvotes" onclick="upvote(this)"><img class="me-2" src="/img/caret-up.svg" width="14" height="14">${item.upvotes}</button>`}
+            
           </div>
           <div class="card-body">
             <div>
