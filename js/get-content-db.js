@@ -2,8 +2,6 @@ const pageName = document.getElementById("section-elements").getAttribute("name"
 const bucketURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/public/logos/";
 const toolCount = document.getElementById("tool-count");
 
-const client = supabase.createClient("https://krperkqbaqewikgzuoea.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtycGVya3FiYXFld2lrZ3p1b2VhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODAzMzU4NzcsImV4cCI6MTk5NTkxMTg3N30.ZiwrLZyY8lHlLspcVIagKrF5Bdci_R95lKpDDK56xHM");
-
 async function getContent() {
   const { data, error } = await client.from("tools").select("*").eq("category", pageName).order("upvotes", { ascending: false });
   if (error) {
@@ -46,7 +44,7 @@ async function getContent() {
             <div class="card-footer">
               <p class="text-muted text-uppercase small semi-bold mb-2">Networks</p>
               <p>${item.network.forEach((el) => {
-                console.log(el);
+                // console.log(el);
               })}</p>
             </div>
         </div>
