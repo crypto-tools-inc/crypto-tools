@@ -139,6 +139,10 @@
                 <label class="form-check-label" for="checkPulsechain">Pulsechain</label>
               </div>
               <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Starknet" id="checkStarknet" />
+                <label class="form-check-label" for="checkStarknet">Starknet</label>
+              </div>
+              <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" name="networkSelect" value="Algorand" id="checkAlgorand" />
                 <label class="form-check-label" for="checkAlgorand">Algorand</label>
               </div>
@@ -219,9 +223,11 @@
                   <option value="dao contribution">DAO Contribution</option>
                   <option value="dao framework">DAO Framework</option>
                   <option value="dao governance">DAO Governance</option>
-                  <option value="dexes">DEXes</option>
+                  <option value="dex">DEXes</option>
                   <option value="dex aggregator">DEX Aggregator</option>
                   <option value="derivatives">Derivatives</option>
+                  <option value="bitcoin wallet">Bitcoin Wallet</option>
+                  <option value="web3 wallet">Web3 Wallet</option>
                   <option value="hardware wallet">Hardware Wallet</option>
                   <option value="insurance">Insurance</option>
                   <option value="lending borrowing">Lending & Borrowing</option>
@@ -290,6 +296,8 @@
 
       let addProject = document.getElementById("addProject");
       addProject.addEventListener("click", async function () {
+        addProject.disabled = true;
+
         const logo = document.getElementById("formFile");
         let name = document.getElementById("inputName").value;
         let description = document.getElementById("inputDescription").value;
@@ -318,8 +326,10 @@
           const { data, error } = await client.storage.from("logos").upload(logo.files[0].name, logo.files[0]);
           if (error) {
             console.log(error);
+            addProject.disabled = false;
           } else {
             console.log(data);
+            addProject.disabled = false;
           }
         }
 
@@ -328,15 +338,15 @@
             name: name,
             logo: logo.files[0].name,
             description: description,
-            website: website,
+            website: website == "" ? null : website,
             network: network,
-            social_twitter: twitter,
-            social_discord: discord,
-            social_mirror: mirror,
-            social_github: github,
-            social_telegram: telegram,
-            social_medium: medium,
-            social_reddit: reddit,
+            social_twitter: twitter == "" ? null : twitter,
+            social_discord: discord == "" ? null : discord,
+            social_mirror: mirror == "" ? null : mirror,
+            social_github: github == "" ? null : github,
+            social_telegram: telegram == "" ? null : telegram,
+            social_medium: medium == "" ? null : medium,
+            social_reddit: reddit == "" ? null : reddit,
             upvotes: "0",
             category: category,
             date_added: timestamp,
@@ -344,9 +354,12 @@
         ]);
         if (error) {
           console.log(error);
+          addProject.disabled = false;
         }
         if (data) {
           console.log(data);
+          window.location.href = "/success.html";
+          addProject.disabled = false;
         }
         uploadFile();
       });
