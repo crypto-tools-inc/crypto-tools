@@ -2,10 +2,11 @@ const pageName = document.getElementById("section-elements").getAttribute("name"
 const bucketURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/public/logos/";
 const toolCount = document.getElementById("tool-count");
 
+upvotesArray = [];
+
 async function getUserUpvotes(user_id) {
   let { data, error } = await client.from("upvotes").select("*").eq("user_id", user_id);
   if (data) {
-    upvotesArray = [];
     // console.log(data);
     data.forEach((element) => {
       upvotesArray.push(element.tool_id);
@@ -17,7 +18,10 @@ async function getUserUpvotes(user_id) {
 }
 
 async function getContent() {
-  await getUserUpvotes(user_id);
+  if (user_id != null) {
+    await getUserUpvotes(user_id);
+  }
+
   const { data, error } = await client.from("tools").select("*").eq("category", pageName).order("upvotes", { ascending: false });
   if (error) {
     console.log(error);
