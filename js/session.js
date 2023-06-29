@@ -36,6 +36,10 @@ async function checkSession() {
 }
 
 async function removeUserCommand() {
-  document.getElementById("userLogged").hidden = true;
-  document.getElementById("userNotLogged").hidden = false;
+  if (document.getElementById("userLogged")) {
+    document.getElementById("userLogged").hidden = true;
+  }
+  if (document.getElementById("userNotLogged")) {
+    document.getElementById("userNotLogged").hidden = false;
+  }
 }
