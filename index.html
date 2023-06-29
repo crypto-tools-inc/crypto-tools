@@ -71,7 +71,7 @@
     <meta name="theme-color" content="#1c1c1c" />
 
     <!-- Bootstrap CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap.min.css?v=1.2" rel="stylesheet" />
     <!-- Custom style -->
     <link rel="stylesheet" href="/css/style.css?v=1.2" />
     <!-- Animate.css -->
@@ -88,13 +88,37 @@
       <!-- Page content wrapper-->
       <div id="page-content-wrapper">
         <!-- Top navigation-->
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
+        <nav id="main-navbar" class="navbar navbar-expand-lg">
+          <div class="container-fluid flex-row flex-sm-row-reverse">
             <button class="btn d-block d-sm-none shadow-none" id="sidebarToggle">
               <img src="/img/list-tree.svg" height="24" alt="" />
             </button>
+            <ul id="userNotLogged" class="navbar-nav flex-row ms-auto mt-lg-0" hidden>
+              <li class="nav-item me-2">
+                <a href="/login.html" class="btn btn-outline-primary">Login</a>
+              </li>
+              <li class="nav-item">
+                <a href="/signup.html" class="btn btn-primary">Signup</a>
+              </li>
+            </ul>
+            <ul id="userLogged" class="flex-row ms-auto mt-lg-0 m-0 list-unstyled">
+              <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle text-light" data-bs-toggle="dropdown" aria-expanded="false">Account</button>
+                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+                  <li><h6 id="displayUserEmail" class="dropdown-header">email address here</h6></li>
+                  <li>
+                    <a class="dropdown-item" href="/suggest/" target="_blank"><img class="me-2" src="/img/chat-dots.svg" alt="" width="20" height="20" />Suggest tools</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a id="logoutBtn" class="dropdown-item" href="#"><img class="me-2" src="/img/sign-out.svg" alt="" width="20" height="20" />Logout</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </nav>
+
         <!-- Page content-->
         <div class="container-fluid">
           <div class="jumbotron">
@@ -162,11 +186,16 @@
       </div>
     </div>
 
+    <!-- Putting this here because otherwise the loading script would complain -->
+    <h2 id="section-title" hidden></h2>
+
     <!-- Supabase -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <!-- Bootstrap core JS-->
-    <script src="vendors/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="/vendors/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
     <script src="/js/index.js"></script>
+    <script src="/js/session.js"></script>
     <script src="/js/sidebar-loader.js"></script>
+    <script src="/js/logout.js"></script>
   </body>
 </html>

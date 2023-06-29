@@ -25,11 +25,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
   }
 });
 
-// Call the getContent function when the document is ready
-document.addEventListener("DOMContentLoaded", function () {
-  getContent();
-});
-
 // Listen for scroll events on the #page-content-wrapper element
 document.querySelector("#page-content-wrapper").addEventListener("scroll", function () {
   var y = this.scrollTop;

@@ -2,6 +2,11 @@ const pageName = document.getElementById("section-elements").getAttribute("name"
 const bucketURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/public/logos/";
 const toolCount = document.getElementById("tool-count");
 
+// Call the getContent function when the document is ready
+document.addEventListener("DOMContentLoaded", function () {
+  getContent();
+});
+
 upvotesArray = [];
 
 async function getUserUpvotes(user_id) {
