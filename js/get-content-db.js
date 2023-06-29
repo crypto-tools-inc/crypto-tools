@@ -37,7 +37,7 @@ async function getContent() {
         <div class="card">
           <div class="card-header d-flex justify-content-between align-items-start">
           <div class="d-flex">
-          <img loading="lazy" src="${bucketURL + item.logo}" height="70" width="70" class="rounded-5" alt="${item.logo}">
+          <img loading="lazy" src="${bucketURL + item.logo}" height="70" width="70" class="rounded-5 card-logo" alt="${item.logo}">
             <div class="ms-4 d-flex flex-column justify-content-between">
             <h4 class="card-title">${item.name}</h4>
             <a class="card-subtitle mb-2 text-decoration-none" href="${item.website}" target="_blank"><img class="me-1" height="12" src="/img/socials/link.svg" alt"website link">Website</a>

@@ -343,6 +343,10 @@ CARDS
   color: #a3a3a3;
 }
 
+.card-logo {
+  background-color: #2b2b2b;
+}
+
 .bg-label {
   font-weight: 400;
   color: #a0a0a0;
