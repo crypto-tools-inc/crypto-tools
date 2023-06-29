@@ -71,13 +71,13 @@
     <meta name="theme-color" content="#ffffff" />
 
     <!-- Bootstrap CSS -->
-    <link href="/css/bootstrap.min.css?v=1.0" rel="stylesheet" />
+    <link href="/css/bootstrap.min.css?v=1.2" rel="stylesheet" />
     <!-- Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
     <!-- Custom styling -->
-    <link rel="stylesheet" href="/css/style.min.css?v=1.2" />
+    <link rel="stylesheet" href="/css/style.css?v=1.2" />
   </head>
 
   <body>
@@ -92,25 +92,42 @@
             <button class="btn d-block d-sm-none shadow-none" id="sidebarToggle">
               <img src="/img/list-tree.svg" height="24" alt="" />
             </button>
-            <ul class="navbar-nav ms-auto mt-lg-0">
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="/img/search.svg" height="24" alt="" /></button>
+            <ul id="userNotLogged" class="navbar-nav flex-row ms-auto mt-lg-0" hidden>
+              <li class="nav-item me-2">
+                <a href="/login.html" class="btn btn-outline-primary">Login</a>
+              </li>
               <li class="nav-item">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfM2EfqLkPuZ7XqqLPAYKjyvsJTTSx0JQ6ooZCr8JLNvAnJag/viewform" target="_blank" class="btn btn-link shadow-none">
-                  <img class="me-1" src="/img/suggest-light.svg" height="24" alt="" />
-                </a>
+                <a href="/signup.html" class="btn btn-primary">Signup</a>
               </li>
             </ul>
-            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="/img/search.svg" height="24" alt="" /></button>
+            <ul id="userLogged" class="flex-row ms-auto mt-lg-0 m-0 list-unstyled">
+              <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle text-light" data-bs-toggle="dropdown" aria-expanded="false">Account</button>
+                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+                  <li><h6 id="displayUserEmail" class="dropdown-header">email address here</h6></li>
+                  <li>
+                    <a class="dropdown-item" href="/suggest/" target="_blank"><img class="me-2" src="/img/chat-dots.svg" alt="" width="20" height="20" />Suggest tools</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a id="logoutBtn" class="dropdown-item" href="#"><img class="me-2" src="/img/sign-out.svg" alt="" width="20" height="20" />Logout</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav w-100">
-                <li class="nav-item w-100 mt-3 mt-md-0">
+                <li class="nav-item w-100 mt-3 mt-md-0 me-2">
                   <input id="searchContent" onkeyup="searchContent()" type="search" class="form-control" placeholder="Search project or keyworks" />
                 </li>
               </ul>
             </div>
           </div>
         </nav>
+
         <!-- Page content-->
-        <div class="title-container pt-3 pb-4 mb-5">
+        <div class="title-container pt-3 pb-4">
           <div class="container-fluid">
             <h2 id="section-title"></h2>
             <p>All the best places to browse, buy and sell NFTs.</p>
@@ -119,7 +136,7 @@
         </div>
 
         <div class="container-fluid pb-5">
-          <div id="section-elements" name="nft-marketplace" class="row g-4"></div>
+          <div id="section-elements" name="nft marketplace" class="row g-4"></div>
           <a href="#main-navbar" id="backToTop" class="btn btn-light shadow-sm">
             <img src="/img/arrow-up.svg" height="24" alt="" />
           </a>
@@ -127,11 +144,16 @@
       </div>
     </div>
 
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <!-- Bootstrap Bundle with Popper -->
     <script src="/vendors/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
-    <script src="/vendors/jquery-3.6.0.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/session.js"></script>
     <script src="/js/sidebar-loader.js"></script>
-    <script src="/js/get-content.js"></script>
+    <script src="/js/get-content-db.js"></script>
     <script src="/js/search-content.js"></script>
+    <script src="/js/upvote.js"></script>
+    <script src="/js/logout.js"></script>
   </body>
 </html>
