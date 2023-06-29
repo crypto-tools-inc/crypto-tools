@@ -329,36 +329,39 @@
             addProject.disabled = false;
           } else {
             console.log(data);
+            window.location.href = "/suggest/complete.html";
             addProject.disabled = false;
           }
         }
 
-        const { data, error } = await client.from("queue").insert([
-          {
-            name: name,
-            logo: logo.files[0].name,
-            description: description,
-            website: website == "" ? null : website,
-            network: network,
-            social_twitter: twitter == "" ? null : twitter,
-            social_discord: discord == "" ? null : discord,
-            social_mirror: mirror == "" ? null : mirror,
-            social_github: github == "" ? null : github,
-            social_telegram: telegram == "" ? null : telegram,
-            social_medium: medium == "" ? null : medium,
-            social_reddit: reddit == "" ? null : reddit,
-            upvotes: "0",
-            category: category,
-            date_added: timestamp,
-          },
-        ]);
+        const { data, error } = await client
+          .from("queue")
+          .insert([
+            {
+              name: name,
+              logo: logo.files[0].name,
+              description: description,
+              website: website == "" ? null : website,
+              network: network,
+              social_twitter: twitter == "" ? null : twitter,
+              social_discord: discord == "" ? null : discord,
+              social_mirror: mirror == "" ? null : mirror,
+              social_github: github == "" ? null : github,
+              social_telegram: telegram == "" ? null : telegram,
+              social_medium: medium == "" ? null : medium,
+              social_reddit: reddit == "" ? null : reddit,
+              upvotes: "0",
+              category: category,
+              date_added: timestamp,
+            },
+          ])
+          .select();
         if (error) {
           console.log(error);
           addProject.disabled = false;
         }
         if (data) {
           console.log(data);
-          window.location.href = "/success.html";
           addProject.disabled = false;
         }
         uploadFile();
