@@ -5,10 +5,6 @@ fetch("../include/sidebar.html")
     document.querySelector("#sidebar-wrapper").innerHTML = text;
   });
 
-// Set the page title
-var pageTitle = document.querySelector("title").textContent;
-document.querySelector("#section-title").textContent = pageTitle;
-
 window.addEventListener("DOMContentLoaded", (event) => {
   // Toggle the side navigation
   const sidebarToggle = document.body.querySelector("#sidebarToggle");
