@@ -2,6 +2,8 @@ async function upvote(el) {
   if (user_id == null) {
     //open login modal
     console.log("You need to login to vote");
+    const upvoteModal = new bootstrap.Modal(document.getElementById("upvoteModal"));
+    upvoteModal.show();
   }
   if (user_id != null) {
     let currentUpvotes = el.innerText;

@@ -167,7 +167,7 @@ SIDEBAR
 .sidebar-heading {
   width: 18rem;
   position: fixed;
-  z-index: 9999;
+  z-index: 1000;
   background-color: #1c1c1c;
 }
 
@@ -345,6 +345,24 @@ CARDS
 
 .card-logo {
   background-color: #2b2b2b;
+}
+
+/* =============================================================================
+MODALS
+============================================================================= */
+.modal {
+  backdrop-filter: blur(4px);
+}
+.modal-content {
+  background-color: #232323;
+  border: 1px solid #2e2e2e;
+  border-radius: 12px;
+}
+.modal-header {
+  border: none;
+}
+.modal-footer {
+  border: none;
 }
 
 .bg-label {
