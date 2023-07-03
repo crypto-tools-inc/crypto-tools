@@ -14,7 +14,7 @@ async function upvote(el) {
         console.log(data);
         el.classList.remove("badge-active");
         let newUpvotes = parseInt(currentUpvotes) - 1;
-        el.innerHTML = `<img class="me-2" src="/img/caret-up.svg" width="14" height="14">` + newUpvotes;
+        el.innerHTML = `<img class="me-2" src="/img/caret-up.svg" width="14" height="14" alt="caret">` + newUpvotes;
       }
     } else {
       el.classList.add("badge-active");
@@ -22,7 +22,7 @@ async function upvote(el) {
 
       const { data, error } = await client.from("tools").update({ upvotes: newUpvotes }).eq("id", toolId).select();
       if (data) {
-        el.innerHTML = `<img class="me-2" src="/img/caret-up.svg" width="14" height="14">` + newUpvotes;
+        el.innerHTML = `<img class="me-2" src="/img/caret-up.svg" width="14" height="14" alt="caret">` + newUpvotes;
         addUpvote(toolId);
       }
       if (error) {
