@@ -249,6 +249,30 @@ JUMBOTRON
 }
 
 /* =============================================================================
+CAROUSEL
+============================================================================= */
+.carousel-caption {
+  text-align: left;
+  left: 5%;
+}
+
+.carousel-caption h5 {
+  font-weight: 600;
+}
+
+.carousel-indicators {
+  margin-bottom: 1.5rem;
+  justify-content: flex-start;
+  margin-left: 5%;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 6px;
+  border-top: none;
+  border-bottom: none;
+}
+
+/* =============================================================================
 DROPDOWN MENU
 ============================================================================= */
 .dropdown-menu {
