@@ -29,12 +29,19 @@
   <body>
     <div class="container vh-100 d-flex justify-content-center align-items-center">
       <div class="col-12 col-md-5 col-xs-6">
-        <img class="mb-4" src="img/check-circle.svg" height="48" alt="user-focus" />
-        <h1>Signup successful</h1>
-        <p>Your account has been created successfully and we just sent a verification email.</p>
-        <div class="d-grid gap-2">
-          <a href="login.html" class="btn btn-lg btn-primary">Let's go</a>
-        </div>
+        <img class="mb-4" src="img/paper-plane-tilt.svg" height="48" alt="user-focus" />
+        <h1>Reset your password</h1>
+        <p>Enter the email associated with your account and we'll send an email with instructions to reset your password.</p>
+        <form>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control form-control-lg" id="userEmail" placeholder="name@example.com" autocomplete="email" required />
+            <label for="floatingInput">Email address</label>
+            <div id="emailHelper" class="form-text text-danger"></div>
+          </div>
+          <div class="d-grid gap-2">
+            <button id="resetPasswordBtn" type="submit" class="btn btn-lg btn-primary">Reset Password</button>
+          </div>
+        </form>
       </div>
     </div>
 
@@ -43,5 +50,7 @@
     <!-- Bootstrap Bundle with Popper -->
     <script src="/vendors/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/emailValidation.js"></script>
+    <script src="js/forgot.js"></script>
   </body>
 </html>
