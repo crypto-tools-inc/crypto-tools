@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Suggest tools | Crypto Tools</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="/css/bootstrap.min.css?v=1.2" rel="stylesheet" />
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <!-- Custom styling -->
+    <link rel="stylesheet" href="/css/style.css?v=1.2" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="d-flex justify-content-center py-5">
+        <div class="col-12 col-md-6">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h2 id="section-title">New project</h2>
+              <p>Request to add a new project to crypto.tools</p>
+              <div class="mb-3">
+                <div id="imagePreview" class="mb-2"></div>
+                <label for="formFile" class="form-label">Logo</label>
+                <input class="form-control form-control-lg" type="file" id="formFile" onchange="previewImage()" />
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="inputName" placeholder="Project name" />
+                <label for="inputName">Project's name</label>
+                <div class="form-text">The name of the project you want to add</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="inputDescription" class="form-label">Description</label>
+                <textarea class="form-control form-control-lg" id="inputDescription" rows="3"></textarea>
+              </div>
+              <div class="form-floating">
+                <input type="text" class="form-control" id="inputWebsite" placeholder="Website" />
+                <label for="inputWebsite">Website</label>
+                <div class="form-text">The official website of the project</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="mb-2">
+                <label class="form-label mb-0">Social media</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control form-control-lg" id="inputTwitter" placeholder="Twitter" />
+                <label for="inputTwitter" class="form-label">Twitter</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control form-control-lg" id="inputDiscord" placeholder="Discord" />
+                <label for="inputDiscord" class="form-label">Discord</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control form-control-lg" id="inputTelegram" placeholder="Telegram" />
+                <label for="inputTelegram" class="form-label">Telegram</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control form-control-lg" id="inputMedium" placeholder="Medium" />
+                <label for="inputMedium" class="form-label">Medium</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control form-control-lg" id="inputReddit" placeholder="Reddit" />
+                <label for="inputReddit" class="form-label">Reddit</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control form-control-lg" id="inputMirror" placeholder="Mirror" />
+                <label for="inputMirror" class="form-label">Mirror</label>
+              </div>
+              <div class="form-floating">
+                <input type="text" class="form-control form-control-lg" id="inputGithub" placeholder="Github" />
+
+                <label for="inputGithub" class="form-label">Github</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="mb-2">
+                <label class="form-label mb-0">Select networks</label>
+                <div class="form-text m-0">Select all the networks where the project is operating. (Testnets are not an option)</div>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Algorand" id="checkAlgorand" />
+                <label class="form-check-label" for="checkAlgorand">Algorand</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Aptos" id="checkAptos" />
+                <label class="form-check-label" for="checkAptos">Aptos</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Arbitrum" id="checkArbitrum" />
+                <label class="form-check-label" for="checkArbitrum">Arbitrum</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Astar" id="checkAstar" />
+                <label class="form-check-label" for="checkAstar">Astar</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Aurora" id="checkAurora" />
+                <label class="form-check-label" for="checkAurora">Aurora</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Avalanche" id="checkAvalanche" />
+                <label class="form-check-label" for="checkAvalanche">Avalanche</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Bitcoin" id="checkBitcoin" />
+                <label class="form-check-label" for="checkBitcoin">Bitcoin</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Lightning Network" id="checkLightningNetwork" />
+                <label class="form-check-label" for="checkLightningNetwork">Lightning Network</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Base" id="checkBase" />
+                <label class="form-check-label" for="checkBase">Base</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="BSC" id="checkBSC" />
+                <label class="form-check-label" for="checkBSC">BSC</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Boba" id="checkBoba" />
+                <label class="form-check-label" for="checkBoba">Boba</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Canto" id="checkCanto" />
+                <label class="form-check-label" for="checkCanto">Canto</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Cardano" id="checkCardano" />
+                <label class="form-check-label" for="checkCardano">Cardano</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Celo" id="checkCelo" />
+                <label class="form-check-label" for="checkCelo">Celo</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Cronos" id="checkCronos" />
+                <label class="form-check-label" for="checkCronos">Cronos</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Defichain" id="checkDefichain" />
+                <label class="form-check-label" for="checkDefichain">Defichain</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Dogechain" id="checkDogechain" />
+                <label class="form-check-label" for="checkDogechain">Dogechain</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="EOS" id="checkEOS" />
+                <label class="form-check-label" for="checkEOS">EOS</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Ethereum" id="checkEthereum" />
+                <label class="form-check-label" for="checkEthereum">Ethereum</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Evmos" id="checkEvmos" />
+                <label class="form-check-label" for="checkEvmos">Evmos</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Fantom" id="checkFantom" />
+                <label class="form-check-label" for="checkFantom">Fantom</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Filecoin" id="checkFilecoin" />
+                <label class="form-check-label" for="checkFilecoin">Filecoin</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Fusion" id="checkFusion" />
+                <label class="form-check-label" for="checkFusion">Fusion</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Gnosis" id="checkGnosis" />
+                <label class="form-check-label" for="checkGnosis">Gnosis</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Harmony" id="checkHarmony" />
+                <label class="form-check-label" for="checkHarmony">Harmony</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="HECO" id="checkHECO" />
+                <label class="form-check-label" for="checkHECO">HECO</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Kava" id="checkKava" />
+                <label class="form-check-label" for="checkKava">Kava</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="KCC" id="checkKCC" />
+                <label class="form-check-label" for="checkKCC">KCC</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Klaytn" id="checkKlaytn" />
+                <label class="form-check-label" for="checkKlaytn">Klaytn</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Metis" id="checkMetis" />
+                <label class="form-check-label" for="checkMetis">Metis</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Mixin" id="checkMixin" />
+                <label class="form-check-label" for="checkMixin">Mixin</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Moonbeam" id="checkMoonbeam" />
+                <label class="form-check-label" for="checkMoonbeam">Moonbeam</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Moonriver" id="checkMoonriver" />
+                <label class="form-check-label" for="checkMoonriver">Moonriver</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Near" id="checkNear" />
+                <label class="form-check-label" for="checkNear">Near</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Oasis" id="checkOasis" />
+                <label class="form-check-label" for="checkOasis">Oasis</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="OKXchain" id="checkOKXchain" />
+                <label class="form-check-label" for="checkOKXchain">OKXchain</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="OKTChain" id="checkOKTChain" />
+                <label class="form-check-label" for="checkOKTChain">OKTChain</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Optimism" id="checkOptimism" />
+                <label class="form-check-label" for="checkOptimism">Optimism</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Polygon" id="checkPolygon" />
+                <label class="form-check-label" for="checkPolygon">Polygon</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="PolygonzkEVM" id="checkPolygonzkEVM" />
+                <label class="form-check-label" for="checkPolygonzkEVM">Polygon zkEVM</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Pulsechain" id="checkPulsechain" />
+                <label class="form-check-label" for="checkPulsechain">Pulsechain</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Solana" id="checkSolana" />
+                <label class="form-check-label" for="checkSolana">Solana</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Starknet" id="checkStarknet" />
+                <label class="form-check-label" for="checkStarknet">Starknet</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Sui" id="checkSui" />
+                <label class="form-check-label" for="checkSui">Sui</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Telos" id="checkTelos" />
+                <label class="form-check-label" for="checkTelos">Telos</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="TerraClassic" id="checkTerraClassic" />
+                <label class="form-check-label" for="checkTerraClassic">Terra Classic</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Tezos" id="checkTezos" />
+                <label class="form-check-label" for="checkTezos">Tezos</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Tron" id="checkTron" />
+                <label class="form-check-label" for="checkTron">Tron</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="Waves" id="checkWaves" />
+                <label class="form-check-label" for="checkWaves">Waves</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="networkSelect" value="zkSync" id="checkzkSync" />
+                <label class="form-check-label" for="checkzkSync">zkSync</label>
+              </div>
+
+              <div class="mt-3">
+                <label for="inputCategory" class="form-label">Category</label>
+                <select id="inputCategory" class="form-select form-select-lg" aria-label=".form-select-sm example">
+                  <option selected disabled>Select a category</option>
+                  <option value="analytics">Analytics</option>
+                  <option value="asset management">Assets Management</option>
+                  <option value="bridges">Bridges</option>
+                  <option value="dao access">DAO Access</option>
+                  <option value="dao compensation">DAO Compensation</option>
+                  <option value="dao contribution">DAO Contribution</option>
+                  <option value="dao framework">DAO Framework</option>
+                  <option value="dao governance">DAO Governance</option>
+                  <option value="dex">DEXes</option>
+                  <option value="dex aggregator">DEX Aggregator</option>
+                  <option value="derivatives">Derivatives</option>
+                  <option value="bitcoin wallet">Bitcoin Wallet</option>
+                  <option value="web3 wallet">Web3 Wallet</option>
+                  <option value="hardware wallet">Hardware Wallet</option>
+                  <option value="insurance">Insurance</option>
+                  <option value="lending & borrowing">Lending & Borrowing</option>
+                  <option value="lightning network">Lightning Network</option>
+                  <option value="monitoring">Monitoring</option>
+                  <option value="news">News</option>
+                  <option value="nft analytics">NFT Analytics</option>
+                  <option value="nft marketplace">NFT Marketplace</option>
+                  <option value="nft tool">NFT Tool</option>
+                  <option value="taxes">Taxes</option>
+                  <option value="treasury management">Treasury Management</option>
+                  <option value="utility">Utilities</option>
+                  <option value="yield farming">Yield Farming</option>
+                </select>
+              </div>
+
+              <div>
+                <input type="datetime-local" class="form-control" id="inputTimestamp" hidden />
+              </div>
+            </div>
+          </div>
+          <div class="d-grid">
+            <button id="addProject" class="btn btn-primary btn-lg">Add project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script>
+      const client = supabase.createClient("https://krperkqbaqewikgzuoea.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtycGVya3FiYXFld2lrZ3p1b2VhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODAzMzU4NzcsImV4cCI6MTk5NTkxMTg3N30.ZiwrLZyY8lHlLspcVIagKrF5Bdci_R95lKpDDK56xHM");
+
+      window.addEventListener("load", function () {
+        let inputTimestamp = document.getElementById("inputTimestamp");
+        var now = new Date();
+        var utcString = now.toISOString().substring(0, 19);
+        var year = now.getFullYear();
+        var month = now.getMonth() + 1;
+        var day = now.getDate();
+        var hour = now.getHours();
+        var minute = now.getMinutes();
+        var second = now.getSeconds();
+        var localDatetime = year + "-" + (month < 10 ? "0" + month.toString() : month) + "-" + (day < 10 ? "0" + day.toString() : day) + "T" + (hour < 10 ? "0" + hour.toString() : hour) + ":" + (minute < 10 ? "0" + minute.toString() : minute) + utcString.substring(16, 19);
+        var datetimeField = document.getElementById("myDatetimeField");
+        console.log(localDatetime);
+        inputTimestamp.value = localDatetime;
+      });
+
+      function previewImage() {
+        var preview = document.getElementById("imagePreview");
+        var file = document.getElementById("formFile").files[0];
+        var reader = new FileReader();
+
+        reader.onloadend = function () {
+          preview.innerHTML = '<img class="img-fluid rounded" src="' + reader.result + '" width="150" height="150" />';
+        };
+
+        if (file) {
+          reader.readAsDataURL(file);
+        } else {
+          preview.innerHTML = "No image selected";
+        }
+      }
+
+      let addProject = document.getElementById("addProject");
+      addProject.addEventListener("click", async function () {
+        addProject.disabled = true;
+
+        const logo = document.getElementById("formFile");
+        let name = document.getElementById("inputName").value;
+        let description = document.getElementById("inputDescription").value;
+        let website = document.getElementById("inputWebsite").value;
+        let twitter = document.getElementById("inputTwitter").value;
+        let discord = document.getElementById("inputDiscord").value;
+        let telegram = document.getElementById("inputTelegram").value;
+        let medium = document.getElementById("inputMedium").value;
+        let reddit = document.getElementById("inputReddit").value;
+        let mirror = document.getElementById("inputMirror").value;
+        let github = document.getElementById("inputGithub").value;
+        let category = document.getElementById("inputCategory").value;
+        let timestamp = document.getElementById("inputTimestamp").value;
+        let checkboxes = document.querySelectorAll('input[name="networkSelect"]');
+        let network = [];
+        checkboxes.forEach(function (checkbox) {
+          if (checkbox.checked) {
+            network.push(checkbox.value);
+          }
+        });
+
+        console.log(name, description, website, twitter, discord, telegram, medium, reddit, mirror, github, category, network);
+
+        // Upload file using standard upload
+        async function uploadFile() {
+          const { data, error } = await client.storage.from("logos").upload(logo.files[0].name, logo.files[0]);
+          if (error) {
+            console.log(error);
+            addProject.disabled = false;
+          } else {
+            console.log(data);
+            window.location.href = "/suggest/complete.html";
+            addProject.disabled = false;
+          }
+        }
+
+        const { data, error } = await client
+          .from("queue")
+          .insert([
+            {
+              name: name,
+              logo: logo.files[0].name,
+              description: description,
+              website: website == "" ? null : website,
+              network: network,
+              social_twitter: twitter == "" ? null : twitter,
+              social_discord: discord == "" ? null : discord,
+              social_mirror: mirror == "" ? null : mirror,
+              social_github: github == "" ? null : github,
+              social_telegram: telegram == "" ? null : telegram,
+              social_medium: medium == "" ? null : medium,
+              social_reddit: reddit == "" ? null : reddit,
+              upvotes: "0",
+              category: category,
+              date_added: timestamp,
+            },
+          ])
+          .select();
+        if (error) {
+          console.log(error);
+          addProject.disabled = false;
+        }
+        if (data) {
+          console.log(data);
+          addProject.disabled = false;
+        }
+        uploadFile();
+      });
+    </script>
+  </body>
+</html>

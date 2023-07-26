@@ -1,160 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-          <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Crypto Tools - Discover new and useful tools for your crypto journey</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Crypto Tools - Discover new and useful tools for your crypto journey</title>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P0XJ4Y0FD5"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P0XJ4Y0FD5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-            function gtag() {
-            dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-            gtag('config', 'G-P0XJ4Y0FD5');
-        </script>
+      gtag("config", "G-P0XJ4Y0FD5");
+    </script>
 
-        <!-- Hotjar Tracking Code for https://cripto.tools -->
-        <script>
-            (function(h,o,t,j,a,r){
-                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                h._hjSettings={hjid:3162711,hjsv:6};
-                a=o.getElementsByTagName('head')[0];
-                r=o.createElement('script');r.async=1;
-                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
+    <!-- Hotjar Tracking Code for https://cripto.tools -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3162711, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
 
-        <!-- SEO meta tags -->
-        <meta name="title" content="Crypto Tools - Discover new and useful tools for your crypto journey">
-        <meta name="description" content="Crypto Tools is a library of useful tools that can save hours of research with more than 100+ trusted dApps and protocols.">
-        <meta name="keywords" content="crypto, cryptocurrency, tools, library, protocols, research, dex, bridge, ethereum, defi, bitcoin">
-        <meta name="robots" content="index, follow">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="language" content="English">
-        <meta name="revisit-after" content="7 days">
+    <!-- SEO meta tags -->
+    <meta name="title" content="Crypto Tools - Discover new and useful tools for your crypto journey" />
+    <meta name="description" content="Crypto Tools is a library of useful tools that can save hours of research with more than 100+ trusted dApps and protocols." />
+    <meta name="keywords" content="crypto, cryptocurrency, tools, library, protocols, research, dex, bridge, ethereum, defi, bitcoin" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
 
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://cripto.tools/">
-        <meta property="og:title" content="Crypto Tools - Discover new and useful tools for your crypto journey">
-        <meta property="og:description" content="Crypto Tools is a library of useful tools that can save hours of research with more than 100+ trusted dApps and protocols.">
-        <meta property="og:image" content="https://cripto.tools/img/meta.png">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cripto.tools/" />
+    <meta property="og:title" content="Crypto Tools - Discover new and useful tools for your crypto journey" />
+    <meta property="og:description" content="Crypto Tools is a library of useful tools that can save hours of research with more than 100+ trusted dApps and protocols." />
+    <meta property="og:image" content="https://cripto.tools/img/meta.png" />
 
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://cripto.tools/">
-        <meta property="twitter:title" content="Crypto Tools - Discover new and useful tools for your crypto journey">
-        <meta property="twitter:description" content="Crypto Tools is a library of useful tools that can save hours of research with more than 100+ trusted dApps and protocols.">
-        <meta property="twitter:image" content="https://cripto.tools/img/meta.png">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://cripto.tools/" />
+    <meta property="twitter:title" content="Crypto Tools - Discover new and useful tools for your crypto journey" />
+    <meta property="twitter:description" content="Crypto Tools is a library of useful tools that can save hours of research with more than 100+ trusted dApps and protocols." />
+    <meta property="twitter:image" content="https://cripto.tools/img/meta.png" />
 
-        <!-- Favicons -->
-        <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
-        <link rel="manifest" href="./favicons/site.webmanifest">
-        <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="./favicons/favicon.ico">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="./favicons/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png" />
+    <link rel="manifest" href="./favicons/site.webmanifest" />
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="./favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="./favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#1c1c1c" />
 
+    <!-- Bootstrap CSS -->
+    <link href="/css/bootstrap.min.css?v=1.2" rel="stylesheet" />
+    <!-- Custom style -->
+    <link rel="stylesheet" href="/css/style.css?v=1.2" />
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar-->
+      <div id="sidebar-wrapper"></div>
+      <!-- Page content wrapper-->
+      <div id="page-content-wrapper">
+        <!-- Top navigation-->
+        <nav id="main-navbar" class="navbar navbar-expand-lg">
+          <div class="container-fluid flex-row flex-sm-row-reverse">
+            <button class="btn d-block d-sm-none shadow-none" id="sidebarToggle">
+              <img src="/img/list-tree.svg" height="24" alt="list-tree" />
+            </button>
+            <ul id="userNotLogged" class="navbar-nav flex-row ms-auto mt-lg-0" hidden>
+              <li class="nav-item me-2">
+                <a href="/login.html" class="btn btn-outline-primary">Login</a>
+              </li>
+              <li class="nav-item">
+                <a href="/signup.html" class="btn btn-primary">Signup</a>
+              </li>
+            </ul>
+            <ul id="userLogged" class="flex-row ms-auto mt-lg-0 m-0 list-unstyled">
+              <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle text-light" data-bs-toggle="dropdown" aria-expanded="false">Account</button>
+                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+                  <li><h6 id="displayUserEmail" class="dropdown-header">email address here</h6></li>
+                  <li>
+                    <a class="dropdown-item" href="/suggest/" target="_blank"><img class="me-2" src="/img/chat-dots.svg" alt="chat-dots" width="20" height="20" />Suggest tools</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a id="logoutBtn" class="dropdown-item" href="#"><img class="me-2" src="/img/sign-out.svg" alt="sign-out" width="20" height="20" />Logout</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-        <!-- Bootstrap CSS -->
-        <link href="./css/bootstrap.min.css" rel="stylesheet">
-        <!-- Custom style -->
-        <link rel="stylesheet" href="/css/style.min.css?v=1.2">
-        <!-- Animate.css -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-        <!-- Poppins Font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-    </head>
-    <body>
-        <div class="d-flex" id="wrapper">
-            <!-- Sidebar-->
-            <div id="sidebar-wrapper"></div>
-            <!-- Page content wrapper-->
-            <div id="page-content-wrapper">
-                <!-- Top navigation-->
-                <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                    <div class="container-fluid">
-                        <button class="btn d-block d-sm-none shadow-none" id="sidebarToggle">
-                            <img src="/img/list-tree.svg" height="24" alt="">
-                        </button>
-                    </div>
-                </nav>
-                <!-- Page content-->
-                <div class="container-fluid">
-                    <div class="jumbotron">
-                        <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                            <h1 class="display-3 semi-bold animate__animated animate__fadeInUp">A collection of tools curated by experts, handpicked for you.</h1>
-                            <h5 class="my-4 animate__animated animate__fadeInUp animate__delay-03s">Save hours of research with our library of <span id="totalCount"></span> trusted dApps and protocols.</h5>
-                            <a class="semi-bold animate__animated animate__fadeInUp animate__delay-03s" href="https://www.producthunt.com/posts/crypto-tools?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-crypto&#0045;tools" target="_blank"><img
-                                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=339388&theme=light"
-                                alt="Crypto&#0032;Tools - A&#0032;curated&#0032;collection&#0032;of&#0032;crypto&#0032;tools&#0044;&#0032;handpicked&#0032;for&#0032;you | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" />
-                            </a>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-
-                      <div class="container">
-                        <div id="section-categories" class="row g-4"></div>
-
-                        <section class="my-5">
-                        <p class="text-center text-muted small">All tools and websites listed on Crypto Tools are the sole property of the respective companies and owners and presented as is.<br>We strive in researching and trying every project posted at Crypto Tools
-                            and we are not responsible for any loss you may incur in using them.</p>
-                        </section>
-                    </div>
-
-                    <footer class="py-3 my-4 border-top">
-                        <div class="container">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <p class="m-0 text-muted small">Made with love by crypto enthusiasts</p>
-                            <!-- <a class="m-0 text-muted small" href="brand.html">Brand assets</a> -->
-                            <a href="https://twitter.com/Cryptotools_" target="_blank"><img src="img/twitter.svg" height="24" alt="twitter logo"></a>
-                        </div>
-                        </div>
-                    </footer>
-
-                </div>
+        <!-- Page content-->
+        <div class="container">
+          <!-- Carousel -->
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             </div>
+            <div class="carousel-inner rounded-5">
+              <div class="carousel-item active">
+                <img src="/img/jumbotron/bg-green.png" class="d-block w-100" alt="slide1" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>V2 is out!</h5>
+                  <p>Crypto Tools is upgrading to version 2 with a lot more features.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/img/jumbotron/bg-purple.png" class="d-block w-100" alt="slide2" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Discord Community</h5>
+                  <p>Join our Discord community and become part of the Crypto Tools Crew!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="jumbotron">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1 class="display-3 semi-bold animate__animated animate__fadeInUp mt-2">A collection of tools curated by experts, handpicked for you.</h1>
+                  <h5 class="my-4 animate__animated animate__fadeInUp animate__delay-03s">Save hours of research with our library of <span id="totalCount"></span> trusted dApps and protocols.</h5>
+                  <!-- <a class="semi-bold animate__animated animate__fadeInUp animate__delay-03s" href="https://www.producthunt.com/posts/crypto-tools?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-crypto&#0045;tools" target="_blank"
+                    ><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=339388&theme=light" alt="Crypto&#0032;Tools - A&#0032;curated&#0032;collection&#0032;of&#0032;crypto&#0032;tools&#0044;&#0032;handpicked&#0032;for&#0032;you | Product Hunt" style="width: 250px; height: 54px" width="250" height="54" />
+                  </a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <h2 id="section-title">Latest added</h2>
+            <div id="section-latest" name="dex" class="row g-4">
+              <div class="col-12 col-md-6">
+                <img src="/img/card-placeholder.svg" alt="" width="390" height="300" />
+              </div>
+              <div class="col-12 col-md-6">
+                <img src="/img/card-placeholder.svg" alt="" width="390" height="300" />
+              </div>
+            </div>
+            <a href="#main-navbar" id="backToTop" class="btn btn-light shadow-sm">
+              <img src="/img/arrow-up.svg" height="24" alt="" />
+            </a>
+          </div>
+
+          <div class="container">
+            <section class="my-5">
+              <p class="text-center text-muted small">All tools and websites listed on Crypto Tools are the sole property of the respective companies and owners and presented as is.<br />We strive in researching and trying every project posted at Crypto Tools and we are not responsible for any loss you may incur in using them.</p>
+            </section>
+          </div>
+
+          <footer class="py-3 my-4 border-top">
+            <div class="container">
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="m-0 text-muted small">Made with love by crypto enthusiasts</p>
+                <!-- <a class="m-0 text-muted small" href="brand.html">Brand assets</a> -->
+                <a href="https://twitter.com/Cryptotools_" target="_blank"><img src="img/twitter.svg" height="24" alt="twitter logo" /></a>
+              </div>
+            </div>
+          </footer>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="vendors/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
-        <script src="vendors/jquery-3.6.0.min.js"></script>
-        <script src="/js/sidebar-loader.js"></script>
+      </div>
+    </div>
 
-        <script>
-        $(document).ready(function () {
-            // Count to the total number of tools
-            let totalCount = 0
-            let dataArray = ["airdrops","analytics","asset-management","bridge","categories","dao-access","dao-compensation","dao-content","dao-contribution","dao-discussion","dao-frameworks","dao-frontend","dao-governance","dao-identity","dao-knowledge","dao-treasury","daos","derivatives","dex-aggregator","dex","insurance","lending-borrowing","lightning-network","monitoring","news","nft-analytics","nft-marketplace","nft-tools","taxes","utilities","wallets-bitcoin","wallets-hardware","wallets-web3","yield-farming"]
-
-            for (let i = 0; i < dataArray.length; ++i) {
-                count(dataArray[i]);
-            }
-            
-            function count(filename) {
-            $.getJSON("/data/" + filename + ".json",
-                function (files) {
-                    totalCount += files.length;
-                    //Get the total number of tools in the JSON
-                    $('#totalCount').text(totalCount)
-                });
-            };
-        });
-        </script>
-    </body>
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="/vendors/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/session.js"></script>
+    <script src="/js/sidebar-loader.js"></script>
+    <script src="/js/logout.js"></script>
+  </body>
 </html>

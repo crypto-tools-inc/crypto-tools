@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
-  color: #212841;
+  font-family: "Poppins", sans-serif;
+  color: #ededed;
   scroll-behavior: smooth;
 }
 
@@ -11,19 +11,20 @@ html {
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #1c1c1c;
   /* background-color: #FAF8F6; */
 }
 
+a {
+  color: #3fcf8e;
+}
+
 .bg-gray {
-    background-color: #F1F4F9;
+  background-color: #f1f4f9;
 }
 
 .gradient {
-  background-image: url('../img/noise.png'),
-    radial-gradient(at 43% 19%, hsla(28, 100%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 81% 10%, hsla(189, 100%, 56%, 1) 0px, transparent 50%),
-    radial-gradient(at 7% 19%, hsla(355, 100%, 93%, 1) 0px, transparent 50%);
+  background-image: url("../img/noise.png"), radial-gradient(at 43% 19%, hsla(28, 100%, 74%, 1) 0px, transparent 50%), radial-gradient(at 81% 10%, hsla(189, 100%, 56%, 1) 0px, transparent 50%), radial-gradient(at 7% 19%, hsla(355, 100%, 93%, 1) 0px, transparent 50%);
   background-repeat: repeat, no-repeat, no-repeat, no-repeat;
 }
 
@@ -32,10 +33,11 @@ TYPOGRAPHY
 ============================================================================= */
 #section-title {
   font-weight: 700;
+  color: #ededed;
 }
 
 .title-container {
-  background-color: #FFFFFF;
+  background-color: #1c1c1c;
 }
 
 .small {
@@ -60,29 +62,30 @@ TYPOGRAPHY
 
 .card a {
   font-size: 0.8rem;
-  color: #3861FB;
+  color: #3fcf8e;
 }
 
 .card a:hover {
   text-decoration: underline !important;
 }
 
+.text-muted {
+  color: #707070 !important;
+}
+
 /* =============================================================================
 COLOURS
 ============================================================================= */
 .bg-gray {
-    background-color: #F1F4F9;
+  background-color: #f1f4f9;
 }
 .gray-500 {
-    color: #ACACAC;
+  color: #acacac;
 }
 
 /* =============================================================================
 BUTTONS
 ============================================================================= */
-.btn:hover {
-  color: #7a8188;
-}
 
 .btn-black {
   color: #fff;
@@ -101,17 +104,21 @@ BUTTONS
 /* =============================================================================
 NAVBAR
 ============================================================================= */
+.navbar {
+  background-color: #1c1c1c;
+}
+
 .navbar-fade {
   transition: all 0.5s ease-in-out;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .navbar-index {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .navbar-light {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -149,7 +156,7 @@ SIDEBAR
   min-width: 18rem;
   overflow: scroll;
   margin-left: -18rem;
-  background-color: #FFFFFF;
+  background-color: #1c1c1c;
   transition: margin 0.25s ease-out;
 }
 
@@ -158,23 +165,27 @@ SIDEBAR
   font-size: 1.2rem;
 }
 .sidebar-heading {
-    width: 18rem;
-    position: fixed;
-    z-index: 9999;
-    background-color: #FFFFFF;
+  width: 18rem;
+  position: fixed;
+  z-index: 1000;
+  background-color: #1c1c1c;
 }
 
 #sidebar-wrapper .list-group {
   width: 18rem;
 }
 .list-group {
-    height: 100vh;
-    overflow: scroll;
+  height: 100vh;
+  overflow: scroll;
 }
 
-.list-group-item+.list-group-item.active {
+.list-group-item {
+  color: #bbbbbb;
+}
+
+.list-group-item + .list-group-item.active {
   margin-top: 0.25rem;
-  color: #212841;
+  color: #ededed !important;
   background-color: #e9ecef;
   border-radius: 8px;
 }
@@ -205,20 +216,22 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 }
 
 .list-group-item {
-    background-color: transparent;
-    border: none;
-    margin: 0.25rem 0rem;
-    padding: 0.7rem;
+  background-color: transparent;
+  border: none;
+  margin: 0.25rem 0rem;
+  padding: 0.7rem;
 }
-.list-group-item-action:hover, .list-group-item-action:focus {
-    background-color: #e9ecef;
-    border-radius: 8px;
+.list-group-item-action:hover,
+.list-group-item-action:focus {
+  background-color: #2e2e2e;
+  color: #ededed;
+  border-radius: 8px;
 }
 
 .list-group-item.active {
-    color: #0d6efd;
-    border: none;
-    background-color: inherit;
+  color: #0d6efd;
+  border: none;
+  background-color: inherit;
 }
 
 /* =============================================================================
@@ -232,14 +245,39 @@ JUMBOTRON
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 90% 50%; */
-  margin: 8rem 0;
+  margin: 1rem 0;
+}
+
+/* =============================================================================
+CAROUSEL
+============================================================================= */
+.carousel-caption {
+  text-align: left;
+  left: 5%;
+}
+
+.carousel-caption h5 {
+  font-weight: 600;
+}
+
+.carousel-indicators {
+  margin-bottom: 1.5rem;
+  justify-content: flex-start;
+  margin-left: 5%;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 6px;
+  border-top: none;
+  border-bottom: none;
 }
 
 /* =============================================================================
 DROPDOWN MENU
 ============================================================================= */
 .dropdown-menu {
-  border: none;
+  background-color: #232323;
+  border: 1px solid #2e2e2e;
   border-radius: 12px;
   filter: drop-shadow(rgba(128, 138, 157, 0.12) 0px 1px 2px) drop-shadow(rgba(128, 138, 157, 0.24) 0px 8px 32px);
 }
@@ -250,55 +288,127 @@ DROPDOWN MENU
 }
 
 .dropdown-item {
-  padding: .6rem 1rem;
+  padding: 0.6rem 1rem;
   border-radius: 8px;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: #2e2e2e;
+}
+
+.dropdown-divider {
+  border-top-color: #2e2e2e;
 }
 
 /* =============================================================================
 FORMS
 ============================================================================= */
 .form-control {
-    background-color: #E9ECEF;
-    border: none;
+  background-color: #2b2b2b;
+  border: 1px solid #3e3e3e;
+  color: #ffffff;
+}
+.form-control::placeholder {
+  color: #505050;
+}
+.form-control:focus {
+  background-color: #2b2b2b;
+  border-color: #505050;
+  color: #ffffff;
 }
 
 /* =============================================================================
 CARDS
 ============================================================================= */
-#section-elements {
-  background-color: #F1F4F9;
-  border-radius: 12px 0px 0px 0px;
-}
 .card-header {
   padding: 1.25rem 1.25rem 0 1.25rem;
-  background-color: #FFFFFF;
   border: none;
   border-top-left-radius: 12px !important;
   border-top-right-radius: 12px !important;
+  background-color: transparent;
+}
+
+.card-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .card-footer {
   padding: 0 1.25rem 1.25rem 1.25rem;
-  background-color: #FFFFFF;
   border: none;
   border-bottom-left-radius: 12px !important;
   border-bottom-right-radius: 12px !important;
+  background-color: transparent;
 }
 
 .card {
-  border: 1px solid rgba(0,0,0,0.04);
+  background-color: #232323;
+  border: 1px solid #2e2e2e;
   border-radius: 12px;
-  box-shadow: rgb(88 102 126 / 8%) 0px 4px 24px, rgb(88 102 126 / 12%) 0px 1px 2px;
+  /* box-shadow: rgb(88 102 126 / 8%) 0px 4px 24px, rgb(88 102 126 / 12%) 0px 1px 2px; */
+}
+
+.card-body p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .card-title {
+  color: #ededed;
   font-weight: 600;
+}
+
+.card-text {
+  color: #a3a3a3;
+}
+
+.card-logo {
+  background-color: #2b2b2b;
+}
+
+/* =============================================================================
+MODALS
+============================================================================= */
+.modal {
+  backdrop-filter: blur(4px);
+}
+.modal-content {
+  background-color: #232323;
+  border: 1px solid #2e2e2e;
+  border-radius: 12px;
+}
+.modal-header {
+  border: none;
+}
+.modal-footer {
+  border: none;
 }
 
 .bg-label {
   font-weight: 400;
-  color: #4D5B6E;
-  background-color: #E2E8F0;
+  color: #a0a0a0;
+  background-color: hsla(0, 0%, 59%, 0.1);
+  border: 1px solid hsla(0, 0%, 39%, 0.2);
+  border-radius: 3px;
+}
+
+.badge-upvotes {
+  color: rgb(194, 194, 194, 1);
+  background-color: rgba(194, 194, 194, 0.1);
+  border: 1px solid rgba(194, 194, 194, 1);
+  align-self: start;
+}
+
+.badge-active {
+  color: rgba(63, 207, 142, 1);
+  background-color: rgba(63, 207, 142, 0.1);
+  border: 1px solid rgba(63, 207, 142, 1);
+  align-self: start;
 }
 
 .card-slide-up {
@@ -310,7 +420,7 @@ CARDS
 }
 
 .rounded-5 {
-  border-radius: 8px;
+  border-radius: 8px !important;
 }
 
 .rounded-6 {
@@ -328,7 +438,7 @@ TOAST
   width: 100%;
   border-radius: 12px;
   border: none;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 /* =============================================================================
@@ -356,9 +466,8 @@ RESPONSIVE STUFF
     background-position: bottom; */
   }
   #sidebar-wrapper {
-    margin-left: -18rem;    
-}
-
+    margin-left: -18rem;
+  }
 }
 
 @media (min-width: 992px) {
