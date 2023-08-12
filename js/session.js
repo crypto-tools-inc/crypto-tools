@@ -9,6 +9,7 @@ function userLogged() {
 }
 
 function userNotLogged() {
+  user_id = null;
   console.log("user not logged in");
   removeUserCommand();
   if (window.location.pathname == "/bookmarks/") {
@@ -23,7 +24,6 @@ async function checkSession() {
   const { data, error } = await client.auth.getSession();
   if (data.session == null) {
     userNotLogged();
-    user_id = null;
   } else {
     userLogged();
     console.log("userID:", data.session.user.id);
