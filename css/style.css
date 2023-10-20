@@ -253,7 +253,12 @@ CAROUSEL
 ============================================================================= */
 .carousel-caption {
   text-align: left;
-  left: 5%;
+  left: 0%;
+  width: 100%;
+  padding: 1.25rem;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 .carousel-caption h5 {
@@ -261,9 +266,9 @@ CAROUSEL
 }
 
 .carousel-indicators {
-  margin-bottom: 1.5rem;
   justify-content: flex-start;
-  margin-left: 5%;
+  margin-left: 0%;
+  padding-left: 1.25rem;
 }
 
 .carousel-indicators [data-bs-target] {
