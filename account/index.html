@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Tools</title>
+
+    <!-- SEO meta tags -->
+    <meta name="title" content="Crypto Tools - Discover new and useful tools for your crypto journey" />
+    <meta name="description" content="Crypto Tools is a library of useful tools that can save hours of research with more than 100+ trusted dApps and protocols." />
+    <meta name="keywords" content="crypto, cryptocurrency, tools, library, protocols, research, dex, bridge, ethereum, defi, bitcoin" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cripto.tools/" />
+    <meta property="og:title" content="Crypto Tools - Discover new and useful tools for your crypto journey" />
+    <meta property="og:description" content="Crypto Tools is a library of useful tools that can save hours of research with more than 100+ trusted dApps and protocols." />
+    <meta property="og:image" content="https://cripto.tools/img/meta.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://cripto.tools/" />
+    <meta property="twitter:title" content="Crypto Tools - Discover new and useful tools for your crypto journey" />
+    <meta property="twitter:description" content="Crypto Tools is a library of useful tools that can save hours of research with more than 100+ trusted dApps and protocols." />
+    <meta property="twitter:image" content="https://cripto.tools/img/meta.png" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="/favicons/site.webmanifest" />
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#1c1c1c" />
+
+    <!-- Bootstrap CSS -->
+    <link href="/css/bootstrap.min.css?v=1.2" rel="stylesheet" />
+    <!-- Custom style -->
+    <link rel="stylesheet" href="/css/style.css?v=1.2" />
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="d-flex" id="wrapper">
+      <!-- Page content wrapper-->
+      <div id="page-content-wrapper">
+        <!-- Top navigation-->
+        <nav id="main-navbar" class="navbar navbar-expand-lg">
+          <div class="container-fluid flex-row">
+            <a href="../index.html"><img src="../img/logo.svg" height="38" alt="" /></a>
+            <ul id="userNotLogged" class="navbar-nav flex-row ms-auto mt-lg-0" hidden>
+              <li class="nav-item me-2">
+                <a href="/login.html" class="btn btn-link">Add project</a>
+              </li>
+              <li class="nav-item me-2">
+                <a href="/login.html" class="btn btn-outline-primary">Login</a>
+              </li>
+              <li class="nav-item">
+                <a href="/signup.html" class="btn btn-primary">Signup</a>
+              </li>
+            </ul>
+            <ul id="userLogged" class="flex-row ms-auto mt-lg-0 m-0 list-unstyled">
+              <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle text-light" data-bs-toggle="dropdown" aria-expanded="false">Account</button>
+                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+                  <li><h6 id="displayUserEmail" class="dropdown-header">email address here</h6></li>
+                  <li>
+                    <a class="dropdown-item" href="" target="_blank"><img class="me-2" src="/img/toolbox.svg" alt="toolbox" width="20" height="20" />My Tools</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/suggest/" target="_blank"><img class="me-2" src="/img/chat-dots.svg" alt="chat-dots" width="20" height="20" />Suggest tools</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a id="logoutBtn" class="dropdown-item" href="#"><img class="me-2" src="/img/sign-out.svg" alt="sign-out" width="20" height="20" />Logout</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Page content-->
+        <div class="title-container pt-3 pb-4">
+          <div class="container">
+            <h2 id="section-title">My Tools</h2>
+            <p id="tool-count" class="text-muted"></p>
+          </div>
+        </div>
+
+        <div class="container pb-5">
+          <div id="section-elements" name="my-tools" class="row g-4">
+            <img class="m-5" src="/img/tail-spin.svg" alt="" width="48" height="48" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="/vendors/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/session.js"></script>
+    <script src="/js/get-account-tools.js"></script>
+    <script src="/js/logout.js"></script>
+  </body>
+</html>
