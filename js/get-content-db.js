@@ -38,7 +38,8 @@ async function getContent() {
 
     let content = "";
     data.forEach((item) => {
-      content += `
+      if (item.is_active) {
+        content += `
       <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
         <div class="card">
           <div class="card-header d-flex justify-content-between align-items-start">
@@ -70,15 +71,16 @@ async function getContent() {
             <div class="card-footer">
               <p class="text-muted text-uppercase small semi-bold mb-2">Networks</p>
               <div class="d-flex flex-nowrap overflow-scroll">`;
-      item.network.forEach((el) => {
-        content += `<span class="badge bg-label me-2 text-capitalize">${el}</span>`;
-      });
-      content += `
+        item.network.forEach((el) => {
+          content += `<span class="badge bg-label me-2 text-capitalize">${el}</span>`;
+        });
+        content += `
                     </div>
             </div>
         </div>
       </div>
       `;
+      }
     });
     document.getElementById("section-elements").innerHTML = content;
   }
