@@ -3,7 +3,8 @@ const bucketURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/pu
 const toolCount = document.getElementById("tool-count");
 
 // Call the getContent function when the document is ready
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", async function () {
+  await checkSession();
   getContent();
 });
 
@@ -23,7 +24,6 @@ async function getUserUpvotes(user_id) {
 }
 
 async function getContent() {
-  await checkSession();
   if (user_id != null) {
     await getUserUpvotes(user_id);
   }

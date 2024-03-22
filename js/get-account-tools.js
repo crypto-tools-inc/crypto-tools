@@ -2,8 +2,9 @@ const bucketURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/pu
 const toolCount = document.getElementById("tool-count");
 
 // Call the getContent function when the document is ready
-document.addEventListener("DOMContentLoaded", function () {
-  getUserTools();
+document.addEventListener("DOMContentLoaded", async function () {
+  await checkSession();
+  await getUserTools();
 });
 
 async function getUserTools() {

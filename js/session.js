@@ -1,5 +1,7 @@
 // Check if the user is logged in or not
-checkSession();
+window.addEventListener("DOMContentLoaded", async (event) => {
+  await checkSession();
+});
 
 function userLogged() {
   console.log("user logged in");
