@@ -23,7 +23,7 @@ async function getUserUpvotes(user_id) {
 }
 
 async function getContent() {
-  console.log(user_id);
+  await checkSession();
   if (user_id != null) {
     await getUserUpvotes(user_id);
   }
