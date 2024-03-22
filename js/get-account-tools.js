@@ -1,34 +1,16 @@
-const pageName = document.getElementById("section-elements").getAttribute("name");
 const bucketURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/public/logos/";
 const toolCount = document.getElementById("tool-count");
 
 // Call the getContent function when the document is ready
 document.addEventListener("DOMContentLoaded", async function () {
   await checkSession();
-  getContent();
+  await getUserTools();
 });
 
-upvotesArray = [];
+async function getUserTools() {
+  //   console.log(user_id);
 
-async function getUserUpvotes(user_id) {
-  let { data, error } = await client.from("upvotes").select("*").eq("user_id", user_id);
-  if (data) {
-    // console.log(data);
-    data.forEach((element) => {
-      upvotesArray.push(element.tool_id);
-    });
-  }
-  if (error) {
-    console.log(error);
-  }
-}
-
-async function getContent() {
-  if (user_id != null) {
-    await getUserUpvotes(user_id);
-  }
-
-  const { data, error } = await client.from("tools").select("*").eq("category", pageName).order("upvotes", { ascending: false });
+  const { data, error } = await client.from("tools").select("*").eq("added_by_id", user_id).order("date_added", { ascending: false });
   if (error) {
     console.log(error);
   }
@@ -38,9 +20,8 @@ async function getContent() {
 
     let content = "";
     data.forEach((item) => {
-      if (item.is_active) {
-        content += `
-      <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
+      content += `
+      <div class="col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12">
         <div class="card">
           <div class="card-header d-flex justify-content-between align-items-start">
           <div class="d-flex">
@@ -50,7 +31,6 @@ async function getContent() {
             <a class="card-subtitle mb-2 text-decoration-none" href="${item.website}" target="_blank"><img class="me-1" width="12" height="12" src="/img/socials/link.svg" alt="website link">Website</a>
             </div>
           </div>
-          ${upvotesArray.includes(item.id) == true ? `<button id="${item.id}" class="badge badge-upvotes badge-active" onclick="upvote(this)"><img class="me-2" src="/img/caret-up.svg" width="14" height="14" alt="caret-up">${item.upvotes}</button>` : `<button id="${item.id}" class="badge badge-upvotes" onclick="upvote(this)"><img class="me-2" src="/img/caret-up.svg" width="14" height="14" alt="caret-up">${item.upvotes}</button>`}
             
           </div>
           <div class="card-body">
@@ -71,16 +51,15 @@ async function getContent() {
             <div class="card-footer">
               <p class="text-muted text-uppercase small semi-bold mb-2">Networks</p>
               <div class="d-flex flex-nowrap overflow-scroll">`;
-        item.network.forEach((el) => {
-          content += `<span class="badge bg-label me-2 text-capitalize">${el}</span>`;
-        });
-        content += `
+      item.network.forEach((el) => {
+        content += `<span class="badge bg-label me-2 text-capitalize">${el}</span>`;
+      });
+      content += `
                     </div>
             </div>
         </div>
       </div>
       `;
-      }
     });
     document.getElementById("section-elements").innerHTML = content;
   }

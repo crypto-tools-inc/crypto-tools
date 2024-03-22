@@ -1,5 +1,7 @@
 // Check if the user is logged in or not
-checkSession();
+window.addEventListener("DOMContentLoaded", async (event) => {
+  await checkSession();
+});
 
 function userLogged() {
   console.log("user logged in");
@@ -18,7 +20,9 @@ function userNotLogged() {
   if (window.location.pathname == "/suggest/index.html") {
     window.location.replace("/login.html");
   }
-
+  if (window.location.pathname == "/account/index.html") {
+    window.location.replace("/login.html");
+  }
   // if (window.location.pathname !== "/login.html") {
   //   window.location.replace("/login.html");
   // }
