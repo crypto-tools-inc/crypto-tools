@@ -41,9 +41,11 @@ async function getLatest() {
             <div class="card-footer">
               <p class="text-muted text-uppercase small semi-bold mb-2">Networks</p>
               <div class="d-flex flex-nowrap overflow-scroll">`;
-      item.network.forEach((el) => {
-        content += `<span class="badge bg-label me-2 text-capitalize">${el}</span>`;
-      });
+      if (item.network) {
+        item.network.forEach((el) => {
+          content += `<span class="badge bg-label me-2 text-capitalize">${el}</span>`;
+        });
+      }
       content += `
                     </div>
             </div>
