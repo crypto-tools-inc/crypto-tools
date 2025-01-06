@@ -53,7 +53,7 @@ addProject.addEventListener("click", async function () {
       network.push(checkbox.value);
     }
   });
-
+  console.log(logo.value);
   console.log(name, description, website, twitter, discord, telegram, medium, reddit, mirror, github, category, network);
 
   // Upload file using standard upload
@@ -74,10 +74,10 @@ addProject.addEventListener("click", async function () {
     .insert([
       {
         name: name,
-        logo: logo.files[0].name,
+        logo: logo.value == "" ? null : logo.value,
         description: description,
         website: website == "" ? null : website,
-        network: network,
+        network: network == "" ? null : network,
         social_twitter: twitter == "" ? null : twitter,
         social_discord: discord == "" ? null : discord,
         social_mirror: mirror == "" ? null : mirror,
@@ -101,5 +101,7 @@ addProject.addEventListener("click", async function () {
     console.log(data);
     addProject.disabled = false;
   }
-  uploadFile();
+  if (logo.value != "") {
+    uploadFile();
+  }
 });

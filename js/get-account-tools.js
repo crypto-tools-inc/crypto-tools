@@ -1,17 +1,27 @@
-let client = supabase.createClient("https://krperkqbaqewikgzuoea.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtycGVya3FiYXFld2lrZ3p1b2VhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODAzMzU4NzcsImV4cCI6MTk5NTkxMTg3N30.ZiwrLZyY8lHlLspcVIagKrF5Bdci_R95lKpDDK56xHM");
-let totalCount = document.getElementById("totalCount");
 const bucketURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/public/logos/";
+const toolCount = document.getElementById("tool-count");
 
-const latestContainer = document.getElementById("section-latest");
+// Call the getContent function when the document is ready
+document.addEventListener("DOMContentLoaded", async function () {
+  await checkSession();
+  await getUserTools();
+});
 
-async function getLatest() {
-  const { data, error } = await client.from("tools").select("*").order("id", { ascending: false }).range(0, 8);
+async function getUserTools() {
+  //   console.log(user_id);
+
+  const { data, error } = await client.from("tools").select("*").eq("added_by_id", user_id).order("date_added", { ascending: false });
+  if (error) {
+    console.log(error);
+  }
   if (data) {
-    console.log(data);
+    // console.log(data);
+    toolCount.innerHTML = data.length + " tools";
+
     let content = "";
     data.forEach((item) => {
       content += `
-      <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
+      <div class="col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12">
         <div class="card">
           <div class="card-header d-flex justify-content-between align-items-start">
           <div class="d-flex">
@@ -41,11 +51,9 @@ async function getLatest() {
             <div class="card-footer">
               <p class="text-muted text-uppercase small semi-bold mb-2">Networks</p>
               <div class="d-flex flex-nowrap overflow-scroll">`;
-      if (item.network) {
-        item.network.forEach((el) => {
-          content += `<span class="badge bg-label me-2 text-capitalize">${el}</span>`;
-        });
-      }
+      item.network.forEach((el) => {
+        content += `<span class="badge bg-label me-2 text-capitalize">${el}</span>`;
+      });
       content += `
                     </div>
             </div>
@@ -53,18 +61,6 @@ async function getLatest() {
       </div>
       `;
     });
-    latestContainer.innerHTML = content;
-  }
-  if (error) {
-    console.log(error);
+    document.getElementById("section-elements").innerHTML = content;
   }
 }
-
-(async function () {
-  let { data, error } = await client.from("tools").select("*");
-  if (data) {
-    let total = data.length;
-    totalCount.textContent = total;
-    getLatest();
-  }
-})();

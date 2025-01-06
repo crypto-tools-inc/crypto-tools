@@ -4,42 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Asset Management</title>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P0XJ4Y0FD5"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-P0XJ4Y0FD5");
-    </script>
-
-    <!-- Hotjar Tracking Code for https://cripto.tools -->
-    <script>
-      (function (h, o, t, j, a, r) {
-        h.hj =
-          h.hj ||
-          function () {
-            (h.hj.q = h.hj.q || []).push(arguments);
-          };
-        h._hjSettings = { hjid: 3162711, hjsv: 6 };
-        a = o.getElementsByTagName("head")[0];
-        r = o.createElement("script");
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-    </script>
+    <title>My Tools</title>
 
     <!-- SEO meta tags -->
-    <meta name="title" content="Explore cryptocurrencies asset management solutions" />
+    <meta name="title" content="Crypto Tools - Discover new and useful tools for your crypto journey" />
     <meta name="description" content="Crypto Tools is a library of useful tools that can save hours of research with more than 100+ trusted dApps and protocols." />
-    <meta name="keywords" content="crypto, asset management, platform, cryptocurrency, tools, library, protocols, research, dex, bridge, ethereum, defi, bitcoin" />
+    <meta name="keywords" content="crypto, cryptocurrency, tools, library, protocols, research, dex, bridge, ethereum, defi, bitcoin" />
     <meta name="robots" content="index, follow" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="language" content="English" />
@@ -72,28 +42,25 @@
 
     <!-- Bootstrap CSS -->
     <link href="/css/bootstrap.min.css?v=1.2" rel="stylesheet" />
+    <!-- Custom style -->
+    <link rel="stylesheet" href="/css/style.css?v=1.2" />
     <!-- Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
-    <!-- Custom styling -->
-    <link rel="stylesheet" href="/css/style.css?v=1.2" />
   </head>
-
   <body>
     <div class="d-flex" id="wrapper">
-      <!-- Sidebar-->
-      <div id="sidebar-wrapper"></div>
       <!-- Page content wrapper-->
       <div id="page-content-wrapper">
         <!-- Top navigation-->
         <nav id="main-navbar" class="navbar navbar-expand-lg">
-          <div class="container-fluid flex-row flex-sm-row-reverse">
-            <button class="btn d-block d-sm-none shadow-none" id="sidebarToggle">
-              <img src="/img/list-tree.svg" height="24" alt="" />
-            </button>
-            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="/img/search.svg" height="24" alt="" /></button>
+          <div class="container-fluid flex-row">
+            <a href="../index.html"><img src="../img/logo.svg" height="38" alt="" /></a>
             <ul id="userNotLogged" class="navbar-nav flex-row ms-auto mt-lg-0" hidden>
+              <li class="nav-item me-2">
+                <a href="/login.html" class="btn btn-link">Add project</a>
+              </li>
               <li class="nav-item me-2">
                 <a href="/login.html" class="btn btn-outline-primary">Login</a>
               </li>
@@ -110,63 +77,29 @@
                     <a class="dropdown-item" href="/account/"><img class="me-2" src="/img/toolbox.svg" alt="toolbox" width="20" height="20" />My Tools</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/suggest/" target="_blank"><img class="me-2" src="/img/chat-dots.svg" alt="" width="20" height="20" />Suggest tools</a>
+                    <a class="dropdown-item" href="/suggest/" target="_blank"><img class="me-2" src="/img/chat-dots.svg" alt="chat-dots" width="20" height="20" />Suggest tools</a>
                   </li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a id="logoutBtn" class="dropdown-item" href="#"><img class="me-2" src="/img/sign-out.svg" alt="" width="20" height="20" />Logout</a>
+                    <a id="logoutBtn" class="dropdown-item" href="#"><img class="me-2" src="/img/sign-out.svg" alt="sign-out" width="20" height="20" />Logout</a>
                   </li>
                 </ul>
               </li>
             </ul>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav w-100">
-                <li class="nav-item w-100 mt-3 mt-md-0 me-2">
-                  <input id="searchContent" onkeyup="searchContent()" type="search" class="form-control" placeholder="Search project or keyworks" />
-                </li>
-              </ul>
-            </div>
           </div>
         </nav>
 
         <!-- Page content-->
         <div class="title-container pt-3 pb-4">
-          <div class="container-fluid">
-            <h2 id="section-title">Assets Management</h2>
-            <p>Track and manage your portfolio including tokens, NFTs and your positions across multiple chains and protocols.</p>
+          <div class="container">
+            <h2 id="section-title">My Tools</h2>
             <p id="tool-count" class="text-muted"></p>
           </div>
         </div>
 
-        <div class="container-fluid pb-5">
-          <div id="section-elements" name="asset management" class="row g-4">
+        <div class="container pb-5">
+          <div id="section-elements" name="my-tools" class="row g-4">
             <img class="m-5" src="/img/tail-spin.svg" alt="" width="48" height="48" />
-          </div>
-          <a href="#main-navbar" id="backToTop" class="btn btn-light shadow-sm">
-            <img src="/img/arrow-up.svg" height="24" alt="" />
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Login Modal -->
-    <div class="modal fade" id="upvoteModal" tabindex="-1" aria-labelledby="upvoteModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-sm modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="upvoteModalLabel">Signup to vote</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <p class="card-text">
-              You need an account to upvote your favourite projects.<br />
-              It's free and it only takes 2 minutes!
-            </p>
-
-            <div class="row g-2 d-grid mt-3">
-              <a href="/login.html" class="btn btn-outline-primary">Login</a>
-              <a href="/signup.html" class="btn btn-primary">Signup</a>
-            </div>
           </div>
         </div>
       </div>
@@ -178,10 +111,7 @@
     <script src="/vendors/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
     <script src="/js/app.js"></script>
     <script src="/js/session.js"></script>
-    <script src="/js/sidebar-loader.js"></script>
-    <script src="/js/get-content-db.js"></script>
-    <script src="/js/search-content.js"></script>
-    <script src="/js/upvote.js"></script>
+    <script src="/js/get-account-tools.js"></script>
     <script src="/js/logout.js"></script>
   </body>
 </html>
