@@ -10,7 +10,6 @@ async function getCategories() {
     console.log(error);
   }
   if (data) {
-    console.log(data);
     let content = "";
     data.forEach((item) => {
       content += `
