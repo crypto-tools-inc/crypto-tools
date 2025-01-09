@@ -13,6 +13,46 @@ window.addEventListener("load", function () {
   inputTimestamp.value = localDatetime;
 });
 
+const networkSelect = document.getElementById("networkSelect");
+const inputCategory = document.getElementById("inputCategory");
+
+document.addEventListener("DOMContentLoaded", async () => {
+  await getCategories();
+  await getChains();
+});
+
+async function getCategories() {
+  const { data, error } = await client.from("categories").select("*").order("category_name");
+  if (data) {
+    inputCategory.innerHTML = "";
+    inputCategory.innerHTML += `<option selected disabled>Select a category</option>`;
+    data.forEach((category) => {
+      inputCategory.innerHTML += `<option value="${category.category_slug}">${category.category_name}</option>`;
+    });
+  }
+  if (error) {
+    console.log(error);
+  }
+}
+
+async function getChains() {
+  const { data, error } = await client.from("chains").select("*").order("chain_name");
+  if (data) {
+    networkSelect.innerHTML = "";
+    data.forEach((network) => {
+      networkSelect.innerHTML += `
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" name="networkSelect" value="${network.chain_name}" id="check${network.chain_slug}" />
+        <label class="form-check-label" for="check${network.chain_slug}">${network.chain_name}</label>
+      </div>
+      `;
+    });
+  }
+  if (error) {
+    console.log(error);
+  }
+}
+
 function previewImage() {
   var preview = document.getElementById("imagePreview");
   var file = document.getElementById("formFile").files[0];
