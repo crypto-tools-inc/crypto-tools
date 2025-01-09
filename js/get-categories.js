@@ -23,7 +23,9 @@ async function getCategories() {
                 <div class="card-body">
                     <h5 class="card-title">${item.category_name}</h5>
                     <p class="card-text">${item.category_description}</p>
-                    <a href="/pages/${item.category_slug}.html" class="card-subtitle text-decoration-none">View Tools</a>
+                    <a href="/pages/${item.category_slug}.html" class="card-subtitle text-decoration-none">View Tools
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#3fcf8e" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path></svg>
+                    </a>
                 </div>
             </div>
         </div>
