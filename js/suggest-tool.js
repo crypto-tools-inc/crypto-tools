@@ -15,6 +15,7 @@ window.addEventListener("load", function () {
 
 const networkSelect = document.getElementById("networkSelect");
 const inputCategory = document.getElementById("inputCategory");
+const addProjectHelper = document.getElementById("addProjectHelper");
 
 document.addEventListener("DOMContentLoaded", async () => {
   await getCategories();
@@ -75,6 +76,19 @@ addProject.addEventListener("click", async function () {
 
   const logo = document.getElementById("formFile");
   let name = document.getElementById("inputName").value;
+  let category = document.getElementById("inputCategory").value;
+
+  // Validation
+  if (!logo.files.length || !name || !category) {
+    addProjectHelper.innerText = "Please fill in the logo, name, and category fields.";
+    addProjectHelper.style.display = "block";
+    setTimeout(() => {
+      addProjectHelper.style.display = "none";
+    }, 5000);
+    addProject.disabled = false;
+    return;
+  }
+
   let description = document.getElementById("inputDescription").value;
   let website = document.getElementById("inputWebsite").value;
   let twitter = document.getElementById("inputTwitter").value;
@@ -84,7 +98,6 @@ addProject.addEventListener("click", async function () {
   let reddit = document.getElementById("inputReddit").value;
   let mirror = document.getElementById("inputMirror").value;
   let github = document.getElementById("inputGithub").value;
-  let category = document.getElementById("inputCategory").value;
   let timestamp = document.getElementById("inputTimestamp").value;
   let checkboxes = document.querySelectorAll('input[name="networkSelect"]');
   let network = [];
@@ -93,6 +106,7 @@ addProject.addEventListener("click", async function () {
       network.push(checkbox.value);
     }
   });
+
   // Upload file using standard upload
   async function uploadFile() {
     const { data, error } = await client.storage.from("logos").upload(logo.files[0].name, logo.files[0]);
@@ -100,7 +114,7 @@ addProject.addEventListener("click", async function () {
       console.log(error);
       addProject.disabled = false;
     } else {
-      window.location.href = "/suggest/complete.html";
+      window.location.href = "/suggest/payment.html";
       addProject.disabled = false;
     }
   }
