@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thanks! | Crypto Tools</title>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="/favicons/site.webmanifest" />
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#1c1c1c" />
+
+    <!-- Bootstrap CSS -->
+    <link href="/css/bootstrap.min.css?v=1.2" rel="stylesheet" />
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <!-- Custom styling -->
+    <link rel="stylesheet" href="/css/style.css?v=1.2" />
+  </head>
+  <body class="h-100">
+    <div class="h-100 container d-flex justify-content-center">
+      <div class="d-flex align-items-center flex-column justify-content-center col-md-4 col-12">
+        <div class="text-center">
+          <img class="mb-3" src="/img/check.svg" alt="" width="96" height="96" />
+          <div class="mb-3">
+            <h1>Nearly there...</h1>
+            <p class="card-text">To avoid spam and low quality projects, we require a submission fee. All submissions will still undergo a moderation process.</p>
+          </div>
+          <div class="card">
+            <div class="card-body d-flex flex-column align-items-start">
+              <h5 class="card-title mb-3">Your order</h5>
+              <div class="w-100 d-flex justify-content-between align-items-center mb-3">
+                <p class="card-text m-0">Crypto Tools Fee</p>
+                <p class="m-0">$120</p>
+              </div>
+              <div class="w-100 d-flex justify-content-between align-items-center mb-3">
+                <p class="card-text m-0">Order date</p>
+                <p id="orderDate" class="m-0"></p>
+              </div>
+              <div class="w-100 d-flex flex-column justify-content-between align-items-start mb-3">
+                <p class="card-text m-0">Payment address</p>
+                <p class="card-text small m-0">Solana</p>
+                <p class="font-monospace">4fnjvSCD76qnan1FVp5DaTGPN7TxBXHiL22KnNM55fQ6</p>
+                <p class="card-text small m-0">Ethereum - Base - Arbitrum</p>
+                <p class="font-monospace m-0">0x97d26C8442087C8da5780f24c45a373F3C9b9D13</p>
+              </div>
+              <div class="w-100 d-flex flex-column justify-content-between align-items-start mb-3">
+                <label for="inputUserAddress" class="card-text">Your address</label>
+                <input type="text" id="inputUserAddress" class="form-control" aria-describedby="" />
+              </div>
+              <div class="alert alert-warning text-start small w-100" role="alert">Only payments in SOL, ETH, USDC and USDT are accepted.</div>
+              <div class="w-100 d-grid">
+                <button id="submitPaymentBtn" class="btn btn-outline-primary">I made the payment</button>
+                <p id="paymentHelper" class="text-danger m-0"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/session.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get("id");
+        console.log("Project ID:", id);
+
+        const orderDate = document.getElementById("orderDate");
+        const submitPaymentBtn = document.getElementById("submitPaymentBtn");
+        const paymentHelper = document.getElementById("paymentHelper");
+        orderDate.textContent = new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+
+        submitPaymentBtn.addEventListener("click", async function () {
+          let inputUserAddress = document.getElementById("inputUserAddress").value;
+          if (!inputUserAddress) {
+            paymentHelper.textContent = "Please enter your address";
+            paymentHelper.style.display = "block";
+            setTimeout(() => {
+              paymentHelper.style.display = "none";
+            }, 5000);
+            return;
+          }
+          const { data, error } = await client.from("payments").insert({ tool_id: id, payment_address: inputUserAddress });
+          if (error) {
+            console.log(error);
+          } else {
+            window.location.replace("/suggest/complete.html");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

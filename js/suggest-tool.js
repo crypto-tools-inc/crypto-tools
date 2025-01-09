@@ -108,13 +108,13 @@ addProject.addEventListener("click", async function () {
   });
 
   // Upload file using standard upload
-  async function uploadFile() {
+  async function uploadFile(id) {
     const { data, error } = await client.storage.from("logos").upload(logo.files[0].name, logo.files[0]);
     if (error) {
       console.log(error);
       addProject.disabled = false;
     } else {
-      window.location.href = "/suggest/payment.html";
+      window.location.href = "/suggest/payment.html?id=" + id;
       addProject.disabled = false;
     }
   }
@@ -148,9 +148,7 @@ addProject.addEventListener("click", async function () {
     addProject.disabled = false;
   }
   if (data) {
+    uploadFile(data[0].id);
     addProject.disabled = false;
-  }
-  if (logo.value != "") {
-    uploadFile();
   }
 });
