@@ -9,7 +9,6 @@ updatePasswordBtn.addEventListener("click", async (event) => {
   if (error) {
     console.log(error);
   } else {
-    console.log(data);
     window.location.replace("./reset-success.html");
   }
 });

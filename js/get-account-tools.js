@@ -8,14 +8,11 @@ document.addEventListener("DOMContentLoaded", async function () {
 });
 
 async function getUserTools() {
-  //   console.log(user_id);
-
   const { data, error } = await client.from("tools").select("*").eq("added_by_id", user_id).order("date_added", { ascending: false });
   if (error) {
     console.log(error);
   }
   if (data) {
-    // console.log(data);
     toolCount.innerHTML = data.length + " tools";
 
     let content = "";

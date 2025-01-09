@@ -11,7 +11,6 @@ async function upvote(el) {
     if (el.classList.contains("badge-active")) {
       const { data, error } = await client.from("upvotes").delete().eq("tool_id", el.id).select();
       if (data) {
-        // console.log(data);
         el.classList.remove("badge-active");
         let newUpvotes = parseInt(currentUpvotes) - 1;
         el.innerHTML = `<img class="me-2" src="/img/caret-up.svg" width="14" height="14" alt="caret">` + newUpvotes;
@@ -27,7 +26,6 @@ async function upvote(el) {
         el.innerHTML = `<img class="me-2" src="/img/caret-up.svg" width="14" height="14" alt="caret">` + newUpvotes;
         // Update the upvote count in the tools table
         const { data, error } = await client.from("tools").update({ upvotes: newUpvotes }).eq("id", toolId).select();
-        // console.log(data);
       }
       if (error) {
         console.log(error);

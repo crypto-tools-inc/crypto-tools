@@ -14,7 +14,6 @@ registerBtn.addEventListener("click", async (event) => {
     console.log(error);
     registerBtn.disabled = false;
   } else {
-    console.log(data);
     window.location.replace("./success.html");
   }
 });

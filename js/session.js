@@ -8,7 +8,6 @@ window.addEventListener("DOMContentLoaded", async (event) => {
 });
 
 function userLogged() {
-  console.log("user logged in");
   if (window.location.pathname == "/login.html") {
     window.location.replace("/index.html");
   }
@@ -16,7 +15,6 @@ function userLogged() {
 
 function userNotLogged() {
   user_id = null;
-  console.log("user not logged in");
   removeUserCommand();
   if (window.location.pathname == "/bookmarks/") {
     return;
@@ -37,7 +35,6 @@ async function checkSession() {
       userNotLogged();
     } else {
       userLogged();
-      console.log("userID:", data.session.user.id);
       if (document.getElementById("displayUserEmail")) {
         document.getElementById("displayUserEmail").innerHTML = data.session.user.email;
       }

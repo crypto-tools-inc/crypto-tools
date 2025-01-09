@@ -13,7 +13,6 @@ upvotesArray = [];
 async function getUserUpvotes(user_id) {
   let { data, error } = await client.from("upvotes").select("*").eq("user_id", user_id);
   if (data) {
-    // console.log(data);
     data.forEach((element) => {
       upvotesArray.push(element.tool_id);
     });
@@ -33,7 +32,6 @@ async function getContent() {
     console.log(error);
   }
   if (data) {
-    // console.log(data);
     toolCount.innerHTML = data.length + " tools";
 
     let content = "";

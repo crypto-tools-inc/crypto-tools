@@ -8,9 +8,7 @@ loginBtn.addEventListener("click", async (event) => {
   const isEmailValid = isValidEmail(userEmail.value);
   const isPasswordValid = isValidPassword(userPassword.value);
   if (isEmailValid) {
-    console.log("valid email address.");
     if (isPasswordValid) {
-      console.log("password ok");
       const { data, error } = await client.auth.signInWithPassword(
         {
           email: userEmail.value,
@@ -26,7 +24,6 @@ loginBtn.addEventListener("click", async (event) => {
         loginBtn.disabled = false;
       } else {
         document.getElementById("loginHelper").innerHTML = "";
-        console.log(data);
         window.location.replace("/index.html");
         loginBtn.disabled = false;
       }

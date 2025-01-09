@@ -6,7 +6,6 @@ resetPasswordBtn.addEventListener("click", async (event) => {
   const userEmail = document.getElementById("userEmail").value;
   const isValid = isValidEmail(userEmail);
   if (isValid) {
-    console.log("valid email address.");
     const { data, error } = await client.auth.resetPasswordForEmail(userEmail, {
       redirectTo: "http://cripto.tools/update-password.html",
     });
@@ -14,7 +13,6 @@ resetPasswordBtn.addEventListener("click", async (event) => {
     if (error) {
       console.log(error);
     } else {
-      console.log(data);
       window.location.replace("./reset-email.html");
     }
   } else {

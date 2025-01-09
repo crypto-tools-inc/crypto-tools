@@ -53,9 +53,6 @@ addProject.addEventListener("click", async function () {
       network.push(checkbox.value);
     }
   });
-  console.log(logo.value);
-  console.log(name, description, website, twitter, discord, telegram, medium, reddit, mirror, github, category, network);
-
   // Upload file using standard upload
   async function uploadFile() {
     const { data, error } = await client.storage.from("logos").upload(logo.files[0].name, logo.files[0]);
@@ -63,7 +60,6 @@ addProject.addEventListener("click", async function () {
       console.log(error);
       addProject.disabled = false;
     } else {
-      console.log(data);
       window.location.href = "/suggest/complete.html";
       addProject.disabled = false;
     }
@@ -98,7 +94,6 @@ addProject.addEventListener("click", async function () {
     addProject.disabled = false;
   }
   if (data) {
-    console.log(data);
     addProject.disabled = false;
   }
   if (logo.value != "") {

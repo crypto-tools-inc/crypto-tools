@@ -7,7 +7,6 @@ const latestContainer = document.getElementById("section-latest");
 async function getLatest() {
   const { data, error } = await client.from("tools").select("*").order("id", { ascending: false }).range(0, 8);
   if (data) {
-    console.log(data);
     let content = "";
     data.forEach((item) => {
       content += `
