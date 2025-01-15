@@ -3,6 +3,7 @@ let totalCount = document.getElementById("totalCount");
 const bucketURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/public/logos/";
 
 const latestContainer = document.getElementById("section-latest");
+const categoriesContainer = document.getElementById("section-categories");
 
 async function getLatest() {
   const { data, error } = await client.from("tools").select("*").order("id", { ascending: false }).range(0, 8);
@@ -37,17 +38,8 @@ async function getLatest() {
               </ul>
             </div>
           </div>
-            <div class="card-footer">
-              <p class="text-muted text-uppercase small semi-bold mb-2">Networks</p>
-              <div class="d-flex flex-nowrap overflow-scroll">`;
-      if (item.network) {
-        item.network.forEach((el) => {
-          content += `<span class="badge bg-label me-2 text-capitalize">${el}</span>`;
-        });
-      }
+            `;
       content += `
-                    </div>
-            </div>
         </div>
       </div>
       `;
@@ -59,11 +51,28 @@ async function getLatest() {
   }
 }
 
+async function getCategories() {
+  const { data, error } = await client.from("categories").select("*").order("category_name", { ascending: true });
+  if (error) {
+    console.log(error);
+  }
+  if (data) {
+    let content = "";
+    data.forEach((item) => {
+      content += `
+      <a href="/pages/${item.category_slug}.html" class="btn btn-category-badge text-nowrap">${item.category_name}</a>
+      `;
+    });
+    categoriesContainer.innerHTML = content;
+  }
+}
+
 (async function () {
   let { data, error } = await client.from("tools").select("*");
   if (data) {
     let total = data.length;
     totalCount.textContent = total;
     getLatest();
+    getCategories();
   }
 })();
