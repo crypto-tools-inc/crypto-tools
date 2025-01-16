@@ -296,7 +296,7 @@ HEADER
 ============================================================================= */
 .header {
   height: 250px;
-  background: url("../img/jumbotron/bg-green.png") no-repeat center center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) 100%), url("../img/jumbotron/bg-green.png") no-repeat center center;
   background-size: cover;
 }
 

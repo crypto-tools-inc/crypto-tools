@@ -1,9 +1,9 @@
 let client = supabase.createClient("https://krperkqbaqewikgzuoea.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtycGVya3FiYXFld2lrZ3p1b2VhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODAzMzU4NzcsImV4cCI6MTk5NTkxMTg3N30.ZiwrLZyY8lHlLspcVIagKrF5Bdci_R95lKpDDK56xHM");
-let totalCount = document.getElementById("totalCount");
 const bucketURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/public/logos/";
 
 const latestContainer = document.getElementById("section-latest");
 const categoriesContainer = document.getElementById("section-categories");
+const curatedContainer = document.getElementById("section-curated");
 
 async function getLatest() {
   const { data, error } = await client.from("tools").select("*").order("id", { ascending: false }).range(0, 8);
@@ -67,12 +67,32 @@ async function getCategories() {
   }
 }
 
-(async function () {
-  let { data, error } = await client.from("tools").select("*");
+async function getCurated() {
+  const { data, error } = await client.from("tools").select("*").eq("featured", true);
   if (data) {
-    let total = data.length;
-    totalCount.textContent = total;
-    getLatest();
-    getCategories();
+    let content = "";
+    data.forEach((item) => {
+      content += `
+      <div class="col-lg-5">
+        <div class="card">
+          <div class="card-body">
+            <img loading="lazy" src="${bucketURL + item.logo}" height="70" width="70" class="rounded-5 card-logo" alt="${item.logo}" style="margin-top: -4rem" />
+            <h4 class="card-title">${item.name}</h4>
+            <p class="card-text">${item.description}</p>
+          </div>
+        </div>
+      </div>
+      `;
+    });
+    curatedContainer.innerHTML = content;
   }
+  if (error) {
+    console.log(error);
+  }
+}
+
+(async function () {
+  await getLatest();
+  await getCategories();
+  await getCurated();
 })();
