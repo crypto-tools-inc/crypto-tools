@@ -54,6 +54,10 @@ async function getChains() {
   }
 }
 
+function getUnixTimestamp() {
+  return Math.floor(Date.now() / 1000);
+}
+
 function previewImage() {
   var preview = document.getElementById("imagePreview");
   var file = document.getElementById("formFile").files[0];
@@ -70,11 +74,13 @@ function previewImage() {
   }
 }
 
-let addProject = document.getElementById("addProject");
+const addProject = document.getElementById("addProject");
+
 addProject.addEventListener("click", async function () {
   addProject.disabled = true;
 
   const logo = document.getElementById("formFile");
+  const logoName = getUnixTimestamp() + logo.files[0].name;
   let name = document.getElementById("inputName").value;
   let category = document.getElementById("inputCategory").value;
 
@@ -109,7 +115,7 @@ addProject.addEventListener("click", async function () {
 
   // Upload file using standard upload
   async function uploadFile(id) {
-    const { data, error } = await client.storage.from("logos").upload(logo.files[0].name, logo.files[0]);
+    const { data, error } = await client.storage.from("logos").upload(logoName, logo.files[0]);
     if (error) {
       console.log(error);
       addProject.disabled = false;
@@ -124,7 +130,7 @@ addProject.addEventListener("click", async function () {
     .insert([
       {
         name: name,
-        logo: logo.value == "" ? null : logo.value,
+        logo: logo.value == "" ? null : logoName,
         description: description,
         website: website == "" ? null : website,
         network: network == "" ? null : network,
