@@ -18,7 +18,7 @@ async function getUserTools() {
     let content = "";
     data.forEach((item) => {
       content += `
-      <div class="col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12">
+      <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-6">
         <div class="card">
           <div class="card-header d-flex justify-content-between align-items-start">
           <div class="d-flex">
