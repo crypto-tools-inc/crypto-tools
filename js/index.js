@@ -1,5 +1,6 @@
 let client = supabase.createClient("https://krperkqbaqewikgzuoea.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtycGVya3FiYXFld2lrZ3p1b2VhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODAzMzU4NzcsImV4cCI6MTk5NTkxMTg3N30.ZiwrLZyY8lHlLspcVIagKrF5Bdci_R95lKpDDK56xHM");
 const bucketURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/public/logos/";
+const headerURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/public/headers/";
 
 const latestContainer = document.getElementById("section-latest");
 const categoriesContainer = document.getElementById("section-categories");
@@ -73,13 +74,12 @@ async function getCurated() {
     let content = "";
     data.forEach((item) => {
       content += `
-      <div class="col-lg-5">
-        <div class="card">
-          <div class="card-body">
-            <img loading="lazy" src="${bucketURL + item.logo}" height="70" width="70" class="rounded-5 card-logo" alt="${item.logo}" style="margin-top: -4rem" />
-            <h4 class="card-title">${item.name}</h4>
-            <p class="card-text">${item.description}</p>
-          </div>
+      <div class="header col-md-7 col-sm-7 col-xs-7 col-10 rounded-4 p-4" style="background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 100%), url('${headerURL + item.feature_header}'); background-size: cover;">
+        <div class="d-flex flex-column align-items-start">
+          <img loading="lazy" src="${bucketURL + item.logo}" height="85" width="85" class="rounded-5 card-logo mb-3" alt="" />
+          <h2 class="fw-bold">${item.name}</h2>
+          <p class="mb-2">${item.description}</p>
+          <a href="${item.website}" target="_blank">Visit ${item.name}</a>
         </div>
       </div>
       `;
