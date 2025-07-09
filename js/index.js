@@ -41,6 +41,7 @@ async function getLatest() {
           </div>
             `;
       content += `
+
         </div>
       </div>
       `;
