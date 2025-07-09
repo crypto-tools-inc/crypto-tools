@@ -28,6 +28,14 @@ a {
   background-repeat: repeat, no-repeat, no-repeat, no-repeat;
 }
 
+#section-categories {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox, Safari 18.2+, Chromium 121+ */
+}
+#section-categories::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
 /* =============================================================================
 TYPOGRAPHY
 ============================================================================= */
@@ -99,6 +107,20 @@ BUTTONS
   bottom: 0;
   right: 0;
   margin: 1rem;
+}
+
+.btn-category-badge {
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.btn-category-badge:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.placeholder-category {
+  height: 38px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* =============================================================================
@@ -245,7 +267,7 @@ JUMBOTRON
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 90% 50%; */
-  margin: 1rem 0;
+  margin: 1rem 0 0;
 }
 
 /* =============================================================================
@@ -282,7 +304,7 @@ HEADER
 ============================================================================= */
 .header {
   height: 250px;
-  background: url("../img/jumbotron/bg-green.png") no-repeat center center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) 100%), url("../img/jumbotron/bg-green.png") no-repeat center center;
   background-size: cover;
 }
 

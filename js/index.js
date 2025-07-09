@@ -1,8 +1,10 @@
 let client = supabase.createClient("https://krperkqbaqewikgzuoea.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtycGVya3FiYXFld2lrZ3p1b2VhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODAzMzU4NzcsImV4cCI6MTk5NTkxMTg3N30.ZiwrLZyY8lHlLspcVIagKrF5Bdci_R95lKpDDK56xHM");
-let totalCount = document.getElementById("totalCount");
 const bucketURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/public/logos/";
+const headerURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/public/headers/";
 
 const latestContainer = document.getElementById("section-latest");
+const categoriesContainer = document.getElementById("section-categories");
+const curatedContainer = document.getElementById("section-curated");
 
 async function getLatest() {
   const { data, error } = await client.from("tools").select("*").order("id", { ascending: false }).range(0, 8);
@@ -37,22 +39,9 @@ async function getLatest() {
               </ul>
             </div>
           </div>
-            <div class="card-footer">
-              `;
-      if (item.network) {
-        content += `
-        <p class="text-muted text-uppercase small semi-bold mb-2">Networks</p>
-          <div class="d-flex flex-nowrap overflow-scroll">
-        `;
-        item.network.forEach((el) => {
-          content += `
-          <span class="badge bg-label me-2 text-capitalize">${el}</span>
-          `;
-        });
-      }
+            `;
       content += `
-              </div>
-            </div>
+
         </div>
       </div>
       `;
@@ -64,11 +53,47 @@ async function getLatest() {
   }
 }
 
-(async function () {
-  let { data, error } = await client.from("tools").select("*");
-  if (data) {
-    let total = data.length;
-    totalCount.textContent = total;
-    getLatest();
+async function getCategories() {
+  const { data, error } = await client.from("categories").select("*").order("category_name", { ascending: true });
+  if (error) {
+    console.log(error);
   }
+  if (data) {
+    let content = "";
+    data.forEach((item) => {
+      content += `
+      <a href="/pages/${item.category_slug}.html" class="btn btn-category-badge text-nowrap">${item.category_name}</a>
+      `;
+    });
+    categoriesContainer.innerHTML = content;
+  }
+}
+
+async function getCurated() {
+  const { data, error } = await client.from("tools").select("*").eq("featured", true);
+  if (data) {
+    let content = "";
+    data.forEach((item) => {
+      content += `
+      <div class="header col-md-7 col-sm-7 col-xs-7 col-10 rounded-4 p-4" style="background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 100%), url('${headerURL + item.feature_header}'); background-size: cover;">
+        <div class="d-flex flex-column align-items-start">
+          <img loading="lazy" src="${bucketURL + item.logo}" height="85" width="85" class="rounded-5 card-logo mb-3" alt="" />
+          <h2 class="fw-bold">${item.name}</h2>
+          <p class="mb-2">${item.description}</p>
+          <a href="${item.website}" target="_blank">Visit ${item.name}</a>
+        </div>
+      </div>
+      `;
+    });
+    curatedContainer.innerHTML = content;
+  }
+  if (error) {
+    console.log(error);
+  }
+}
+
+(async function () {
+  await getLatest();
+  await getCategories();
+  await getCurated();
 })();
