@@ -1,8 +1,56 @@
 // Vanilla JS
-document.addEventListener("keydown", function () {
+document.addEventListener("keydown", async function (event) {
   if (event.keyCode === 191) {
-    document.getElementById("searchContent").focus();
+    event.preventDefault();
+    const modal = document.getElementById("searchModal");
+    if (modal) {
+      const bsModal = bootstrap.Modal.getOrCreateInstance(modal);
+      if (modal.classList.contains("show")) {
+        bsModal.hide();
+      } else {
+        bsModal.show();
+        await getPopular();
+        // Focus handled by shown.bs.modal event below
+      }
+    }
     return false;
+  }
+});
+
+// Focus search bar when modal is fully shown
+document.getElementById("searchModal").addEventListener("shown.bs.modal", function () {
+  const modalInput = document.getElementById("searchModalInput");
+  if (modalInput) modalInput.focus();
+});
+
+document.getElementById("searchModalInput").addEventListener("keyup", async function (event) {
+  const query = event.target.value.trim();
+  if (query.length === 0) {
+    await getPopular();
+    return;
+  }
+  const { data, error } = await client.from("tools").select("*").ilike("name", `%${query}%`).order("upvotes", { ascending: false }).limit(8);
+  if (data) {
+    let content = `<p class="small text-muted text-uppercase mb-1">Search results</p>`;
+    if (data.length === 0) {
+      content += `<li class="list-group-item text-center text-muted">No results found.</li>`;
+    } else {
+      data.forEach((item) => {
+        content += `
+        <li class="d-flex list-group-item list-group-item-action">
+          <img loading="lazy" src="${bucketURL + item.logo}" height="48" width="48" class="rounded-5 card-logo" alt="${item.logo}">
+          <div class="ms-4 d-flex flex-column justify-content-between">
+            <p class="card-title">${item.name}</p>
+            <p class="card-text small">${item.description}</p>
+          </div>
+        </li>
+        `;
+      });
+    }
+    searchResults.innerHTML = content;
+  }
+  if (error) {
+    console.log(error);
   }
 });
 
@@ -23,5 +71,30 @@ function searchContent() {
     } else {
       li[i].parentElement.style.display = "none";
     }
+  }
+}
+
+const searchResults = document.getElementById("searchResults");
+async function getPopular() {
+  const { data, error } = await client.from("tools").select("*").order("upvotes", { ascending: false }).range(0, 4);
+  if (data) {
+    let content = `
+    <p class="small text-muted text-uppercase mb-1">Most upvoted</p>
+    `;
+    data.forEach((item) => {
+      content += `
+      <li class="d-flex list-group-item list-group-item-action">
+          <img loading="lazy" src="${bucketURL + item.logo}" height="48" width="48" class="rounded-5 card-logo" alt="1751756793nr6bmb04_400x400.jpg">
+            <div class="ms-4 d-flex flex-column justify-content-between">
+            <p class="card-title">${item.name}</p>
+            <p class="card-text small">${item.description}</p>
+            </div>
+          </li>
+      `;
+    });
+    searchResults.innerHTML = content;
+  }
+  if (error) {
+    console.log(error);
   }
 }
