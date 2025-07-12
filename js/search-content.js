@@ -9,7 +9,6 @@ document.addEventListener("keydown", async function (event) {
         bsModal.hide();
       } else {
         bsModal.show();
-        await getPopular();
         // Focus handled by shown.bs.modal event below
       }
     }
@@ -18,7 +17,7 @@ document.addEventListener("keydown", async function (event) {
 });
 
 // Focus search bar when modal is fully shown
-document.getElementById("searchModal").addEventListener("shown.bs.modal", function () {
+document.getElementById("searchModal").addEventListener("shown.bs.modal", async function () {
   const modalInput = document.getElementById("searchModalInput");
   if (modalInput) modalInput.focus();
 });
@@ -74,8 +73,14 @@ function searchContent() {
   }
 }
 
+// Run getPopular on page load
+document.addEventListener("DOMContentLoaded", async function () {
+  await getPopular();
+});
+
 const searchResults = document.getElementById("searchResults");
 async function getPopular() {
+  console.log("Fetching popular tools...");
   const { data, error } = await client.from("tools").select("*").order("upvotes", { ascending: false }).range(0, 4);
   if (data) {
     let content = `
