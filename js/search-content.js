@@ -83,13 +83,16 @@ async function getPopular() {
     `;
     data.forEach((item) => {
       content += `
-      <li class="d-flex list-group-item list-group-item-action">
+      <a href="${item.website}" class="d-flex list-group-item list-group-item-action" target="_blank">
           <img loading="lazy" src="${bucketURL + item.logo}" height="48" width="48" class="rounded-5 card-logo" alt="1751756793nr6bmb04_400x400.jpg">
-            <div class="ms-4 d-flex flex-column justify-content-between">
+            <div class="w-100 ms-4 d-flex flex-column justify-content-between">
+            <div class="d-flex justify-content-between align-items-center">
             <p class="card-title">${item.name}</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg>
+            </div>
             <p class="card-text small">${item.description}</p>
             </div>
-          </li>
+          </a>
       `;
     });
     searchResults.innerHTML = content;
