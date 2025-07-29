@@ -1,3 +1,5 @@
+const bucketURL = "https://krperkqbaqewikgzuoea.supabase.co/storage/v1/object/public/logos/";
+
 // Call the getContent function when the document is ready
 document.addEventListener("DOMContentLoaded", async function () {
   await checkSession();
