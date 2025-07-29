@@ -20,7 +20,7 @@ body {
 }
 
 a {
-  color: #3fcf8e;
+  color: var(--primary-color);
 }
 
 .bg-gray {
@@ -74,7 +74,7 @@ TYPOGRAPHY
 
 .card a {
   font-size: 0.8rem;
-  color: #3fcf8e;
+  color: var(--primary-color);
 }
 
 .card a:hover {
@@ -141,7 +141,7 @@ BUTTONS
 }
 .btn-search:active {
   background-color: #2b2b2b;
-  border: 1px solid #3fcf8e;
+  border: 1px solid var(--primary-color);
   color: #8d8d8d;
 }
 .btn-search svg {
@@ -156,7 +156,14 @@ BUTTONS
   background-color: #8d8d8d;
   color: #ffffff;
   border-radius: 4px;
-  padding: 0.4rem 0.7rem;
+  margin-right: 4px;
+  margin-top: 2px;
+}
+.btn-primary {
+  color: #0d3523;
+}
+.btn-outline-primary {
+  background-color: #3fcf8e29;
 }
 
 /* =============================================================================
@@ -386,7 +393,7 @@ FORMS
 }
 .form-control:focus {
   background-color: #2b2b2b;
-  border-color: #3fcf8e;
+  border-color: var(--primary-color);
   color: #ffffff;
 }
 .input-group-text {
