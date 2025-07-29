@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #3fcf8e;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +20,7 @@ body {
 }
 
 a {
-  color: #3fcf8e;
+  color: var(--primary-color);
 }
 
 .bg-gray {
@@ -70,7 +74,7 @@ TYPOGRAPHY
 
 .card a {
   font-size: 0.8rem;
-  color: #3fcf8e;
+  color: var(--primary-color);
 }
 
 .card a:hover {
@@ -112,6 +116,7 @@ BUTTONS
 .btn-category-badge {
   border-radius: 40px;
   background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #4a4a4a;
   color: #ffffff;
 }
 .btn-category-badge:hover {
@@ -121,6 +126,44 @@ BUTTONS
   height: 38px;
   border-radius: 40px;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-search {
+  background-color: #2b2b2b;
+  border: 1px solid #3e3e3e;
+  padding-right: 0.4rem;
+  color: #8d8d8d;
+}
+.btn-search:hover {
+  background-color: #252525;
+  border: 1px solid #3e3e3e;
+  color: #8d8d8d;
+}
+.btn-search:active {
+  background-color: #2b2b2b;
+  border: 1px solid var(--primary-color);
+  color: #8d8d8d;
+}
+.btn-search svg {
+  width: 24px;
+  height: 24px;
+  fill: #8d8d8d;
+}
+.btn-search div {
+  color: #8d8d8d;
+}
+.btn-search .badge {
+  background-color: #8d8d8d;
+  color: #ffffff;
+  border-radius: 4px;
+  margin-right: 4px;
+  margin-top: 2px;
+}
+.btn-primary {
+  color: #0d3523;
+}
+.btn-outline-primary {
+  background-color: #3fcf8e29;
 }
 
 /* =============================================================================
@@ -346,12 +389,21 @@ FORMS
   color: #ffffff;
 }
 .form-control::placeholder {
-  color: #505050;
+  color: #8d8d8d;
 }
 .form-control:focus {
   background-color: #2b2b2b;
-  border-color: #505050;
+  border-color: var(--primary-color);
   color: #ffffff;
+}
+.input-group-text {
+  background-color: #2b2b2b;
+  border: 1px solid #3e3e3e;
+  color: #ffffff;
+}
+
+.has-search .form-control {
+  border-left: none;
 }
 
 /* =============================================================================
@@ -414,7 +466,7 @@ MODALS
   backdrop-filter: blur(4px);
 }
 .modal-content {
-  background-color: #232323;
+  background-color: #232323 !important;
   border: 1px solid #2e2e2e;
   border-radius: 12px;
 }

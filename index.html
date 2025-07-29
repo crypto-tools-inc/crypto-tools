@@ -95,10 +95,11 @@
             <button class="btn d-block d-sm-none shadow-none" id="sidebarToggle">
               <img src="/img/list-tree.svg" height="24" alt="list-tree" />
             </button>
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="/img/search.svg" height="24" alt="" /></button>
             <ul id="userNotLogged" class="navbar-nav flex-row ms-auto mt-lg-0" hidden>
-              <li class="nav-item me-2">
+              <!-- <li class="nav-item me-2">
                 <a href="/login.html" class="btn btn-link">Add project</a>
-              </li>
+              </li> -->
               <li class="nav-item me-2">
                 <a href="/login.html" class="btn btn-outline-primary">Login</a>
               </li>
@@ -124,6 +125,19 @@
                 </ul>
               </li>
             </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav w-100">
+                <li class="nav-item w-100 mt-3 mt-md-0 me-2">
+                  <div class="btn btn-search d-flex align-items-center justify-content-between gap-2" data-bs-toggle="modal" data-bs-target="#searchModal">
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path></svg>
+                      Search projects or keywords
+                    </div>
+                    <span class="badge">/</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
 
@@ -222,6 +236,21 @@
       </div>
     </div>
 
+    <!-- Search Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <div class="d-flex justify-content-between align-items-center mb-3 gap-2">
+              <input id="searchModalInput" type="search" class="form-control" placeholder="Search project or keywords" autocomplete="off" />
+              <button type="button" class="btn-close d-md-none" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <ul id="searchResults" class="h-100 list-group list-group-flush"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Supabase -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <!-- Bootstrap Bundle with Popper -->
@@ -229,6 +258,7 @@
     <script src="/js/index.js"></script>
     <script src="/js/session.js"></script>
     <script src="/js/sidebar-loader.js"></script>
+    <script src="/js/search-content.js"></script>
     <script src="/js/logout.js"></script>
   </body>
 </html>

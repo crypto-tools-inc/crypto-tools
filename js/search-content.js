@@ -1,8 +1,58 @@
 // Vanilla JS
-document.addEventListener("keydown", function () {
+document.addEventListener("keydown", async function (event) {
   if (event.keyCode === 191) {
-    document.getElementById("searchContent").focus();
+    event.preventDefault();
+    const modal = document.getElementById("searchModal");
+    if (modal) {
+      const bsModal = bootstrap.Modal.getOrCreateInstance(modal);
+      if (modal.classList.contains("show")) {
+        bsModal.hide();
+      } else {
+        bsModal.show();
+        // Focus handled by shown.bs.modal event below
+      }
+    }
     return false;
+  }
+});
+
+// Focus search bar when modal is fully shown
+document.getElementById("searchModal").addEventListener("shown.bs.modal", async function () {
+  const modalInput = document.getElementById("searchModalInput");
+  if (modalInput) modalInput.focus();
+});
+
+document.getElementById("searchModalInput").addEventListener("keyup", async function (event) {
+  const query = event.target.value.trim();
+  if (query.length === 0) {
+    await getPopular();
+    return;
+  }
+  const { data, error } = await client.from("tools").select("*").or(`name.ilike.%${query}%,description.ilike.%${query}%`).order("upvotes", { ascending: false }).limit(8);
+  if (data) {
+    let content = `<p class="small text-muted text-uppercase mb-1">Search results</p>`;
+    if (data.length === 0) {
+      content += `<li class="list-group-item text-center text-muted">No results found.</li>`;
+    } else {
+      data.forEach((item) => {
+        content += `
+        <a href="${item.website}" class="d-flex list-group-item list-group-item-action" target="_blank">
+          <img loading="lazy" src="${bucketURL + item.logo}" height="48" width="48" class="rounded-5 card-logo" alt="${item.logo}">
+          <div class="w-100 ms-4 d-flex flex-column justify-content-between">
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="card-title">${item.name}</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg>
+          </div>
+            <p class="card-text small">${item.description}</p>
+          </div>
+        </a>
+        `;
+      });
+    }
+    searchResults.innerHTML = content;
+  }
+  if (error) {
+    console.log(error);
   }
 });
 
@@ -23,5 +73,39 @@ function searchContent() {
     } else {
       li[i].parentElement.style.display = "none";
     }
+  }
+}
+
+// Run getPopular on page load
+document.addEventListener("DOMContentLoaded", async function () {
+  await getPopular();
+});
+
+const searchResults = document.getElementById("searchResults");
+async function getPopular() {
+  console.log("Fetching popular tools...");
+  const { data, error } = await client.from("tools").select("*").order("upvotes", { ascending: false }).range(0, 4);
+  if (data) {
+    let content = `
+    <p class="small text-muted text-uppercase mb-1">Most upvoted</p>
+    `;
+    data.forEach((item) => {
+      content += `
+      <a href="${item.website}" class="d-flex list-group-item list-group-item-action" target="_blank">
+          <img loading="lazy" src="${bucketURL + item.logo}" height="48" width="48" class="rounded-5 card-logo" alt="${item.logo}">
+            <div class="w-100 ms-4 d-flex flex-column justify-content-between">
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="card-title">${item.name}</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg>
+              </div>
+            <p class="card-text small">${item.description}</p>
+            </div>
+          </a>
+      `;
+    });
+    searchResults.innerHTML = content;
+  }
+  if (error) {
+    console.log(error);
   }
 }
