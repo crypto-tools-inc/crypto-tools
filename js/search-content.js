@@ -36,7 +36,7 @@ document.getElementById("searchModalInput").addEventListener("keyup", async func
     } else {
       data.forEach((item) => {
         content += `
-        <a href="${item.website}" class="d-flex list-group-item list-group-item-action" target="_blank">
+        <a href="${item.website}?utm_source=cripto.tools&utm_medium=directory" class="d-flex list-group-item list-group-item-action" target="_blank">
           <img loading="lazy" src="${bucketURL + item.logo}" height="48" width="48" class="rounded-5 card-logo" alt="${item.logo}">
           <div class="w-100 ms-4 d-flex flex-column justify-content-between">
           <div class="d-flex justify-content-between align-items-center">
@@ -91,7 +91,7 @@ async function getPopular() {
     `;
     data.forEach((item) => {
       content += `
-      <a href="${item.website}" class="d-flex list-group-item list-group-item-action" target="_blank">
+      <a href="${item.website}?utm_source=cripto.tools&utm_medium=directory" class="d-flex list-group-item list-group-item-action" target="_blank">
           <img loading="lazy" src="${bucketURL + item.logo}" height="48" width="48" class="rounded-5 card-logo" alt="${item.logo}">
             <div class="w-100 ms-4 d-flex flex-column justify-content-between">
               <div class="d-flex justify-content-between align-items-center">

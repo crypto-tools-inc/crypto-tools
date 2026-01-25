@@ -19,7 +19,7 @@ async function getLatest() {
           <img loading="lazy" src="${bucketURL + item.logo}" height="70" width="70" class="rounded-5 card-logo" alt="${item.logo}">
             <div class="ms-4 d-flex flex-column justify-content-between">
             <h4 class="card-title">${item.name}</h4>
-            <a class="card-subtitle mb-2 text-decoration-none" href="${item.website}" target="_blank"><img class="me-1" width="12" height="12" src="/img/socials/link.svg" alt="website link">Website</a>
+            <a class="card-subtitle mb-2 text-decoration-none" href="${item.website}?utm_source=cripto.tools&utm_medium=directory" target="_blank"><img class="me-1" width="12" height="12" src="/img/socials/link.svg" alt="website link">Website</a>
             </div>
           </div>
             
@@ -80,7 +80,7 @@ async function getCurated() {
           <img loading="lazy" src="${bucketURL + item.logo}" height="85" width="85" class="rounded-5 card-logo mb-3" alt="" />
           <h2 class="fw-bold">${item.name}</h2>
           <p class="mb-2">${item.description}</p>
-          <a href="${item.website}" target="_blank">Visit ${item.name}</a>
+          <a href="${item.website}?utm_source=cripto.tools&utm_medium=directory" target="_blank">Visit ${item.name}</a>
         </div>
       </div>
       `;
