@@ -185,6 +185,9 @@ A curated collection of useful crypto projects and tools.
 
 [Coinglass](https://www.coinglass.com/) - Aggregated Derivative Exchange Data.Including GBTC,bitcoin Futures Open Interest, Funding Rates and Liquidations. `Free`
 
+[Chartscout](https://chartscout.io) - Real-time crypto chart pattern detection and automated trading alerts across multiple exchanges. `Freemium`
+
+
 ## 🗞 News & Stories
 
 [Rekt](https://rekt.news/) - The dark web of DeFi journalism.
